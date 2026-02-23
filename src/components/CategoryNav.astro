@@ -1,0 +1,199 @@
+---
+import type { Lang, Category } from '../i18n/translations';
+import { categories, getCategoryName } from '../i18n/translations';
+
+interface Props {
+  lang: Lang;
+  activeCategory?: Category;
+  guideCounts?: Record<string, number>;
+}
+
+const { lang, activeCategory, guideCounts } = Astro.props;
+
+const categoryGlyphs: Record<Category, string> = {
+  smartphone: '\u2706',
+  ordinateur: '\u2318',
+  internet: '\u2609',
+  applications: '\u25A6',
+  securite: '\u2616',
+  communication: '\u2709',
+  ia: '\u2699',
+  government: '\u2691',
+  money: '\u00A4',
+  troubleshooting: '\u2692',
+};
+
+// Category images (shared across all languages)
+const categoryImages = import.meta.glob<{ default: ImageMetadata }>(
+  '/src/assets/categories/*.png',
+  { eager: true }
+);
+
+function getCategoryImage(category: Category): string | undefined {
+  const key = `/src/assets/categories/${category}.png`;
+  return categoryImages[key]?.default?.src;
+}
+
+// Alt text per category per language
+const categoryAlts: Record<Category, Record<string, string>> = {
+  smartphone: { en: 'A grandmother learning to use her smartphone', fr: 'Une grand-mere apprenant a utiliser son smartphone', es: 'Una abuela aprendiendo a usar su telefono', pt: 'Uma avo aprendendo a usar o seu telefone', it: 'Una nonna che impara ad usare il suo telefono' },
+  ordinateur: { en: 'A grandfather using his laptop computer', fr: 'Un grand-pere utilisant son ordinateur portable', es: 'Un abuelo usando su ordenador portatil', pt: 'Um avo usando o seu computador portatil', it: 'Un nonno che usa il suo computer portatile' },
+  internet: { en: 'Devices connected to the internet via wifi', fr: 'Appareils connectes a internet par wifi', es: 'Dispositivos conectados a internet por wifi', pt: 'Dispositivos ligados a internet por wifi', it: 'Dispositivi connessi a internet tramite wifi' },
+  applications: { en: 'A phone screen with app icons ready to use', fr: 'Un ecran de telephone avec des icones d\'applications', es: 'Una pantalla de telefono con iconos de aplicaciones', pt: 'Um ecra de telefone com icones de aplicacoes', it: 'Uno schermo del telefono con icone delle app' },
+  securite: { en: 'A protective shield symbolizing digital security', fr: 'Un bouclier protecteur symbolisant la securite numerique', es: 'Un escudo protector que simboliza la seguridad digital', pt: 'Um escudo protetor simbolizando a seguranca digital', it: 'Uno scudo protettivo che simboleggia la sicurezza digitale' },
+  communication: { en: 'Two phones exchanging messages and calls', fr: 'Deux telephones echangeant messages et appels', es: 'Dos telefonos intercambiando mensajes y llamadas', pt: 'Dois telefones trocando mensagens e chamadas', it: 'Due telefoni che scambiano messaggi e chiamate' },
+  ia: { en: 'A friendly AI assistant offering help', fr: 'Un assistant IA amical offrant son aide', es: 'Un asistente de IA amigable ofreciendo ayuda', pt: 'Um assistente de IA amigavel oferecendo ajuda', it: 'Un assistente IA amichevole che offre aiuto' },
+  government: { en: 'Digital government services on your phone', fr: 'Services publics numeriques sur votre telephone', es: 'Servicios gubernamentales digitales en tu telefono', pt: 'Servicos publicos digitais no seu telefone', it: 'Servizi governativi digitali sul tuo telefono' },
+  money: { en: 'Mobile payments and digital money', fr: 'Paiements mobiles et argent numerique', es: 'Pagos moviles y dinero digital', pt: 'Pagamentos moveis e dinheiro digital', it: 'Pagamenti mobili e denaro digitale' },
+  troubleshooting: { en: 'Fixing and troubleshooting phone problems', fr: 'Resoudre les problemes de telephone', es: 'Resolver problemas del telefono', pt: 'Resolver problemas do telefone', it: 'Risolvere i problemi del telefono' },
+};
+---
+
+<nav class="category-nav" aria-label="Categories">
+  <div class="category-grid">
+    {categories.map((category) => {
+      const count = guideCounts ? guideCounts[category] || 0 : -1;
+      if (count === 0) return null;
+      const imgSrc = getCategoryImage(category);
+      const altText = categoryAlts[category]?.[lang] || getCategoryName(lang, category);
+      return (
+        <a
+          href={`/${lang}/${category}/`}
+          class:list={['category-link', `cat-${category}`, { active: category === activeCategory }]}
+          aria-current={category === activeCategory ? 'page' : undefined}
+        >
+          {imgSrc ? (
+            <div class="category-img-wrap">
+              <img src={imgSrc} alt={altText} loading="lazy" decoding="async" class="category-img" width="120" height="120" />
+            </div>
+          ) : (
+            <span class="category-glyph" aria-hidden="true">
+              {categoryGlyphs[category]}
+            </span>
+          )}
+          <span class="category-name">{getCategoryName(lang, category)}</span>
+          {count > 0 && <span class="category-count">{count}</span>}
+        </a>
+      );
+    })}
+  </div>
+</nav>
+
+<style>
+  .category-nav {
+    margin: 1.5rem 0;
+  }
+
+  .category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 0.75rem;
+  }
+
+  .category-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem 0.75rem;
+    background: var(--fg-bg-card);
+    border: 2px solid var(--fg-border);
+    border-left: 4px solid var(--fg-border);
+    border-radius: var(--fg-radius);
+    text-decoration: none;
+    color: var(--fg-text);
+    min-height: 48px;
+    font-weight: 500;
+    transition: border-color 0.15s ease, background-color 0.15s ease, transform 0.15s ease;
+  }
+
+  /* Category color left borders */
+  .category-link.cat-smartphone { border-left-color: var(--fg-cat-smartphone); }
+  .category-link.cat-ordinateur { border-left-color: var(--fg-cat-ordinateur); }
+  .category-link.cat-internet { border-left-color: var(--fg-cat-internet); }
+  .category-link.cat-applications { border-left-color: var(--fg-cat-applications); }
+  .category-link.cat-securite { border-left-color: var(--fg-cat-securite); }
+  .category-link.cat-communication { border-left-color: var(--fg-cat-communication); }
+  .category-link.cat-ia { border-left-color: var(--fg-cat-ia); }
+  .category-link.cat-government { border-left-color: var(--fg-cat-government); }
+  .category-link.cat-money { border-left-color: var(--fg-cat-money); }
+  .category-link.cat-troubleshooting { border-left-color: var(--fg-cat-troubleshooting); }
+
+  .category-link:hover {
+    border-color: var(--fg-border-dark);
+    background: var(--fg-bg-warm);
+    transform: translateY(-2px);
+  }
+
+  /* Keep left border color on hover */
+  .category-link.cat-smartphone:hover { border-left-color: var(--fg-cat-smartphone); }
+  .category-link.cat-ordinateur:hover { border-left-color: var(--fg-cat-ordinateur); }
+  .category-link.cat-internet:hover { border-left-color: var(--fg-cat-internet); }
+  .category-link.cat-applications:hover { border-left-color: var(--fg-cat-applications); }
+  .category-link.cat-securite:hover { border-left-color: var(--fg-cat-securite); }
+  .category-link.cat-communication:hover { border-left-color: var(--fg-cat-communication); }
+  .category-link.cat-ia:hover { border-left-color: var(--fg-cat-ia); }
+  .category-link.cat-government:hover { border-left-color: var(--fg-cat-government); }
+  .category-link.cat-money:hover { border-left-color: var(--fg-cat-money); }
+  .category-link.cat-troubleshooting:hover { border-left-color: var(--fg-cat-troubleshooting); }
+
+  .category-link.active {
+    border-color: var(--fg-primary);
+    background: var(--fg-bg-warm);
+    color: var(--fg-primary);
+    font-weight: 600;
+  }
+
+  .category-img-wrap {
+    width: 80px;
+    height: 80px;
+    border-radius: 12px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+
+  .category-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .category-glyph {
+    font-size: 1.5rem;
+    line-height: 1;
+  }
+
+  .category-name {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+  .category-count {
+    font-size: 0.75rem;
+    color: var(--fg-text-muted);
+    font-weight: 400;
+  }
+
+  @media (max-width: 600px) {
+    .category-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .category-img-wrap {
+      width: 60px;
+      height: 60px;
+    }
+  }
+
+  @media (max-width: 380px) {
+    .category-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .category-link {
+      padding: 0.75rem 0.5rem;
+    }
+    .category-img-wrap {
+      width: 50px;
+      height: 50px;
+    }
+  }
+</style>

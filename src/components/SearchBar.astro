@@ -1,0 +1,121 @@
+---
+import type { Lang } from '../i18n/translations';
+import { t } from '../i18n/translations';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+---
+
+<div class="search-bar">
+  <label for="guide-search" class="sr-only">{t(lang, 'nav.search')}</label>
+  <input
+    type="search"
+    id="guide-search"
+    class="search-input"
+    placeholder={t(lang, 'nav.search')}
+    autocomplete="off"
+  />
+  <span class="search-icon" aria-hidden="true">&#8981;</span>
+</div>
+<p id="search-no-results" class="search-no-results" style="display:none;">{t(lang, 'search.noResults')}</p>
+
+<script is:inline>
+  (function() {
+    function initSearch() {
+      var input = document.getElementById('guide-search');
+      if (!input) return;
+
+      input.addEventListener('input', function() {
+        var q = input.value.toLowerCase().trim();
+        var cards = document.querySelectorAll('[data-guide-card]');
+        var visibleCount = 0;
+
+        for (var i = 0; i < cards.length; i++) {
+          var card = cards[i];
+          var title = (card.getAttribute('data-guide-title') || '').toLowerCase();
+          var desc = (card.getAttribute('data-guide-desc') || '').toLowerCase();
+          if (!q || title.indexOf(q) !== -1 || desc.indexOf(q) !== -1) {
+            card.style.display = '';
+            visibleCount++;
+          } else {
+            card.style.display = 'none';
+          }
+        }
+
+        var noResults = document.getElementById('search-no-results');
+        if (noResults) {
+          noResults.style.display = (q && visibleCount === 0) ? 'block' : 'none';
+        }
+
+        // Also hide section headings when all their cards are hidden
+        var sections = document.querySelectorAll('.fg-section');
+        for (var j = 0; j < sections.length; j++) {
+          var sec = sections[j];
+          var secCards = sec.querySelectorAll('[data-guide-card]');
+          if (secCards.length === 0) continue;
+          var anyVisible = false;
+          for (var k = 0; k < secCards.length; k++) {
+            if (secCards[k].style.display !== 'none') { anyVisible = true; break; }
+          }
+          sec.style.display = (q && !anyVisible) ? 'none' : '';
+        }
+      });
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initSearch);
+    } else {
+      initSearch();
+    }
+  })();
+</script>
+
+<style>
+  .search-bar {
+    margin: 1.5rem 0;
+    position: relative;
+  }
+
+  .search-input {
+    width: 100%;
+    min-height: 56px;
+    padding: 0.75rem 1.25rem 0.75rem 3rem;
+    font-size: 1.1rem;
+    font-family: inherit;
+    color: var(--fg-text);
+    background: var(--fg-bg-card);
+    border: 2px solid var(--fg-border);
+    border-radius: var(--fg-radius);
+    outline: none;
+    transition: border-color 0.15s ease;
+  }
+
+  .search-input::placeholder {
+    color: var(--fg-text-muted);
+  }
+
+  .search-input:focus {
+    border-color: var(--fg-primary);
+    box-shadow: 0 0 0 3px rgba(30, 58, 95, 0.1);
+  }
+
+  .search-icon {
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.2rem;
+    color: var(--fg-text-muted);
+    pointer-events: none;
+  }
+
+  .search-no-results {
+    text-align: center;
+    color: var(--fg-text-muted);
+    padding: 2rem;
+    font-size: 1.05rem;
+  }
+</style>

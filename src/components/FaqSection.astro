@@ -1,0 +1,112 @@
+---
+import type { Lang } from '../i18n/translations';
+import { t } from '../i18n/translations';
+
+interface FaqItem {
+  question: string;
+  answer: string;
+}
+
+interface Props {
+  faq: FaqItem[];
+  lang: Lang;
+}
+
+const { faq, lang } = Astro.props;
+---
+
+{faq.length > 0 && (
+  <section class="faq-section">
+    <h2>{t(lang, 'faq.title')}</h2>
+    <div class="faq-list">
+      {faq.map((item, index) => (
+        <details class="faq-item" open={index === 0}>
+          <summary class="faq-question">{item.question}</summary>
+          <div class="faq-answer">
+            <p>{item.answer}</p>
+          </div>
+        </details>
+      ))}
+    </div>
+  </section>
+)}
+
+<style>
+  .faq-section {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 2px solid var(--fg-border);
+  }
+
+  .faq-section h2 {
+    margin-bottom: 1.5rem;
+  }
+
+  .faq-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .faq-item {
+    background: var(--fg-bg-card);
+    border: 1px solid var(--fg-border);
+    border-radius: var(--fg-radius-sm);
+    overflow: hidden;
+  }
+
+  .faq-question {
+    display: flex;
+    align-items: center;
+    padding: 1.25rem 1.5rem;
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: var(--fg-text);
+    cursor: pointer;
+    list-style: none;
+    min-height: 48px;
+  }
+
+  .faq-question::-webkit-details-marker {
+    display: none;
+  }
+
+  .faq-question::before {
+    content: '+';
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    margin-right: 1rem;
+    flex-shrink: 0;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--fg-primary);
+    border: 2px solid var(--fg-primary);
+    border-radius: 50%;
+  }
+
+  details[open] .faq-question::before {
+    content: '\2212';
+  }
+
+  .faq-question:hover {
+    background: var(--fg-bg-warm, #f8f6f0);
+  }
+
+  .faq-question:focus-visible {
+    outline: 3px solid var(--fg-primary);
+    outline-offset: -3px;
+  }
+
+  .faq-answer {
+    padding: 0 1.5rem 1.25rem 4rem;
+  }
+
+  .faq-answer p {
+    color: var(--fg-text-light);
+    line-height: 1.7;
+    margin: 0;
+  }
+</style>

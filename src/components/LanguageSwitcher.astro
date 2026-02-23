@@ -1,0 +1,81 @@
+---
+import { languages } from '../i18n/translations';
+import type { Lang } from '../i18n/translations';
+
+interface Props {
+  lang: Lang;
+  currentPath: string;
+  alternates?: { lang: string; url: string }[];
+}
+
+const { lang, currentPath, alternates } = Astro.props;
+
+function getPathForLang(targetLang: Lang): string {
+  // Use explicit alternates if provided (correct for translated slugs)
+  if (alternates) {
+    const alt = alternates.find((a) => a.lang === targetLang);
+    if (alt) return alt.url;
+  }
+  // Fallback: naive replacement (works for static pages with same slug)
+  const pathWithoutLang = currentPath.replace(/^\/(fr|en|es|pt|it)/, '');
+  return `/${targetLang}${pathWithoutLang || '/'}`;
+}
+---
+
+<div class="lang-switcher">
+  {Object.entries(languages).map(([code, name]) => (
+    <a
+      href={getPathForLang(code as Lang)}
+      class:list={['lang-option', { active: code === lang }]}
+      aria-label={name}
+      aria-current={code === lang ? 'true' : undefined}
+      hreflang={code}
+    >
+      {code.toUpperCase()}
+    </a>
+  ))}
+</div>
+
+<style>
+  .lang-switcher {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    flex-shrink: 0;
+  }
+
+  .lang-option {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 40px;
+    min-height: 40px;
+    padding: 0.25rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--fg-text-muted);
+    text-decoration: none;
+    border-radius: 6px;
+    border: 2px solid transparent;
+  }
+
+  .lang-option:hover {
+    color: var(--fg-primary);
+    background-color: #f0f4ff;
+  }
+
+  .lang-option.active {
+    color: var(--fg-primary);
+    border-color: var(--fg-primary);
+    background-color: #eff6ff;
+  }
+
+  @media (max-width: 640px) {
+    .lang-option {
+      min-width: 36px;
+      min-height: 36px;
+      font-size: 0.75rem;
+      padding: 0.2rem;
+    }
+  }
+</style>

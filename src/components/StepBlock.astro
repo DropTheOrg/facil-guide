@@ -1,0 +1,50 @@
+---
+import type { Lang } from '../i18n/translations';
+import { t } from '../i18n/translations';
+
+interface Props {
+  number: number;
+  lang: Lang;
+}
+
+const { number, lang } = Astro.props;
+---
+
+<div class="step-block">
+  <div class="step-number" aria-hidden="true">
+    {number}
+  </div>
+  <div class="step-label">
+    {t(lang, 'guide.step')} {number}
+  </div>
+</div>
+
+<style>
+  .step-block {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .step-number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 56px;
+    background: var(--fg-step-bg);
+    color: var(--fg-step-text);
+    border-radius: 50%;
+    font-size: 1.5rem;
+    font-weight: 700;
+    flex-shrink: 0;
+  }
+
+  .step-label {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--fg-text);
+  }
+</style>

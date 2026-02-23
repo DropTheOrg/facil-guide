@@ -1,0 +1,70 @@
+---
+interface Props {
+  headings: { depth: number; slug: string; text: string }[];
+  lang: string;
+}
+
+const { headings, lang } = Astro.props;
+
+// Filter to h2 and h3 only (guide sections and steps)
+const tocItems = headings.filter(h => h.depth === 2 || h.depth === 3);
+
+const tocLabel: Record<string, string> = {
+  en: 'Table of contents',
+  fr: 'Sommaire',
+  es: 'Indice',
+  pt: 'Indice',
+  it: 'Indice',
+};
+
+if (tocItems.length < 3) return; // Don't show TOC for very short guides
+---
+
+{tocItems.length >= 3 && (
+  <nav class="toc" aria-label={tocLabel[lang] || 'Table of contents'}>
+    <details open>
+      <summary class="toc-title">{tocLabel[lang] || 'Table of contents'}</summary>
+      <ol class="toc-list">
+        {tocItems.map((item) => (
+          <li class:list={['toc-item', item.depth === 3 ? 'toc-sub' : '']}>
+            <a href={`#${item.slug}`}>{item.text}</a>
+          </li>
+        ))}
+      </ol>
+    </details>
+  </nav>
+)}
+
+<style>
+  .toc {
+    background: var(--fg-surface, #f8f8f6);
+    border: 1px solid var(--fg-border, #e5e5e0);
+    border-radius: 12px;
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 2rem;
+  }
+  .toc-title {
+    font-weight: 700;
+    font-size: 1.05rem;
+    cursor: pointer;
+    color: var(--fg-text);
+    list-style: none;
+  }
+  .toc-title::-webkit-details-marker { display: none; }
+  .toc-title::before { content: '▸ '; font-size: 0.85rem; }
+  details[open] .toc-title::before { content: '▾ '; }
+  .toc-list {
+    margin: 0.75rem 0 0 0;
+    padding-left: 1.25rem;
+    list-style: decimal;
+  }
+  .toc-item { margin-bottom: 0.35rem; }
+  .toc-item a {
+    color: var(--fg-text-light, #555);
+    text-decoration: none;
+    font-size: 0.95rem;
+  }
+  .toc-item a:hover { color: var(--fg-primary, #2a6b6b); text-decoration: underline; }
+  .toc-sub { margin-left: 1rem; list-style: none; }
+  .toc-sub::before { content: '—'; margin-right: 0.4rem; color: var(--fg-text-muted); }
+</style>

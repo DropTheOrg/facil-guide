@@ -1,0 +1,36 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import SchemaMarkup from "../../../components/SchemaMarkup.astro";
+import { t } from "../../../i18n/translations";
+import { legalContent } from "../../../i18n/legal";
+import type { Lang } from "../../../i18n/translations";
+
+const lang: Lang = "en";
+const content = legalContent[lang];
+const slug = "legal";
+---
+
+<BaseLayout title={content.heading} lang={lang} currentPath={`/${lang}/${slug}/`}>
+  <SchemaMarkup slot="head" type="website" breadcrumbs={[
+    { name: t(lang, "breadcrumb.home"), url: `/${lang}/` },
+    { name: t(lang, "nav.legal"), url: `/${lang}/${slug}/` },
+  ]} />
+  <article class="legal-page fg-container fg-section">
+    <h1>{content.heading}</h1>
+    <p class="legal-intro">{content.intro}</p>
+    {content.sections.map((s) => (
+      <section class="legal-section">
+        <h2>{s.title}</h2>
+        <p>{s.text}</p>
+      </section>
+    ))}
+  </article>
+</BaseLayout>
+
+<style>
+  .legal-page h1 { margin-bottom: 1rem; }
+  .legal-intro { color: var(--fg-text-light); font-size: 1.1rem; margin-bottom: 2.5rem; }
+  .legal-section { margin-bottom: 2rem; }
+  .legal-section h2 { margin-bottom: 0.75rem; font-size: 1.25rem; }
+  .legal-section p { color: var(--fg-text-light); line-height: 1.8; max-width: 720px; }
+</style>

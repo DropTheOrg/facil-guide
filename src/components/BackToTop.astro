@@ -1,0 +1,44 @@
+---
+const label = Astro.props.lang === 'fr' ? 'Haut de page' : Astro.props.lang === 'es' ? 'Subir' : Astro.props.lang === 'pt' ? 'Topo' : Astro.props.lang === 'it' ? 'Torna su' : 'Back to top';
+---
+
+<button class="back-to-top" id="back-to-top" aria-label={label} title={label}>
+  &#8593;
+</button>
+
+<script is:inline>
+  document.addEventListener('DOMContentLoaded', function() {
+    var btn = document.getElementById('back-to-top');
+    if (!btn) return;
+    window.addEventListener('scroll', function() {
+      btn.style.display = window.scrollY > 400 ? 'flex' : 'none';
+    });
+    btn.addEventListener('click', function() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  });
+</script>
+
+<style>
+  .back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    width: 48px;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+    background: var(--fg-primary);
+    color: #ffffff;
+    border: none;
+    border-radius: 50%;
+    font-size: 1.4rem;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    z-index: 50;
+    transition: opacity 0.2s ease;
+  }
+  .back-to-top:hover { opacity: 0.85; }
+  :global([data-theme="midnight"]) .back-to-top { color: #0a0a0a; }
+</style>

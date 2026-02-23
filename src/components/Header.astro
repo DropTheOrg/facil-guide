@@ -1,0 +1,229 @@
+---
+import type { Lang } from '../i18n/translations';
+import { t } from '../i18n/translations';
+
+interface Props {
+  lang: Lang;
+  currentPath: string;
+}
+
+const { lang, currentPath } = Astro.props;
+
+const aboutSlugs: Record<string, string> = {
+  fr: 'a-propos', en: 'about', es: 'acerca-de', pt: 'sobre', it: 'chi-siamo',
+};
+
+const menuLabel: Record<string, string> = {
+  fr: 'MENU', en: 'MENU', es: 'MENÚ', pt: 'MENU', it: 'MENU',
+};
+---
+
+<header class="header">
+  <div class="fg-container-wide header-inner">
+    <a href={`/${lang}/`} class="header-logo" aria-label={t(lang, 'site.title')}>
+      <svg class="logo-ghost" viewBox="0 0 512 512" width="28" height="28" aria-hidden="true"><g transform="translate(256, 280) scale(1.1)"><path d="M0,-120 C75,-120 110,-75 110,-15 C110,25 108,45 115,60 C120,70 118,65 112,75 C105,82 95,72 85,80 C75,90 70,100 55,100 C40,100 35,88 20,95 C5,102 5,102 0,102 C-5,102 -5,102 -20,95 C-35,88 -40,100 -55,100 C-70,100 -75,90 -85,80 C-95,72 -105,82 -112,75 C-118,65 -120,70 -115,60 C-108,45 -110,25 -110,-15 C-110,-75 -75,-120 0,-120 Z" fill="var(--fg-accent, #F4845F)"/><ellipse cx="-38" cy="-30" rx="24" ry="26" fill="var(--fg-bg-card, white)"/><ellipse cx="38" cy="-30" rx="24" ry="26" fill="var(--fg-bg-card, white)"/><path d="M-28,-115 C-33,-140 -45,-160 -48,-170" stroke="var(--fg-accent, #F4845F)" stroke-width="9" stroke-linecap="round" fill="none"/><circle cx="-49" cy="-178" r="13" fill="var(--fg-accent, #F4845F)"/><path d="M28,-115 C33,-140 45,-160 48,-170" stroke="var(--fg-accent, #F4845F)" stroke-width="9" stroke-linecap="round" fill="none"/><circle cx="49" cy="-178" r="13" fill="var(--fg-accent, #F4845F)"/></g></svg><span class="logo-text">facil</span><span class="logo-dot">.</span><span class="logo-guide">guide</span>
+    </a>
+
+    <div class="header-right">
+      <nav class="header-nav" id="header-nav" aria-label={lang === 'fr' ? 'Navigation principale' : lang === 'it' ? 'Navigazione principale' : 'Main navigation'}>
+        <a href={`/${lang}/`} class="header-nav-link">
+          {t(lang, 'nav.home')}
+        </a>
+        <a href={`/${lang}/${aboutSlugs[lang]}/`} class="header-nav-link">
+          {t(lang, 'nav.about')}
+        </a>
+        <a href={`/${lang}/all/`} class="header-nav-link">
+          {t(lang, 'nav.allContent')}
+        </a>
+      </nav>
+
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        aria-label={menuLabel[lang]}
+        aria-expanded="false"
+        aria-controls="header-nav"
+      >
+        <span class="menu-label">{menuLabel[lang]}</span>
+        <span class="menu-icon" aria-hidden="true">&#9776;</span>
+      </button>
+
+      <button
+        class="theme-toggle"
+        id="theme-toggle"
+        aria-label={lang === 'fr' ? 'Changer le thème' : lang === 'it' ? 'Cambia tema' : 'Toggle theme'}
+        title={lang === 'fr' ? 'Changer le thème' : lang === 'it' ? 'Cambia tema' : 'Toggle theme'}
+      >
+        <span class="theme-icon-sun">&#9788;</span>
+        <span class="theme-icon-moon">&#9790;</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<script>
+  function initHeader() {
+    const toggle = document.getElementById('theme-toggle');
+    const menuBtn = document.getElementById('menu-toggle');
+    const nav = document.getElementById('header-nav');
+
+    if (toggle) {
+      const stored = localStorage.getItem('facil-theme');
+      if (stored) document.documentElement.setAttribute('data-theme', stored);
+      toggle.addEventListener('click', () => {
+        const next = document.documentElement.getAttribute('data-theme') === 'midnight' ? 'sand' : 'midnight';
+        document.documentElement.setAttribute('data-theme', next);
+        localStorage.setItem('facil-theme', next);
+      });
+    }
+
+    if (menuBtn && nav) {
+      menuBtn.addEventListener('click', () => {
+        const open = nav.classList.toggle('nav-open');
+        menuBtn.setAttribute('aria-expanded', String(open));
+      });
+      // Close menu when clicking a link
+      nav.querySelectorAll('a').forEach(a => {
+        a.addEventListener('click', () => {
+          nav.classList.remove('nav-open');
+          menuBtn.setAttribute('aria-expanded', 'false');
+        });
+      });
+    }
+  }
+
+  initHeader();
+  document.addEventListener('astro:after-swap', initHeader);
+</script>
+
+<style>
+  .header {
+    background: var(--fg-bg-card);
+    border-bottom: 1px solid var(--fg-border);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    transition: background-color 0.2s ease;
+  }
+
+  .header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 64px;
+  }
+
+  .header-logo {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+    font-weight: 700;
+    flex-shrink: 0;
+  }
+
+  .logo-text { color: var(--fg-primary); }
+  .logo-dot { color: var(--fg-accent); }
+  .logo-guide { color: var(--fg-text); }
+
+  .logo-ghost {
+    margin-right: 0.35rem;
+    vertical-align: middle;
+    flex-shrink: 0;
+  }
+
+  .header-right {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .header-nav {
+    display: flex;
+    align-items: center;
+    gap: 0.125rem;
+  }
+
+  .header-nav-link {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    padding: 0.4rem 0.75rem;
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: var(--fg-text-light);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    border-radius: var(--fg-radius-sm);
+  }
+
+  .header-nav-link:hover {
+    color: var(--fg-primary);
+    background-color: var(--fg-bg-warm);
+  }
+
+  /* Menu toggle - hidden on desktop */
+  .menu-toggle {
+    display: none;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.5rem 0.85rem;
+    border: 2px solid var(--fg-border);
+    border-radius: 8px;
+    background: var(--fg-bg-card);
+    color: var(--fg-text);
+    font-size: 0.85rem;
+    font-weight: 700;
+    font-family: inherit;
+    cursor: pointer;
+    min-height: 44px;
+    letter-spacing: 0.05em;
+  }
+
+  .menu-toggle:hover {
+    border-color: var(--fg-primary);
+    color: var(--fg-primary);
+  }
+
+  .menu-icon { font-size: 1.1rem; }
+
+  /* Theme toggle icons */
+  .theme-icon-moon { display: none; }
+  :global([data-theme="midnight"]) .theme-icon-sun { display: none; }
+  :global([data-theme="midnight"]) .theme-icon-moon { display: inline; }
+
+  @media (max-width: 640px) {
+    .header-inner { min-height: 56px; position: relative; }
+    .header-logo { font-size: 1.2rem; }
+
+    .menu-toggle { display: inline-flex; }
+
+    .header-nav {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      flex-direction: column;
+      background: var(--fg-bg-card);
+      border-bottom: 2px solid var(--fg-border);
+      padding: 0.5rem 0;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      z-index: 99;
+    }
+
+    .header-nav.nav-open { display: flex; }
+
+    .header-nav-link {
+      padding: 0.85rem 1.5rem;
+      font-size: 1.05rem;
+      width: 100%;
+      min-height: 52px;
+    }
+
+    .header-nav-link:hover {
+      background-color: var(--fg-bg-warm);
+    }
+  }
+</style>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#ebe5d9"/>
+  <rect x="0" y="590" width="1200" height="40" fill="#1E3A5F"/>
+  <text x="600" y="270" font-family="system-ui, -apple-system, sans-serif" font-size="80" font-weight="700" text-anchor="middle" dominant-baseline="middle">
+    <tspan fill="#1E3A5F">facil</tspan><tspan fill="#4ADE80">.</tspan><tspan fill="#2D2D2D">guide</tspan>
+  </text>
+  <text x="600" y="350" font-family="system-ui, -apple-system, sans-serif" font-size="36" font-weight="400" text-anchor="middle" dominant-baseline="middle" fill="#4a4640">Tech, simplified.</text>
+  <text x="600" y="420" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="400" text-anchor="middle" dominant-baseline="middle" fill="#8a8478">Step-by-step guides in 5 languages</text>
+  <text x="600" y="617" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="500" text-anchor="middle" dominant-baseline="middle" fill="#ffffff">A DropThe project</text>
+</svg>

@@ -1,0 +1,141 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Breadcrumb from '../../../components/Breadcrumb.astro';
+import SchemaMarkup from '../../../components/SchemaMarkup.astro';
+import GuideDisclaimer from '../../../components/GuideDisclaimer.astro';
+import { getContentAlternates } from '../../../i18n/slugmap';
+import FaqSection from '../../../components/FaqSection.astro';
+import { getCollection, render } from 'astro:content';
+import { t, getCategoryName } from '../../../i18n/translations';
+import type { Lang, Category } from '../../../i18n/translations';
+
+export async function getStaticPaths() {
+  const allComparisons = await getCollection('comparisons');
+  return allComparisons.map((comparison) => {
+    const slugParts = comparison.id.split('/');
+    const slug = slugParts[slugParts.length - 1].replace(/\.md$/, '');
+    return {
+      params: { lang: comparison.data.lang, slug },
+      props: { comparison },
+    };
+  });
+}
+
+const { comparison } = Astro.props;
+const { lang } = Astro.params as { lang: Lang };
+const { Content } = await render(comparison);
+
+const slugParts = comparison.id.split('/');
+const slug = slugParts[slugParts.length - 1].replace(/\.md$/, '');
+const contentAlternates = getContentAlternates('compare', slug, lang);
+const categoryName = getCategoryName(lang, comparison.data.category as Category);
+---
+
+<BaseLayout
+  title={comparison.data.title}
+  description={comparison.data.description}
+  lang={lang}
+  alternates={contentAlternates}
+  publishDate={comparison.data.date}
+  modifiedDate={comparison.data.date}
+  currentPath={`/${lang}/compare/${slug}/`}
+>
+  <SchemaMarkup
+    slot="head"
+    type="comparison"
+    title={comparison.data.title}
+    description={comparison.data.description}
+    productA={comparison.data.productA}
+    productB={comparison.data.productB}
+    lang={lang}
+    faq={comparison.data.faq}
+    breadcrumbs={[
+      { name: t(lang, 'nav.home'), url: `/${lang}/` },
+      { name: categoryName, url: `/${lang}/${comparison.data.category}/` },
+      { name: comparison.data.title, url: `/${lang}/compare/${slug}/` },
+    ]}
+  />
+
+  <article class="compare-page">
+    <div class="fg-container">
+      <Breadcrumb
+        lang={lang}
+        items={[
+          { label: categoryName, href: `/${lang}/${comparison.data.category}/` },
+          { label: comparison.data.title },
+        ]}
+      />
+
+      <header class="compare-header">
+        <h1>{comparison.data.title}</h1>
+        <p class="compare-desc">{comparison.data.description}</p>
+
+        <div class="compare-table fg-card">
+          <table>
+            <thead>
+              <tr>
+                <th></th>
+                <th>{comparison.data.productA.name}</th>
+                <th>{comparison.data.productB.name}</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="compare-label">{t(lang, 'review.brand')}</td>
+                <td>{comparison.data.productA.brand}</td>
+                <td>{comparison.data.productB.brand}</td>
+              </tr>
+              <tr>
+                <td class="compare-label">{t(lang, 'review.price')}</td>
+                <td>{comparison.data.productA.price}</td>
+                <td>{comparison.data.productB.price}</td>
+              </tr>
+              {comparison.data.winner && (
+                <tr>
+                  <td class="compare-label">{t(lang, 'compare.winner')}</td>
+                  <td colspan="2" class="compare-winner">{comparison.data.winner}</td>
+                </tr>
+              )}
+            </tbody>
+          </table>
+        </div>
+      </header>
+
+      <div class="guide-content">
+        <Content />
+      </div>
+
+      <div class="compare-recommendation fg-card">
+        <h2>{t(lang, 'compare.recommendation')}</h2>
+        <p>{comparison.data.recommendation}</p>
+      </div>
+
+      {comparison.data.faq && <FaqSection faq={comparison.data.faq} lang={lang} />}
+
+      <footer class="compare-footer">
+        <a href={`/${lang}/${comparison.data.category}/`} class="fg-btn fg-btn-outline">
+          &larr; {t(lang, 'guide.backToCategory')}
+        </a>
+        <a href={`/${lang}/`} class="fg-btn fg-btn-outline">
+          {t(lang, 'guide.backToHome')}
+        </a>
+      </footer>
+    </div>
+    <GuideDisclaimer lang={lang} />
+  </article>
+</BaseLayout>
+
+<style>
+  .compare-header { padding-bottom: 2rem; border-bottom: 2px solid var(--fg-border); margin-bottom: 2rem; }
+  .compare-header h1 { margin-bottom: 0.75rem; }
+  .compare-desc { font-size: 1.15rem; color: var(--fg-text-light); margin-bottom: 1.5rem; }
+  .compare-table { overflow-x: auto; margin-bottom: 1rem; }
+  .compare-table table { width: 100%; border-collapse: collapse; }
+  .compare-table th, .compare-table td { padding: 1rem; text-align: left; border-bottom: 1px solid var(--fg-border); font-size: 1rem; }
+  .compare-table th { font-weight: 700; background: var(--fg-bg-warm, #f8f6f0); }
+  .compare-label { font-weight: 600; color: var(--fg-text-muted); }
+  .compare-winner { font-weight: 700; color: var(--fg-primary); }
+  .compare-recommendation { margin-top: 2rem; border-left: 4px solid var(--fg-primary); }
+  .compare-recommendation h2 { margin-top: 0; }
+  .compare-footer { display: flex; flex-wrap: wrap; gap: 1rem; padding: 2rem 0; }
+</style>

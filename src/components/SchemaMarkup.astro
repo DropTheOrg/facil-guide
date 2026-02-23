@@ -1,0 +1,152 @@
+---
+interface FaqItem {
+  question: string;
+  answer: string;
+}
+
+interface Props {
+  type: 'guide' | 'review' | 'comparison' | 'website';
+  title?: string;
+  description?: string;
+  url?: string;
+  lang?: string;
+  // Guide
+  steps?: { title: string; text: string }[];
+  // Review
+  productName?: string;
+  brand?: string;
+  rating?: number;
+  price?: string;
+  pros?: string[];
+  cons?: string[];
+  // Comparison
+  productA?: { name: string; brand: string; price: string };
+  productB?: { name: string; brand: string; price: string };
+  // FAQ (any type)
+  faq?: FaqItem[];
+  // Breadcrumb
+  breadcrumbs?: { name: string; url: string }[];
+}
+
+const {
+  type, title, description, url, lang,
+  steps, productName, brand, rating, price, pros, cons,
+  productA, productB, faq, breadcrumbs,
+} = Astro.props;
+
+const schemas: object[] = [];
+
+// WebSite schema (homepage only)
+if (type === 'website') {
+  schemas.push({
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: 'facil.guide',
+    url: 'https://facil.guide',
+    description: 'Simple step-by-step technology guides to help your family master technology.',
+    inLanguage: ['fr', 'en', 'es', 'pt', 'it'],
+  });
+}
+
+// HowTo schema (guides)
+if (type === 'guide' && steps && steps.length > 0) {
+  schemas.push({
+    '@context': 'https://schema.org',
+    '@type': 'HowTo',
+    ...(Astro.props.publishDate && { datePublished: Astro.props.publishDate }),
+    ...(Astro.props.publishDate && { dateModified: Astro.props.publishDate }),
+    name: title,
+    description: description,
+    inLanguage: lang,
+    step: steps.map((s, i) => ({
+      '@type': 'HowToStep',
+      position: i + 1,
+      name: s.title,
+      text: s.text,
+    })),
+  });
+}
+
+// Product + Review schema (reviews)
+if (type === 'review' && productName) {
+  const productSchema: Record<string, unknown> = {
+    '@context': 'https://schema.org',
+    '@type': 'Product',
+    name: productName,
+    description: description,
+  };
+  if (brand) {
+    productSchema.brand = { '@type': 'Brand', name: brand };
+  }
+  if (rating) {
+    productSchema.review = {
+      '@type': 'Review',
+      reviewRating: {
+        '@type': 'Rating',
+        ratingValue: rating,
+        bestRating: 5,
+        worstRating: 1,
+      },
+      author: {
+        '@type': 'Organization',
+        name: 'facil.guide',
+      },
+    };
+  }
+  if (pros && pros.length > 0) {
+    productSchema.positiveNotes = {
+      '@type': 'ItemList',
+      itemListElement: pros.map((p, i) => ({
+        '@type': 'ListItem',
+        position: i + 1,
+        name: p,
+      })),
+    };
+  }
+  if (cons && cons.length > 0) {
+    productSchema.negativeNotes = {
+      '@type': 'ItemList',
+      itemListElement: cons.map((c, i) => ({
+        '@type': 'ListItem',
+        position: i + 1,
+        name: c,
+      })),
+    };
+  }
+  schemas.push(productSchema);
+}
+
+// FAQPage schema
+if (faq && faq.length > 0) {
+  schemas.push({
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faq.map((item) => ({
+      '@type': 'Question',
+      name: item.question,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: item.answer,
+      },
+    })),
+  });
+}
+
+// BreadcrumbList schema
+if (breadcrumbs && breadcrumbs.length > 0) {
+  schemas.push({
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: breadcrumbs.map((b, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      name: b.name,
+      item: b.url.startsWith('http') ? b.url : `https://facil.guide${b.url}`,
+    })),
+  });
+}
+---
+
+{schemas.map((schema) => (
+  <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+))}

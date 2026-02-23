@@ -1,0 +1,174 @@
+---
+import type { Lang } from '../i18n/translations';
+
+interface Props {
+  lang: Lang;
+  slug: string;
+}
+
+const { lang, slug } = Astro.props;
+
+const labels: Record<string, { question: string; yes: string; no: string; thanks: string; thanksYes: string; thanksNo: string }> = {
+  fr: { question: 'Ce guide vous a-t-il aidé ?', yes: 'Oui', no: 'Non', thanks: 'Merci !', thanksYes: 'Content que cela vous ait aidé !', thanksNo: 'Merci, nous allons améliorer ce guide.' },
+  en: { question: 'Was this guide helpful?', yes: 'Yes', no: 'No', thanks: 'Thank you!', thanksYes: 'Glad it helped!', thanksNo: 'Thanks, we will improve this guide.' },
+  es: { question: '¿Te ha sido útil esta guía?', yes: 'Sí', no: 'No', thanks: '¡Gracias!', thanksYes: '¡Nos alegra que te haya ayudado!', thanksNo: 'Gracias, mejoraremos esta guía.' },
+  pt: { question: 'Este guia foi útil?', yes: 'Sim', no: 'Não', thanks: 'Obrigado!', thanksYes: 'Que bom que ajudou!', thanksNo: 'Obrigado, vamos melhorar este guia.' },
+  it: { question: 'Questa guida ti è stata utile?', yes: 'Sì', no: 'No', thanks: 'Grazie!', thanksYes: 'Felici di averti aiutato!', thanksNo: 'Grazie, miglioreremo questa guida.' },
+};
+
+const l = labels[lang] || labels.en;
+---
+
+<div class="guide-feedback" id="guide-feedback" data-slug={slug} data-thanks-yes={l.thanksYes} data-thanks-no={l.thanksNo}>
+  <p class="feedback-question">{l.question}</p>
+  <div class="feedback-buttons">
+    <button class="feedback-btn feedback-yes" data-vote="yes" aria-label={l.yes}>
+      {l.yes}
+    </button>
+    <button class="feedback-btn feedback-no" data-vote="no" aria-label={l.no}>
+      {l.no}
+    </button>
+  </div>
+  <p class="feedback-thanks" style="display:none;"></p>
+</div>
+
+<script is:inline>
+(function() {
+  var el = document.getElementById('guide-feedback');
+  if (!el) return;
+  var slug = el.dataset.slug;
+  var key = 'facil-feedback-' + slug;
+
+  if (localStorage.getItem(key)) {
+    var prev = localStorage.getItem(key);
+    el.querySelector('.feedback-buttons').style.display = 'none';
+    var thanks = el.querySelector('.feedback-thanks');
+    thanks.textContent = prev === 'yes' ? el.dataset.thanksYes : el.dataset.thanksNo;
+    thanks.className = 'feedback-thanks feedback-thanks-' + prev;
+    thanks.style.display = 'block';
+    return;
+  }
+
+  var btns = el.querySelectorAll('.feedback-btn');
+  for (var i = 0; i < btns.length; i++) {
+    btns[i].addEventListener('click', function() {
+      var vote = this.dataset.vote;
+      localStorage.setItem(key, vote);
+      el.querySelector('.feedback-buttons').style.display = 'none';
+      var thanks = el.querySelector('.feedback-thanks');
+      thanks.textContent = vote === 'yes' ? el.dataset.thanksYes : el.dataset.thanksNo;
+      thanks.className = 'feedback-thanks feedback-thanks-' + vote;
+      thanks.style.display = 'block';
+      try {
+        fetch('/api/feedback', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ slug: slug, vote: vote, lang: document.documentElement.lang })
+        });
+      } catch(e) {}
+    });
+  }
+})();
+</script>
+
+<style>
+  .guide-feedback {
+    text-align: center;
+    padding: 2rem 1.5rem;
+    margin: 2rem 0;
+    border: 2px solid var(--fg-border);
+    border-radius: var(--fg-radius);
+    background: var(--fg-bg-card);
+  }
+
+  .feedback-question {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 1.25rem;
+    color: var(--fg-text);
+  }
+
+  .feedback-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1.25rem;
+  }
+
+  .feedback-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.85rem 2.5rem;
+    border: 3px solid transparent;
+    border-radius: 12px;
+    font-size: 1.15rem;
+    font-weight: 700;
+    font-family: inherit;
+    cursor: pointer;
+    min-height: 56px;
+    min-width: 120px;
+    transition: transform 0.12s ease, box-shadow 0.12s ease;
+    letter-spacing: 0.02em;
+  }
+
+  .feedback-yes {
+    background: #16a34a;
+    color: #ffffff;
+    border-color: #15803d;
+  }
+  .feedback-yes:hover {
+    background: #15803d;
+    transform: scale(1.04);
+    box-shadow: 0 4px 14px rgba(22, 163, 74, 0.35);
+  }
+  .feedback-yes:active {
+    transform: scale(0.97);
+  }
+
+  .feedback-no {
+    background: #dc2626;
+    color: #ffffff;
+    border-color: #b91c1c;
+  }
+  .feedback-no:hover {
+    background: #b91c1c;
+    transform: scale(1.04);
+    box-shadow: 0 4px 14px rgba(220, 38, 38, 0.35);
+  }
+  .feedback-no:active {
+    transform: scale(0.97);
+  }
+
+  .feedback-thanks {
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+  }
+  .feedback-thanks-yes {
+    color: #15803d;
+    background: rgba(22, 163, 74, 0.1);
+  }
+  .feedback-thanks-no {
+    color: #b91c1c;
+    background: rgba(220, 38, 38, 0.1);
+  }
+
+  /* Dark mode */
+  [data-theme="midnight"] .feedback-yes { background: #22c55e; border-color: #16a34a; color: #0a0a0a; }
+  [data-theme="midnight"] .feedback-yes:hover { background: #16a34a; }
+  [data-theme="midnight"] .feedback-no { background: #ef4444; border-color: #dc2626; color: #0a0a0a; }
+  [data-theme="midnight"] .feedback-no:hover { background: #dc2626; }
+  [data-theme="midnight"] .feedback-thanks-yes { color: #86efac; background: rgba(134, 239, 172, 0.1); }
+  [data-theme="midnight"] .feedback-thanks-no { color: #fca5a5; background: rgba(252, 165, 165, 0.1); }
+
+  @media (max-width: 480px) {
+    .feedback-btn {
+      padding: 0.75rem 2rem;
+      min-width: 100px;
+      font-size: 1.1rem;
+    }
+  }
+
+  @media print { .guide-feedback { display: none; } }
+</style>

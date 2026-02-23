@@ -1,0 +1,210 @@
+---
+import type { Lang } from '../i18n/translations';
+import { t, getCategoryName, getDifficultyName } from '../i18n/translations';
+import type { Category } from '../i18n/translations';
+import { getPlatformLabel } from '../i18n/utils';
+
+interface Props {
+  title: string;
+  description: string;
+  category: Category;
+  steps: number;
+  difficulty: 'facile' | 'moyen' | 'avance';
+  platform: string;
+  lang: Lang;
+  slug: string;
+  heroSrc?: string;
+}
+
+const { title, description, category, steps, difficulty, platform, lang, slug, heroSrc } = Astro.props;
+
+const difficultyClass = {
+  facile: 'fg-badge-green',
+  moyen: 'fg-badge-orange',
+  avance: 'fg-badge-blue',
+}[difficulty];
+
+const guidePath = `/${lang}/guide/${slug}/`;
+const guideUrl = `https://facil.guide${guidePath}`;
+const shareLabel = t(lang, 'guide.share');
+---
+
+<article class={`guide-card fg-card cat-${category}`}>
+  <div class="guide-card-header">
+    <span class:list={['fg-badge', difficultyClass]}>
+      {getDifficultyName(lang, difficulty)}
+    </span>
+    <span class="guide-card-platform">{getPlatformLabel(platform)}</span>
+  </div>
+
+  {heroSrc && (
+    <div class="guide-card-thumb">
+      <a href={guidePath}>
+        <img src={heroSrc} alt={title} loading="lazy" decoding="async" class="guide-card-img" />
+      </a>
+    </div>
+  )}
+
+  <h3 class="guide-card-title">
+    <a href={guidePath}>{title}</a>
+  </h3>
+
+  <p class="guide-card-desc">{description}</p>
+
+  <div class="guide-card-meta">
+    <span class="guide-card-steps">
+      {steps} {t(lang, 'guide.steps')}
+    </span>
+    <span class="guide-card-category">
+      {getCategoryName(lang, category)}
+    </span>
+  </div>
+
+  <div class="guide-card-actions">
+    <a href={guidePath} class="fg-btn fg-btn-primary guide-card-btn">
+      {t(lang, 'guide.readGuide')}
+      <span aria-hidden="true">&rarr;</span>
+    </a>
+    <button
+      class="guide-card-share"
+      data-url={guideUrl}
+      data-text={title}
+      aria-label={shareLabel}
+      title={shareLabel}
+    >
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="18" cy="5" r="3"/>
+        <circle cx="6" cy="12" r="3"/>
+        <circle cx="18" cy="19" r="3"/>
+        <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/>
+        <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/>
+      </svg>
+      <span>{shareLabel}</span>
+    </button>
+  </div>
+</article>
+
+<style>
+  .guide-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    padding: 1.5rem;
+    padding-left: 1.5rem;
+    border-left: 4px solid var(--fg-border);
+    position: relative;
+  }
+
+  /* Category color borders */
+  .guide-card.cat-smartphone { border-left-color: var(--fg-cat-smartphone); }
+  .guide-card.cat-ordinateur { border-left-color: var(--fg-cat-ordinateur); }
+  .guide-card.cat-internet { border-left-color: var(--fg-cat-internet); }
+  .guide-card.cat-applications { border-left-color: var(--fg-cat-applications); }
+  .guide-card.cat-securite { border-left-color: var(--fg-cat-securite); }
+  .guide-card.cat-communication { border-left-color: var(--fg-cat-communication); }
+  .guide-card.cat-ia { border-left-color: var(--fg-cat-ia); }
+  .guide-card.cat-government { border-left-color: var(--fg-cat-government); }
+  .guide-card.cat-money { border-left-color: var(--fg-cat-money); }
+  .guide-card.cat-troubleshooting { border-left-color: var(--fg-cat-troubleshooting); }
+
+  .guide-card-thumb {
+    margin: -0.25rem 0 0.25rem;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .guide-card-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    aspect-ratio: 1200 / 632;
+    object-fit: cover;
+  }
+
+  .guide-card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+  }
+
+  .guide-card-platform {
+    font-size: 0.85rem;
+    color: var(--fg-text-muted);
+    font-weight: 500;
+  }
+
+  .guide-card-title {
+    font-size: 1.25rem;
+    margin: 0;
+    line-height: 1.4;
+  }
+
+  .guide-card-title a {
+    color: var(--fg-text);
+    text-decoration: none;
+  }
+
+  .guide-card-title a:hover {
+    color: var(--fg-primary);
+  }
+
+  .guide-card-desc {
+    color: var(--fg-text-light);
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 0;
+  }
+
+  .guide-card-meta {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 0.85rem;
+    color: var(--fg-text-muted);
+  }
+
+  .guide-card-steps {
+    font-weight: 600;
+  }
+
+  .guide-card-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+  }
+
+  .guide-card-btn {
+    flex: 1;
+  }
+
+  .guide-card-share {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.35rem;
+    padding: 0 1rem;
+    height: 48px;
+    border: 2px solid var(--fg-accent);
+    border-radius: var(--fg-radius-sm);
+    background: transparent;
+    color: var(--fg-accent);
+    font-size: 0.9rem;
+    font-weight: 600;
+    font-family: inherit;
+    cursor: pointer;
+    flex-shrink: 0;
+    transition: all 0.12s ease;
+  }
+
+  .guide-card-share:hover {
+    background: var(--fg-accent);
+    color: #ffffff;
+  }
+
+  @media (max-width: 768px) {
+    .guide-card-actions { flex-direction: row; }
+    .guide-card-btn { flex: 1; }
+  }
+</style>

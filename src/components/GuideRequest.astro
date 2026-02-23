@@ -1,0 +1,127 @@
+---
+interface Props {
+  lang: string;
+}
+
+const { lang } = Astro.props;
+
+const i18n: Record<string, { title: string; desc: string; placeholder: string; email: string; send: string; thanks: string }> = {
+  en: {
+    title: "Didn't find what you're looking for?",
+    desc: "Tell us what guide you need and we will write it for you.",
+    placeholder: "Describe the guide you need...",
+    email: "Your email (so we can send it to you)",
+    send: "Request this guide",
+    thanks: "Thank you! We will write this guide and send it to you.",
+  },
+  fr: {
+    title: "Vous n'avez pas trouve ce que vous cherchez ?",
+    desc: "Dites-nous quel guide vous avez besoin et nous l'ecrirons pour vous.",
+    placeholder: "Decrivez le guide dont vous avez besoin...",
+    email: "Votre email (pour vous l'envoyer)",
+    send: "Demander ce guide",
+    thanks: "Merci ! Nous allons ecrire ce guide et vous l'envoyer.",
+  },
+  es: {
+    title: "No encontro lo que buscaba?",
+    desc: "Diganos que guia necesita y la escribiremos para usted.",
+    placeholder: "Describa la guia que necesita...",
+    email: "Su email (para enviarle la guia)",
+    send: "Solicitar esta guia",
+    thanks: "Gracias! Escribiremos esta guia y se la enviaremos.",
+  },
+  pt: {
+    title: "Nao encontrou o que procura?",
+    desc: "Diga-nos que guia precisa e nos escrevemos para si.",
+    placeholder: "Descreva o guia que precisa...",
+    email: "O seu email (para lhe enviarmos)",
+    send: "Pedir este guia",
+    thanks: "Obrigado! Vamos escrever este guia e enviar-lhe.",
+  },
+  it: {
+    title: "Non hai trovato quello che cercavi?",
+    desc: "Dicci quale guida ti serve e la scriveremo per te.",
+    placeholder: "Descrivi la guida di cui hai bisogno...",
+    email: "La tua email (per inviartela)",
+    send: "Richiedi questa guida",
+    thanks: "Grazie! Scriveremo questa guida e te la invieremo.",
+  },
+};
+
+const t = i18n[lang] || i18n.en;
+---
+
+<section class="guide-request fg-section">
+  <div class="request-box">
+    <h2>{t.title}</h2>
+    <p>{t.desc}</p>
+    <form class="request-form" data-thanks={t.thanks}>
+      <textarea name="request" placeholder={t.placeholder} rows="3" required></textarea>
+      <input type="email" name="email" placeholder={t.email} required />
+      <button type="submit" class="fg-btn fg-btn-primary">{t.send}</button>
+    </form>
+    <p class="request-thanks" hidden></p>
+  </div>
+</section>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const form = document.querySelector('.request-form') as HTMLFormElement;
+    if (!form) return;
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const data = new FormData(form);
+      const request = data.get('request') as string;
+      const email = data.get('email') as string;
+      
+      // Store locally + send to API
+      const lang = document.documentElement.lang;
+      const requests = JSON.parse(localStorage.getItem('facil_requests') || '[]');
+      requests.push({ request, email, date: new Date().toISOString(), lang });
+      localStorage.setItem('facil_requests', JSON.stringify(requests));
+      try {
+        fetch('/api/guide-request', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ description: request, email, lang })
+        });
+      } catch(e) {}
+      
+      // Show thanks
+      form.hidden = true;
+      const thanks = document.querySelector('.request-thanks') as HTMLElement;
+      if (thanks) {
+        thanks.textContent = form.dataset.thanks || 'Thank you!';
+        thanks.hidden = false;
+      }
+    });
+  });
+</script>
+
+<style>
+  .guide-request { margin-top: 2rem; }
+  .request-box {
+    background: var(--fg-surface, #f8f8f6);
+    border: 2px dashed var(--fg-border, #e5e5e0);
+    border-radius: 12px;
+    padding: 2rem;
+    text-align: center;
+  }
+  .request-box h2 { font-size: 1.25rem; margin-bottom: 0.5rem; }
+  .request-box p { color: var(--fg-text-light); margin-bottom: 1rem; }
+  .request-form { display: flex; flex-direction: column; gap: 0.75rem; max-width: 500px; margin: 0 auto; }
+  .request-form textarea, .request-form input {
+    padding: 0.75rem 1rem;
+    border: 1px solid var(--fg-border, #e5e5e0);
+    border-radius: 8px;
+    font-size: 1rem;
+    font-family: inherit;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .request-form textarea:focus, .request-form input:focus {
+    outline: none;
+    border-color: var(--fg-primary, #2a6b6b);
+  }
+  .request-thanks { color: var(--fg-primary, #2a6b6b); font-weight: 600; font-size: 1.1rem; }
+</style>

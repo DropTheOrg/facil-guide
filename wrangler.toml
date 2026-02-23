@@ -1,0 +1,6 @@
+name = "facil-guide"
+compatibility_date = "2024-09-23"
+
+[[kv_namespaces]]
+binding = "FACIL_DATA"
+id = "f110ea180b004e6b927ea6fd57047c7d"

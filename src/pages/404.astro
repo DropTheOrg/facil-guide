@@ -1,0 +1,58 @@
+---
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Page not found | facil.guide</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <script is:inline>
+      (function() {
+        var t = localStorage.getItem('facil-theme');
+        if (t) document.documentElement.setAttribute('data-theme', t);
+      })();
+    </script>
+    <style>
+      :root {
+        --bg: #ebe5d9; --text: #1a1815; --muted: #8a8478; --primary: #1E3A5F; --accent: #4ADE80;
+      }
+      [data-theme="midnight"] {
+        --bg: #0a0a0a; --text: #ffffff; --muted: #666; --primary: #93b8fd; --accent: #86efac;
+      }
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      body {
+        font-family: -apple-system, system-ui, sans-serif;
+        background: var(--bg); color: var(--text);
+        display: flex; align-items: center; justify-content: center;
+        min-height: 100vh; text-align: center; padding: 2rem;
+      }
+      .code { font-size: 5rem; font-weight: 800; color: var(--muted); opacity: 0.3; }
+      .msg { font-size: 1.5rem; margin: 1rem 0; }
+      .sub { color: var(--muted); margin-bottom: 2rem; }
+      .links { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+      .links a {
+        display: inline-flex; align-items: center; min-height: 48px;
+        padding: 0.75rem 1.5rem; background: var(--primary); color: #fff;
+        text-decoration: none; border-radius: 8px; font-weight: 600;
+      }
+      [data-theme="midnight"] .links a { color: #0a0a0a; }
+      .links a:hover { opacity: 0.9; }
+    </style>
+  </head>
+  <body>
+    <div>
+      <div class="code">404</div>
+      <p class="msg">This page doesn't exist</p>
+      <p class="sub">The page you're looking for may have moved or doesn't exist.</p>
+      <div class="links">
+        <a href="/fr/">Francais</a>
+        <a href="/en/">English</a>
+        <a href="/es/">Espanol</a>
+        <a href="/pt/">Portugues</a>
+        <a href="/it/">Italiano</a>
+      </div>
+    </div>
+  </body>
+</html>

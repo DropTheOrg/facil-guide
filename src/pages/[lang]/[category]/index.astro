@@ -1,0 +1,112 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Breadcrumb from '../../../components/Breadcrumb.astro';
+import CategoryNav from '../../../components/CategoryNav.astro';
+import SearchBar from '../../../components/SearchBar.astro';
+import GuideCard from '../../../components/GuideCard.astro';
+import SchemaMarkup from '../../../components/SchemaMarkup.astro';
+import { getCollection } from 'astro:content';
+import { t, getCategoryName, categories } from '../../../i18n/translations';
+import { getBaseSlug } from "../../../i18n/slugmap";
+import type { Lang, Category } from '../../../i18n/translations';
+
+const allGuideImages = import.meta.glob<{ default: ImageMetadata }>("/src/assets/guides/*/hero.png", { eager: true });
+function getHeroSrc(slug: string): string | undefined {
+  const key = `/src/assets/guides/${getBaseSlug(slug)}/hero.png`;
+  return allGuideImages[key]?.default?.src;
+}
+
+export function getStaticPaths() {
+  const langs: Lang[] = ['fr', 'en', 'es', 'pt', 'it'];
+  return langs.flatMap((lang) =>
+    categories.map((category) => ({
+      params: { lang, category },
+    }))
+  );
+}
+
+const { lang, category } = Astro.params as { lang: Lang; category: Category };
+
+const allGuides = await getCollection('guides');
+// Count guides per category for nav
+const guideCounts: Record<string, number> = {};
+allGuides.filter(g => g.data.lang === lang).forEach((g) => {
+  const cat = g.data.category;
+  guideCounts[cat] = (guideCounts[cat] || 0) + 1;
+});
+
+const guides = allGuides
+  .filter((g) => g.data.lang === lang && g.data.category === category)
+  .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
+
+const categoryName = getCategoryName(lang, category);
+
+const noGuidesText: Record<string, string> = {
+  fr: 'Aucun guide dans cette catégorie pour le moment. Bientôt disponible !',
+  en: 'No guides in this category yet. Coming soon!',
+  es: 'No hay guías en esta categoría por el momento. ¡Próximamente!',
+  pt: 'Nenhum guia nesta categoria por enquanto. Em breve!',
+  it: 'Nessuna guida in questa categoria per il momento. Presto disponibile!',
+};
+---
+
+<BaseLayout
+  title={categoryName}
+  description={t(lang, 'category.description').replace('{category}', categoryName)}
+  lang={lang}
+  currentPath={`/${lang}/${category}/`}
+>
+  <SchemaMarkup
+    slot="head"
+    type="guide"
+    breadcrumbs={[
+      { name: t(lang, 'nav.home'), url: `/${lang}/` },
+      { name: categoryName, url: `/${lang}/${category}/` },
+    ]}
+  />
+
+  <div class="fg-container">
+    <Breadcrumb lang={lang} items={[{ label: categoryName }]} />
+    <h1>{categoryName}</h1>
+    <SearchBar lang={lang} />
+    <CategoryNav lang={lang} activeCategory={category} guideCounts={guideCounts} />
+
+    <section class="fg-section">
+      <div class="guides-grid">
+        {guides.map((guide) => {
+          const slugParts = guide.id.split('/');
+          const slug = slugParts[slugParts.length - 1].replace(/\.md$/, '');
+          return (
+            <div data-guide-card data-guide-title={guide.data.title} data-guide-desc={guide.data.description}>
+              <GuideCard
+                title={guide.data.title}
+                description={guide.data.description}
+                category={guide.data.category}
+                steps={guide.data.steps}
+                difficulty={guide.data.difficulty}
+                platform={guide.data.platform}
+                lang={lang}
+                slug={slug}
+                heroSrc={getHeroSrc(slug)}
+              />
+            </div>
+          );
+        })}
+      </div>
+      {guides.length === 0 && (
+        <div class="no-guides">
+          <p>{noGuidesText[lang] || noGuidesText.en}</p>
+          <a href={`/${lang}/`} class="fg-btn fg-btn-outline">{t(lang, 'guide.backToHome')}</a>
+        </div>
+      )}
+    </section>
+  </div>
+</BaseLayout>
+
+<style>
+  h1 { margin-bottom: 0.5rem; }
+  .guides-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr)); gap: 1.25rem; }
+  .no-guides { text-align: center; padding: 3rem 1rem; color: var(--fg-text-muted); }
+  .no-guides p { margin-bottom: 1.5rem; font-size: 1.1rem; }
+  @media (max-width: 768px) { .guides-grid { grid-template-columns: 1fr; } }
+</style>

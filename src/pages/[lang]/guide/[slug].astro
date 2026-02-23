@@ -1,0 +1,513 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Breadcrumb from '../../../components/Breadcrumb.astro';
+import SchemaMarkup from '../../../components/SchemaMarkup.astro';
+import FaqSection from '../../../components/FaqSection.astro';
+import GuideDisclaimer from '../../../components/GuideDisclaimer.astro';
+import TableOfContents from '../../../components/TableOfContents.astro';
+import GuideRequest from '../../../components/GuideRequest.astro';
+import GuideFeedback from '../../../components/GuideFeedback.astro';
+import { getContentAlternates, getBaseSlug } from '../../../i18n/slugmap';
+import { getCollection, render } from 'astro:content';
+import { t, getCategoryName, getDifficultyName } from '../../../i18n/translations';
+import type { Lang, Category } from '../../../i18n/translations';
+import { getPlatformLabel } from '../../../i18n/utils';
+import { extractSteps } from '../../../utils/extractSteps';
+
+// Guide images - dynamic import
+const allGuideImages = import.meta.glob<{ default: ImageMetadata }>('/src/assets/guides/**/*.png', { eager: true });
+
+export async function getStaticPaths() {
+  const allGuides = await getCollection('guides');
+  return allGuides.map((guide) => {
+    const slugParts = guide.id.split('/');
+    const slug = slugParts[slugParts.length - 1].replace(/\.md$/, '');
+    return {
+      params: { lang: guide.data.lang, slug },
+      props: { guide },
+    };
+  });
+}
+
+const { guide } = Astro.props;
+const { lang } = Astro.params as { lang: Lang };
+
+const { Content, headings } = await render(guide);
+
+const guideSteps = extractSteps(guide.body || '');
+
+const difficultyClass = {
+  facile: 'fg-badge-green',
+  moyen: 'fg-badge-orange',
+  avance: 'fg-badge-blue',
+}[guide.data.difficulty];
+
+const categoryName = getCategoryName(lang, guide.data.category as Category);
+const slugParts = guide.id.split('/');
+const slug = slugParts[slugParts.length - 1].replace(/\.md$/, '');
+const contentAlternates = getContentAlternates("guide", slug, lang);
+
+// Find hero and ending images for this guide's base slug (language-independent)
+const baseSlug = getBaseSlug(slug);
+const heroKey = `/src/assets/guides/${baseSlug}/hero.png`;
+const endingKey = `/src/assets/guides/${baseSlug}/step-final.png`;
+const heroImage = allGuideImages[heroKey]?.default;
+const heroOgUrl = heroImage ? `https://facil.guide${heroImage.src}` : undefined;
+const endingImage = allGuideImages[endingKey]?.default;
+
+const allGuides = await getCollection('guides');
+const sameLangGuides = allGuides.filter(
+  (g) => g.data.lang === lang && g.id !== guide.id
+);
+const sameCategory = sameLangGuides.filter((g) => g.data.category === guide.data.category);
+const otherCategory = sameLangGuides.filter((g) => g.data.category !== guide.data.category);
+const relatedGuides = [...sameCategory, ...otherCategory].slice(0, 3);
+
+const guideUrl = `https://facil.guide/${lang}/guide/${slug}/`;
+const shareText = guide.data.title;
+
+const printLabel: Record<string, string> = {
+  en: 'Print / PDF', fr: 'Imprimer / PDF', es: 'Imprimir / PDF',
+  pt: 'Imprimir / PDF', it: 'Stampa / PDF',
+};
+
+const shareLabel: Record<string, string> = {
+  en: 'SHARE', fr: 'PARTAGER', es: 'COMPARTIR', pt: 'PARTILHAR', it: 'CONDIVIDI',
+};
+
+const sharePrompt: Record<string, string> = {
+  en: 'Know someone who needs this? Send it to them.',
+  fr: 'Quelqu\'un dans votre entourage en a besoin ? Envoyez-lui ce guide.',
+  es: 'Conoces a alguien que lo necesite? Enviale esta guia.',
+  pt: 'Conhece alguem que precisa disto? Envie este guia.',
+  it: 'Conosci qualcuno che ne ha bisogno? Inviagli questa guida.',
+};
+
+const copyLabel: Record<string, string> = {
+  en: 'Copy link', fr: 'Copier le lien', es: 'Copiar enlace', pt: 'Copiar link', it: 'Copia link',
+};
+---
+
+<BaseLayout
+  title={guide.data.title}
+  description={guide.data.description}
+  lang={lang}
+  alternates={contentAlternates}
+  publishDate={guide.data.date}
+  modifiedDate={guide.data.date}
+  currentPath={`/${lang}/guide/${slug}/`}
+  ogImage={heroOgUrl}
+>
+  <SchemaMarkup
+    slot="head"
+    type="guide"
+    title={guide.data.title}
+    description={guide.data.description}
+    lang={lang}
+    steps={guideSteps}
+    faq={guide.data.faq}
+    publishDate={guide.data.date}
+    breadcrumbs={[
+      { name: t(lang, 'nav.home'), url: `/${lang}/` },
+      { name: categoryName, url: `/${lang}/${guide.data.category}/` },
+      { name: guide.data.title, url: `/${lang}/guide/${slug}/` },
+    ]}
+  />
+
+  <article class="guide-page">
+    <div class="fg-container">
+      <Breadcrumb
+        lang={lang}
+        items={[
+          { label: categoryName, href: `/${lang}/${guide.data.category}/` },
+          { label: guide.data.title },
+        ]}
+      />
+
+      <header class="guide-header">
+        <h1>{guide.data.title}</h1>
+        <p class="guide-desc">{guide.data.description}</p>
+        <div class="guide-meta">
+          <span class:list={['fg-badge', difficultyClass]}>
+            {getDifficultyName(lang, guide.data.difficulty)}
+          </span>
+          <span class="guide-meta-item">
+            {guide.data.steps} {t(lang, 'guide.steps')}
+          </span>
+          <span class="guide-meta-item">
+            {getPlatformLabel(guide.data.platform)}
+          </span>
+          <span class="guide-meta-item">
+            ~{Math.max(1, Math.ceil(guide.data.steps * 1.5))} min
+          </span>
+          <span class="guide-meta-item guide-date">
+            {new Date(guide.data.date).toLocaleDateString(lang, { year: "numeric", month: "long", day: "numeric" })}
+          </span>
+        </div>
+
+        <!-- Big SHARE + Print row -->
+        <div class="guide-actions" data-url={guideUrl} data-text={shareText}>
+          <div class="share-wrapper">
+            <button class="share-main-btn" id="share-toggle" aria-expanded="false">
+              {shareLabel[lang] || 'SHARE'}
+            </button>
+            <div class="share-dropdown" id="share-dropdown">
+              <button class="share-option share-whatsapp">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                WhatsApp
+              </button>
+              <button class="share-option share-sms">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H5.17L4 17.17V4h16v12z"/></svg>
+                SMS
+              </button>
+              <button class="share-option share-copy">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/></svg>
+                {copyLabel[lang] || 'Copy link'}
+              </button>
+            </div>
+          </div>
+          <button class="print-btn" onclick="window.print()" aria-label={printLabel[lang]}>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19 8H5c-1.66 0-3 1.34-3 3v6h4v4h12v-4h4v-6c0-1.66-1.34-3-3-3zm-3 11H8v-5h8v5zm3-7c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm-1-9H6v4h12V3z"/></svg>
+            {printLabel[lang] || 'Print / PDF'}
+          </button>
+        </div>
+      </header>
+
+      {heroImage && (
+        <div class="guide-hero-image">
+          <img
+            src={heroImage.src}
+            width={heroImage.width}
+            height={heroImage.height}
+            alt={guide.data.title}
+            loading="eager"
+            decoding="async"
+            class="guide-hero-img"
+          />
+        </div>
+      )}
+
+      <TableOfContents headings={headings} lang={lang} />
+
+      <div class="guide-content">
+        <Content />
+      </div>
+
+      {endingImage && (
+        <div class="guide-ending-image">
+          <img
+            src={endingImage.src}
+            width={endingImage.width}
+            height={endingImage.height}
+            alt={guide.data.title + ' - complete'}
+            loading="lazy"
+            decoding="async"
+            class="guide-ending-img"
+          />
+        </div>
+      )}
+
+      <!-- Print-only: QR code + branding (hidden on screen) -->
+      <div class="print-qr-section">
+        <div class="print-qr-inner">
+          <img
+            src={`https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=${encodeURIComponent(guideUrl)}`}
+            alt="QR Code"
+            class="print-qr-img"
+            width="120"
+            height="120"
+            loading="lazy"
+          />
+          <div class="print-qr-text">
+            <p class="print-qr-url">facil.guide</p>
+            <p class="print-qr-scan">Scan to read online</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom share prompt (after reading) -->
+      <div class="share-bottom" data-url={guideUrl} data-text={shareText}>
+        <p class="share-bottom-prompt">{sharePrompt[lang]}</p>
+        <div class="share-bottom-buttons">
+          <button class="share-bottom-btn share-whatsapp-bottom">
+            WhatsApp
+          </button>
+          <button class="share-bottom-btn share-sms-bottom">
+            SMS
+          </button>
+          <button class="share-bottom-btn share-copy-bottom">
+            {copyLabel[lang]}
+          </button>
+          <button class="share-bottom-btn share-print-bottom" onclick="window.print()">
+            {printLabel[lang]}
+          </button>
+        </div>
+      </div>
+
+      {guide.data.faq && <FaqSection faq={guide.data.faq} lang={lang} />}
+
+      <GuideFeedback lang={lang} slug={slug} />
+
+      <GuideDisclaimer lang={lang} />
+
+      <GuideRequest lang={lang} />
+
+      <footer class="guide-footer">
+        <a href={`/${lang}/${guide.data.category}/`} class="fg-btn fg-btn-outline">
+          &larr; {t(lang, 'guide.backToCategory')}
+        </a>
+        <a href={`/${lang}/`} class="fg-btn fg-btn-outline">
+          {t(lang, 'guide.backToHome')}
+        </a>
+      </footer>
+
+      {relatedGuides.length > 0 && (
+        <section class="other-guides fg-section">
+          <h2>{t(lang, 'guide.relatedGuides') || t(lang, 'guide.otherGuides')}</h2>
+          <div class="other-guides-list">
+            {relatedGuides.map((g) => {
+              const gSlugParts = g.id.split('/');
+              const gSlug = gSlugParts[gSlugParts.length - 1].replace(/\.md$/, '');
+              return (
+                <a href={`/${lang}/guide/${gSlug}/`} class="other-guide-link fg-card">
+                  <span class="other-guide-title">{g.data.title}</span>
+                  <span class="other-guide-meta">
+                    {g.data.steps} {t(lang, 'guide.steps')} &middot; {getDifficultyName(lang, g.data.difficulty)}
+                  </span>
+                </a>
+              );
+            })}
+          </div>
+        </section>
+      )}
+    </div>
+  </article>
+</BaseLayout>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    // Top share button + dropdown
+    const toggle = document.getElementById('share-toggle');
+    const dropdown = document.getElementById('share-dropdown');
+    const actions = document.querySelector('.guide-actions') as HTMLElement;
+    const url = actions?.dataset.url || window.location.href;
+    const text = actions?.dataset.text || document.title;
+
+    if (toggle && dropdown) {
+      toggle.addEventListener('click', () => {
+        const open = dropdown.classList.toggle('open');
+        toggle.setAttribute('aria-expanded', String(open));
+      });
+
+      // Close on outside click
+      document.addEventListener('click', (e) => {
+        if (!toggle.contains(e.target as Node) && !dropdown.contains(e.target as Node)) {
+          dropdown.classList.remove('open');
+          toggle.setAttribute('aria-expanded', 'false');
+        }
+      });
+    }
+
+    // Share handlers (works for both top and bottom)
+    function bindShare(selector: string, action: () => void) {
+      document.querySelectorAll(selector).forEach((btn) => {
+        btn.addEventListener('click', action);
+      });
+    }
+
+    bindShare('.share-whatsapp, .share-whatsapp-bottom', () => {
+      window.open(`https://wa.me/?text=${encodeURIComponent(text + '\n' + url)}`, '_blank');
+    });
+
+    bindShare('.share-sms, .share-sms-bottom', () => {
+      const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
+      const sep = isIOS ? '&' : '?';
+      window.open(`sms:${sep}body=${encodeURIComponent(text + '\n' + url)}`, '_self');
+    });
+
+    function handleCopy(e: Event) {
+      const btn = (e.currentTarget as HTMLElement);
+      navigator.clipboard.writeText(url).then(() => {
+        const orig = btn.textContent;
+        btn.textContent = '\u2713';
+        setTimeout(() => { btn.textContent = orig; }, 2000);
+      }).catch(() => {
+        const input = document.createElement('input');
+        input.value = url;
+        document.body.appendChild(input);
+        input.select();
+        document.execCommand('copy');
+        document.body.removeChild(input);
+      });
+    }
+
+    document.querySelectorAll('.share-copy, .share-copy-bottom').forEach((btn) => {
+      btn.addEventListener('click', handleCopy);
+    });
+  });
+</script>
+
+<style>
+  .guide-hero-image {
+    margin: 1.5rem 0 2rem;
+    border-radius: var(--fg-radius, 12px);
+    overflow: hidden;
+  }
+  .guide-hero-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: var(--fg-radius, 12px);
+    box-shadow: var(--fg-shadow-sm, 0 1px 3px rgba(0,0,0,0.08));
+  }
+  .guide-ending-image {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+    border-bottom: 1px solid var(--fg-border);
+  }
+  .guide-ending-img {
+    width: 200px;
+    height: auto;
+    border-radius: var(--fg-radius, 12px);
+  }
+  @media print {
+    .guide-hero-image { margin: 1rem 0; }
+    .guide-ending-image { display: none; }
+  }
+  .guide-header { padding-bottom: 2rem; border-bottom: 2px solid var(--fg-border); margin-bottom: 2rem; }
+  .guide-header h1 { margin-bottom: 0.75rem; }
+  .guide-desc { font-size: 1.15rem; color: var(--fg-text-light); margin-bottom: 1.25rem; }
+  .guide-meta { display: flex; align-items: center; flex-wrap: wrap; gap: 1rem; margin-bottom: 1.25rem; }
+  .guide-meta-item { font-size: 0.95rem; color: var(--fg-text-muted); font-weight: 500; }
+
+  /* Top share row */
+  .guide-actions { display: flex; gap: 0.75rem; flex-wrap: wrap; align-items: flex-start; }
+
+  .share-wrapper { position: relative; }
+
+  .share-main-btn {
+    display: inline-flex; align-items: center; justify-content: center;
+    padding: 0.85rem 2.25rem;
+    background: #E8735A; color: #ffffff;
+    border: none; border-radius: 12px;
+    font-size: 1.1rem; font-weight: 800; font-family: inherit;
+    letter-spacing: 0.08em;
+    cursor: pointer; min-height: 52px;
+    transition: background 0.12s ease, transform 0.1s ease;
+  }
+  .share-main-btn:hover { background: #d4624b; transform: scale(1.02); }
+  .share-main-btn:active { transform: scale(0.97); }
+
+  .share-dropdown {
+    display: none; position: absolute; top: calc(100% + 6px); left: 0;
+    background: var(--fg-bg-card); border: 2px solid var(--fg-border);
+    border-radius: 12px; padding: 0.5rem; min-width: 200px;
+    box-shadow: var(--fg-shadow-md); z-index: 50;
+  }
+  .share-dropdown.open { display: block; }
+
+  .share-option {
+    display: flex; align-items: center; gap: 0.6rem;
+    width: 100%; padding: 0.75rem 1rem; border: none;
+    background: transparent; color: var(--fg-text);
+    font-size: 1rem; font-weight: 500; font-family: inherit;
+    cursor: pointer; border-radius: 8px; min-height: 48px;
+    transition: background 0.1s ease;
+  }
+  .share-option:hover { background: var(--fg-bg-warm); }
+  .share-option svg { flex-shrink: 0; }
+
+  .print-btn {
+    display: inline-flex; align-items: center; gap: 0.4rem;
+    padding: 0.75rem 1.25rem;
+    border: 2px solid var(--fg-border); border-radius: 12px;
+    background: var(--fg-bg-card); color: var(--fg-text);
+    font-size: 0.95rem; font-weight: 600; font-family: inherit;
+    cursor: pointer; min-height: 52px;
+    transition: border-color 0.12s ease;
+  }
+  .print-btn:hover { border-color: var(--fg-primary); color: var(--fg-primary); }
+
+  /* Bottom share section */
+  .share-bottom {
+    text-align: center; padding: 2rem 1.5rem; margin: 2rem 0;
+    border: 2px solid #E8735A; border-radius: var(--fg-radius);
+    background: rgba(232, 115, 90, 0.06);
+  }
+  .share-bottom-prompt {
+    font-size: 1.15rem; font-weight: 600; color: var(--fg-text);
+    margin-bottom: 1.25rem;
+  }
+  .share-bottom-buttons { display: flex; justify-content: center; gap: 0.75rem; flex-wrap: wrap; }
+  .share-bottom-btn {
+    display: inline-flex; align-items: center; justify-content: center;
+    padding: 0.7rem 1.5rem; border: 2px solid #E8735A;
+    border-radius: 10px; background: transparent; color: #E8735A;
+    font-size: 0.95rem; font-weight: 700; font-family: inherit;
+    cursor: pointer; min-height: 48px;
+    transition: all 0.12s ease;
+  }
+  .share-bottom-btn:hover { background: #E8735A; color: #ffffff; }
+
+  [data-theme="midnight"] .share-bottom { background: rgba(232, 115, 90, 0.08); }
+
+  .guide-content { padding-bottom: 2rem; border-bottom: 1px solid var(--fg-border); }
+  .guide-footer { display: flex; flex-wrap: wrap; gap: 1rem; padding: 2rem 0; }
+  .other-guides h2 { margin-bottom: 1rem; }
+  .other-guides-list { display: grid; gap: 0.75rem; }
+  .other-guide-link { display: flex; flex-direction: column; gap: 0.25rem; padding: 1.25rem; text-decoration: none; }
+  .other-guide-title { font-weight: 600; color: var(--fg-text); font-size: 1.05rem; }
+  .other-guide-link:hover .other-guide-title { color: var(--fg-primary); }
+  .other-guide-meta { font-size: 0.85rem; color: var(--fg-text-muted); }
+
+  @media (max-width: 480px) {
+    .share-main-btn { width: 100%; }
+    .print-btn { width: 100%; justify-content: center; }
+    .share-dropdown { left: 0; right: 0; }
+    .share-bottom-buttons { flex-direction: column; }
+    .share-bottom-btn { width: 100%; }
+  }
+
+  /* Print-only QR section: hidden on screen */
+  .print-qr-section { display: none; }
+
+  @media print {
+    .guide-actions, .share-bottom, .guide-footer, .other-guides, .toc, .guide-request, .guide-feedback, .fg-header, .fg-footer { display: none !important; }
+    .guide-page { font-size: 14pt; }
+    .guide-content { border: none; }
+
+    .print-qr-section {
+      display: block !important;
+      margin-top: 2rem;
+      padding: 1.5rem;
+      border: 2px solid #333;
+      border-radius: 8px;
+      page-break-inside: avoid;
+    }
+    .print-qr-inner {
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+    }
+    .print-qr-img {
+      flex-shrink: 0;
+    }
+    .print-qr-url {
+      font-size: 16pt;
+      font-weight: 800;
+      color: #000;
+      margin: 0;
+    }
+    .print-qr-scan {
+      font-size: 11pt;
+      color: #555;
+      margin: 0.25rem 0 0;
+    }
+  }
+
+
+
+
+
+

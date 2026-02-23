@@ -1,0 +1,166 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Breadcrumb from '../../../components/Breadcrumb.astro';
+import SchemaMarkup from '../../../components/SchemaMarkup.astro';
+import GuideDisclaimer from '../../../components/GuideDisclaimer.astro';
+import { getContentAlternates } from '../../../i18n/slugmap';
+import FaqSection from '../../../components/FaqSection.astro';
+import { getCollection, render } from 'astro:content';
+import { t, getCategoryName } from '../../../i18n/translations';
+import type { Lang, Category } from '../../../i18n/translations';
+
+export async function getStaticPaths() {
+  const allReviews = await getCollection('reviews');
+  return allReviews.map((review) => {
+    const slugParts = review.id.split('/');
+    const slug = slugParts[slugParts.length - 1].replace(/\.md$/, '');
+    return {
+      params: { lang: review.data.lang, slug },
+      props: { review },
+    };
+  });
+}
+
+const { review } = Astro.props;
+const { lang } = Astro.params as { lang: Lang };
+const { Content } = await render(review);
+
+const slugParts = review.id.split('/');
+const slug = slugParts[slugParts.length - 1].replace(/\.md$/, '');
+const contentAlternates = getContentAlternates('review', slug, lang);
+const categoryName = getCategoryName(lang, review.data.category as Category);
+
+function renderStars(rating: number): string {
+  const full = Math.floor(rating);
+  const half = rating % 1 >= 0.5 ? 1 : 0;
+  const empty = 5 - full - half;
+  return '\u2605'.repeat(full) + (half ? '\u00BD' : '') + '\u2606'.repeat(empty);
+}
+---
+
+<BaseLayout
+  title={review.data.title}
+  description={review.data.description}
+  lang={lang}
+  alternates={contentAlternates}
+  publishDate={review.data.date}
+  modifiedDate={review.data.date}
+  currentPath={`/${lang}/review/${slug}/`}
+>
+  <SchemaMarkup
+    slot="head"
+    type="review"
+    title={review.data.title}
+    description={review.data.description}
+    productName={review.data.productName}
+    brand={review.data.brand}
+    rating={review.data.rating}
+    price={review.data.price}
+    pros={review.data.pros}
+    cons={review.data.cons}
+    lang={lang}
+    faq={review.data.faq}
+    breadcrumbs={[
+      { name: t(lang, 'nav.home'), url: `/${lang}/` },
+      { name: categoryName, url: `/${lang}/${review.data.category}/` },
+      { name: review.data.title, url: `/${lang}/review/${slug}/` },
+    ]}
+  />
+
+  <article class="review-page">
+    <div class="fg-container">
+      <Breadcrumb
+        lang={lang}
+        items={[
+          { label: categoryName, href: `/${lang}/${review.data.category}/` },
+          { label: review.data.title },
+        ]}
+      />
+
+      <header class="review-header">
+        <h1>{review.data.title}</h1>
+        <p class="review-desc">{review.data.description}</p>
+
+        <div class="review-summary fg-card">
+          <div class="review-summary-row">
+            <span class="review-label">{t(lang, 'review.brand')}</span>
+            <span class="review-value">{review.data.brand}</span>
+          </div>
+          <div class="review-summary-row">
+            <span class="review-label">{t(lang, 'review.price')}</span>
+            <span class="review-value">{review.data.price}</span>
+          </div>
+          <div class="review-summary-row">
+            <span class="review-label">{t(lang, 'review.rating')}</span>
+            <span class="review-value review-stars">
+              <span class="stars">{renderStars(review.data.rating)}</span>
+              {review.data.rating}/5
+            </span>
+          </div>
+        </div>
+
+        <div class="review-pros-cons">
+          <div class="pros-list">
+            <h3>{t(lang, 'review.pros')}</h3>
+            <ul>
+              {review.data.pros.map((pro) => (
+                <li class="pro-item">{pro}</li>
+              ))}
+            </ul>
+          </div>
+          <div class="cons-list">
+            <h3>{t(lang, 'review.cons')}</h3>
+            <ul>
+              {review.data.cons.map((con) => (
+                <li class="con-item">{con}</li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </header>
+
+      <div class="guide-content">
+        <Content />
+      </div>
+
+      <div class="review-verdict fg-card">
+        <h2>{t(lang, 'review.verdict')}</h2>
+        <p>{review.data.verdict}</p>
+      </div>
+
+      {review.data.faq && <FaqSection faq={review.data.faq} lang={lang} />}
+
+      <footer class="review-footer">
+        <a href={`/${lang}/${review.data.category}/`} class="fg-btn fg-btn-outline">
+          &larr; {t(lang, 'guide.backToCategory')}
+        </a>
+        <a href={`/${lang}/`} class="fg-btn fg-btn-outline">
+          {t(lang, 'guide.backToHome')}
+        </a>
+      </footer>
+    </div>
+    <GuideDisclaimer lang={lang} />
+  </article>
+</BaseLayout>
+
+<style>
+  .review-header { padding-bottom: 2rem; border-bottom: 2px solid var(--fg-border); margin-bottom: 2rem; }
+  .review-header h1 { margin-bottom: 0.75rem; }
+  .review-desc { font-size: 1.15rem; color: var(--fg-text-light); margin-bottom: 1.5rem; }
+  .review-summary { display: grid; gap: 0.75rem; margin-bottom: 1.5rem; }
+  .review-summary-row { display: flex; justify-content: space-between; align-items: center; padding: 0.5rem 0; border-bottom: 1px solid var(--fg-border); }
+  .review-summary-row:last-child { border-bottom: none; }
+  .review-label { font-weight: 600; color: var(--fg-text-muted); }
+  .review-value { font-weight: 600; color: var(--fg-text); }
+  .review-stars { display: flex; align-items: center; gap: 0.5rem; }
+  .stars { color: var(--fg-warning, #d97706); font-size: 1.2rem; }
+  .review-pros-cons { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-bottom: 1rem; }
+  .pros-list h3 { color: var(--fg-success, #059669); }
+  .cons-list h3 { color: var(--fg-error, #dc2626); }
+  .pro-item::marker { content: '\2713  '; color: var(--fg-success, #059669); }
+  .con-item::marker { content: '\2717  '; color: var(--fg-error, #dc2626); }
+  .review-verdict { margin-top: 2rem; border-left: 4px solid var(--fg-primary); }
+  .review-verdict h2 { margin-top: 0; }
+  .review-footer { display: flex; flex-wrap: wrap; gap: 1rem; padding: 2rem 0; }
+  @media (max-width: 600px) { .review-pros-cons { grid-template-columns: 1fr; } }
+</style>

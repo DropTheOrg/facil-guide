@@ -1,0 +1,295 @@
+{
+  "queue": [
+    {
+      "slug": "video-call-facetime",
+      "category": "communication",
+      "priority": 2,
+      "description": "How to make a FaceTime video call on iPhone"
+    },
+    {
+      "slug": "use-uber",
+      "category": "applications",
+      "priority": 2,
+      "description": "How to book a ride with Uber on your phone"
+    },
+    {
+      "slug": "set-up-email-android",
+      "category": "communication",
+      "priority": 2,
+      "description": "How to set up your email on an Android phone"
+    },
+    {
+      "slug": "use-spotify",
+      "category": "applications",
+      "priority": 2,
+      "description": "How to listen to music with Spotify on your phone"
+    }
+  ],
+  "completed": [
+    {
+      "slug": "change-wifi-password",
+      "date": "2026-02-18"
+    },
+    {
+      "slug": "send-email-gmail",
+      "date": "2026-02-18"
+    },
+    {
+      "slug": "take-screenshot-iphone",
+      "date": "2026-02-18"
+    },
+    {
+      "slug": "install-app-android",
+      "date": "2026-02-18"
+    },
+    {
+      "slug": "video-call-whatsapp",
+      "date": "2026-02-18"
+    },
+    {
+      "slug": "block-number-iphone",
+      "date": "2026-02-18"
+    },
+    {
+      "slug": "connect-bluetooth-speaker",
+      "date": "2026-02-18"
+    },
+    {
+      "slug": "create-google-account",
+      "date": "2026-02-18"
+    },
+    {
+      "slug": "save-photo-from-whatsapp",
+      "date": "2026-02-18"
+    },
+    {
+      "slug": "increase-text-size-iphone",
+      "date": "2026-02-18"
+    },
+    {
+      "slug": "setup-face-id-iphone",
+      "date": "2026-02-18"
+    },
+    {
+      "slug": "create-strong-password",
+      "date": "2026-02-18"
+    },
+    {
+      "slug": "clear-storage-iphone",
+      "date": "2026-02-18"
+    },
+    {
+      "slug": "send-photos-whatsapp",
+      "date": "2026-02-18"
+    },
+    {
+      "slug": "recognize-email-scam",
+      "date": "2026-02-18"
+    },
+    {
+      "slug": "add-contact-iphone",
+      "date": "2026-02-19"
+    },
+    {
+      "slug": "turn-off-notifications-iphone",
+      "date": "2026-02-19"
+    },
+    {
+      "slug": "connect-wifi-iphone",
+      "date": "2026-02-19"
+    },
+    {
+      "slug": "send-text-message-iphone",
+      "date": "2026-02-19"
+    },
+    {
+      "slug": "make-phone-call-iphone",
+      "date": "2026-02-19"
+    },
+    {
+      "slug": "check-storage-space-android",
+      "date": "2026-02-19"
+    },
+    {
+      "slug": "enable-dark-mode-iphone",
+      "date": "2026-02-19"
+    },
+    {
+      "slug": "use-whatsapp-web",
+      "date": "2026-02-19"
+    },
+    {
+      "slug": "set-up-email-iphone",
+      "date": "2026-02-19"
+    },
+    {
+      "slug": "zoom-video-call",
+      "date": "2026-02-19"
+    },
+    {
+      "slug": "send-voice-message-whatsapp",
+      "date": "2026-02-19"
+    },
+    {
+      "slug": "use-voice-assistant-siri",
+      "date": "2026-02-19"
+    },
+    {
+      "slug": "utiliser-france-connect",
+      "date": "2026-02-19"
+    },
+    {
+      "slug": "attivare-spid",
+      "date": "2026-02-19"
+    },
+    {
+      "slug": "usar-chave-movel-digital",
+      "date": "2026-02-19"
+    },
+    {
+      "slug": "activar-clave-digital",
+      "date": "2026-02-19"
+    },
+    {
+      "slug": "usar-mb-way",
+      "date": "2026-02-19"
+    },
+    {
+      "slug": "usar-pix",
+      "date": "2026-02-19"
+    },
+    {
+      "slug": "usar-gov-br",
+      "date": "2026-02-19"
+    },
+    {
+      "slug": "usar-sat-mexico",
+      "date": "2026-02-19"
+    },
+    {
+      "slug": "usar-mi-argentina",
+      "date": "2026-02-19"
+    },
+    {
+      "slug": "usar-bizum",
+      "date": "2026-02-19"
+    },
+    {
+      "slug": "phone-screen-frozen",
+      "date": "2026-02-20"
+    },
+    {
+      "slug": "forgot-password-what-to-do",
+      "date": "2026-02-20"
+    },
+    {
+      "slug": "phone-storage-full-fix",
+      "date": "2026-02-20"
+    },
+    {
+      "slug": "cant-hear-phone-call",
+      "date": "2026-02-20"
+    },
+    {
+      "slug": "whatsapp-messages-not-sending",
+      "date": "2026-02-20"
+    },
+    {
+      "slug": "phone-wont-connect-wifi",
+      "date": "2026-02-20"
+    },
+    {
+      "slug": "accidentally-deleted-photo",
+      "date": "2026-02-20"
+    },
+    {
+      "slug": "phone-battery-dies-fast",
+      "date": "2026-02-20"
+    },
+    {
+      "slug": "block-unknown-callers",
+      "date": "2026-02-20"
+    },
+    {
+      "slug": "phone-running-slow",
+      "date": "2026-02-20"
+    },
+    {
+      "slug": "copy-paste-text-phone",
+      "date": "2026-02-20"
+    },
+    {
+      "slug": "update-phone-software",
+      "date": "2026-02-20"
+    },
+    {
+      "slug": "share-location-family",
+      "date": "2026-02-20"
+    },
+    {
+      "slug": "setup-emergency-contacts",
+      "date": "2026-02-20"
+    },
+    {
+      "slug": "use-google-maps-navigate",
+      "date": "2026-02-20"
+    },
+    {
+      "slug": "send-photo-email",
+      "date": "2026-02-20"
+    },
+    {
+      "slug": "backup-phone",
+      "date": "2026-02-20"
+    },
+    {
+      "slug": "connect-hotel-wifi",
+      "date": "2026-02-20"
+    },
+    {
+      "slug": "is-this-message-scam",
+      "date": "2026-02-20"
+    },
+    {
+      "slug": "use-orange-money",
+      "date": "2026-02-20"
+    },
+    {
+      "slug": "use-doctolib",
+      "date": "2026-02-22"
+    },
+    {
+      "slug": "use-ameli",
+      "date": "2026-02-22"
+    },
+    {
+      "slug": "use-io-app",
+      "date": "2026-02-22"
+    },
+    {
+      "slug": "use-nhs-app",
+      "date": "2026-02-22"
+    },
+    {
+      "slug": "set-up-whatsapp",
+      "date": "2026-02-22"
+    },
+    {
+      "slug": "use-google-photos",
+      "date": "2026-02-22"
+    },
+    {
+      "slug": "take-screenshot-android",
+      "date": "2026-02-23"
+    },
+    {
+      "slug": "use-apple-pay",
+      "date": "2026-02-23"
+    },
+    {
+      "slug": "use-google-pay",
+      "date": "2026-02-23"
+    }
+  ],
+  "last_batch": "2026-02-23"
+}

@@ -1,0 +1,64 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import SchemaMarkup from '../../../components/SchemaMarkup.astro';
+import { t } from '../../../i18n/translations';
+import type { Lang } from '../../../i18n/translations';
+
+const lang: Lang = 'fr';
+---
+
+<BaseLayout
+  title={t(lang, 'about.title')}
+  lang={lang}
+  currentPath={`/${lang}/a-propos/`}
+>
+  <SchemaMarkup
+    slot="head"
+    type="website"
+    breadcrumbs={[
+      { name: t(lang, 'nav.home'), url: `/${lang}/` },
+      { name: t(lang, 'nav.about'), url: `/${lang}/a-propos/` },
+    ]}
+  />
+
+  <article class="about-page fg-container fg-section">
+    <h1>{t(lang, 'about.title')}</h1>
+
+    <section class="about-section">
+      <h2>{t(lang, 'about.mission')}</h2>
+      <p>{t(lang, 'about.missionText')}</p>
+    </section>
+
+    <section class="about-section">
+      <h2>{t(lang, 'about.forWhom')}</h2>
+      <p>{t(lang, 'about.forWhomText')}</p>
+    </section>
+
+    <section class="about-section">
+      <h2>{t(lang, 'about.howItWorks')}</h2>
+      <p>{t(lang, 'about.howItWorksText')}</p>
+    </section>
+
+    <section class="about-section">
+      <h2>{t(lang, 'about.editorial')}</h2>
+      <p>{t(lang, 'about.editorialText')}</p>
+    </section>
+
+    <section class="about-section">
+      <h2>{t(lang, 'about.languages')}</h2>
+      <p>{t(lang, 'about.languagesText')}</p>
+    </section>
+
+    <section class="about-section">
+      <h2>{t(lang, 'about.contact')}</h2>
+      <p>{t(lang, 'about.contactText')} <a href="mailto:facil@dropthe.org">facil@dropthe.org</a></p>
+    </section>
+  </article>
+</BaseLayout>
+
+<style>
+  .about-page h1 { margin-bottom: 2rem; }
+  .about-section { margin-bottom: 2.5rem; }
+  .about-section h2 { margin-bottom: 1rem; }
+  .about-section p { color: var(--fg-text-light); line-height: 1.8; max-width: 680px; }
+</style>

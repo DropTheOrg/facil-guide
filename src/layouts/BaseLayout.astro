@@ -1,0 +1,136 @@
+---
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import BackToTop from '../components/BackToTop.astro';
+import type { Lang } from '../i18n/translations';
+import { t } from '../i18n/translations';
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description?: string;
+  lang: Lang;
+  currentPath: string;
+  alternates?: { lang: string; url: string }[];
+  publishDate?: string;
+  modifiedDate?: string;
+  ogImage?: string;
+}
+
+const { title, description, lang, currentPath, alternates, publishDate, modifiedDate, ogImage } = Astro.props;
+const siteTitle = t(lang, 'site.title');
+const fullTitle = title === siteTitle ? `${siteTitle} — ${t(lang, 'site.tagline')}` : `${title} | ${siteTitle}`;
+const metaDesc = description || t(lang, 'site.description');
+const canonicalUrl = `https://facil.guide${currentPath}`;
+
+const allLangs = ['fr', 'en', 'es', 'pt', 'it'] as const;
+const ogLocales: Record<string, string> = {
+  fr: 'fr_FR', en: 'en_US', es: 'es_ES', pt: 'pt_BR', it: 'it_IT',
+};
+
+const defaultAlternates = alternates || allLangs.map((l) => ({
+  lang: l,
+  url: currentPath.replace(/^\/(fr|en|es|pt|it)/, `/${l}`),
+}));
+---
+
+<!doctype html>
+<html lang={lang} dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    {/* Prevent flash of wrong theme */}
+    <script is:inline>
+      (function() {
+        var t = localStorage.getItem('facil-theme');
+        if (t) document.documentElement.setAttribute('data-theme', t);
+      })();
+    </script>
+
+    <title>{fullTitle}</title>
+    <meta name="description" content={metaDesc} />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href={canonicalUrl} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/apple-touch-icon.png" />
+
+    {/* hreflang tags */}
+    {defaultAlternates.map((alt) => (
+      <link rel="alternate" hreflang={alt.lang} href={`https://facil.guide${alt.url}`} />
+    ))}
+    <link rel="alternate" hreflang="x-default" href={`https://facil.guide${(defaultAlternates.find(a => a.lang === 'en') || { url: currentPath.replace(/^\/(fr|en|es|pt|it)/, '/en') }).url}`} />
+
+    {/* Open Graph */}
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={metaDesc} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:locale" content={ogLocales[lang] || 'en_US'} />
+    <meta property="og:site_name" content="facil.guide" />
+    <meta property="og:image" content={ogImage || "https://facil.guide/og-image.png"} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    {publishDate && <meta property="article:published_time" content={publishDate} />}
+    {modifiedDate && <meta property="article:modified_time" content={modifiedDate} />}
+    {publishDate && <meta property="og:type" content="article" />}
+
+    {/* Twitter / X */}
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={fullTitle} />
+    <meta name="twitter:description" content={metaDesc} />
+    <meta name="twitter:image" content={ogImage || "https://facil.guide/og-image.png"} />
+
+    {/* RSS */}
+    <link rel="alternate" type="application/rss+xml" title="facil.guide" href="/rss.xml" />
+
+    {/* Analytics */}
+    <script defer data-domain="facil.guide" src="https://plausible.io/js/script.js"></script>
+
+
+    {/* Schema slot */}
+    <slot name="head" />
+    <meta name="msvalidate.01" content="B961B8A0793AB70F085A791E2110F308" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">
+      {lang === 'fr' ? 'Aller au contenu' : lang === 'es' ? 'Ir al contenido' : lang === 'pt' ? 'Ir para o conteudo' : lang === 'it' ? 'Vai al contenuto' : 'Skip to content'}
+    </a>
+    <Header lang={lang} currentPath={currentPath} alternates={defaultAlternates} />
+    <main id="main-content">
+      <slot />
+    </main>
+    <Footer lang={lang} currentPath={currentPath} alternates={defaultAlternates} />
+    <BackToTop lang={lang} />
+
+  <script is:inline>
+  (function() {
+    function initCardShare() {
+      document.querySelectorAll(".guide-card-share").forEach(function(btn) {
+        if (btn.dataset.bound) return;
+        btn.dataset.bound = "1";
+        btn.addEventListener("click", function(e) {
+          e.preventDefault();
+          e.stopPropagation();
+          var url = btn.dataset.url;
+          var text = btn.dataset.text;
+          if (navigator.share) {
+            navigator.share({ title: text, url: url }).catch(function() {});
+          } else {
+            var waUrl = "https://wa.me/?text=" + encodeURIComponent(text + "\n" + url);
+            window.open(waUrl, "_blank");
+          }
+        });
+      });
+    }
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", initCardShare);
+    } else {
+      initCardShare();
+    }
+  })();
+  </script>
+  </body>
+</html>

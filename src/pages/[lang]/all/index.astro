@@ -1,0 +1,386 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import GuideCard from '../../../components/GuideCard.astro';
+import SearchBar from '../../../components/SearchBar.astro';
+import SchemaMarkup from '../../../components/SchemaMarkup.astro';
+import { getCollection } from 'astro:content';
+import { t, getCategoryName, categories } from '../../../i18n/translations';
+import type { Lang, Category } from '../../../i18n/translations';
+import { getStaticLangPaths } from '../../../i18n/utils';
+import { getBaseSlug } from "../../../i18n/slugmap";
+
+const allGuideImages = import.meta.glob<{ default: ImageMetadata }>("/src/assets/guides/*/hero.png", { eager: true });
+function getHeroSrc(slug: string): string | undefined {
+  const key = `/src/assets/guides/${getBaseSlug(slug)}/hero.png`;
+  return allGuideImages[key]?.default?.src;
+}
+
+export function getStaticPaths() {
+  return getStaticLangPaths();
+}
+
+const { lang } = Astro.params as { lang: Lang };
+
+const allGuides = await getCollection('guides');
+const guides = allGuides
+  .filter((g) => g.data.lang === lang)
+  .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
+
+const allReviews = await getCollection('reviews');
+const reviews = allReviews
+  .filter((r) => r.data.lang === lang)
+  .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
+
+const allComparisons = await getCollection('comparisons');
+const comparisons = allComparisons
+  .filter((c) => c.data.lang === lang)
+  .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
+
+// Group guides by category
+const guidesByCategory: Record<string, typeof guides> = {};
+for (const cat of categories) {
+  const catGuides = guides.filter((g) => g.data.category === cat);
+  if (catGuides.length > 0) {
+    guidesByCategory[cat] = catGuides;
+  }
+}
+
+const totalCount = guides.length + reviews.length + comparisons.length;
+
+const slugMap: Record<string, string> = {
+  fr: 'tout', en: 'all', es: 'todo', pt: 'tudo', it: 'tutto',
+};
+---
+
+<BaseLayout
+  title={t(lang, 'allGuides.title')}
+  description={t(lang, 'allGuides.description')}
+  lang={lang}
+  currentPath={`/${lang}/all/`}
+>
+  <SchemaMarkup
+    slot="head"
+    type="website"
+    breadcrumbs={[
+      { name: t(lang, 'breadcrumb.home'), url: `/${lang}/` },
+      { name: t(lang, 'allGuides.title'), url: `/${lang}/all/` },
+    ]}
+  />
+
+  <section class="page-header">
+    <div class="fg-container">
+      <h1>{t(lang, 'allGuides.title')}</h1>
+      <p class="page-desc">{t(lang, 'allGuides.description')}</p>
+      <p class="page-count">{totalCount} {lang === 'fr' ? 'contenus' : lang === 'en' ? 'items' : lang === 'es' ? 'contenidos' : lang === 'pt' ? 'itens' : 'contenuti'}</p>
+    </div>
+  </section>
+
+  <section class="fg-container">
+    <SearchBar lang={lang} />
+  </section>
+
+
+  {/* Device & Difficulty Filters */}
+  <section class="fg-container filter-section">
+    <div class="filter-tabs" role="tablist" aria-label="Filter by device">
+      <button class="filter-tab active" data-filter="all" role="tab" aria-selected="true">
+        {lang === 'fr' ? 'Tous' : lang === 'es' ? 'Todos' : lang === 'pt' ? 'Todos' : lang === 'it' ? 'Tutti' : 'All'}
+      </button>
+      <button class="filter-tab" data-filter="iphone" role="tab" aria-selected="false">
+        iPhone
+      </button>
+      <button class="filter-tab" data-filter="android" role="tab" aria-selected="false">
+        Android
+      </button>
+      <button class="filter-tab" data-filter="web" role="tab" aria-selected="false">
+        {lang === 'fr' ? 'Ordinateur' : lang === 'es' ? 'Ordenador' : lang === 'pt' ? 'Computador' : lang === 'it' ? 'Computer' : 'Computer'}
+      </button>
+    </div>
+    <div class="filter-tabs difficulty-tabs" role="tablist" aria-label="Filter by difficulty">
+      <button class="diff-tab active" data-diff="all" role="tab" aria-selected="true">
+        {lang === 'fr' ? 'Toutes difficultes' : lang === 'es' ? 'Todas las dificultades' : lang === 'pt' ? 'Todas as dificuldades' : lang === 'it' ? 'Tutte le difficolta' : 'All levels'}
+      </button>
+      <button class="diff-tab" data-diff="facile" role="tab" aria-selected="false">
+        {lang === 'fr' ? 'Facile' : lang === 'es' ? 'Facil' : lang === 'pt' ? 'Facil' : lang === 'it' ? 'Facile' : 'Easy'}
+      </button>
+      <button class="diff-tab" data-diff="moyen" role="tab" aria-selected="false">
+        {lang === 'fr' ? 'Moyen' : lang === 'es' ? 'Medio' : lang === 'pt' ? 'Medio' : lang === 'it' ? 'Medio' : 'Medium'}
+      </button>
+    </div>
+  </section>
+
+  {/* Table of Contents */}
+  <nav class="fg-container toc" aria-label="Table of contents">
+    <ul class="toc-list">
+      {Object.keys(guidesByCategory).map((cat) => (
+        <li><a href={`#cat-${cat}`}>{getCategoryName(lang, cat as Category)} ({guidesByCategory[cat].length})</a></li>
+      ))}
+      {reviews.length > 0 && <li><a href="#reviews">{t(lang, 'allGuides.reviews')} ({reviews.length})</a></li>}
+      {comparisons.length > 0 && <li><a href="#comparisons">{t(lang, 'allGuides.comparisons')} ({comparisons.length})</a></li>}
+    </ul>
+  </nav>
+
+  {/* Guides by Category */}
+  {Object.entries(guidesByCategory).map(([cat, catGuides]) => (
+    <section class="fg-container fg-section" id={`cat-${cat}`}>
+      <h2 class="section-heading">
+        <a href={`/${lang}/${cat}/`}>{getCategoryName(lang, cat as Category)}</a>
+        <span class="section-count">{catGuides.length}</span>
+      </h2>
+      <div class="guides-grid">
+        {catGuides.map((guide) => {
+          const slugParts = guide.id.split('/');
+          const slug = slugParts[slugParts.length - 1].replace(/\.md$/, '');
+          return (
+            <div data-guide-card data-guide-title={guide.data.title} data-guide-desc={guide.data.description} data-guide-platform={guide.data.platform} data-guide-difficulty={guide.data.difficulty}>
+              <GuideCard
+                title={guide.data.title}
+                description={guide.data.description}
+                category={guide.data.category}
+                steps={guide.data.steps}
+                difficulty={guide.data.difficulty}
+                platform={guide.data.platform}
+                lang={lang}
+                slug={slug}
+                heroSrc={getHeroSrc(slug)}
+              />
+            </div>
+          );
+        })}
+      </div>
+    </section>
+  ))}
+
+  {/* Reviews */}
+  {reviews.length > 0 && (
+    <section class="fg-container fg-section" id="reviews">
+      <h2 class="section-heading">
+        {t(lang, 'allGuides.reviews')}
+        <span class="section-count">{reviews.length}</span>
+      </h2>
+      <div class="guides-grid">
+        {reviews.map((review) => {
+          const slugParts = review.id.split('/');
+          const slug = slugParts[slugParts.length - 1].replace(/\.md$/, '');
+          return (
+            <div data-guide-card data-guide-title={review.data.title} data-guide-desc={review.data.description}>
+              <a href={`/${lang}/review/${slug}/`} class="review-card fg-card">
+                <div class="review-card-header">
+                  <span class="fg-badge fg-badge-blue">{review.data.brand}</span>
+                  <span class="review-rating">{review.data.rating}/5</span>
+                </div>
+                <h3 class="review-card-title">{review.data.title}</h3>
+                <p class="review-card-desc">{review.data.description}</p>
+              </a>
+            </div>
+          );
+        })}
+      </div>
+    </section>
+  )}
+
+  {/* Comparisons */}
+  {comparisons.length > 0 && (
+    <section class="fg-container fg-section" id="comparisons">
+      <h2 class="section-heading">
+        {t(lang, 'allGuides.comparisons')}
+        <span class="section-count">{comparisons.length}</span>
+      </h2>
+      <div class="guides-grid">
+        {comparisons.map((comp) => {
+          const slugParts = comp.id.split('/');
+          const slug = slugParts[slugParts.length - 1].replace(/\.md$/, '');
+          return (
+            <div data-guide-card data-guide-title={comp.data.title} data-guide-desc={comp.data.description}>
+              <a href={`/${lang}/compare/${slug}/`} class="review-card fg-card">
+                <div class="review-card-header">
+                  <span class="fg-badge fg-badge-orange">{comp.data.productA.brand}</span>
+                  <span class="compare-vs">{t(lang, 'compare.vs')}</span>
+                  <span class="fg-badge fg-badge-blue">{comp.data.productB.brand}</span>
+                </div>
+                <h3 class="review-card-title">{comp.data.title}</h3>
+                <p class="review-card-desc">{comp.data.description}</p>
+              </a>
+            </div>
+          );
+        })}
+      </div>
+    </section>
+  )}
+</BaseLayout>
+
+<style>
+  .page-header {
+    background: var(--fg-hero-gradient);
+    padding: 2.5rem 0;
+    border-bottom: 1px solid var(--fg-border);
+  }
+  .page-header h1 { margin-bottom: 0.5rem; }
+  .page-desc { color: var(--fg-text-light); font-size: 1.1rem; margin-bottom: 0.25rem; }
+  .page-count { color: var(--fg-text-muted); font-size: 0.95rem; font-weight: 600; }
+
+  .toc {
+    padding: 1.5rem 0;
+    border-bottom: 1px solid var(--fg-border);
+  }
+  .toc-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1.5rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .toc-list a {
+    color: var(--fg-primary);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.95rem;
+    min-height: 48px;
+    display: inline-flex;
+    align-items: center;
+  }
+  .toc-list a:hover { text-decoration: underline; }
+
+  .section-heading {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+  }
+  .section-heading a {
+    color: var(--fg-text);
+    text-decoration: none;
+  }
+  .section-heading a:hover { color: var(--fg-primary); }
+  .section-count {
+    background: var(--fg-bg-card);
+    border: 1px solid var(--fg-border);
+    border-radius: 999px;
+    padding: 0.15rem 0.6rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--fg-text-muted);
+  }
+
+  .guides-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr));
+    gap: 1.25rem;
+  }
+
+  .review-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    padding: 1.5rem;
+    text-decoration: none;
+    color: inherit;
+  }
+  .review-card-header { display: flex; align-items: center; gap: 0.5rem; }
+  .review-rating { font-weight: 700; color: var(--fg-warning, #d97706); font-size: 1.1rem; }
+  .compare-vs { font-weight: 600; color: var(--fg-text-muted); font-size: 0.9rem; }
+  .review-card-title { font-size: 1.1rem; margin: 0; color: var(--fg-text); }
+  .review-card:hover .review-card-title { color: var(--fg-primary); }
+  .review-card-desc { font-size: 0.95rem; color: var(--fg-text-light); line-height: 1.6; margin: 0; }
+
+  @media (max-width: 768px) {
+    .page-header { padding: 1.5rem 0; }
+    .guides-grid { grid-template-columns: 1fr; }
+  }
+
+  /* Filter tabs */
+  .filter-section {
+    padding: 1rem 0 0;
+  }
+  .filter-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 0.75rem;
+  }
+  .filter-tab, .diff-tab {
+    padding: 0.5rem 1rem;
+    border: 2px solid var(--fg-border);
+    border-radius: 999px;
+    background: var(--fg-bg-card);
+    color: var(--fg-text-light);
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    min-height: 44px;
+    font-family: inherit;
+    transition: all 0.15s ease;
+  }
+  .filter-tab:hover, .diff-tab:hover {
+    border-color: var(--fg-primary);
+    color: var(--fg-primary);
+  }
+  .filter-tab.active, .diff-tab.active {
+    background: var(--fg-primary);
+    border-color: var(--fg-primary);
+    color: white;
+  }
+  .guide-card-hidden { display: none !important; }
+</style>
+
+<script>
+  function initFilters() {
+    let currentPlatform = 'all';
+    let currentDiff = 'all';
+
+    const cards = document.querySelectorAll('[data-guide-card]');
+    const filterTabs = document.querySelectorAll('.filter-tab');
+    const diffTabs = document.querySelectorAll('.diff-tab');
+
+    function applyFilters() {
+      let visibleCount = 0;
+      cards.forEach(card => {
+        const platform = card.getAttribute('data-guide-platform') || '';
+        const diff = card.getAttribute('data-guide-difficulty') || '';
+        
+        const platformMatch = currentPlatform === 'all' 
+          || platform === currentPlatform 
+          || (currentPlatform === 'web' && (platform === 'web' || platform === 'both'));
+        const diffMatch = currentDiff === 'all' || diff === currentDiff;
+        
+        if (platformMatch && diffMatch) {
+          card.classList.remove('guide-card-hidden');
+          visibleCount++;
+        } else {
+          card.classList.add('guide-card-hidden');
+        }
+      });
+
+      // Hide empty category sections
+      document.querySelectorAll('.fg-section[id^="cat-"]').forEach(section => {
+        const visible = section.querySelectorAll('[data-guide-card]:not(.guide-card-hidden)');
+        section.style.display = visible.length > 0 ? '' : 'none';
+      });
+    }
+
+    filterTabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        filterTabs.forEach(t => { t.classList.remove('active'); t.setAttribute('aria-selected', 'false'); });
+        tab.classList.add('active');
+        tab.setAttribute('aria-selected', 'true');
+        currentPlatform = tab.getAttribute('data-filter');
+        applyFilters();
+      });
+    });
+
+    diffTabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        diffTabs.forEach(t => { t.classList.remove('active'); t.setAttribute('aria-selected', 'false'); });
+        tab.classList.add('active');
+        tab.setAttribute('aria-selected', 'true');
+        currentDiff = tab.getAttribute('data-diff');
+        applyFilters();
+      });
+    });
+  }
+
+  initFilters();
+  document.addEventListener('astro:after-swap', initFilters);
+</script>
+
