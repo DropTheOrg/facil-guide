@@ -1,12 +1,5 @@
 {
-  "queue": [
-    {
-      "slug": "use-spotify",
-      "category": "applications",
-      "priority": 2,
-      "description": "How to listen to music with Spotify on your phone"
-    }
-  ],
+  "queue": [],
   "completed": [
     {
       "slug": "change-wifi-password",
@@ -282,6 +275,18 @@
     },
     {
       "slug": "set-up-email-android",
+      "date": "2026-02-23"
+    },
+    {
+      "slug": "use-youtube",
+      "date": "2026-02-23"
+    },
+    {
+      "slug": "set-up-voicemail",
+      "date": "2026-02-23"
+    },
+    {
+      "slug": "use-facebook",
       "date": "2026-02-23"
     }
   ],
