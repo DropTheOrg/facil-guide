@@ -1,25 +1,33 @@
 ---
-title: "[IT] How to Record a Voice Memo on Your Phone"
-description: "[IT] Learn how to record your voice, a conversation, or a meeting using your phone's built-in voice recorder."
+title: "Come registrare un memo vocale"
+description: "Impari a registrare la sua voce, una conversazione o una riunione con il registratore del telefono."
 lang: "it"
 category: "smartphone"
 difficulty: "facile"
 steps: 4
 platform: "iphone"
 date: "2026-02-23"
-faq: []
+faq:
+  - question: "How long can I record?"
+    answer: "There is no hard time limit. You can record for hours as long as you have enough storage space on your phone. One hour of recording uses about 25-30 MB."
+  - question: "Where are my recordings saved?"
+    answer: "On iPhone, they are in the Voice Memos app. On Android, they are in the Recorder app or your Files app under Recordings."
+  - question: "Can I send a voice recording to someone?"
+    answer: "Yes. Open the recording, tap the Share button, and send it via WhatsApp, email, or text message."
+  - question: "Is it legal to record conversations?"
+    answer: "Laws vary by country and region. In many places, you need to tell the other person you are recording. Check your local laws before recording phone calls or conversations."
 ---
 
-## What You Will Need
+## Cosa le servira
 
-- Your iPhone or Android phone
+- Il suo telefono iPhone o Android
 
-## Step 1: Open the Recorder App
+## Passo 1: Open the Recorder App
 
-- **On iPhone:** Open the **Voice Memos** app (dark waveform icon)
-- **On Android:** Open the **Recorder** app or **Voice Recorder** (search for it in your apps)
+- **Su iPhone:** Open the **Voice Memos** app (dark waveform icon)
+- **Su Android:** Open the **Recorder** app or **Voice Recorder** (search for it in your apps)
 
-## Step 2: Start Recording
+## Passo 2: Start Recording
 
 Tap the large **red circle** button to start recording.
 
@@ -27,14 +35,14 @@ Speak clearly into the bottom of your phone (that is where the microphone is). H
 
 You will see a timer counting up, showing how long you have been recording.
 
-## Step 3: Stop and Save
+## Passo 3: Stop and Save
 
 When you are done, tap the **red square** button (or the stop button) to end the recording.
 
-- **On iPhone:** The recording is saved automatically. Tap it to rename it (for example, "Doctor appointment notes")
-- **On Android:** You may be asked to name the recording and tap **Save**
+- **Su iPhone:** The recording is saved automatically. Tap it to rename it (for example, "Doctor appointment notes")
+- **Su Android:** You may be asked to name the recording and tap **Save**
 
-## Step 4: Listen to Your Recording
+## Passo 4: Listen to Your Recording
 
 Find your recording in the list and tap it to play it back.
 
@@ -42,6 +50,6 @@ You can **pause**, **rewind**, and **fast-forward** using the playback controls.
 
 To share it, tap the **Share** button and choose how you want to send it (WhatsApp, email, or message).
 
-## You Did It!
+## Ce l'ha fatta!
 
 You recorded a voice memo. This is useful for remembering shopping lists, recording lectures, saving ideas, or keeping notes from a doctor visit.

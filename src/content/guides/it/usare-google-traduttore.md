@@ -1,29 +1,39 @@
 ---
-title: "[IT] How to Translate Text with Google Translate on Your Phone"
-description: "[IT] Learn how to use Google Translate to translate words, sentences, or even signs and menus using your phone."
+title: "Come usare Google Traduttore"
+description: "Impari a tradurre parole, frasi e conversazioni con Google Traduttore sul telefono."
 lang: "it"
 category: "applications"
 difficulty: "facile"
 steps: 5
 platform: "iphone"
 date: "2026-02-23"
-faq: []
+faq:
+  - question: "Is Google Translate free?"
+    answer: "Yes, Google Translate is completely free. You can download the app from the App Store or Google Play Store at no cost."
+  - question: "Can I translate without internet?"
+    answer: "Yes, but you need to download the language first. In the app, go to Settings and download the languages you need. Then you can translate offline."
+  - question: "How accurate is Google Translate?"
+    answer: "It is quite good for common languages like Spanish, French, German, and Portuguese. For less common languages or complex sentences, it may not be perfect, but it will help you understand the general meaning."
+  - question: "Can I translate a sign or menu by pointing my camera at it?"
+    answer: "Yes. Open Google Translate, tap the Camera icon, and point your phone at the text. The translation will appear on your screen in real time."
+  - question: "Can I speak into the app instead of typing?"
+    answer: "Yes. Tap the microphone icon and speak. Google Translate will detect your language and translate what you said."
 ---
 
-## What You Will Need
+## Cosa le servira
 
-- Your iPhone or Android phone
+- Il suo telefono iPhone o Android
 - The Google Translate app (free from App Store or Google Play)
 - An internet connection (or downloaded languages for offline use)
 
-## Step 1: Download Google Translate
+## Passo 1: Download Google Translate
 
 If you do not have it yet:
 
-- **On iPhone:** Open the **App Store**, search for **Google Translate**, and tap **Get**
-- **On Android:** It may already be installed. If not, open the **Play Store**, search for **Google Translate**, and tap **Install**
+- **Su iPhone:** Open the **App Store**, search for **Google Translate**, and tap **Get**
+- **Su Android:** It may already be installed. If not, open the **Play Store**, search for **Google Translate**, and tap **Install**
 
-## Step 2: Open the App and Choose Languages
+## Passo 2: Open the App and Scelga Languages
 
 Open **Google Translate**. At the top, you will see two languages:
 
@@ -32,7 +42,7 @@ Open **Google Translate**. At the top, you will see two languages:
 
 Tap either language to change it. For example, set the left to **English** and the right to **Spanish**.
 
-## Step 3: Type or Paste Your Text
+## Passo 3: Type or Paste Your Text
 
 Tap the text box that says **Enter text** and type the word or sentence you want to translate.
 
@@ -40,7 +50,7 @@ The translation will appear below instantly as you type.
 
 **Tip:** You can also copy text from a website or message, then paste it here.
 
-## Step 4: Use the Camera to Translate Signs or Menus
+## Passo 4: Use the Camera to Translate Signs or Menus
 
 This is especially useful when traveling:
 
@@ -50,7 +60,7 @@ This is especially useful when traveling:
 
 You can also take a photo first and then select the text to translate.
 
-## Step 5: Use Voice Translation
+## Passo 5: Use Voice Translation
 
 To translate something you hear or want to say:
 
@@ -60,6 +70,6 @@ To translate something you hear or want to say:
 
 This is useful for asking directions or ordering food in another language.
 
-## You Did It!
+## Ce l'ha fatta!
 
 Google Translate is now your pocket translator. Use it for travel, reading foreign websites, or understanding messages in another language.

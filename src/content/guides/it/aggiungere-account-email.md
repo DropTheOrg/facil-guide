@@ -1,33 +1,39 @@
 ---
-title: "[IT] How to add an email account to your phone"
-description: "[IT] Set up your Gmail, Yahoo, or Outlook email on your iPhone or Android phone so you can read and send emails from anywhere."
+title: "Come aggiungere un account email"
+description: "Impari a configurare la sua email sul telefono per ricevere e inviare messaggi."
 lang: "it"
 category: "smartphone"
 difficulty: "moyen"
 steps: 5
 platform: "all"
 date: "2026-02-23"
-faq: []
+faq:
+  - question: "Can I have more than one email account on my phone?"
+    answer: "Yes. You can add multiple email accounts. Repeat these steps for each account you want to add."
+  - question: "Do I need to know my password?"
+    answer: "Yes. You'll need the email address and password for the account you're adding. If you've forgotten it, reset your password first on the email provider's website."
+  - question: "Will my emails be deleted from the computer?"
+    answer: "No. Adding email to your phone doesn't affect your computer. Your emails stay in both places."
 ---
 
-## Step 1: Open Settings
+## Passo 1: Open Impostazioni
 
-Tap **Settings** on your home screen.
+Tap **Impostazioni** on your home screen.
 
-## Step 2: Find the email section
+## Passo 2: Find the email section
 
-**On iPhone:** Tap **Mail**, then **Accounts**, then **Add Account**.
+**Su iPhone:** Tap **Mail**, then **Accounts**, then **Add Account**.
 
-**On Android:** Tap **Accounts** (or **Passwords & Accounts**), then **Add Account**, then **Email** or your email provider's name.
+**Su Android:** Tap **Accounts** (or **Passwords & Accounts**), then **Add Account**, then **Email** or your email provider's name.
 
-## Step 3: Choose your email provider
+## Passo 3: Scelga your email provider
 
 You'll see a list of providers: Google (Gmail), Microsoft (Outlook, Hotmail), Yahoo, and others. **Tap the one that matches your email**. If yours isn't listed, tap **Other**.
 
-## Step 4: Enter your email and password
+## Passo 4: Enter your email and password
 
-Type your full email address (for example, yourname@gmail.com) and tap **Next**. Then type your password and tap **Sign In**. Your phone will verify the account.
+Type your full email address (for example, yourname@gmail.com) and tap **Next**. Then type your password and tap **Sign In**. Il suo telefono will verify the account.
 
-## Step 5: Choose what to sync
+## Passo 5: Scelga what to sync
 
 You'll be asked what to sync: Mail, Contacts, Calendars. At minimum, turn on **Mail**. Tap **Save** or **Done**. Your email will now appear in the Mail app (iPhone) or Gmail app (Android).

@@ -1,31 +1,39 @@
 ---
-title: "[IT] How to Create a Group Chat on WhatsApp"
-description: "[IT] Learn how to make a WhatsApp group to chat with family, friends, or neighbors all at once."
+title: "Come creare un gruppo su WhatsApp"
+description: "Impari a creare un gruppo di chat su WhatsApp per parlare con piu persone insieme."
 lang: "it"
 category: "applications"
 difficulty: "facile"
 steps: 5
 platform: "iphone"
 date: "2026-02-23"
-faq: []
+faq:
+  - question: "How many people can be in a WhatsApp group?"
+    answer: "Up to 1,024 people can be in one WhatsApp group."
+  - question: "Can I leave a group without anyone knowing?"
+    answer: "When you leave a group, only the group admins are notified. The other members will not see a message about you leaving."
+  - question: "Can I mute a noisy group?"
+    answer: "Yes. Open the group, tap the group name at the top, scroll down to Mute Notifications, and choose 8 hours, 1 week, or Always. You will still see messages but your phone will not buzz."
+  - question: "Who can add people to the group?"
+    answer: "By default, any member can add people. As admin, you can change this in Group Settings so only admins can add new members."
 ---
 
-## What You Will Need
+## Cosa le servira
 
-- Your iPhone or Android phone
+- Il suo telefono iPhone o Android
 - WhatsApp installed
 - The people you want to add must be in your Contacts and have WhatsApp
 
-## Step 1: Open WhatsApp
+## Passo 1: Open WhatsApp
 
 Tap the **WhatsApp** icon to open the app.
 
-## Step 2: Start a New Group
+## Passo 2: Start a New Group
 
-- **On iPhone:** Tap **Chats** at the bottom, then tap **New Group** (or tap the pencil icon and then New Group)
-- **On Android:** Tap the **three dots** in the top-right corner, then tap **New Group**
+- **Su iPhone:** Tap **Chats** at the bottom, then tap **New Group** (or tap the pencil icon and then New Group)
+- **Su Android:** Tap the **three dots** in the top-right corner, then tap **New Group**
 
-## Step 3: Add Members
+## Passo 3: Add Members
 
 You will see your contacts list. Tap the names of the people you want to add to the group.
 
@@ -33,9 +41,9 @@ A blue checkmark will appear next to each selected person. You can add as many p
 
 When you have selected everyone, tap **Next** (arrow icon).
 
-## Step 4: Name Your Group
+## Passo 4: Name Your Group
 
-Type a name for your group. Choose something clear, like:
+Type a name for your group. Scelga something clear, like:
 
 - "Family Chat"
 - "Book Club"
@@ -46,7 +54,7 @@ You can also add a **group photo** by tapping the camera icon. This is optional.
 
 Tap **Create** or the **checkmark** to finish.
 
-## Step 5: Send Your First Message
+## Passo 5: Send Your First Message
 
 Your group is created. You will see all members listed.
 
@@ -57,6 +65,6 @@ Type your first message in the text box and tap **Send**. Everyone in the group 
 - **Pin important messages:** Press and hold, tap Pin (useful for addresses or dates)
 - **Share photos and documents:** Tap the + or paperclip icon
 
-## You Did It!
+## Ce l'ha fatta!
 
 You created a WhatsApp group. Everyone in the group can see and reply to messages. This is perfect for coordinating with family, planning events, or keeping in touch with friends.

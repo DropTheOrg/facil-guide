@@ -1,25 +1,31 @@
 ---
-title: "[FR] How to change your ringtone"
-description: "[FR] Customize the sound your phone makes when someone calls you. Choose from built-in ringtones on iPhone or Android."
+title: "Comment changer la sonnerie du telephone"
+description: "Apprenez a choisir un nouveau son quand quelqu'un vous appelle."
 lang: "fr"
 category: "smartphone"
 difficulty: "facile"
 steps: 3
 platform: "all"
 date: "2026-02-23"
-faq: []
+faq:
+  - question: "Can I set different ringtones for different people?"
+    answer: "Yes. Open a contact, tap Edit, and look for a Ringtone option. You can assign a unique sound to that person."
+  - question: "Can I use a song as my ringtone?"
+    answer: "On Android, yes -- you can select audio files from your phone. On iPhone, you need to use iTunes or GarageBand to create a custom ringtone."
+  - question: "Why can't I hear my ringtone?"
+    answer: "Check that your phone isn't on Silent mode (iPhone: flip the switch on the left side) and that your volume is turned up."
 ---
 
-## Step 1: Open Settings
+## Etape 1: Open Reglages
 
-Tap **Settings** on your home screen.
+Tap **Reglages** on your home screen.
 
-## Step 2: Find the ringtone setting
+## Etape 2: Find the ringtone setting
 
-**On iPhone:** Tap **Sounds & Haptics**, then tap **Ringtone**.
+**Sur iPhone :** Tap **Sounds & Haptics**, then tap **Ringtone**.
 
-**On Android:** Tap **Sound** (or **Sound & Vibration**), then tap **Phone ringtone**.
+**Sur Android :** Tap **Sound** (or **Sound & Vibration**), then tap **Phone ringtone**.
 
-## Step 3: Choose a new ringtone
+## Etape 3: Choisissez a new ringtone
 
 You'll see a list of ringtone options. **Tap any name** to hear a preview. When you find one you like, it will be selected automatically (iPhone) or tap **OK/Save** (Android). Your new ringtone is now set.

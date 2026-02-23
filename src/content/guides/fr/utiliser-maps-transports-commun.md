@@ -1,27 +1,35 @@
 ---
-title: "[FR] How to Find Public Transport Routes on Your Phone"
-description: "[FR] Learn how to use Google Maps or Apple Maps to find bus, train, and metro routes with step-by-step directions."
+title: "Comment utiliser Google Maps pour les transports en commun"
+description: "Apprenez a consulter les itineraires de bus, metro et train avec Google Maps."
 lang: "fr"
 category: "applications"
 difficulty: "facile"
 steps: 5
 platform: "iphone"
 date: "2026-02-23"
-faq: []
+faq:
+  - question: "Does this show real-time bus and train times?"
+    answer: "In most cities, yes. Google Maps and Apple Maps show live departure times for buses, trains, and metros. In smaller towns, they may only show scheduled times."
+  - question: "Do I need internet for this?"
+    answer: "You need internet to search for routes. Once you have the directions on screen, you can follow them even if you lose signal briefly, but live updates require a connection."
+  - question: "Can I see how much the ticket costs?"
+    answer: "Google Maps shows fare estimates in many cities. Apple Maps is adding this feature in more cities too."
+  - question: "What if I miss my stop?"
+    answer: "The app will recalculate your route and show you how to get back on track. Keep the app open during your journey for live tracking."
 ---
 
-## What You Will Need
+## Ce dont vous aurez besoin
 
-- Your iPhone or Android phone
+- Votre telephone iPhone ou Android
 - Google Maps or Apple Maps (both are free)
 - An internet connection
 
-## Step 1: Open the Maps App
+## Etape 1: Open the Maps App
 
-- **On iPhone:** Open **Apple Maps** (or **Google Maps** if you have it installed)
-- **On Android:** Open **Google Maps** (pre-installed on most phones)
+- **Sur iPhone :** Open **Apple Maps** (or **Google Maps** if you have it installed)
+- **Sur Android :** Open **Google Maps** (pre-installed on most phones)
 
-## Step 2: Enter Your Destination
+## Etape 2: Enter Your Destination
 
 Tap the **search box** at the top and type where you want to go. For example:
 
@@ -31,7 +39,7 @@ Tap the **search box** at the top and type where you want to go. For example:
 
 Tap the correct result from the suggestions.
 
-## Step 3: Select Public Transport
+## Etape 3: Selectionnez Public Transport
 
 After entering your destination, you will see options at the top of the screen:
 
@@ -42,7 +50,7 @@ After entering your destination, you will see options at the top of the screen:
 
 Tap the **train or bus icon** to see public transport options.
 
-## Step 4: Choose a Route
+## Etape 4: Choisissez a Route
 
 The app will show you several route options. For each route, you will see:
 
@@ -54,7 +62,7 @@ The app will show you several route options. For each route, you will see:
 
 Tap the route that works best for you.
 
-## Step 5: Follow the Directions
+## Etape 5: Follow the Directions
 
 Tap **Start** or **Go** to begin navigation.
 
@@ -68,6 +76,6 @@ The app will guide you step by step:
 
 Keep your phone in your hand or pocket. It will vibrate or notify you when it is time to get off.
 
-## You Did It!
+## Vous avez reussi !
 
 You can now navigate any city using public transport with your phone. No more guessing which bus to take or where to get off.
