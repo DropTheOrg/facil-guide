@@ -1,12 +1,12 @@
 ---
 title: "Como guardar uma foto do WhatsApp"
 description: "Aprenda a guardar as fotos recebidas no WhatsApp na biblioteca de fotos do seu iPhone."
-category: "applications"
-steps: 5
-difficulty: "facile"
-platform: "iphone"
 lang: "pt"
-date: "2026-02-08"
+category: "applications"
+difficulty: "facile"
+steps: 5
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Onde fica guardada a foto?"
     answer: "A foto fica guardada na sua aplicacao Fotos. Pode encontra-la no album Recentes ou no album do WhatsApp."
@@ -16,6 +16,7 @@ faq:
     answer: "Nao. A outra pessoa nao sabera que guardou a foto dela."
   - question: "E os videos?"
     answer: "Os mesmos passos funcionam para guardar videos do WhatsApp. Basta tocar no video em vez da foto."
+
 ---
 
 ## O que vai aprender

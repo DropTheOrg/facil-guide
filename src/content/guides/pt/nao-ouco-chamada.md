@@ -14,6 +14,7 @@ faq:
     answer: "Yes. If you have poor signal, calls can sound muffled or silent. Try moving to a different location or near a window. If the problem only happens in one place, it is likely a signal issue."
   - question: "What if the other person says they cannot hear me?"
     answer: "That is a microphone problem, not a speaker problem. Make sure nothing is covering the bottom of your phone where the microphone is. Try removing your phone case temporarily."
+
 ---
 
 ## What you will learn

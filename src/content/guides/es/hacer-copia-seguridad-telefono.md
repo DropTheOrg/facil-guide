@@ -1,12 +1,12 @@
 ---
 title: "Como hacer una copia de seguridad de tu telefono para no perder tus fotos y contactos"
 description: "Aprende a hacer una copia de seguridad de tu iPhone o Android en la nube para que tus fotos, contactos y mensajes esten seguros aunque pierdas tu telefono."
-category: "smartphone"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "es"
-date: "2026-02-20"
+category: "smartphone"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Que es una copia de seguridad?"
     answer: "Una copia de seguridad es una copia de todo lo que hay en tu telefono -- fotos, contactos, mensajes, datos de aplicaciones y ajustes -- almacenada de forma segura en internet o en un ordenador. Si pierdes, rompes o cambias tu telefono, puedes restaurar todo desde la copia."
@@ -18,6 +18,7 @@ faq:
     answer: "No. Una vez que activas la copia automatica, tu telefono se respalda solo cada dia cuando esta conectado al Wi-Fi, cargando y con la pantalla bloqueada."
   - question: "Que pasa con mi copia si compro un telefono nuevo?"
     answer: "Cuando configures un telefono nuevo, te preguntara si quieres restaurar desde una copia de seguridad. Elige tu ultima copia y todo -- fotos, contactos, aplicaciones y ajustes -- se transferira al nuevo telefono."
+
 ---
 
 ## Lo que vas a aprender

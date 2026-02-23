@@ -18,6 +18,7 @@ faq:
     answer: "Yes. Open Google Translate, tap the Camera icon, and point your phone at the text. The translation will appear on your screen in real time."
   - question: "Can I speak into the app instead of typing?"
     answer: "Yes. Tap the microphone icon and speak. Google Translate will detect your language and translate what you said."
+
 ---
 
 ## O que vai precisar

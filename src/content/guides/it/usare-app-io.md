@@ -1,12 +1,12 @@
 ---
 title: "Come usare l'app IO per i servizi pubblici italiani"
 description: "Impara a configurare e usare l'app IO per accedere ai servizi pubblici italiani, ricevere messaggi ufficiali e fare pagamenti dal tuo telefono."
-category: "government"
-steps: 7
-difficulty: "facile"
-platform: "all"
 lang: "it"
-date: "2026-02-22"
+category: "government"
+difficulty: "facile"
+steps: 7
+platform: "all"
+date: "2026-02-23"
 faq:
   - question: "Cos'è l'app IO?"
     answer: "IO è l'app ufficiale del governo italiano. Riunisce i servizi pubblici delle amministrazioni nazionali e locali in un unico posto. Puoi ricevere messaggi, pagare tasse, accedere a documenti digitali e gestire bonus e prestazioni."
@@ -18,6 +18,7 @@ faq:
     answer: "No, IO è disponibile solo come app mobile per iPhone e Android. Non c'è una versione web. Tutti i servizi si accedono dal tuo telefono."
   - question: "Quali pagamenti posso fare tramite IO?"
     answer: "Puoi pagare multe, tasse scolastiche, imposte, ticket sanitari e altre tasse pubbliche tramite il sistema di pagamento pagoPA integrato. Puoi pagare con carta di credito, carta di debito o conto corrente."
+
 ---
 
 ## Cosa imparerai

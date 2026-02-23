@@ -1,11 +1,11 @@
 ---
 title: "Comment configurer et écouter la messagerie vocale sur votre téléphone"
 description: "Apprenez à configurer la messagerie vocale sur votre iPhone ou téléphone Android pour que vos correspondants puissent vous laisser un message quand vous ne pouvez pas répondre."
-category: "communication"
-steps: 6
-difficulty: "facile"
-platform: "all"
 lang: "fr"
+category: "communication"
+difficulty: "facile"
+steps: 6
+platform: "all"
 date: "2026-02-23"
 faq:
   - question: "La messagerie vocale est-elle gratuite ?"
@@ -18,6 +18,7 @@ faq:
     answer: "Si votre messagerie est pleine, les appelants ne pourront plus laisser de nouveaux messages. Vous devrez supprimer les anciens messages pour faire de la place. Écoutez vos messages sauvegardés et supprimez ceux dont vous n'avez plus besoin."
   - question: "Puis-je écouter ma messagerie depuis un autre téléphone ?"
     answer: "Oui, la plupart des opérateurs vous permettent d'appeler votre propre numéro depuis un autre téléphone et d'appuyer sur une touche (généralement étoile ou dièse) pour accéder à votre messagerie. Vous aurez besoin de votre code PIN de messagerie."
+
 ---
 
 ## Ce que vous allez apprendre

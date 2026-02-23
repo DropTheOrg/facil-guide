@@ -1,11 +1,11 @@
 ---
 title: "Como configurar e usar o Apple Pay no iPhone"
 description: "Aprenda a adicionar o seu cartao bancario ao Apple Pay e pagar em lojas com o seu iPhone."
-category: "money"
-steps: 7
-difficulty: "facile"
-platform: "iphone"
 lang: "pt"
+category: "money"
+difficulty: "facile"
+steps: 7
+platform: "iphone"
 date: "2026-02-23"
 faq:
   - question: "O Apple Pay e seguro?"
@@ -18,6 +18,7 @@ faq:
     answer: "Os limites dependem do seu pais e da loja. Em muitos paises nao ha limite para o Apple Pay. Algumas lojas podem definir os seus proprios limites."
   - question: "Posso usar o Apple Pay online?"
     answer: "Sim. Muitos sites e aplicacoes aceitam Apple Pay. Procure o botao Apple Pay no momento de pagar."
+
 ---
 
 ## O que vai aprender

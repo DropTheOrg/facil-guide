@@ -1,12 +1,12 @@
 ---
 title: "Come verificare lo spazio di archiviazione su Android"
 description: "Impara a vedere quanto spazio di archiviazione e rimasto sul tuo telefono Android e a scoprire cosa occupa piu spazio."
-category: "smartphone"
-steps: 5
-difficulty: "facile"
-platform: "android"
 lang: "it"
-date: "2026-01-22"
+category: "smartphone"
+difficulty: "facile"
+steps: 5
+platform: "android"
+date: "2026-02-23"
 faq:
   - question: "Cosa succede quando il telefono esaurisce lo spazio?"
     answer: "Il telefono puo diventare lento, le app possono smettere di funzionare correttamente, e non potrai scaricare nuove app ne scattare nuove foto finche non liberi spazio."
@@ -14,6 +14,7 @@ faq:
     answer: "Foto, video e app di solito occupano piu spazio. I vecchi file di WhatsApp e i download possono anch'essi occupare molto."
   - question: "Come libero spazio?"
     answer: "Elimina le app che non usi piu, rimuovi vecchie foto e video (o spostali su Google Photos) e svuota la cache nelle Impostazioni."
+
 ---
 
 ## Cosa imparerai

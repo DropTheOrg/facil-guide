@@ -1,12 +1,12 @@
 ---
 title: "Come fare il backup del telefono per non perdere foto e contatti"
 description: "Scopri come fare il backup del tuo iPhone o Android nel cloud per tenere al sicuro foto, contatti e messaggi anche se perdi il telefono."
-category: "smartphone"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "it"
-date: "2026-02-20"
+category: "smartphone"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Cos'e un backup?"
     answer: "Un backup e una copia di tutto cio che c'e sul telefono -- foto, contatti, messaggi, dati delle app e impostazioni -- conservata in sicurezza su internet o un computer. Se perdi, rompi o cambi telefono, puoi ripristinare tutto dal backup."
@@ -18,6 +18,7 @@ faq:
     answer: "No. Una volta attivato il backup automatico, il telefono si salva da solo ogni giorno quando e connesso al Wi-Fi, in carica e con lo schermo bloccato."
   - question: "Cosa succede al mio backup se compro un telefono nuovo?"
     answer: "Quando configuri un telefono nuovo, ti chiedera se vuoi ripristinare da un backup. Scegli l'ultimo backup e tutto -- foto, contatti, app e impostazioni -- verra trasferito sul nuovo telefono."
+
 ---
 
 ## Cosa imparerai

@@ -1,12 +1,12 @@
 ---
 title: "How to copy and paste text on your phone"
 description: "Learn how to copy and paste text on iPhone and Android with simple step-by-step instructions for messages, websites, and apps."
-category: "smartphone"
-steps: 5
-difficulty: "facile"
-platform: "iphone"
 lang: "en"
-date: "2026-02-20"
+category: "smartphone"
+difficulty: "facile"
+steps: 5
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Can I copy and paste images too?"
     answer: "It depends on the app. In some apps, you can press and hold an image to see a Copy option. You can then paste it into a message or email. Not all apps support this."
@@ -16,6 +16,7 @@ faq:
     answer: "No. The copied text stays on your clipboard until you copy something else or restart your phone. Some Android phones have a clipboard history that saves multiple items."
   - question: "Can I paste the same text multiple times?"
     answer: "Yes. After copying text once, you can paste it as many times as you want. It stays on your clipboard until you copy something new."
+
 ---
 
 ## What you will learn

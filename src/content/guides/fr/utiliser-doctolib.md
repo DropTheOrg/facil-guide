@@ -1,12 +1,12 @@
 ---
 title: "Comment prendre rendez-vous chez le médecin sur Doctolib"
 description: "Apprenez à utiliser Doctolib pour trouver un médecin et réserver une consultation en ligne depuis votre téléphone ou votre ordinateur, étape par étape."
-category: "government"
-steps: 7
-difficulty: "facile"
-platform: "all"
 lang: "fr"
-date: "2026-02-22"
+category: "government"
+difficulty: "facile"
+steps: 7
+platform: "all"
+date: "2026-02-23"
 faq:
   - question: "Doctolib est-il gratuit ?"
     answer: "Oui, la création d'un compte et la prise de rendez-vous sur Doctolib sont entièrement gratuites. Vous ne payez que la consultation chez le médecin, qui peut être remboursée par votre assurance maladie."
@@ -18,6 +18,7 @@ faq:
     answer: "Non, tous les médecins ne sont pas sur Doctolib. Si vous ne trouvez pas votre médecin, il utilise peut-être une autre plateforme ou n'accepte que les rendez-vous par téléphone."
   - question: "Puis-je voir mes documents médicaux sur Doctolib ?"
     answer: "Oui, certains médecins partagent des documents comme les ordonnances et les résultats d'examens via Doctolib. Vous les trouverez dans la section Documents de votre compte."
+
 ---
 
 ## Ce que vous allez apprendre

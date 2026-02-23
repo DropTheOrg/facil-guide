@@ -6,7 +6,7 @@ category: "smartphone"
 difficulty: "facile"
 steps: 4
 platform: "iphone"
-date: "2026-02-22"
+date: "2026-02-23"
 faq:
   - question: "Will I still receive messages?"
     answer: "Yes. All your messages, calls, and notifications are still received. Your phone just will not ring, vibrate, or light up. You will see everything when you check your phone."
@@ -16,6 +16,7 @@ faq:
     answer: "Yes. Alarms you set in the Clock app will still go off in Do Not Disturb mode."
   - question: "Can I let certain people through?"
     answer: "Yes. You can set favorite contacts who can always reach you. On iPhone, go to Settings > Focus > Do Not Disturb > People. On Android, go to Settings > Do Not Disturb > Exceptions."
+
 ---
 
 ## What You Will Need

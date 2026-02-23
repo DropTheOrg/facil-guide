@@ -1,12 +1,12 @@
 ---
 title: "Comment partager sa position sur WhatsApp"
 description: "Apprenez a partager votre position actuelle ou en temps reel avec quelqu'un sur WhatsApp pour qu'il puisse vous trouver facilement."
-category: "applications"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "fr"
-date: "2026-02-11"
+category: "applications"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Est-ce que partager ma position sur WhatsApp est securise ?"
     answer: "Votre position n'est partagee qu'avec la personne ou le groupe que vous choisissez. WhatsApp utilise le chiffrement, donc personne d'autre ne peut la voir. Vous pouvez arreter le partage a tout moment."
@@ -16,6 +16,7 @@ faq:
     answer: "Le partage de position en direct consomme plus de batterie que la normale car votre telephone met constamment a jour votre position. Il s'arrete automatiquement apres la duree selectionnee."
   - question: "Puis-je partager ma position dans un groupe ?"
     answer: "Oui. Les etapes sont les memes. Tous les membres du groupe pourront voir votre position."
+
 ---
 
 ## Ce que vous allez apprendre

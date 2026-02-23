@@ -1,12 +1,12 @@
 ---
 title: "How to use Google Maps to get directions and navigate"
 description: "Learn how to use Google Maps on your phone to search for places, get step-by-step directions, and navigate while driving or walking."
-category: "applications"
-steps: 7
-difficulty: "facile"
-platform: "iphone"
 lang: "en"
-date: "2026-02-20"
+category: "applications"
+difficulty: "facile"
+steps: 7
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Does Google Maps work without internet?"
     answer: "Google Maps needs internet to search and calculate routes. However, you can download maps for offline use before you travel. Tap your profile picture, then Offline maps, then Select your own map."
@@ -18,6 +18,7 @@ faq:
     answer: "Tap the screen to show the controls, then tap the X button or Exit in the bottom left corner. Navigation will stop and you will return to the normal map view."
   - question: "Is Google Maps free?"
     answer: "Yes. Google Maps is completely free to download and use, including navigation, search, and offline maps."
+
 ---
 
 ## What you will learn

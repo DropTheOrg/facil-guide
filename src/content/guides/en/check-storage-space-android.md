@@ -1,12 +1,12 @@
 ---
 title: "How to check storage space on Android"
 description: "Learn how to see how much storage space is left on your Android phone and find out what is using the most space."
-category: "smartphone"
-steps: 5
-difficulty: "facile"
-platform: "android"
 lang: "en"
-date: "2026-01-19"
+category: "smartphone"
+difficulty: "facile"
+steps: 5
+platform: "android"
+date: "2026-02-23"
 faq:
   - question: "What happens when my phone runs out of storage?"
     answer: "Your phone may become slow, apps may stop working properly, and you will not be able to download new apps or take new photos until you free up space."
@@ -14,6 +14,7 @@ faq:
     answer: "Photos, videos, and apps are usually the biggest items. Old WhatsApp media and downloaded files can also take up a lot of space."
   - question: "How do I free up space?"
     answer: "Delete apps you no longer use, remove old photos and videos (or move them to Google Photos), and clear the cache in Settings. See our guide on freeing up space on Android."
+
 ---
 
 ## What you will learn

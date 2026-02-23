@@ -16,6 +16,7 @@ faq:
     answer: "Make sure the printer is turned on and connected to the same Wi-Fi network as your phone. If it still does not appear, restart both the printer and your phone."
   - question: "Can I print from any app?"
     answer: "Most apps that display documents, photos, or web pages have a print option. Look for the Share button or the three-dot menu and then Print."
+
 ---
 
 ## Lo que va a necesitar

@@ -1,12 +1,12 @@
 ---
 title: "How to update your phone to the latest software version"
 description: "Learn how to update the software on your iPhone or Android phone to get new features, fix problems, and stay protected from security threats."
-category: "smartphone"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "en"
-date: "2026-02-20"
+category: "smartphone"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Will updating my phone delete my photos or messages?"
     answer: "No. A software update does not delete your photos, messages, contacts, or apps. Everything stays exactly where it is. It is still a good idea to have a backup just in case."
@@ -18,6 +18,7 @@ faq:
     answer: "No. During the installation phase, your phone will restart and show a progress bar. You cannot use it until the update finishes. Make sure to start the update when you do not need your phone for a while."
   - question: "What if the update fails?"
     answer: "If an update fails, try restarting your phone and attempting the update again. Make sure you have a strong Wi-Fi connection and at least 50 percent battery. If it keeps failing, connect your iPhone to a computer with iTunes or Finder, or visit a phone repair shop for Android."
+
 ---
 
 ## What you will learn

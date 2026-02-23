@@ -1,12 +1,12 @@
 ---
 title: "Come fare uno screenshot su iPhone"
 description: "Scopri come catturare lo schermo del tuo iPhone come foto in pochi secondi."
-category: "smartphone"
-steps: 5
-difficulty: "facile"
-platform: "iphone"
 lang: "it"
-date: "2026-01-18"
+category: "smartphone"
+difficulty: "facile"
+steps: 5
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Dove vengono salvati i miei screenshot?"
     answer: "Gli screenshot vengono salvati nell'app Foto. Puoi anche trovarli in un album speciale chiamato Screenshot."
@@ -14,6 +14,7 @@ faq:
     answer: "Si. Tutti gli iPhone possono fare screenshot. La combinazione di tasti e diversa a seconda del modello (consulta la guida per i dettagli)."
   - question: "Posso modificare il mio screenshot?"
     answer: "Si. Subito dopo aver fatto lo screenshot, appare una piccola anteprima nell'angolo in basso a sinistra. Toccala per ritagliare, disegnare o aggiungere testo prima di salvare."
+
 ---
 
 ## Cosa imparerai

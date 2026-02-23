@@ -1,12 +1,12 @@
 ---
 title: "Comment recuperer une photo supprimee par accident sur votre telephone"
 description: "Apprenez a recuperer une photo supprimee sur iPhone ou Android grace au dossier Supprimees recemment, avec des instructions simples etape par etape."
-category: "troubleshooting"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "fr"
-date: "2026-02-20"
+category: "troubleshooting"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Combien de temps les photos supprimees restent-elles dans le dossier Supprimees recemment ?"
     answer: "Sur la plupart des telephones, les photos supprimees restent dans le dossier Supprimees recemment pendant 30 jours. Apres cela, elles sont definitivement effacees et beaucoup plus difficiles a recuperer."
@@ -18,6 +18,7 @@ faq:
     answer: "Oui. Les videos supprimees vont aussi dans le dossier Supprimees recemment et peuvent etre recuperees de la meme maniere que les photos."
   - question: "Comment eviter de supprimer des photos par accident a l'avenir ?"
     answer: "Activez la sauvegarde dans le cloud pour que vos photos soient enregistrees en ligne. Sur iPhone, activez Photos iCloud dans Reglages. Sur Android, ouvrez Google Photos et activez la sauvegarde. Ainsi, meme si vous supprimez une photo, une copie existe dans le cloud."
+
 ---
 
 ## Ce que vous allez apprendre

@@ -1,12 +1,12 @@
 ---
 title: "Come aggiungere un contatto su iPhone"
 description: "Impara a salvare un numero di telefono come contatto sul tuo iPhone per poter chiamare o inviare messaggi facilmente."
-category: "smartphone"
-steps: 5
-difficulty: "facile"
-platform: "iphone"
 lang: "it"
-date: "2026-01-24"
+category: "smartphone"
+difficulty: "facile"
+steps: 5
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Posso aggiungere una foto a un contatto?"
     answer: "Si. Apri il contatto, tocca Modifica in alto a destra e poi tocca Aggiungi foto. Puoi scattare una foto nuova o sceglierne una dalla tua libreria."
@@ -14,6 +14,7 @@ faq:
     answer: "Apri l'app Contatti, trova la persona, tocca il suo nome e poi tocca Modifica in alto a destra. Fai le modifiche e tocca Fine."
   - question: "Posso salvare un contatto da una chiamata recente?"
     answer: "Si. Apri l'app Telefono, tocca Recenti e poi tocca l'icona informazioni (un cerchietto con una i) accanto al numero. Tocca Crea nuovo contatto per salvarlo."
+
 ---
 
 ## Cosa imparerai

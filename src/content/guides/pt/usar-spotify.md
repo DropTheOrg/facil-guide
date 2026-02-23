@@ -16,6 +16,7 @@ faq:
     answer: "Yes. Connect your phone to a Bluetooth speaker first (Settings > Bluetooth), then play music in Spotify. The sound will come through the speaker."
   - question: "How much data does Spotify use?"
     answer: "About 40-70 MB per hour on normal quality. On Wi-Fi, it is free. On mobile data, about 1 hour of music uses the same data as loading 30-50 web pages."
+
 ---
 
 ## O que vai precisar

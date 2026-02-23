@@ -1,12 +1,12 @@
 ---
 title: "Como eliminar aplicaciones en iPhone"
 description: "Aprende a eliminar las aplicaciones que ya no necesitas de tu iPhone para liberar espacio y mantener tu telefono organizado."
-category: "smartphone"
-steps: 5
-difficulty: "facile"
-platform: "iphone"
 lang: "es"
-date: "2026-02-04"
+category: "smartphone"
+difficulty: "facile"
+steps: 5
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Perdere mis datos si elimino una aplicacion?"
     answer: "Depende de la aplicacion. Algunas guardan tus datos en la nube (como WhatsApp o Gmail), asi que podras recuperarlos al reinstalar. Otras almacenan los datos solo en tu telefono y se perderan."
@@ -16,6 +16,7 @@ faq:
     answer: "Quitar de la pantalla de inicio solo oculta el icono. Eliminar la app la borra completamente de tu iPhone y libera espacio de almacenamiento."
   - question: "Hay aplicaciones que no puedo eliminar?"
     answer: "Algunas aplicaciones de Apple como Telefono, Mensajes y Camara no se pueden eliminar. Otras como Bolsa y Consejos si se pueden quitar."
+
 ---
 
 ## Lo que vas a aprender

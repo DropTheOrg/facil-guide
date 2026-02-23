@@ -1,12 +1,12 @@
 ---
 title: "Que hacer cuando no se oye durante una llamada"
 description: "Aprende a solucionar el problema cuando no puedes oir a la otra persona durante una llamada en tu iPhone o Android."
-category: "troubleshooting"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "es"
-date: "2026-02-20"
+category: "troubleshooting"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Por que oigo con el altavoz pero no de forma normal?"
     answer: "Esto suele significar que el pequeno altavoz del auricular en la parte superior del telefono esta bloqueado o danado. Intenta limpiarlo suavemente con un cepillo suave. Si eso no funciona, el altavoz puede necesitar reparacion."
@@ -14,6 +14,7 @@ faq:
     answer: "Si. Si tienes mala senal, las llamadas pueden sonar amortiguadas o silenciosas. Intenta moverte a otro lugar o acercarte a una ventana."
   - question: "Y si la otra persona dice que no me oye?"
     answer: "Eso es un problema de microfono, no de altavoz. Asegurate de que nada cubra la parte inferior del telefono donde esta el microfono. Prueba a quitar la funda temporalmente."
+
 ---
 
 ## Lo que vas a aprender

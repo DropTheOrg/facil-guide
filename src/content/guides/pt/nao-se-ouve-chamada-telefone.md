@@ -1,12 +1,12 @@
 ---
 title: "O que fazer quando nao se ouve durante uma chamada"
 description: "Aprenda a resolver o problema quando nao consegue ouvir a outra pessoa durante uma chamada no iPhone ou Android."
-category: "troubleshooting"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "pt"
-date: "2026-02-20"
+category: "troubleshooting"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Porque ouco em alta-voz mas nao normalmente?"
     answer: "Isto normalmente significa que o pequeno altifalante do auscultador no topo do telefone esta bloqueado ou danificado. Tente limpa-lo suavemente com uma escova macia. Se nao funcionar, o altifalante pode precisar de reparacao."
@@ -14,6 +14,7 @@ faq:
     answer: "Sim. Se tiver mau sinal, as chamadas podem soar abafadas ou silenciosas. Tente mudar de local ou aproximar-se de uma janela."
   - question: "E se a outra pessoa disser que nao me ouve?"
     answer: "Isso e um problema de microfone, nao de altifalante. Certifique-se de que nada esta a cobrir a parte inferior do telefone onde esta o microfone. Tente retirar a capa temporariamente."
+
 ---
 
 ## O que vai aprender

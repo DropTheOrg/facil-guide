@@ -1,12 +1,12 @@
 ---
 title: "Comment accelerer un telephone lent sans en acheter un nouveau"
 description: "Apprenez a rendre votre iPhone ou Android plus rapide avec des gestes simples qui liberent la memoire et l'espace de stockage."
-category: "troubleshooting"
-steps: 7
-difficulty: "facile"
-platform: "iphone"
 lang: "fr"
-date: "2026-02-20"
+category: "troubleshooting"
+difficulty: "facile"
+steps: 7
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Pourquoi mon telephone est-il si lent ?"
     answer: "Les telephones ralentissent quand ils manquent d'espace de stockage, ont trop d'applications ouvertes ou ont besoin d'une mise a jour. Une batterie usee peut aussi causer des ralentissements car le telephone reduit sa vitesse pour economiser de l'energie."
@@ -18,6 +18,7 @@ faq:
     answer: "Une reinitialisation d'usine efface tout sur votre telephone et le remet a neuf. C'est efficace mais doit etre un dernier recours. Sauvegardez toujours vos photos et contacts avant. Essayez les autres etapes de ce guide d'abord."
   - question: "A quelle frequence dois-je redemarrer mon telephone ?"
     answer: "Redemarrer une fois par semaine est une bonne habitude. Cela aide a garder votre telephone fluide en effacant les fichiers temporaires et en rafraichissant le systeme."
+
 ---
 
 ## Ce que vous allez apprendre

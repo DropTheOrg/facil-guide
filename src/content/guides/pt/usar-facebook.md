@@ -1,11 +1,11 @@
 ---
 title: "Como usar o Facebook no seu telemóvel"
 description: "Aprenda a usar o Facebook no seu telemóvel para se manter em contacto com a família e amigos, partilhar fotos e ler as novidades das pessoas que conhece."
-category: "applications"
-steps: 7
-difficulty: "facile"
-platform: "all"
 lang: "pt"
+category: "applications"
+difficulty: "facile"
+steps: 7
+platform: "all"
 date: "2026-02-23"
 faq:
   - question: "O Facebook é gratuito?"
@@ -18,6 +18,7 @@ faq:
     answer: "Sim. Encontre a publicação que quer remover, toque nos três pontos no canto superior direito da publicação e toque em Eliminar publicação. Uma vez eliminada, desaparecerá do seu perfil e do feed de outras pessoas."
   - question: "Como impedir alguém de me contactar?"
     answer: "Pode bloquear uma pessoa para que ela não possa ver o seu perfil, enviar-lhe mensagens ou interagir com as suas publicações. Vá ao perfil da pessoa, toque nos três pontos e escolha Bloquear. Ela não será notificada de que a bloqueou."
+
 ---
 
 ## O que vai aprender

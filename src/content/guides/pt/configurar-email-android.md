@@ -1,11 +1,11 @@
 ---
 title: "Como configurar o seu email num telefone Android"
 description: "Aprenda a adicionar a sua conta de email ao seu telefone Android para enviar e receber mensagens."
-category: "communication"
-steps: 7
-difficulty: "facile"
-platform: "android"
 lang: "pt"
+category: "communication"
+difficulty: "facile"
+steps: 7
+platform: "android"
 date: "2026-02-23"
 faq:
   - question: "Que aplicacao de email devo usar?"
@@ -16,6 +16,7 @@ faq:
     answer: "Sim. Uma vez configurado, os novos emails aparecerao automaticamente. Tambem recebera notificacoes quando chegar um novo email."
   - question: "Preciso de saber a minha palavra-passe do email?"
     answer: "Sim. Vai precisar do seu endereco de email e da sua palavra-passe para iniciar sessao. Se se esqueceu da palavra-passe, tera de a repor primeiro no site do seu fornecedor de email."
+
 ---
 
 ## O que vai aprender

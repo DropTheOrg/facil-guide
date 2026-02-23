@@ -1,12 +1,12 @@
 ---
 title: "How to connect to Wi-Fi at hotels, cafes, and airports"
 description: "Learn how to connect your phone to public Wi-Fi networks at hotels, cafes, and airports with simple step-by-step instructions for iPhone and Android."
-category: "internet"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "en"
-date: "2026-02-20"
+category: "internet"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Is public Wi-Fi safe to use?"
     answer: "Public Wi-Fi is convenient but less secure than your home network. Avoid entering passwords, banking information, or credit card numbers while on public Wi-Fi. If you need to do something sensitive, use your mobile data instead."
@@ -18,6 +18,7 @@ faq:
     answer: "Many hotels offer free Wi-Fi, but some charge a daily fee. Ask at the front desk. The password is often printed on a card in your room or given at check-in."
   - question: "Why is the Wi-Fi so slow?"
     answer: "Public Wi-Fi is shared among many people. During busy times, it can be slow. If you need faster internet for video calls or streaming, use your mobile data or ask if the hotel has a premium Wi-Fi option."
+
 ---
 
 ## What you will learn

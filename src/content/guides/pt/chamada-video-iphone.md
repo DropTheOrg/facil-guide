@@ -1,12 +1,13 @@
 ---
 title: "Como fazer uma chamada de video no iPhone"
 description: "Aprenda a fazer uma chamada de video FaceTime no seu iPhone para ver seus entes queridos ao vivo."
-category: "communication"
-steps: 5
-difficulty: "facile"
-platform: "iphone"
 lang: "pt"
-date: "2026-01-17"
+category: "communication"
+difficulty: "facile"
+steps: 5
+platform: "iphone"
+date: "2026-02-23"
+faq: []
 ---
 
 ## O que voce vai aprender

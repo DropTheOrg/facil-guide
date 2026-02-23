@@ -1,12 +1,12 @@
 ---
 title: "Como criar uma palavra-passe segura"
 description: "Aprenda a criar palavras-passe fortes e seguras que protejam as suas contas online contra piratas informaticos."
-category: "securite"
-steps: 6
-difficulty: "facile"
-platform: "web"
 lang: "pt"
-date: "2026-01-28"
+category: "securite"
+difficulty: "facile"
+steps: 6
+platform: "web"
+date: "2026-02-23"
 faq:
   - question: "Que tamanho deve ter uma boa palavra-passe?"
     answer: "Uma boa palavra-passe deve ter pelo menos 12 caracteres. Quanto mais longa, mais dificil de decifrar. Procure 14 caracteres ou mais para contas importantes."
@@ -16,6 +16,7 @@ faq:
     answer: "Mude uma palavra-passe imediatamente se achar que uma conta foi comprometida. Caso contrario, atualizar as palavras-passe importantes uma vez por ano e um bom habito."
   - question: "O que e a autenticacao de dois fatores?"
     answer: "A autenticacao de dois fatores adiciona um passo de seguranca extra ao iniciar sessao. Apos introduzir a sua palavra-passe, tambem introduz um codigo enviado para o seu telemovel. Um hacker precisaria da sua palavra-passe E do seu telemovel para aceder a sua conta."
+
 ---
 
 ## O que vai aprender

@@ -1,12 +1,12 @@
 ---
 title: "Como fazer uma chamada no Android"
 description: "Aprenda a ligar para alguém no seu telemóvel Android."
-difficulty: "facile"
-platform: "android"
-category: "communication"
-steps: 5
 lang: "pt"
-date: "2026-01-18"
+category: "communication"
+difficulty: "facile"
+steps: 5
+platform: "android"
+date: "2026-02-23"
 faq:
   - question: "Can I call someone who is not in my contacts?"
     answer: "Yes. Use the keypad to type their phone number directly."
@@ -14,6 +14,7 @@ faq:
     answer: "Tap the red End Call button on your screen."
   - question: "What if the screen goes dark during a call?"
     answer: "This is normal. The screen turns off when you hold the phone to your ear to prevent accidental taps. Move the phone away from your ear and the screen will turn back on."
+
 ---
 
 ## Passo 1 : Open the Phone app

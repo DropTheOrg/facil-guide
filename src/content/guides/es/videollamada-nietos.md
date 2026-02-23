@@ -14,6 +14,7 @@ faq:
     answer: "Yes. Video calls go both ways -- you see them and they see you. If you prefer, you can turn off your camera during the call."
   - question: "What if the video is blurry?"
     answer: "This usually means your internet connection is slow. Try moving closer to your Wi-Fi router or switching to a stronger connection."
+
 ---
 
 ## Paso 1: Elija an app

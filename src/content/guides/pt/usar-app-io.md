@@ -1,12 +1,12 @@
 ---
 title: "Como usar a aplicação IO para os serviços públicos italianos"
 description: "Aprenda a configurar e usar a aplicação IO para aceder aos serviços públicos italianos, receber mensagens oficiais e fazer pagamentos a partir do seu telemóvel."
-category: "government"
-steps: 7
-difficulty: "facile"
-platform: "all"
 lang: "pt"
-date: "2026-02-22"
+category: "government"
+difficulty: "facile"
+steps: 7
+platform: "all"
+date: "2026-02-23"
 faq:
   - question: "O que é a aplicação IO?"
     answer: "IO é a aplicação oficial do governo italiano. Reúne os serviços públicos das administrações nacionais e locais num único lugar. Pode receber mensagens, pagar taxas, aceder a documentos digitais e gerir bónus e benefícios."
@@ -18,6 +18,7 @@ faq:
     answer: "Não, IO está disponível apenas como aplicação móvel para iPhone e Android. Não existe versão web. Todos os serviços são acedidos através do seu telemóvel."
   - question: "Que pagamentos posso fazer através do IO?"
     answer: "Pode pagar multas, propinas escolares, impostos, tickets sanitários e outras taxas públicas através do sistema de pagamento pagoPA integrado. Pode pagar com cartão de crédito, cartão de débito ou conta bancária."
+
 ---
 
 ## O que vai aprender

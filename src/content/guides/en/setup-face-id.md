@@ -1,12 +1,12 @@
 ---
 title: "How to set up Face ID on iPhone"
 description: "Learn how to set up Face ID on your iPhone to unlock your phone, approve purchases, and sign in to apps using just your face."
-category: "securite"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "en"
-date: "2026-02-06"
+category: "securite"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Which iPhones have Face ID?"
     answer: "Face ID is available on iPhone X and all newer models (iPhone 11, 12, 13, 14, 15, 16 and their variants). Older iPhones use Touch ID (fingerprint) instead."
@@ -16,6 +16,7 @@ faq:
     answer: "Yes. Face ID is very secure. The chance of someone else unlocking your phone with their face is less than one in a million. Your face data is stored only on your phone, not in the cloud."
   - question: "What if Face ID stops working?"
     answer: "Try resetting Face ID in Settings and setting it up again. Make sure the camera at the top of your screen is clean and not covered."
+
 ---
 
 ## What you will learn

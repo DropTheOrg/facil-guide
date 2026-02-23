@@ -1,12 +1,12 @@
 ---
 title: "How to turn off notifications on iPhone"
 description: "Learn how to stop unwanted notifications from apps on your iPhone so your phone is less noisy and distracting."
-category: "smartphone"
-steps: 5
-difficulty: "facile"
-platform: "iphone"
 lang: "en"
-date: "2026-02-09"
+category: "smartphone"
+difficulty: "facile"
+steps: 5
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Will I miss important calls if I turn off notifications?"
     answer: "No. Turning off notifications for an app only stops that app's alerts. Phone calls will still come through unless you also enable Do Not Disturb."
@@ -14,6 +14,7 @@ faq:
     answer: "Yes. Follow the same steps and turn the toggle back on for Allow Notifications."
   - question: "What is Do Not Disturb?"
     answer: "Do Not Disturb silences all notifications, calls, and alerts at once. You can turn it on from Settings or by swiping down from the top right corner of your screen and tapping the moon icon."
+
 ---
 
 ## What you will learn

@@ -1,12 +1,12 @@
 ---
 title: "Como mudar a senha do Wi-Fi"
 description: "Aprenda a mudar a senha da sua rede Wi-Fi para manter a sua ligacao a Internet segura."
-category: "internet"
-steps: 6
-difficulty: "moyen"
-platform: "web"
 lang: "pt"
-date: "2026-01-31"
+category: "internet"
+difficulty: "moyen"
+steps: 6
+platform: "web"
+date: "2026-02-23"
 faq:
   - question: "Todos os meus dispositivos vao ser desligados?"
     answer: "Sim. Todos os dispositivos ligados ao seu Wi-Fi serao desligados. Tera de voltar a ligar cada um com a nova senha."
@@ -16,6 +16,7 @@ faq:
     answer: "Uma boa senha tem pelo menos 12 caracteres e mistura letras, numeros e simbolos. Evite palavras simples como o seu nome ou morada."
   - question: "Onde encontro a minha senha Wi-Fi atual?"
     answer: "A sua senha atual costuma estar impressa numa etiqueta na parte de tras ou de baixo do seu router."
+
 ---
 
 ## O que vai aprender

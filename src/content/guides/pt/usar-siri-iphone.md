@@ -1,12 +1,12 @@
 ---
 title: "Como usar o Siri no iPhone"
 description: "Aprenda a ativar e usar o Siri, o assistente de voz do iPhone, para fazer chamadas, definir lembretes, obter respostas e mais."
-category: "ia"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "pt"
-date: "2026-01-17"
+category: "ia"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "O Siri esta sempre a ouvir?"
     answer: "O Siri so ouve depois de dizer 'Olha Siri' ou de premir o botao lateral. Nao grava as suas conversas nos outros momentos."
@@ -16,6 +16,7 @@ faq:
     answer: "Tente falar claramente num ambiente calmo. Confirme que o microfone do iPhone nao esta bloqueado. Pode tambem reformular a pergunta."
   - question: "O Siri funciona sem Internet?"
     answer: "Alguns comandos basicos funcionam sem ligacao, mas a maioria das funcoes como pesquisas web e mensagens requerem ligacao a Internet."
+
 ---
 
 ## O que vai aprender

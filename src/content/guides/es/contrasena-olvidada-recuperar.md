@@ -1,12 +1,12 @@
 ---
 title: "Qué hacer cuando olvidaste tu contraseña"
 description: "¿Bloqueado fuera de tu cuenta? Aprende a recuperar tu contraseña."
-difficulty: "moyen"
-platform: "web"
-category: "troubleshooting"
-steps: 5
 lang: "es"
-date: "2026-02-10"
+category: "troubleshooting"
+difficulty: "moyen"
+steps: 5
+platform: "web"
+date: "2026-02-23"
 faq:
   - question: "What if I do not remember my email address either?"
     answer: "Try logging in with your phone number instead. Many services like Google and Apple let you recover accounts using a phone number."
@@ -14,6 +14,7 @@ faq:
     answer: "Check your Spam or Junk folder. If it is not there, wait a few minutes and try again. Make sure you are checking the correct email address."
   - question: "How can I avoid forgetting passwords in the future?"
     answer: "Write your passwords in a notebook kept in a safe place at home. Or use the password manager built into your phone -- it saves and fills passwords automatically."
+
 ---
 
 ## Paso 1 : Go to the login page

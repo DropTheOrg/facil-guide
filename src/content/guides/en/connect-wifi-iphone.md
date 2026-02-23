@@ -1,12 +1,12 @@
 ---
 title: "How to connect to Wi-Fi on iPhone"
 description: "Learn how to connect your iPhone to a Wi-Fi network at home, at a cafe, or anywhere else."
-category: "internet"
-steps: 5
-difficulty: "facile"
-platform: "iphone"
 lang: "en"
-date: "2026-01-21"
+category: "internet"
+difficulty: "facile"
+steps: 5
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Why can I not see my Wi-Fi network in the list?"
     answer: "Make sure your Wi-Fi router is turned on. If the network is hidden, scroll to the bottom and tap Other to enter the network name manually."
@@ -14,6 +14,7 @@ faq:
     answer: "Check the back or bottom of your Wi-Fi router. The default password is usually printed on a sticker there. If someone changed it, ask the person who set up the router."
   - question: "Does Wi-Fi use my phone data?"
     answer: "No. When you are connected to Wi-Fi, your phone uses the Wi-Fi internet connection instead of your mobile data. This can save you money on your phone bill."
+
 ---
 
 ## What you will learn

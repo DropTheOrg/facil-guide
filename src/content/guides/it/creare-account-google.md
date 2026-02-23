@@ -1,12 +1,12 @@
 ---
 title: "Come creare un account Google"
 description: "Impara a creare un account Google gratuito per usare Gmail, YouTube, Google Maps e molto altro."
-category: "internet"
-steps: 6
-difficulty: "facile"
-platform: "web"
 lang: "it"
-date: "2026-01-18"
+category: "internet"
+difficulty: "facile"
+steps: 6
+platform: "web"
+date: "2026-02-23"
 faq:
   - question: "Un account Google e gratuito?"
     answer: "Si, e completamente gratuito da creare e usare."
@@ -16,6 +16,7 @@ faq:
     answer: "Si. I passaggi sono gli stessi. Apri il browser sul tuo telefono e vai su accounts.google.com."
   - question: "Ho dimenticato la mia password. Cosa faccio?"
     answer: "Vai su accounts.google.com, clicca su Accedi e poi su Password dimenticata. Google ti aiutera a recuperare il tuo account usando il tuo numero di telefono o l'email di recupero."
+
 ---
 
 ## Cosa imparerai

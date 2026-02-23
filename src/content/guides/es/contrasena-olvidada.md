@@ -1,12 +1,12 @@
 ---
 title: "Que hacer cuando olvidas tu contrasena"
 description: "Aprende a recuperar tu contrasena de correo, aplicaciones y telefono cuando la has olvidado."
-category: "troubleshooting"
-steps: 6
-difficulty: "facile"
-platform: "web"
 lang: "es"
-date: "2026-02-20"
+category: "troubleshooting"
+difficulty: "facile"
+steps: 6
+platform: "web"
+date: "2026-02-23"
 faq:
   - question: "Y si tampoco recuerdo mi direccion de correo?"
     answer: "Si usas Gmail, ve a accounts.google.com y haz clic en Correo olvidado. Google puede ayudarte a encontrar tu cuenta usando tu numero de telefono."
@@ -16,6 +16,7 @@ faq:
     answer: "La mayoria de servicios ofrecen opciones de recuperacion alternativas, como una direccion de correo de recuperacion o preguntas de seguridad. Si las configuraste al crear tu cuenta, puedes usarlas ahora."
   - question: "Como puedo evitar olvidar mi contrasena en el futuro?"
     answer: "Escribe tus contrasenas en una libreta y guardala en un lugar seguro en casa. Tambien puedes pedir a un familiar de confianza que guarde una copia."
+
 ---
 
 ## Lo que vas a aprender

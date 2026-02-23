@@ -6,7 +6,7 @@ category: "applications"
 difficulty: "facile"
 steps: 5
 platform: "iphone"
-date: "2026-02-22"
+date: "2026-02-23"
 faq:
   - question: "Does this show real-time bus and train times?"
     answer: "In most cities, yes. Google Maps and Apple Maps show live departure times for buses, trains, and metros. In smaller towns, they may only show scheduled times."
@@ -16,6 +16,7 @@ faq:
     answer: "Google Maps shows fare estimates in many cities. Apple Maps is adding this feature in more cities too."
   - question: "What if I miss my stop?"
     answer: "The app will recalculate your route and show you how to get back on track. Keep the app open during your journey for live tracking."
+
 ---
 
 ## What You Will Need

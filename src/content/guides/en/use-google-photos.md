@@ -1,12 +1,12 @@
 ---
 title: "How to use Google Photos to save and find your pictures"
 description: "Learn how to use Google Photos to back up your pictures to the cloud, find old photos quickly, and free up space on your phone."
-category: "applications"
-steps: 7
-difficulty: "facile"
-platform: "all"
 lang: "en"
-date: "2026-02-22"
+category: "applications"
+difficulty: "facile"
+steps: 7
+platform: "all"
+date: "2026-02-23"
 faq:
   - question: "Is Google Photos free?"
     answer: "Yes, Google Photos is free to use. Every Google account comes with 15 gigabytes of free storage shared across Google Photos, Gmail, and Google Drive. After that, you can buy more storage or delete old files to free up space."
@@ -18,6 +18,7 @@ faq:
     answer: "Yes, you can share individual photos, albums, or even set up a shared family library. Tap the share icon on any photo and choose how you want to share it, by WhatsApp, email, or a direct link."
   - question: "What happens if I delete a photo from Google Photos?"
     answer: "If you delete a photo from Google Photos, it goes to the Trash and stays there for 60 days before being permanently deleted. You can recover it from the Trash during that time. Be careful: if backup is on, deleting from Google Photos may also delete it from your phone."
+
 ---
 
 ## What you will learn

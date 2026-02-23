@@ -1,12 +1,12 @@
 ---
 title: "Como usar o Google Maps para rotas"
 description: "Aprenda a usar o Google Maps no seu telemovel para obter indicacoes passo a passo ate qualquer destino."
-category: "applications"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "pt"
-date: "2026-02-09"
+category: "applications"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "O Google Maps e gratuito?"
     answer: "Sim. O Google Maps e totalmente gratuito para descarregar e usar. Utiliza a ligacao a Internet do seu telemovel."
@@ -16,6 +16,7 @@ faq:
     answer: "O Google Maps e muito preciso na maioria das zonas. Usa GPS e dados de trafego para lhe dar a melhor rota."
   - question: "Posso obter indicacoes a pe?"
     answer: "Sim. Depois de procurar um destino, toque no icone do peao em vez do carro para obter indicacoes a pe."
+
 ---
 
 ## O que vai aprender

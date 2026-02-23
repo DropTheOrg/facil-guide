@@ -1,12 +1,12 @@
 ---
 title: "Como saber se uma mensagem de texto, email ou chamada e uma fraude"
 description: "Aprenda a reconhecer mensagens fraudulentas, emails de phishing e chamadas de burla para proteger as suas informacoes pessoais."
-category: "securite"
-steps: 7
-difficulty: "facile"
-platform: "iphone"
 lang: "pt"
-date: "2026-02-20"
+category: "securite"
+difficulty: "facile"
+steps: 7
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "O que devo fazer se ja cliquei num link suspeito?"
     answer: "Nao introduza qualquer informacao pessoal. Feche a pagina imediatamente. Se introduziu uma palavra-passe, mude-a de imediato no site verdadeiro. Se introduziu dados bancarios, ligue para o banco imediatamente."
@@ -18,6 +18,7 @@ faq:
     answer: "Sim. No iPhone pode denunciar mensagens spam tocando em Denunciar como lixo. No Android, mantenha premida a mensagem e toque em Denunciar spam. Isto ajuda a proteger outras pessoas."
   - question: "As fraudes so chegam por SMS e email?"
     answer: "Nao. As fraudes podem chegar por SMS, email, chamadas telefonicas, mensagens de WhatsApp, redes sociais e ate correio postal. Os sinais de alerta sao semelhantes independentemente de como a mensagem chega."
+
 ---
 
 ## O que vai aprender

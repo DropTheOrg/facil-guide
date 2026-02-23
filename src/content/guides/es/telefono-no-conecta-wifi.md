@@ -1,12 +1,12 @@
 ---
 title: "Que hacer cuando tu telefono no se conecta al Wi-Fi"
 description: "Aprende a solucionar el problema cuando tu telefono no se conecta a una red Wi-Fi, con pasos sencillos para iPhone y Android."
-category: "troubleshooting"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "es"
-date: "2026-02-20"
+category: "troubleshooting"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Perdere algo si olvido la red Wi-Fi?"
     answer: "No. Olvidar una red solo borra la contrasena guardada de tu telefono. No perderas fotos, aplicaciones ni datos. Solo tendras que volver a escribir la contrasena."
@@ -14,6 +14,7 @@ faq:
     answer: "Esto puede pasar si tu router esta conectado al Wi-Fi pero ha perdido la conexion a Internet. Prueba a reiniciar el router. Si el problema continua, contacta a tu proveedor de Internet."
   - question: "Y si no se mi contrasena Wi-Fi?"
     answer: "La contrasena del Wi-Fi suele estar impresa en una etiqueta en la parte trasera o inferior del router. Si alguien la cambio, pidele la nueva contrasena."
+
 ---
 
 ## Lo que vas a aprender

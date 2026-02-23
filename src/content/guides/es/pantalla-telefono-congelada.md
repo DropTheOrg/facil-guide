@@ -1,12 +1,12 @@
 ---
 title: "Que hacer cuando la pantalla del telefono se congela"
 description: "Aprende a arreglar una pantalla de telefono congelada que no responde al tacto, con pasos sencillos para iPhone y Android."
-category: "troubleshooting"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "es"
-date: "2026-02-20"
+category: "troubleshooting"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Perdere mis datos si fuerzo el reinicio?"
     answer: "No. Un reinicio forzado no borra nada. Simplemente apaga tu telefono y lo vuelve a encender, igual que reiniciar un ordenador."
@@ -16,6 +16,7 @@ faq:
     answer: "Si tu telefono se congela a menudo, prueba a actualizar el software, eliminar aplicaciones que no usas o liberar espacio de almacenamiento. Si el problema continua, visita una tienda de reparacion."
   - question: "Una pantalla congelada es lo mismo que una pantalla rota?"
     answer: "No. Una pantalla congelada significa que el software esta atascado pero la pantalla en si esta bien. Si tu pantalla esta rajada o no muestra imagen, es un problema de hardware que necesita reparacion."
+
 ---
 
 ## Lo que vas a aprender

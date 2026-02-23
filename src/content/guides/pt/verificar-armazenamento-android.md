@@ -1,12 +1,12 @@
 ---
 title: "Como verificar o armazenamento no Android"
 description: "Aprenda a ver quanto espaco de armazenamento resta no seu telemovel Android e o que esta a usar mais espaco."
-category: "smartphone"
-steps: 5
-difficulty: "facile"
-platform: "android"
 lang: "pt"
-date: "2026-02-16"
+category: "smartphone"
+difficulty: "facile"
+steps: 5
+platform: "android"
+date: "2026-02-23"
 faq:
   - question: "O que acontece quando o telemovel fica sem armazenamento?"
     answer: "O telemovel pode ficar lento, as aplicacoes podem deixar de funcionar corretamente, e nao podera descarregar novas aplicacoes nem tirar novas fotos ate libertar espaco."
@@ -14,6 +14,7 @@ faq:
     answer: "As fotos, videos e aplicacoes costumam ser o que mais ocupa. Os ficheiros antigos do WhatsApp e os downloads tambem podem ocupar muito."
   - question: "Como liberto espaco?"
     answer: "Apague aplicacoes que ja nao usa, remova fotos e videos antigos (ou mova-os para o Google Photos) e limpe a cache nas Definicoes."
+
 ---
 
 ## O que vai aprender

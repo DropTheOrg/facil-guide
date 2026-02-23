@@ -1,12 +1,12 @@
 ---
 title: "Come usare Orange Money per pagamenti e trasferimenti mobili"
 description: "Scopri come configurare e usare Orange Money sul telefono per inviare denaro, pagare bollette e fare acquisti con il cellulare in Africa."
-category: "money"
-steps: 7
-difficulty: "facile"
-platform: "android"
 lang: "it"
-date: "2026-02-20"
+category: "money"
+difficulty: "facile"
+steps: 7
+platform: "android"
+date: "2026-02-23"
 faq:
   - question: "Orange Money e sicuro?"
     answer: "Si. Orange Money usa un codice PIN personale che solo tu conosci. Non condividere mai il PIN con nessuno, nemmeno con qualcuno che dice di essere di Orange. Il tuo denaro e protetto finche il PIN resta segreto."
@@ -18,6 +18,7 @@ faq:
     answer: "Visita un agente Orange Money o un negozio Orange con il documento d'identita. Ti aiuteranno a reimpostare il PIN. Non dare mai il vecchio PIN a qualcuno che chiama dicendo di poterti aiutare."
   - question: "Posso inviare denaro a qualcuno che non ha Orange Money?"
     answer: "Si. Puoi inviare denaro a qualsiasi numero di telefono. Il destinatario ricevera una notifica e potra ritirare il denaro da un agente Orange Money mostrando il documento d'identita."
+
 ---
 
 ## Cosa imparerai

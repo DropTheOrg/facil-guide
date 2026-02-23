@@ -1,12 +1,12 @@
 ---
 title: "How to take a screenshot on iPhone"
 description: "Learn how to capture your iPhone screen as a photo in just a few seconds."
-category: "smartphone"
-steps: 5
-difficulty: "facile"
-platform: "iphone"
 lang: "en"
-date: "2026-02-07"
+category: "smartphone"
+difficulty: "facile"
+steps: 5
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Where are my screenshots saved?"
     answer: "Screenshots are saved in the Photos app. You can also find them in a special album called Screenshots."
@@ -14,6 +14,7 @@ faq:
     answer: "Yes. All iPhones can take screenshots. The button combination is different depending on your model (see the guide for details)."
   - question: "Can I edit my screenshot?"
     answer: "Yes. Right after taking a screenshot, a small preview appears in the bottom left corner. Tap on it to crop, draw, or add text before saving."
+
 ---
 
 ## What you will learn

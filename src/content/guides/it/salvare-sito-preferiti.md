@@ -16,6 +16,7 @@ faq:
     answer: "There is no practical limit. You can save hundreds of bookmarks."
   - question: "Will bookmarks sync to my computer?"
     answer: "If you use the same browser and account on your phone and computer (for example, Chrome with Google account or Safari with Apple ID), your bookmarks will sync automatically."
+
 ---
 
 ## Cosa le servira

@@ -1,12 +1,12 @@
 ---
 title: "Cómo actualizar tu teléfono Android"
 description: "Aprende a buscar e instalar actualizaciones en tu teléfono Android."
-difficulty: "moyen"
-platform: "android"
-category: "smartphone"
-steps: 5
 lang: "es"
-date: "2026-02-04"
+category: "smartphone"
+difficulty: "moyen"
+steps: 5
+platform: "android"
+date: "2026-02-23"
 faq:
   - question: "Do updates cost money?"
     answer: "No. Software updates are free. However, they can be large, so it is best to download them when connected to Wi-Fi."
@@ -14,6 +14,7 @@ faq:
     answer: "Usually 10 to 30 minutes. Your phone will restart during the process. Do not turn it off while updating."
   - question: "Will I lose my photos or contacts?"
     answer: "No. A regular software update does not delete your personal data. However, it is always a good idea to back up your phone regularly."
+
 ---
 
 ## Paso 1 : Connect to Wi-Fi

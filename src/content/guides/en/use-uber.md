@@ -1,11 +1,11 @@
 ---
 title: "How to book a ride with Uber on your phone"
 description: "Learn how to download Uber, set up your account, and book your first ride step by step."
-category: "applications"
-steps: 7
-difficulty: "facile"
-platform: "all"
 lang: "en"
+category: "applications"
+difficulty: "facile"
+steps: 7
+platform: "all"
 date: "2026-02-23"
 faq:
   - question: "How much does an Uber ride cost?"
@@ -18,6 +18,7 @@ faq:
     answer: "Yes. When entering the destination, you can change the pickup location to a different address and send the ride details to another person."
   - question: "What if I left something in the car?"
     answer: "Open the Uber app, go to Your Trips, select the ride, and tap Lost Item. The app will help you contact the driver."
+
 ---
 
 ## What you will learn

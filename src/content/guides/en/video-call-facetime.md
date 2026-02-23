@@ -1,11 +1,11 @@
 ---
 title: "How to make a FaceTime video call on iPhone"
 description: "Learn how to start a FaceTime video call on your iPhone to see and talk to family and friends."
-category: "communication"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "en"
+category: "communication"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
 date: "2026-02-23"
 faq:
   - question: "Is FaceTime free?"
@@ -16,6 +16,7 @@ faq:
     answer: "You need an iPhone (or iPad or Mac) with an internet connection. The person you are calling also needs an Apple device with FaceTime, or they can join via a shared link in a web browser."
   - question: "Can I make a group FaceTime call?"
     answer: "Yes. You can add up to 32 people to a FaceTime call. Just tap the Add Person button during a call to invite more people."
+
 ---
 
 ## What you will learn

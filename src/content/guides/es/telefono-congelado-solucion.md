@@ -1,12 +1,12 @@
 ---
 title: "Qué hacer cuando tu teléfono se congela"
 description: "Tu pantalla está congelada y no responde. Aquí te explicamos cómo arreglarlo paso a paso."
-difficulty: "facile"
-platform: "iphone"
-category: "troubleshooting"
-steps: 4
 lang: "es"
-date: "2026-02-08"
+category: "troubleshooting"
+difficulty: "facile"
+steps: 4
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Will I lose my photos or messages?"
     answer: "No. A force restart does not delete anything on your phone. It is like turning it off and on again."
@@ -14,6 +14,7 @@ faq:
     answer: "Phones can freeze when an app crashes, when memory is full, or when the software has a temporary problem. It happens to everyone."
   - question: "What if it keeps freezing often?"
     answer: "If your phone freezes regularly, try updating your software, deleting apps you do not use, or freeing up storage space. If the problem continues, visit a phone repair shop."
+
 ---
 
 ## Paso 1 : Do not panic

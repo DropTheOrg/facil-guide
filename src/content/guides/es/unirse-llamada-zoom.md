@@ -1,12 +1,12 @@
 ---
 title: "Como unirse a una llamada de video en Zoom"
 description: "Aprenda a unirse a una reunion de Zoom en su telefono u ordenador cuando alguien le envia un enlace de invitacion."
-category: "communication"
-steps: 5
-difficulty: "facile"
-platform: "web"
 lang: "es"
-date: "2026-01-18"
+category: "communication"
+difficulty: "facile"
+steps: 5
+platform: "web"
+date: "2026-02-23"
 faq:
   - question: "Necesito una cuenta de Zoom para unirme a una reunion?"
     answer: "No. Puede unirse a la mayoria de las reuniones de Zoom sin crear una cuenta. Solo haga clic en el enlace o introduzca el ID de la reunion."
@@ -14,6 +14,7 @@ faq:
     answer: "No. Al unirse, Zoom le muestra una vista previa de su camara. Puede elegir activar o desactivar la camara antes de entrar en la reunion."
   - question: "Que hago si no escucho a nadie en la reunion?"
     answer: "Asegurese de que el volumen de su telefono u ordenador este subido. Cuando Zoom pregunte como unirse al audio, toque Unirse con audio de Internet. Si el audio sigue sin funcionar, salga y vuelva a unirse."
+
 ---
 
 ## Lo que va a aprender

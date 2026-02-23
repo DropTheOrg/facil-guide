@@ -14,6 +14,7 @@ faq:
     answer: "On Android, yes -- you can select audio files from your phone. On iPhone, you need to use iTunes or GarageBand to create a custom ringtone."
   - question: "Why can't I hear my ringtone?"
     answer: "Check that your phone isn't on Silent mode (iPhone: flip the switch on the left side) and that your volume is turned up."
+
 ---
 
 ## Passo 1: Open Definicoes

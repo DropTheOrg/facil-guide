@@ -14,6 +14,7 @@ faq:
     answer: "Yes. In Settings > Sounds (iPhone) or Sound (Android), you can set separate volumes for ringtone, media, alarms, and notifications."
   - question: "Why can't I hear the other person on a call?"
     answer: "During a call, press the Volume Up button on the side of your phone to increase the call volume. This only works while you're on a call."
+
 ---
 
 ## Paso 1: Use the side buttons

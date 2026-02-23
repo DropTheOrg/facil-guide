@@ -1,12 +1,12 @@
 ---
 title: "Comment envoyer un message vocal sur WhatsApp"
 description: "Apprenez a enregistrer et envoyer un message vocal sur WhatsApp au lieu de taper, pour communiquer rapidement et personnellement."
-category: "applications"
-steps: 5
-difficulty: "facile"
-platform: "iphone"
 lang: "fr"
-date: "2026-02-10"
+category: "applications"
+difficulty: "facile"
+steps: 5
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Y a-t-il une limite de duree pour les messages vocaux ?"
     answer: "Il n'y a pas de limite stricte. Vous pouvez enregistrer des messages de plusieurs minutes. Cependant, des messages plus courts sont generalement plus faciles a ecouter pour l'autre personne."
@@ -16,6 +16,7 @@ faq:
     answer: "Oui. Le destinataire peut transferer ou sauvegarder votre message vocal. Gardez cela a l'esprit quand vous enregistrez des informations personnelles."
   - question: "Pourquoi mon message vocal est-il tres faible ?"
     answer: "Assurez-vous que vous ne couvrez pas le microphone en bas de votre telephone. Parlez aussi a un volume normal et tenez le telephone a environ 15 centimetres de votre bouche."
+
 ---
 
 ## Ce que vous allez apprendre

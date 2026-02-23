@@ -1,12 +1,12 @@
 ---
 title: "Comment resoudre l'alerte stockage plein sur votre telephone"
 description: "Apprenez a liberer de l'espace sur votre telephone quand vous voyez l'alerte de stockage plein, etape par etape."
-category: "troubleshooting"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "fr"
-date: "2026-02-20"
+category: "troubleshooting"
+difficulty: "moyen"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Que se passe-t-il si j'ignore l'alerte de stockage plein ?"
     answer: "Votre telephone deviendra plus lent, vous ne pourrez plus prendre de nouvelles photos et certaines applications pourraient mal fonctionner. Il vaut mieux liberer de l'espace des que vous voyez l'alerte."
@@ -16,6 +16,7 @@ faq:
     answer: "Les photos et les videos sont generalement les plus gros consommateurs d'espace. Ensuite, les applications (surtout les jeux et les reseaux sociaux) et les fichiers telecharges prennent le plus de place."
   - question: "Combien d'espace libre devrais-je avoir ?"
     answer: "Essayez de garder au moins 2 a 3 gigaoctets (Go) d'espace libre sur votre telephone. Cela aide votre telephone a fonctionner correctement."
+
 ---
 
 ## Ce que vous allez apprendre

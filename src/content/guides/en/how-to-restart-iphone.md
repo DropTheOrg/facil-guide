@@ -1,12 +1,12 @@
 ---
 title: "How to restart your iPhone"
 description: "Learn how to turn your iPhone off and on again. Restarting fixes most common problems like freezing, slow performance, and app crashes."
-difficulty: "facile"
-platform: "iphone"
-category: "smartphone"
-steps: 4
 lang: "en"
-date: "2026-02-22"
+category: "smartphone"
+difficulty: "facile"
+steps: 4
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Will restarting my iPhone delete anything?"
     answer: "No. Restarting your iPhone does not delete any photos, contacts, messages, or apps. It simply turns the phone off and back on."
@@ -14,6 +14,7 @@ faq:
     answer: "Once a week is a good habit. It clears temporary files and can fix small issues before they become big problems."
   - question: "What if my iPhone is completely frozen and won't turn off?"
     answer: "Try a force restart: quickly press and release the Volume Up button, then Volume Down, then press and hold the Side button until you see the Apple logo."
+
 ---
 
 ## Step 1: Find the Side button

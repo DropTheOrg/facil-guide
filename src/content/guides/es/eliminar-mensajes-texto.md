@@ -14,6 +14,7 @@ faq:
     answer: "Yes. Deleting a message from your phone only removes it from your device. The other person's copy is not affected."
   - question: "How do I delete all messages at once?"
     answer: "In the Messages app, tap Edit (iPhone) or the three dots menu (Android), then select multiple conversations and delete them."
+
 ---
 
 ## Paso 1: Open the Messages app

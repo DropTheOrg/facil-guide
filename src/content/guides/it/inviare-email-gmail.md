@@ -1,12 +1,12 @@
 ---
 title: "Come inviare un'email con Gmail"
 description: "Scopri come scrivere e inviare un'email con Gmail, passo dopo passo."
-category: "communication"
-steps: 6
-difficulty: "facile"
-platform: "web"
 lang: "it"
-date: "2026-02-11"
+category: "communication"
+difficulty: "facile"
+steps: 6
+platform: "web"
+date: "2026-02-23"
 faq:
   - question: "Gmail e gratuito?"
     answer: "Si, Gmail e completamente gratuito. Ti serve solo un account Google per utilizzarlo."
@@ -16,6 +16,7 @@ faq:
     answer: "CC significa Copia Conoscenza. Tutti possono vedere chi ha ricevuto l'email. CCN significa Copia Conoscenza Nascosta. Gli altri destinatari non possono vedere chi e in CCN."
   - question: "Posso allegare un file?"
     answer: "Si. Clicca sull'icona della graffetta nella parte inferiore della finestra di composizione per allegare un file dal tuo computer."
+
 ---
 
 ## Cosa imparerai

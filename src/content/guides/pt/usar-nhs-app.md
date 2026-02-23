@@ -1,12 +1,12 @@
 ---
 title: "Como usar a aplicação NHS para gerir a sua saúde"
 description: "Aprenda a configurar e usar a aplicação NHS para marcar consultas médicas, pedir receitas e consultar o seu historial clínico a partir do seu telemóvel."
-category: "government"
-steps: 7
-difficulty: "facile"
-platform: "all"
 lang: "pt"
-date: "2026-02-22"
+category: "government"
+difficulty: "facile"
+steps: 7
+platform: "all"
+date: "2026-02-23"
 faq:
   - question: "A aplicação NHS é gratuita?"
     answer: "Sim, a aplicação NHS é completamente gratuita. É a aplicação oficial do National Health Service em Inglaterra."
@@ -18,6 +18,7 @@ faq:
     answer: "Sim, a aplicação NHS usa encriptação forte e requer verificação de identidade antes de poder aceder aos seus registos. Só você pode ver as suas informações."
   - question: "Posso ver o meu estado de vacinação COVID-19 na aplicação NHS?"
     answer: "Sim, os seus registos de vacinação, incluindo COVID-19, estão disponíveis na aplicação. Pode consultar o seu historial de vacinas e descarregar um comprovativo se necessário."
+
 ---
 
 ## O que vai aprender

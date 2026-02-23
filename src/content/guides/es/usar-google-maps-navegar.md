@@ -1,12 +1,12 @@
 ---
 title: "Como usar Google Maps para obtener direcciones y navegar"
 description: "Aprende a usar Google Maps en tu telefono para buscar lugares, obtener indicaciones paso a paso y navegar mientras conduces o caminas."
-category: "applications"
-steps: 7
-difficulty: "facile"
-platform: "iphone"
 lang: "es"
-date: "2026-02-20"
+category: "applications"
+difficulty: "facile"
+steps: 7
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Google Maps funciona sin internet?"
     answer: "Google Maps necesita internet para buscar y calcular rutas. Sin embargo, puedes descargar mapas sin conexion antes de viajar. Toca tu foto de perfil, luego Mapas sin conexion, luego Selecciona tu propio mapa."
@@ -18,6 +18,7 @@ faq:
     answer: "Toca la pantalla para mostrar los controles, luego toca el boton X o Salir en la esquina inferior izquierda. La navegacion se detendra y volveras a la vista normal del mapa."
   - question: "Google Maps es gratis?"
     answer: "Si. Google Maps es completamente gratis para descargar y usar, incluyendo navegacion, busqueda y mapas sin conexion."
+
 ---
 
 ## Lo que vas a aprender

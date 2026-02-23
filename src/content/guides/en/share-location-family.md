@@ -1,12 +1,12 @@
 ---
 title: "How to share your location with family members for safety"
 description: "Learn how to share your real-time location with family members on iPhone and Android so they always know where you are."
-category: "smartphone"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "en"
-date: "2026-02-20"
+category: "smartphone"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Does sharing my location drain my battery?"
     answer: "It uses a small amount of extra battery, but modern phones handle it efficiently. You should not notice a big difference in daily battery life."
@@ -18,6 +18,7 @@ faq:
     answer: "When your phone has a good GPS signal and internet connection, the location is usually accurate to within a few meters. Indoors, it may be less precise."
   - question: "Does the other person need the same type of phone?"
     answer: "For Apple Find My, both people need an iPhone. For Google Maps location sharing, it works between any phones as long as both have Google Maps installed."
+
 ---
 
 ## What you will learn

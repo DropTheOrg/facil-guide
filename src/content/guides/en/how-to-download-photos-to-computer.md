@@ -1,12 +1,12 @@
 ---
 title: "How to transfer photos from your phone to a computer"
 description: "Save your phone photos to your computer for safekeeping or to free up space on your phone."
-difficulty: "moyen"
-platform: "all"
-category: "smartphone"
-steps: 5
 lang: "en"
-date: "2026-02-22"
+category: "smartphone"
+difficulty: "moyen"
+steps: 5
+platform: "all"
+date: "2026-02-23"
 faq:
   - question: "Will the photos be deleted from my phone?"
     answer: "No. Transferring copies the photos to your computer. The originals stay on your phone unless you delete them manually."
@@ -14,6 +14,7 @@ faq:
     answer: "Use the charging cable that came with your phone. Plug the USB end into your computer and the other end into your phone."
   - question: "Can I do this wirelessly?"
     answer: "Yes. You can email photos to yourself, use Google Photos, iCloud, or AirDrop (iPhone to Mac). But a cable is the fastest and easiest method for many photos."
+
 ---
 
 ## Step 1: Connect your phone to the computer

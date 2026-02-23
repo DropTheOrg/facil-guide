@@ -1,12 +1,12 @@
 ---
 title: "Comment supprimer une application sur iPhone"
 description: "Apprenez a supprimer les applications dont vous n'avez plus besoin sur votre iPhone pour liberer de l'espace et garder votre telephone organise."
-category: "smartphone"
-steps: 5
-difficulty: "facile"
-platform: "iphone"
 lang: "fr"
-date: "2026-01-31"
+category: "smartphone"
+difficulty: "facile"
+steps: 5
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Vais-je perdre mes donnees si je supprime une application ?"
     answer: "Cela depend de l'application. Certaines sauvegardent vos donnees dans le cloud (comme WhatsApp ou Gmail), donc vous pourrez les recuperer en reinstallant. D'autres stockent les donnees uniquement sur votre telephone, qui seront perdues."
@@ -16,6 +16,7 @@ faq:
     answer: "Retirer de l'ecran d'accueil masque simplement l'icone. Supprimer l'app la retire completement de votre iPhone et libere l'espace de stockage."
   - question: "Y a-t-il des applications que je ne peux pas supprimer ?"
     answer: "Certaines applications Apple integrees comme Telephone, Messages et Appareil photo ne peuvent pas etre supprimees. D'autres comme Bourse et Astuces peuvent etre retirees."
+
 ---
 
 ## Ce que vous allez apprendre

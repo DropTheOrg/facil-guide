@@ -1,12 +1,12 @@
 ---
 title: "Como poner una alarma en iPhone"
 description: "Aprende a poner una alarma en tu iPhone para no perderte nunca un despertar o un recordatorio importante."
-category: "smartphone"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "es"
-date: "2026-01-21"
+category: "smartphone"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Sonara la alarma si mi telefono esta en silencio?"
     answer: "Si. Las alarmas suenan incluso cuando tu iPhone esta en modo silencio. Solo asegurate de que el volumen esta suficientemente alto."
@@ -16,6 +16,7 @@ faq:
     answer: "En la lista de alarmas, toca el interruptor verde junto a la alarma. Se pondra gris, lo que significa que esta desactivada pero guardada."
   - question: "Por que no sono mi alarma?"
     answer: "Asegurate de que la alarma esta activada (interruptor verde). Comprueba tambien que tu iPhone no este completamente apagado."
+
 ---
 
 ## Lo que vas a aprender

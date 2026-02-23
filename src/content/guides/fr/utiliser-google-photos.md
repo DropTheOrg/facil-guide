@@ -1,12 +1,12 @@
 ---
 title: "Comment utiliser Google Photos pour sauvegarder et retrouver vos photos"
 description: "Apprenez à utiliser Google Photos pour sauvegarder vos photos dans le cloud, retrouver facilement d'anciennes photos et libérer de l'espace sur votre téléphone."
-category: "applications"
-steps: 7
-difficulty: "facile"
-platform: "all"
 lang: "fr"
-date: "2026-02-22"
+category: "applications"
+difficulty: "facile"
+steps: 7
+platform: "all"
+date: "2026-02-23"
 faq:
   - question: "Google Photos est-il gratuit ?"
     answer: "Oui, Google Photos est gratuit. Chaque compte Google offre 15 gigaoctets de stockage gratuit partagé entre Google Photos, Gmail et Google Drive. Au-delà, vous pouvez acheter plus d'espace ou supprimer des fichiers."
@@ -18,6 +18,7 @@ faq:
     answer: "Oui, vous pouvez partager des photos individuelles, des albums ou même configurer une bibliothèque familiale partagée. Appuyez sur l'icône de partage sur n'importe quelle photo."
   - question: "Que se passe-t-il si je supprime une photo de Google Photos ?"
     answer: "Si vous supprimez une photo, elle va dans la Corbeille et y reste 60 jours avant d'être supprimée définitivement. Vous pouvez la récupérer pendant cette période. Attention : si la sauvegarde est activée, supprimer de Google Photos peut aussi supprimer la photo de votre téléphone."
+
 ---
 
 ## Ce que vous allez apprendre

@@ -1,12 +1,12 @@
 ---
 title: "Come risolvere i messaggi WhatsApp che non si inviano"
 description: "Scopri cosa fare quando i tuoi messaggi WhatsApp mostrano solo una spunta o non si inviano affatto."
-category: "troubleshooting"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "it"
-date: "2026-02-20"
+category: "troubleshooting"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Cosa significano le spunte su WhatsApp?"
     answer: "Una spunta grigia significa che il messaggio e stato inviato dal tuo telefono. Due spunte grigie significano che e stato consegnato. Due spunte blu significano che e stato letto. Un'icona di orologio significa che il messaggio non e ancora stato inviato."
@@ -14,6 +14,7 @@ faq:
     answer: "Se sei bloccato, i tuoi messaggi mostreranno una spunta per sempre e non vedrai la foto profilo ne lo stato della persona. Tuttavia, i problemi di connessione hanno lo stesso aspetto, quindi non trarre conclusioni affrettate."
   - question: "Perdero i miei messaggi se reinstallo WhatsApp?"
     answer: "Se hai un backup, no. WhatsApp esegue il backup delle chat automaticamente. Quando reinstalli, ti chiedera se vuoi ripristinare. Assicurati che il backup sia attivo in Impostazioni > Chat > Backup delle chat prima di disinstallare."
+
 ---
 
 ## Cosa imparerai

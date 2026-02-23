@@ -1,12 +1,12 @@
 ---
 title: "Como activar el modo oscuro en iPhone"
 description: "Aprenda a cambiar su iPhone al modo oscuro, que usa un fondo negro y es mas comodo para sus ojos por la noche."
-category: "smartphone"
-steps: 5
-difficulty: "facile"
-platform: "iphone"
 lang: "es"
-date: "2026-02-18"
+category: "smartphone"
+difficulty: "facile"
+steps: 5
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "El modo oscuro ahorra bateria?"
     answer: "En iPhone con pantalla OLED (iPhone X y mas recientes), el modo oscuro puede ahorrar bateria porque los pixeles negros consumen menos energia. En iPhone mas antiguos con pantalla LCD, la diferencia es pequena."
@@ -14,6 +14,7 @@ faq:
     answer: "La mayoria de las aplicaciones siguen el ajuste del sistema y cambiaran al modo oscuro automaticamente. Algunas aplicaciones tienen su propio ajuste que puede necesitar activar por separado."
   - question: "Puedo programar el modo oscuro para que se active automaticamente por la noche?"
     answer: "Si. En Ajustes, vaya a Pantalla y brillo, active Automatico y configurelo en Del atardecer al amanecer. Su telefono cambiara al modo oscuro cuando anochezca."
+
 ---
 
 ## Lo que va a aprender

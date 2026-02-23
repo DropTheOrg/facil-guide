@@ -1,12 +1,12 @@
 ---
 title: "Come condividere la posizione con i familiari per la sicurezza"
 description: "Scopri come condividere la tua posizione in tempo reale con i familiari su iPhone e Android per fargli sapere sempre dove sei."
-category: "smartphone"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "it"
-date: "2026-02-20"
+category: "smartphone"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Condividere la posizione scarica la batteria?"
     answer: "Consuma un po' di batteria in piu, ma i telefoni moderni lo gestiscono in modo efficiente. Non dovresti notare una grande differenza nell'autonomia giornaliera."
@@ -18,6 +18,7 @@ faq:
     answer: "Quando il telefono ha un buon segnale GPS e connessione internet, la posizione e generalmente precisa entro pochi metri. Al chiuso puo essere meno precisa."
   - question: "L'altra persona ha bisogno dello stesso tipo di telefono?"
     answer: "Per Apple Dov'e, entrambe le persone devono avere un iPhone. Per la condivisione della posizione su Google Maps, funziona tra qualsiasi telefono purche entrambi abbiano Google Maps installato."
+
 ---
 
 ## Cosa imparerai

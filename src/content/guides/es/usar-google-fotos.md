@@ -1,12 +1,12 @@
 ---
 title: "Cómo usar Google Fotos para guardar y encontrar tus fotos"
 description: "Aprende a usar Google Fotos para hacer copias de seguridad de tus fotos en la nube, encontrar fotos antiguas rápidamente y liberar espacio en tu teléfono."
-category: "applications"
-steps: 7
-difficulty: "facile"
-platform: "all"
 lang: "es"
-date: "2026-02-22"
+category: "applications"
+difficulty: "facile"
+steps: 7
+platform: "all"
+date: "2026-02-23"
 faq:
   - question: "¿Google Fotos es gratis?"
     answer: "Sí, Google Fotos es gratis. Cada cuenta de Google incluye 15 gigabytes de almacenamiento gratuito compartido entre Google Fotos, Gmail y Google Drive. Después puedes comprar más espacio o borrar archivos."
@@ -18,6 +18,7 @@ faq:
     answer: "Sí, puedes compartir fotos individuales, álbumes o configurar una biblioteca familiar compartida. Pulsa el icono de compartir en cualquier foto."
   - question: "¿Qué pasa si borro una foto de Google Fotos?"
     answer: "Si borras una foto, va a la Papelera y se queda allí 60 días antes de eliminarse definitivamente. Puedes recuperarla durante ese tiempo. Cuidado: si la copia de seguridad está activada, borrar de Google Fotos puede borrarla también de tu teléfono."
+
 ---
 
 ## Lo que aprenderás

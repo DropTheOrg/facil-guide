@@ -1,12 +1,12 @@
 ---
 title: "How to video call your grandchildren"
 description: "Make a video call to see your family face-to-face using FaceTime, WhatsApp, or Google Meet. Works on any phone."
-difficulty: "moyen"
-platform: "all"
-category: "smartphone"
-steps: 5
 lang: "en"
-date: "2026-02-22"
+category: "smartphone"
+difficulty: "moyen"
+steps: 5
+platform: "all"
+date: "2026-02-23"
 faq:
   - question: "Is video calling free?"
     answer: "Yes, if you're on Wi-Fi. On mobile data, it uses your data plan but most plans include enough data for video calls."
@@ -14,6 +14,7 @@ faq:
     answer: "Yes. Video calls go both ways -- you see them and they see you. If you prefer, you can turn off your camera during the call."
   - question: "What if the video is blurry?"
     answer: "This usually means your internet connection is slow. Try moving closer to your Wi-Fi router or switching to a stronger connection."
+
 ---
 
 ## Step 1: Choose an app

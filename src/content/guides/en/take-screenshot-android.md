@@ -1,11 +1,11 @@
 ---
 title: "How to take a screenshot on Android"
 description: "Learn how to capture your Android phone screen as a photo in seconds, on any brand or model."
-category: "smartphone"
-steps: 6
-difficulty: "facile"
-platform: "android"
 lang: "en"
+category: "smartphone"
+difficulty: "facile"
+steps: 6
+platform: "android"
 date: "2026-02-23"
 faq:
   - question: "Where are my screenshots saved?"
@@ -16,6 +16,7 @@ faq:
     answer: "Yes. A notification or preview appears right after taking the screenshot. Tap it to crop, draw, or add text before sharing."
   - question: "What if the button method does not work?"
     answer: "Some older phones use Power + Home button instead. You can also try the Quick Settings method described in this guide."
+
 ---
 
 ## What you will learn

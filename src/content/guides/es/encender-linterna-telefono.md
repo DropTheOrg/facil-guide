@@ -16,6 +16,7 @@ faq:
     answer: "If the flashlight does not turn on, your battery might be very low (below 5%). Some phones also disable the flashlight while the camera is open. Close the camera app and try again."
   - question: "Will the flashlight turn off by itself?"
     answer: "No. The flashlight stays on until you turn it off manually. If your phone runs out of battery, the flashlight will turn off."
+
 ---
 
 ## Lo que va a necesitar

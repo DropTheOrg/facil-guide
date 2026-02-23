@@ -1,12 +1,12 @@
 ---
 title: "O que fazer quando o telefone nao se liga ao Wi-Fi"
 description: "Aprenda a resolver o problema quando o seu telefone nao se liga a uma rede Wi-Fi, com passos simples para iPhone e Android."
-category: "troubleshooting"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "pt"
-date: "2026-02-20"
+category: "troubleshooting"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Vou perder alguma coisa se esquecer a rede Wi-Fi?"
     answer: "Nao. Esquecer uma rede apenas remove a senha guardada do telefone. Nao vai perder fotos, aplicacoes nem dados. So tera de voltar a escrever a senha."
@@ -14,6 +14,7 @@ faq:
     answer: "Isto pode acontecer se o router esta ligado ao Wi-Fi mas perdeu a ligacao a Internet. Tente reiniciar o router. Se o problema continuar, contacte o seu fornecedor de Internet."
   - question: "E se eu nao souber a minha senha Wi-Fi?"
     answer: "A senha do Wi-Fi costuma estar impressa numa etiqueta na parte de tras ou de baixo do router. Se alguem a mudou, peca-lhe a nova senha."
+
 ---
 
 ## O que vai aprender

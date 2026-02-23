@@ -1,11 +1,11 @@
 ---
 title: "Cómo ver vídeos en YouTube"
 description: "Aprende a usar YouTube en tu teléfono para ver vídeos, buscar temas que te gusten y suscribirte a canales."
-category: "applications"
-steps: 7
-difficulty: "facile"
-platform: "all"
 lang: "es"
+category: "applications"
+difficulty: "facile"
+steps: 7
+platform: "all"
 date: "2026-02-23"
 faq:
   - question: "¿YouTube es gratis?"
@@ -18,6 +18,7 @@ faq:
     answer: "Sí, si tienes un televisor inteligente, puedes abrir la aplicación de YouTube directamente en él. También puedes usar Chromecast o AirPlay para enviar un vídeo desde tu teléfono al televisor."
   - question: "¿Cómo evito que YouTube reproduzca el siguiente vídeo automáticamente?"
     answer: "Toca tu foto de perfil en la esquina superior derecha, luego Configuración, después General, y desactiva la Reproducción automática."
+
 ---
 
 ## Lo que aprenderás

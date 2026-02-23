@@ -1,12 +1,12 @@
 ---
 title: "Comment sauvegarder votre telephone pour ne pas perdre vos photos et contacts"
 description: "Apprenez a sauvegarder votre iPhone ou Android dans le cloud pour que vos photos, contacts et messages soient en securite meme si vous perdez votre telephone."
-category: "smartphone"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "fr"
-date: "2026-02-20"
+category: "smartphone"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Qu'est-ce qu'une sauvegarde ?"
     answer: "Une sauvegarde est une copie de tout ce qui est sur votre telephone -- photos, contacts, messages, donnees d'applications et reglages -- stockee en securite sur internet ou un ordinateur. Si votre telephone est perdu, casse ou remplace, vous pouvez tout restaurer depuis la sauvegarde."
@@ -18,6 +18,7 @@ faq:
     answer: "Non. Une fois la sauvegarde automatique activee, votre telephone se sauvegarde tout seul chaque jour quand il est connecte au Wi-Fi, en charge et l'ecran verrouille."
   - question: "Que se passe-t-il avec ma sauvegarde si j'achete un nouveau telephone ?"
     answer: "Quand vous configurez un nouveau telephone, il vous demandera si vous souhaitez restaurer une sauvegarde. Choisissez votre derniere sauvegarde et tout -- photos, contacts, applications et reglages -- sera transfere sur le nouveau telephone."
+
 ---
 
 ## Ce que vous allez apprendre

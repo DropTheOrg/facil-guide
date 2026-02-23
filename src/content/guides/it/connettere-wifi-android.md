@@ -1,12 +1,12 @@
 ---
 title: "Come connettersi al Wi-Fi su Android"
 description: "Impara a collegare il tuo telefono Android a una rete Wi-Fi."
-difficulty: "facile"
-platform: "android"
-category: "internet"
-steps: 5
 lang: "it"
-date: "2026-01-28"
+category: "internet"
+difficulty: "facile"
+steps: 5
+platform: "android"
+date: "2026-02-23"
 faq:
   - question: "What is Wi-Fi?"
     answer: "Wi-Fi is a wireless way to connect to the Internet. When you connect to Wi-Fi, you do not use your mobile data."
@@ -14,6 +14,7 @@ faq:
     answer: "Most Wi-Fi networks are protected with a password to keep them private. You usually find the password on the back of your router or from the network owner."
   - question: "Why is Wi-Fi not connecting?"
     answer: "Make sure you typed the password correctly. Passwords are case-sensitive. If it still does not work, try turning Wi-Fi off and on again, or restart your phone."
+
 ---
 
 ## Passaggio 1 : Open Settings

@@ -1,12 +1,12 @@
 ---
 title: "Come usare il mouse del computer"
 description: "Impara le basi del mouse: clic, doppio clic, clic destro e scorrimento."
-difficulty: "facile"
-platform: "web"
-category: "ordinateur"
-steps: 5
 lang: "it"
-date: "2026-01-16"
+category: "ordinateur"
+difficulty: "facile"
+steps: 5
+platform: "web"
+date: "2026-02-23"
 faq:
   - question: "What is the difference between a click and a double-click?"
     answer: "A single click selects something or presses a button. A double-click opens something, like a file or a folder."
@@ -14,6 +14,7 @@ faq:
     answer: "A trackpad is the flat surface below the keyboard on a laptop. You move your finger across it to move the cursor, and tap it to click."
   - question: "My cursor moves too fast or too slow. How do I fix it?"
     answer: "Go to your computer Settings, then Mouse or Trackpad, and adjust the speed slider."
+
 ---
 
 ## Passaggio 1 : Hold the mouse correctly

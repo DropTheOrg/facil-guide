@@ -1,12 +1,12 @@
 ---
 title: "How to free up storage on iPhone"
 description: "Learn how to check your iPhone storage and free up space by removing files, apps, and photos you no longer need."
-category: "smartphone"
-steps: 6
-difficulty: "moyen"
-platform: "iphone"
 lang: "en"
-date: "2026-01-16"
+category: "smartphone"
+difficulty: "moyen"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "How do I know if my iPhone is running out of storage?"
     answer: "Your iPhone will show a message saying 'iPhone Storage Almost Full'. You may also notice that apps crash, photos will not save, or updates fail to install."
@@ -16,6 +16,7 @@ faq:
     answer: "Offloading an app removes the app itself but keeps its data. If you reinstall the app later, your data comes back. It saves space without losing information."
   - question: "Will clearing Safari data log me out of websites?"
     answer: "Yes. Clearing Safari data removes saved website passwords and login sessions. You will need to log in again to websites you visit."
+
 ---
 
 ## What you will learn

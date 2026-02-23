@@ -6,7 +6,7 @@ category: "internet"
 difficulty: "facile"
 steps: 4
 platform: "iphone"
-date: "2026-02-22"
+date: "2026-02-23"
 faq:
   - question: "What is the difference between a bookmark and a favorite?"
     answer: "They are the same thing. Some browsers call them bookmarks, others call them favorites. They both save a website so you can return to it quickly."
@@ -16,6 +16,7 @@ faq:
     answer: "There is no practical limit. You can save hundreds of bookmarks."
   - question: "Will bookmarks sync to my computer?"
     answer: "If you use the same browser and account on your phone and computer (for example, Chrome with Google account or Safari with Apple ID), your bookmarks will sync automatically."
+
 ---
 
 ## What You Will Need

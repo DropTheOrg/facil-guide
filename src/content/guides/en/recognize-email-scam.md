@@ -1,12 +1,12 @@
 ---
 title: "How to Recognize a Scam Email"
 description: "Learn the warning signs of fraudulent emails and protect yourself from phishing, fake invoices, and online scams."
-category: "securite"
-steps: 6
-difficulty: "facile"
-platform: "web"
 lang: "en"
-date: "2026-01-27"
+category: "securite"
+difficulty: "facile"
+steps: 6
+platform: "web"
+date: "2026-02-23"
 faq:
   - question: "What should I do if I already clicked a link in a scam email?"
     answer: "Do not panic. Close the website immediately. If you entered any passwords, change them right away on the real website. If you entered bank information, contact your bank immediately. Run a virus scan on your device if possible."
@@ -16,6 +16,7 @@ faq:
     answer: "No. Scam emails exist in every language. In fact, scams in your native language can be more convincing because they feel familiar."
   - question: "How do scammers get my email address?"
     answer: "Email addresses are often collected from data breaches, public websites, social media profiles, or simply guessed. This is normal and happens to everyone. The important thing is knowing how to spot the scams."
+
 ---
 
 ## What you will learn

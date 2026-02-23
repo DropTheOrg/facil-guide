@@ -1,12 +1,12 @@
 ---
 title: "Como hacer una videollamada en WhatsApp"
 description: "Aprende a hacer una videollamada gratuita a tu familia y amigos con WhatsApp en tu iPhone."
-category: "communication"
-steps: 5
-difficulty: "facile"
-platform: "iphone"
 lang: "es"
-date: "2026-01-21"
+category: "communication"
+difficulty: "facile"
+steps: 5
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Son gratuitas las videollamadas de WhatsApp?"
     answer: "Si, son completamente gratuitas. Usan tu conexion a Internet (Wi-Fi o datos moviles), no tus minutos de llamada."
@@ -16,6 +16,7 @@ faq:
     answer: "Puedes tener hasta 32 personas en una videollamada de grupo."
   - question: "Que pasa si la otra persona no contesta?"
     answer: "La llamada sonara durante unos 30 segundos. Si no contesta, puedes intentarlo mas tarde o enviarle un mensaje."
+
 ---
 
 ## Lo que vas a aprender

@@ -1,12 +1,12 @@
 ---
 title: "Come installare un'app su Android"
 description: "Scopri come scaricare e installare app sul tuo telefono Android usando il Google Play Store."
-category: "smartphone"
-steps: 6
-difficulty: "facile"
-platform: "android"
 lang: "it"
-date: "2026-01-23"
+category: "smartphone"
+difficulty: "facile"
+steps: 6
+platform: "android"
+date: "2026-02-23"
 faq:
   - question: "Il Google Play Store e gratuito?"
     answer: "Si, il Play Store e gratuito. Molte app sono gratuite, ma alcune sono a pagamento. Le app gratuite mostrano Installa, quelle a pagamento mostrano un prezzo."
@@ -16,6 +16,7 @@ faq:
     answer: "Controlla la valutazione in stelle e leggi le recensioni degli altri utenti. Le app con milioni di download e buone valutazioni sono generalmente sicure."
   - question: "Posso eliminare un'app dopo averla installata?"
     answer: "Si. Tieni premuta l'icona dell'app sulla schermata principale e seleziona Rimuovi o Disinstalla."
+
 ---
 
 ## Cosa imparerai

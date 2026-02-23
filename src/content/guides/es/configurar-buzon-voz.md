@@ -1,11 +1,11 @@
 ---
 title: "Cómo configurar y escuchar el buzón de voz en tu teléfono"
 description: "Aprende a configurar el buzón de voz en tu iPhone o teléfono Android para que las personas puedan dejarte un mensaje cuando no puedas contestar."
-category: "communication"
-steps: 6
-difficulty: "facile"
-platform: "all"
 lang: "es"
+category: "communication"
+difficulty: "facile"
+steps: 6
+platform: "all"
 date: "2026-02-23"
 faq:
   - question: "¿El buzón de voz es gratis?"
@@ -18,6 +18,7 @@ faq:
     answer: "Si tu buzón de voz está lleno, las personas que llamen no podrán dejar nuevos mensajes. Necesitarás borrar mensajes antiguos para hacer espacio. Escucha tus mensajes guardados y elimina los que ya no necesites."
   - question: "¿Puedo escuchar el buzón de voz desde otro teléfono?"
     answer: "Sí, la mayoría de los operadores te permiten llamar a tu propio número desde otro teléfono y pulsar una tecla (normalmente asterisco o almohadilla) para acceder a tu buzón. Necesitarás tu PIN del buzón de voz."
+
 ---
 
 ## Lo que aprenderás

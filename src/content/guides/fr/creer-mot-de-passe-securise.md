@@ -1,12 +1,12 @@
 ---
 title: "Comment creer un mot de passe securise"
 description: "Apprenez a creer des mots de passe solides et securises pour proteger vos comptes en ligne contre les pirates."
-category: "securite"
-steps: 6
-difficulty: "facile"
-platform: "web"
 lang: "fr"
-date: "2026-01-30"
+category: "securite"
+difficulty: "facile"
+steps: 6
+platform: "web"
+date: "2026-02-23"
 faq:
   - question: "Quelle longueur doit avoir un bon mot de passe ?"
     answer: "Un bon mot de passe doit avoir au moins 12 caracteres. Plus il est long, plus il est difficile a craquer. Visez 14 caracteres ou plus pour les comptes importants."
@@ -16,6 +16,7 @@ faq:
     answer: "Changez un mot de passe immediatement si vous pensez qu'un compte a ete compromis. Sinon, mettre a jour les mots de passe importants une fois par an est une bonne habitude."
   - question: "Qu'est-ce que l'authentification a deux facteurs ?"
     answer: "L'authentification a deux facteurs ajoute une etape de securite supplementaire quand vous vous connectez. Apres avoir entre votre mot de passe, vous entrez aussi un code envoye sur votre telephone. Un pirate aurait besoin de votre mot de passe ET de votre telephone pour acceder a votre compte."
+
 ---
 
 ## Ce que vous allez apprendre

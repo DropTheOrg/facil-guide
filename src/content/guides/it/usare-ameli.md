@@ -1,12 +1,12 @@
 ---
 title: "Come usare Ameli per l'assicurazione sanitaria e i rimborsi in Francia"
 description: "Impara ad accedere al tuo account Ameli per controllare i rimborsi, scaricare attestati e gestire la tua previdenza sociale francese online."
-category: "government"
-steps: 7
-difficulty: "facile"
-platform: "all"
 lang: "it"
-date: "2026-02-22"
+category: "government"
+difficulty: "facile"
+steps: 7
+platform: "all"
+date: "2026-02-23"
 faq:
   - question: "Cos'è Ameli?"
     answer: "Ameli è la piattaforma online del sistema sanitario pubblico francese (Assurance Maladie). Ti permette di controllare i rimborsi, scaricare documenti ufficiali, aggiornare le tue informazioni personali e contattare il tuo ufficio di assicurazione sanitaria senza andarci di persona."
@@ -18,6 +18,7 @@ faq:
     answer: "Sì, puoi accedere al tuo account Ameli su un computer andando su ameli.fr e facendo l'accesso. L'app e il sito offrono le stesse funzionalità."
   - question: "Cos'è un'attestation de droits?"
     answer: "È un documento ufficiale che dimostra che hai un'assicurazione sanitaria in Francia. Potresti averne bisogno quando visiti un nuovo medico, inizi un nuovo lavoro o iscrivi i tuoi figli a scuola. Puoi scaricarlo immediatamente da Ameli."
+
 ---
 
 ## Cosa imparerai

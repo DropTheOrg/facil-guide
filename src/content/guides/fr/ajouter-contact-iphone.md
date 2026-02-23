@@ -1,12 +1,12 @@
 ---
 title: "Comment ajouter un contact sur iPhone"
 description: "Apprenez a enregistrer un numero de telephone dans les contacts de votre iPhone pour appeler ou envoyer un message facilement."
-category: "smartphone"
-steps: 5
-difficulty: "facile"
-platform: "iphone"
 lang: "fr"
-date: "2026-02-12"
+category: "smartphone"
+difficulty: "facile"
+steps: 5
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Puis-je ajouter une photo a un contact ?"
     answer: "Oui. Ouvrez le contact, appuyez sur Modifier en haut a droite, puis appuyez sur Ajouter une photo. Vous pouvez prendre une nouvelle photo ou en choisir une dans votre bibliotheque."
@@ -14,6 +14,7 @@ faq:
     answer: "Ouvrez l'application Contacts, trouvez la personne, appuyez sur son nom, puis appuyez sur Modifier en haut a droite. Faites vos changements et appuyez sur OK."
   - question: "Puis-je enregistrer un contact a partir d'un appel recent ?"
     answer: "Oui. Ouvrez l'application Telephone, appuyez sur Recents, puis appuyez sur l'icone d'information (un petit cercle avec un i) a cote du numero. Appuyez sur Creer un nouveau contact pour l'enregistrer."
+
 ---
 
 ## Ce que vous allez apprendre

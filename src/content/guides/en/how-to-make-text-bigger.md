@@ -1,12 +1,12 @@
 ---
 title: "How to make text bigger on your phone"
 description: "Make text easier to read on your iPhone or Android phone by increasing the font size in Settings."
-difficulty: "facile"
-platform: "all"
-category: "smartphone"
-steps: 4
 lang: "en"
-date: "2026-02-22"
+category: "smartphone"
+difficulty: "facile"
+steps: 4
+platform: "all"
+date: "2026-02-23"
 faq:
   - question: "Will making text bigger affect all my apps?"
     answer: "Most apps respect your phone's text size setting. A few apps may not change, but the majority will show larger text."
@@ -14,6 +14,7 @@ faq:
     answer: "You can always go back and make it smaller. Try different sizes until you find what's comfortable for you."
   - question: "Is there a way to zoom in temporarily?"
     answer: "Yes. On iPhone, triple-tap the screen with three fingers to zoom. On Android, triple-tap the screen to zoom in."
+
 ---
 
 ## Step 1: Open Settings

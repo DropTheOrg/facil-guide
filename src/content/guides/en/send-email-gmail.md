@@ -1,12 +1,12 @@
 ---
 title: "How to send an email with Gmail"
 description: "Learn how to write and send an email using Gmail, step by step."
-category: "communication"
-steps: 6
-difficulty: "facile"
-platform: "web"
 lang: "en"
-date: "2026-02-01"
+category: "communication"
+difficulty: "facile"
+steps: 6
+platform: "web"
+date: "2026-02-23"
 faq:
   - question: "Is Gmail free to use?"
     answer: "Yes, Gmail is completely free. You just need a Google account to use it."
@@ -16,6 +16,7 @@ faq:
     answer: "CC means Carbon Copy. Everyone can see who received the email. BCC means Blind Carbon Copy. Other recipients cannot see who is in the BCC field."
   - question: "Can I attach a file to my email?"
     answer: "Yes. Click the paperclip icon at the bottom of the compose window to attach a file from your computer."
+
 ---
 
 ## What you will learn

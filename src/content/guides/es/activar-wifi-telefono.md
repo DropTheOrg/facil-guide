@@ -14,6 +14,7 @@ faq:
     answer: "Most Wi-Fi networks are protected with a password to keep them secure. Ask the owner of the network for the password."
   - question: "Will my phone remember the Wi-Fi password?"
     answer: "Yes. Once you connect to a Wi-Fi network, your phone saves the password and connects automatically next time you're nearby."
+
 ---
 
 ## Paso 1: Open Ajustes

@@ -1,12 +1,12 @@
 ---
 title: "Comment activer le mode sombre sur iPhone"
 description: "Apprenez a passer votre iPhone en mode sombre, qui utilise un fond noir et est plus agreable pour vos yeux la nuit."
-category: "smartphone"
-steps: 5
-difficulty: "facile"
-platform: "iphone"
 lang: "fr"
-date: "2026-01-21"
+category: "smartphone"
+difficulty: "facile"
+steps: 5
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Le mode sombre economise-t-il la batterie ?"
     answer: "Sur les iPhone avec ecran OLED (iPhone X et plus recents), le mode sombre peut economiser de la batterie car les pixels noirs consomment moins d'energie. Sur les anciens iPhone avec ecran LCD, la difference est faible."
@@ -14,6 +14,7 @@ faq:
     answer: "La plupart des applications suivent le reglage du systeme et passeront automatiquement en mode sombre. Certaines applications ont leur propre reglage que vous devrez peut-etre activer separement."
   - question: "Puis-je programmer le mode sombre pour qu'il s'active automatiquement la nuit ?"
     answer: "Oui. Dans Reglages, allez dans Luminosite et affichage, activez Automatique, et reglez sur Du coucher au lever du soleil. Votre telephone passera en mode sombre quand il fait nuit."
+
 ---
 
 ## Ce que vous allez apprendre

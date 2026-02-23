@@ -16,6 +16,7 @@ faq:
     answer: "Yes. Open the group, tap the group name at the top, scroll down to Mute Notifications, and choose 8 hours, 1 week, or Always. You will still see messages but your phone will not buzz."
   - question: "Who can add people to the group?"
     answer: "By default, any member can add people. As admin, you can change this in Group Settings so only admins can add new members."
+
 ---
 
 ## Ce dont vous aurez besoin

@@ -1,12 +1,12 @@
 ---
 title: "How to send a voice message on WhatsApp"
 description: "Learn how to record and send a voice message on WhatsApp instead of typing, for quick and personal communication."
-category: "applications"
-steps: 5
-difficulty: "facile"
-platform: "iphone"
 lang: "en"
-date: "2026-02-04"
+category: "applications"
+difficulty: "facile"
+steps: 5
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Is there a time limit for voice messages?"
     answer: "There is no strict time limit. You can record voice messages that are several minutes long. However, shorter messages are usually easier for the other person to listen to."
@@ -16,6 +16,7 @@ faq:
     answer: "Yes. The recipient can forward or save your voice message. Keep this in mind when recording personal information."
   - question: "Why is my voice message very quiet?"
     answer: "Make sure you are not covering the microphone at the bottom of your phone. Also speak at a normal volume and hold the phone about 15 centimeters from your mouth."
+
 ---
 
 ## What you will learn

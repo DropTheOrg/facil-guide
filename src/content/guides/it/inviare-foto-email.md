@@ -1,12 +1,12 @@
 ---
 title: "Come inviare una foto come allegato email"
 description: "Scopri come allegare e inviare una foto via email su iPhone e Android con istruzioni semplici passo dopo passo per Gmail e altre app."
-category: "communication"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "it"
-date: "2026-02-20"
+category: "communication"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "C'e un limite di quante foto posso inviare?"
     answer: "La maggior parte dei servizi email ha un limite di 25 megabyte per email. Una foto di solito pesa 2-5 megabyte, quindi puoi inviare 5-10 foto per email. Se devi inviarne di piu, dividile in piu email."
@@ -16,6 +16,7 @@ faq:
     answer: "Si, ma i video sono molto piu grandi. Se il video e troppo grande per l'email, il telefono puo offrire di inviare un link (come un link iCloud su iPhone o Google Drive su Android)."
   - question: "E se la persona dice di non aver ricevuto la mia email?"
     answer: "Controlla la cartella Inviati per confermare che l'email e stata inviata. Gli allegati grandi a volte vengono bloccati dal provider del destinatario. Chiedigli di controllare la cartella spam. Se le foto erano troppo grandi, prova a reinviare con dimensione minore."
+
 ---
 
 ## Cosa imparerai

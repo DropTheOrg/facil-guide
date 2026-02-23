@@ -1,12 +1,12 @@
 ---
 title: "Como solucionar el aviso de almacenamiento lleno en tu telefono"
 description: "Aprende a liberar espacio en tu telefono cuando aparece el aviso de almacenamiento lleno, paso a paso."
-category: "troubleshooting"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "es"
-date: "2026-02-20"
+category: "troubleshooting"
+difficulty: "moyen"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Que pasa si ignoro el aviso de almacenamiento lleno?"
     answer: "Tu telefono se volvera mas lento, no podras hacer nuevas fotos y algunas aplicaciones pueden dejar de funcionar correctamente. Es mejor liberar espacio en cuanto veas el aviso."
@@ -16,6 +16,7 @@ faq:
     answer: "Las fotos y los videos suelen ser los que mas espacio ocupan. Despues, las aplicaciones (especialmente los juegos y las redes sociales) y los archivos descargados ocupan mas sitio."
   - question: "Cuanto espacio libre deberia tener?"
     answer: "Intenta mantener al menos 2 o 3 gigabytes (GB) de espacio libre en tu telefono. Esto ayuda a que funcione bien."
+
 ---
 
 ## Lo que vas a aprender

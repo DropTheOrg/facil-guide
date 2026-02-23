@@ -1,12 +1,12 @@
 ---
 title: "Qu'est-ce que ChatGPT et comment l'utiliser"
 description: "Un guide clair, etape par etape, pour comprendre et utiliser ChatGPT, l'assistant IA qui peut repondre a vos questions, ecrire des textes et vous aider au quotidien."
-category: "ia"
-steps: 7
-difficulty: "facile"
-platform: "web"
 lang: "fr"
-date: "2026-02-06"
+category: "ia"
+difficulty: "facile"
+steps: 7
+platform: "web"
+date: "2026-02-23"
 faq:
   - question: "ChatGPT est-il gratuit ?"
     answer: "Oui, ChatGPT propose une version gratuite qui fonctionne tres bien pour la plupart des taches. Il existe aussi une version payante (ChatGPT Plus) avec des reponses plus rapides, mais la version gratuite est parfaite pour commencer."
@@ -16,6 +16,7 @@ faq:
     answer: "Oui. ChatGPT peut parfois donner des informations incorrectes. Verifiez toujours les faits importants, surtout en matiere de sante, de droit ou de finances."
   - question: "Faut-il installer quelque chose ?"
     answer: "Non. ChatGPT fonctionne dans votre navigateur web. Allez simplement sur chat.openai.com. Vous pouvez aussi telecharger l'application sur iPhone ou Android, mais ce n'est pas obligatoire."
+
 ---
 
 ## Ce que vous allez apprendre

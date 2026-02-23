@@ -1,12 +1,12 @@
 ---
 title: "How to back up your phone so you do not lose your photos and contacts"
 description: "Learn how to back up your iPhone or Android phone to the cloud so your photos, contacts, and messages are safe even if you lose your phone."
-category: "smartphone"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "en"
-date: "2026-02-20"
+category: "smartphone"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "What is a backup?"
     answer: "A backup is a copy of everything on your phone -- photos, contacts, messages, app data, and settings -- stored safely on the internet or a computer. If your phone is lost, broken, or replaced, you can restore everything from the backup."
@@ -18,6 +18,7 @@ faq:
     answer: "No. Once you turn on automatic backup, your phone backs up on its own every day when it is connected to Wi-Fi, plugged in, and the screen is locked. You do not need to do anything."
   - question: "What happens to my backup if I get a new phone?"
     answer: "When you set up a new phone, it will ask if you want to restore from a backup. Choose your latest backup and everything -- photos, contacts, apps, and settings -- will transfer to the new phone."
+
 ---
 
 ## What you will learn

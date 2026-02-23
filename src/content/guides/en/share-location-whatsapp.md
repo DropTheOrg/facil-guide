@@ -1,12 +1,12 @@
 ---
 title: "How to share your location on WhatsApp"
 description: "Learn how to share your current location or live location with someone on WhatsApp so they can find you easily."
-category: "applications"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "en"
-date: "2026-02-08"
+category: "applications"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Is sharing my location on WhatsApp safe?"
     answer: "Your location is only shared with the person or group you choose. WhatsApp uses encryption, so no one else can see it. You can stop sharing at any time."
@@ -16,6 +16,7 @@ faq:
     answer: "Live location sharing does use more battery than normal because your phone keeps updating your position. It stops automatically after the time you selected."
   - question: "Can I share my location in a group chat?"
     answer: "Yes. The steps are the same. Everyone in the group will be able to see your location."
+
 ---
 
 ## What you will learn

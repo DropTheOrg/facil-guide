@@ -1,12 +1,12 @@
 ---
 title: "How to enable dark mode on iPhone"
 description: "Learn how to switch your iPhone to dark mode, which uses a dark background and is easier on your eyes at night."
-category: "smartphone"
-steps: 5
-difficulty: "facile"
-platform: "iphone"
 lang: "en"
-date: "2026-01-26"
+category: "smartphone"
+difficulty: "facile"
+steps: 5
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Does dark mode save battery?"
     answer: "On iPhones with OLED screens (iPhone X and newer), dark mode can help save battery because black pixels use less power. On older iPhones with LCD screens, the difference is small."
@@ -14,6 +14,7 @@ faq:
     answer: "Most apps follow your system setting and will switch to dark mode automatically. Some apps have their own dark mode setting that you may need to turn on separately."
   - question: "Can I schedule dark mode to turn on automatically at night?"
     answer: "Yes. In Settings, go to Display and Brightness, turn on Automatic, and set it to Sunset to Sunrise. Your phone will switch to dark mode when it gets dark outside."
+
 ---
 
 ## What you will learn

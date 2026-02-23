@@ -1,11 +1,11 @@
 ---
 title: "Comment utiliser Facebook sur votre téléphone"
 description: "Apprenez à utiliser Facebook sur votre téléphone pour rester en contact avec votre famille et vos amis, partager des photos et lire les nouvelles de vos proches."
-category: "applications"
-steps: 7
-difficulty: "facile"
-platform: "all"
 lang: "fr"
+category: "applications"
+difficulty: "facile"
+steps: 7
+platform: "all"
 date: "2026-02-23"
 faq:
   - question: "Facebook est-il gratuit ?"
@@ -18,6 +18,7 @@ faq:
     answer: "Oui. Trouvez la publication que vous voulez supprimer, appuyez sur les trois points dans le coin supérieur droit de la publication, et appuyez sur Supprimer la publication. Une fois supprimée, elle disparaîtra de votre profil et du fil d'actualité des autres personnes."
   - question: "Comment empêcher quelqu'un de me contacter ?"
     answer: "Vous pouvez bloquer une personne pour qu'elle ne puisse plus voir votre profil, vous envoyer des messages ou interagir avec vos publications. Allez sur son profil, appuyez sur les trois points et choisissez Bloquer. Elle ne sera pas notifiée que vous l'avez bloquée."
+
 ---
 
 ## Ce que vous allez apprendre

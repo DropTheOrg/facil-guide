@@ -1,12 +1,12 @@
 ---
 title: "How to block spam calls and unknown numbers on your phone"
 description: "Learn how to block unknown callers, spam calls, and robocalls on iPhone and Android with simple settings you can turn on right now."
-category: "troubleshooting"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "en"
-date: "2026-02-20"
+category: "troubleshooting"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Will blocking unknown callers block important calls?"
     answer: "It might. If a doctor, delivery driver, or other service calls you from an unknown number, the call will go to voicemail. They can still leave a message, and you can call them back."
@@ -16,6 +16,7 @@ faq:
     answer: "Yes. On iPhone, go to Settings, then Phone, then Blocked Contacts to see your blocked list. On Android, open the Phone app, go to Settings, then Blocked numbers. You can remove any number from the list."
   - question: "Do I need an app to block spam calls?"
     answer: "Not necessarily. Both iPhone and Android have built-in tools to block unknown callers and report spam. However, apps like Truecaller can identify callers by name, which the built-in tools do not do."
+
 ---
 
 ## What you will learn

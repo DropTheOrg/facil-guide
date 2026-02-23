@@ -1,12 +1,12 @@
 ---
 title: "Como tirar uma captura de ecra no iPhone"
 description: "Aprenda a capturar o ecra do seu iPhone como uma foto em poucos segundos."
-category: "smartphone"
-steps: 5
-difficulty: "facile"
-platform: "iphone"
 lang: "pt"
-date: "2026-01-21"
+category: "smartphone"
+difficulty: "facile"
+steps: 5
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Onde ficam guardadas as minhas capturas de ecra?"
     answer: "As capturas de ecra ficam guardadas na aplicacao Fotos. Tambem pode encontra-las num album especial chamado Capturas de ecra."
@@ -14,6 +14,7 @@ faq:
     answer: "Sim. Todos os iPhone podem fazer capturas de ecra. A combinacao de botoes e diferente consoante o seu modelo (consulte o guia para mais detalhes)."
   - question: "Posso editar a minha captura de ecra?"
     answer: "Sim. Logo apos fazer a captura, uma pequena pre-visualizacao aparece no canto inferior esquerdo. Toque nela para recortar, desenhar ou adicionar texto antes de guardar."
+
 ---
 
 ## O que vai aprender

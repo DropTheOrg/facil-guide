@@ -1,12 +1,12 @@
 ---
 title: "Comment utiliser Ameli pour l'assurance maladie et les remboursements"
 description: "Apprenez à accéder à votre compte Ameli pour vérifier vos remboursements, télécharger des attestations et gérer votre sécurité sociale en ligne."
-category: "government"
-steps: 7
-difficulty: "facile"
-platform: "all"
 lang: "fr"
-date: "2026-02-22"
+category: "government"
+difficulty: "facile"
+steps: 7
+platform: "all"
+date: "2026-02-23"
 faq:
   - question: "Qu'est-ce qu'Ameli ?"
     answer: "Ameli est la plateforme en ligne de l'Assurance Maladie française. Elle vous permet de vérifier vos remboursements, télécharger des documents officiels, mettre à jour vos informations personnelles et contacter votre caisse sans vous déplacer."
@@ -18,6 +18,7 @@ faq:
     answer: "Oui, vous pouvez accéder à votre compte Ameli sur un ordinateur en allant sur ameli.fr et en vous connectant. L'application et le site offrent les mêmes fonctionnalités."
   - question: "Qu'est-ce qu'une attestation de droits ?"
     answer: "L'attestation de droits est un document officiel qui prouve que vous avez une assurance maladie en France. Vous pouvez en avoir besoin chez un nouveau médecin, pour un nouvel emploi ou pour inscrire vos enfants à l'école. Vous pouvez la télécharger instantanément depuis Ameli."
+
 ---
 
 ## Ce que vous allez apprendre

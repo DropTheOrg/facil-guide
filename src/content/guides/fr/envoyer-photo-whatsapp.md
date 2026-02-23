@@ -1,12 +1,12 @@
 ---
 title: "Comment envoyer une photo par WhatsApp"
 description: "Apprenez a envoyer une photo a vos proches via WhatsApp en quelques etapes simples."
-category: "applications"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "fr"
-date: "2026-01-19"
+category: "applications"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "WhatsApp est-il gratuit ?"
     answer: "Oui, WhatsApp est entierement gratuit. Il utilise la connexion Internet de votre telephone (Wi-Fi ou donnees mobiles) pour envoyer des messages et des photos."
@@ -14,6 +14,7 @@ faq:
     answer: "Oui, vous pouvez selectionner plusieurs photos en appuyant sur chacune avant de toucher le bouton d'envoi."
   - question: "La qualite de la photo change-t-elle ?"
     answer: "WhatsApp compresse legerement les photos pour les envoyer plus rapidement. La qualite reste tres bonne pour un usage normal."
+
 ---
 
 ## Ce que vous allez apprendre

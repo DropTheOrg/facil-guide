@@ -1,12 +1,12 @@
 ---
 title: "Como conectarse al Wi-Fi en hoteles, cafeterias y aeropuertos"
 description: "Aprende a conectar tu telefono a redes Wi-Fi publicas en hoteles, cafeterias y aeropuertos con instrucciones sencillas paso a paso."
-category: "internet"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "es"
-date: "2026-02-20"
+category: "internet"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Es seguro usar Wi-Fi publico?"
     answer: "El Wi-Fi publico es practico pero menos seguro que tu red de casa. Evita introducir contrasenas, informacion bancaria o numeros de tarjeta mientras estes en Wi-Fi publico. Si necesitas hacer algo sensible, usa tus datos moviles."
@@ -18,6 +18,7 @@ faq:
     answer: "Muchos hoteles ofrecen Wi-Fi gratis, pero algunos cobran una tarifa diaria. Pregunta en la recepcion. La contrasena suele estar impresa en una tarjeta en tu habitacion."
   - question: "Por que el Wi-Fi es tan lento?"
     answer: "El Wi-Fi publico se comparte entre muchas personas. En horas punta puede ser lento. Si necesitas internet mas rapido, usa tus datos moviles."
+
 ---
 
 ## Lo que vas a aprender

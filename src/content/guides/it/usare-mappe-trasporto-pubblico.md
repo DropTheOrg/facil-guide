@@ -16,6 +16,7 @@ faq:
     answer: "Google Maps shows fare estimates in many cities. Apple Maps is adding this feature in more cities too."
   - question: "What if I miss my stop?"
     answer: "The app will recalculate your route and show you how to get back on track. Keep the app open during your journey for live tracking."
+
 ---
 
 ## Cosa le servira

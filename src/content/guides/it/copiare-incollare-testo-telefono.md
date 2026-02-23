@@ -1,12 +1,12 @@
 ---
 title: "Come copiare e incollare testo sul telefono"
 description: "Scopri come copiare e incollare testo su iPhone e Android con istruzioni semplici passo dopo passo per messaggi, siti web e app."
-category: "smartphone"
-steps: 5
-difficulty: "facile"
-platform: "iphone"
 lang: "it"
-date: "2026-02-20"
+category: "smartphone"
+difficulty: "facile"
+steps: 5
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Posso copiare e incollare anche le immagini?"
     answer: "Dipende dall'app. In alcune app puoi tenere premuta un'immagine per vedere l'opzione Copia. Poi puoi incollarla in un messaggio o un'email. Non tutte le app lo permettono."
@@ -16,6 +16,7 @@ faq:
     answer: "No. Il testo copiato resta negli appunti fino a quando non copi qualcos'altro o riavvii il telefono. Alcuni telefoni Android hanno una cronologia degli appunti che salva piu elementi."
   - question: "Posso incollare lo stesso testo piu volte?"
     answer: "Si. Dopo aver copiato un testo una volta, puoi incollarlo quante volte vuoi. Resta negli appunti fino a quando non copi qualcosa di nuovo."
+
 ---
 
 ## Cosa imparerai

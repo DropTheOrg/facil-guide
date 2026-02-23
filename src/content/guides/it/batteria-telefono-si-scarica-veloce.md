@@ -1,12 +1,12 @@
 ---
 title: "Perche la batteria del telefono si scarica velocemente e come risolvere"
 description: "Scopri perche la batteria del tuo telefono si scarica in fretta e come farla durare di piu con semplici modifiche alle impostazioni su iPhone e Android."
-category: "troubleshooting"
-steps: 7
-difficulty: "facile"
-platform: "iphone"
 lang: "it"
-date: "2026-02-20"
+category: "troubleshooting"
+difficulty: "facile"
+steps: 7
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "E normale che la batteria duri meno con il tempo?"
     answer: "Si. Le batterie dei telefoni perdono capacita con il tempo. Dopo due o tre anni, la batteria puo trattenere solo l'80 per cento della carica originale. Puoi verificare lo stato della batteria nelle Impostazioni."
@@ -18,6 +18,7 @@ faq:
     answer: "No. Le batterie moderne durano di piu se le mantieni tra il 20 e l'80 per cento. Non e necessario scaricarle completamente."
   - question: "Quando devo sostituire la batteria?"
     answer: "Se lo stato della batteria e sotto l'80 per cento e il telefono si spegne molto velocemente, potrebbe essere il momento di sostituirla. Vai in un centro di riparazione autorizzato."
+
 ---
 
 ## Cosa imparerai

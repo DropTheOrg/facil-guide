@@ -16,6 +16,7 @@ faq:
     answer: "Yes. In most messaging apps, you can tap the photo icon and select multiple photos before sending. On iPhone, tap each photo you want to include, then press send."
   - question: "What if the person says they did not receive my photo?"
     answer: "The photo may be too large for their phone to download, or their phone plan may not support MMS. Try sending it through WhatsApp or email instead."
+
 ---
 
 ## Ce dont vous aurez besoin

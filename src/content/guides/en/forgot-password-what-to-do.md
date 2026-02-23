@@ -1,12 +1,12 @@
 ---
 title: "What to do when you forget your password"
 description: "Learn how to recover your password for email, apps, and your phone when you have forgotten it."
-category: "troubleshooting"
-steps: 6
-difficulty: "facile"
-platform: "web"
 lang: "en"
-date: "2026-02-20"
+category: "troubleshooting"
+difficulty: "facile"
+steps: 6
+platform: "web"
+date: "2026-02-23"
 faq:
   - question: "What if I cannot remember my email address either?"
     answer: "If you use Gmail, go to accounts.google.com and click Forgot email. Google can help you find your account using your phone number."
@@ -16,6 +16,7 @@ faq:
     answer: "Most services offer alternative recovery options, such as a recovery email address or security questions. If you set these up when you created your account, you can use them now."
   - question: "How can I avoid forgetting my password in the future?"
     answer: "Write your passwords down in a notebook and keep it in a safe place at home. You can also ask a trusted family member to keep a copy."
+
 ---
 
 ## What you will learn

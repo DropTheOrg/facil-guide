@@ -1,12 +1,12 @@
 ---
 title: "Come usare Google Maps per le indicazioni"
 description: "Scopri come usare Google Maps sul tuo telefono per ottenere indicazioni passo dopo passo verso qualsiasi destinazione."
-category: "applications"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "it"
-date: "2026-01-29"
+category: "applications"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Google Maps e gratuito?"
     answer: "Si. Google Maps e completamente gratuito da scaricare e usare. Utilizza la connessione Internet del tuo telefono."
@@ -16,6 +16,7 @@ faq:
     answer: "Google Maps e molto preciso nella maggior parte delle zone. Usa il GPS e i dati sul traffico per darti il percorso migliore."
   - question: "Posso ottenere indicazioni a piedi?"
     answer: "Si. Dopo aver cercato una destinazione, tocca l'icona del pedone invece dell'auto per ottenere indicazioni a piedi."
+
 ---
 
 ## Cosa imparerai

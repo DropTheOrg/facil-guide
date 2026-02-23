@@ -1,11 +1,11 @@
 ---
 title: "Como pedir uma viagem com Uber no seu telefone"
 description: "Aprenda a descarregar o Uber, criar a sua conta e pedir a sua primeira viagem passo a passo."
-category: "applications"
-steps: 7
-difficulty: "facile"
-platform: "all"
 lang: "pt"
+category: "applications"
+difficulty: "facile"
+steps: 7
+platform: "all"
 date: "2026-02-23"
 faq:
   - question: "Quanto custa uma viagem Uber?"
@@ -18,6 +18,7 @@ faq:
     answer: "Sim. Ao introduzir o destino, pode alterar o local de recolha para outra morada e enviar os detalhes da viagem a outra pessoa."
   - question: "E se me esqueci de algo no carro?"
     answer: "Abra a aplicacao Uber, va a As suas viagens, selecione a viagem e toque em Objeto perdido. A aplicacao ajuda-lo-a a contactar o motorista."
+
 ---
 
 ## O que vai aprender

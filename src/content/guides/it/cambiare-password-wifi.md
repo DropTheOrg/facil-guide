@@ -1,12 +1,12 @@
 ---
 title: "Come cambiare la password del Wi-Fi"
 description: "Scopri come cambiare la password della tua rete Wi-Fi per proteggere la tua connessione Internet."
-category: "internet"
-steps: 6
-difficulty: "moyen"
-platform: "web"
 lang: "it"
-date: "2026-01-21"
+category: "internet"
+difficulty: "moyen"
+steps: 6
+platform: "web"
+date: "2026-02-23"
 faq:
   - question: "Tutti i miei dispositivi verranno disconnessi?"
     answer: "Si. Tutti i dispositivi collegati al tuo Wi-Fi verranno disconnessi. Dovrai ricollegare ciascuno con la nuova password."
@@ -16,6 +16,7 @@ faq:
     answer: "Una buona password ha almeno 12 caratteri e mescola lettere, numeri e simboli. Evita parole semplici come il tuo nome o indirizzo."
   - question: "Dove trovo la mia password Wi-Fi attuale?"
     answer: "La tua password attuale e spesso stampata su un'etichetta sul retro o sotto il tuo router."
+
 ---
 
 ## Cosa imparerai

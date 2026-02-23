@@ -1,12 +1,12 @@
 ---
 title: "Como usar o Google Maps para obter direcoes e navegar"
 description: "Aprenda a usar o Google Maps no seu telefone para procurar lugares, obter direcoes passo a passo e navegar enquanto conduz ou caminha."
-category: "applications"
-steps: 7
-difficulty: "facile"
-platform: "iphone"
 lang: "pt"
-date: "2026-02-20"
+category: "applications"
+difficulty: "facile"
+steps: 7
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "O Google Maps funciona sem internet?"
     answer: "O Google Maps precisa de internet para procurar e calcular rotas. No entanto, pode transferir mapas offline antes de viajar. Toque na foto de perfil, depois Mapas offline, depois Selecione o seu proprio mapa."
@@ -18,6 +18,7 @@ faq:
     answer: "Toque no ecra para mostrar os controlos, depois toque no botao X ou Sair no canto inferior esquerdo. A navegacao para e volta a vista normal do mapa."
   - question: "O Google Maps e gratuito?"
     answer: "Sim. O Google Maps e completamente gratuito para transferir e usar, incluindo navegacao, pesquisa e mapas offline."
+
 ---
 
 ## O que vai aprender

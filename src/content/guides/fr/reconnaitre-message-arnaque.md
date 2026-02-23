@@ -1,12 +1,12 @@
 ---
 title: "Comment savoir si un message, un e-mail ou un appel est une arnaque"
 description: "Apprenez a reconnaitre les messages frauduleux, les e-mails de phishing et les appels telephoniques d'arnaque pour proteger vos informations personnelles."
-category: "securite"
-steps: 7
-difficulty: "facile"
-platform: "iphone"
 lang: "fr"
-date: "2026-02-20"
+category: "securite"
+difficulty: "facile"
+steps: 7
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Que faire si j'ai deja clique sur un lien suspect ?"
     answer: "N'entrez aucune information personnelle. Fermez la page immediatement. Si vous avez entre un mot de passe, changez-le tout de suite sur le vrai site. Si vous avez entre des coordonnees bancaires, appelez votre banque immediatement."
@@ -18,6 +18,7 @@ faq:
     answer: "Oui. Vous pouvez transmettre les SMS suspects au 33700 en France. Sur iPhone, appuyez sur Signaler comme indesirable sous le message. Cela aide a proteger les autres."
   - question: "Les arnaques sont-elles envoyees uniquement par SMS et e-mail ?"
     answer: "Non. Les arnaques peuvent arriver par SMS, e-mail, appels telephoniques, messages WhatsApp, reseaux sociaux et meme courrier postal. Les signes d'alerte sont similaires quel que soit le canal."
+
 ---
 
 ## Ce que vous allez apprendre

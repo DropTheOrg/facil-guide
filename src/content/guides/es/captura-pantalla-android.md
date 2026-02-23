@@ -1,11 +1,11 @@
 ---
 title: "Como hacer una captura de pantalla en Android"
 description: "Aprende a capturar la pantalla de tu telefono Android como una foto, en cualquier marca o modelo."
-category: "smartphone"
-steps: 6
-difficulty: "facile"
-platform: "android"
 lang: "es"
+category: "smartphone"
+difficulty: "facile"
+steps: 6
+platform: "android"
 date: "2026-02-23"
 faq:
   - question: "Donde se guardan mis capturas de pantalla?"
@@ -16,6 +16,7 @@ faq:
     answer: "Si. Una notificacion o vista previa aparece justo despues de la captura. Tocala para recortar, dibujar o anadir texto antes de compartir."
   - question: "Que hago si el metodo de botones no funciona?"
     answer: "Algunos telefonos antiguos usan Encendido + boton Inicio. Tambien puedes probar el metodo de Ajustes rapidos descrito en esta guia."
+
 ---
 
 ## Lo que vas a aprender

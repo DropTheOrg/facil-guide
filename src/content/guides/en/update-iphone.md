@@ -1,12 +1,12 @@
 ---
 title: "How to update your iPhone"
 description: "Learn how to update your iPhone to the latest version of iOS to get new features and important security fixes."
-category: "smartphone"
-steps: 6
-difficulty: "moyen"
-platform: "iphone"
 lang: "en"
-date: "2026-02-11"
+category: "smartphone"
+difficulty: "moyen"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "How long does an iPhone update take?"
     answer: "Most updates take between 15 and 30 minutes. Major updates can take up to an hour. Do not turn off your phone during the update."
@@ -16,6 +16,7 @@ faq:
     answer: "You need free storage space for the update. Try deleting apps or photos you no longer need, then try the update again."
   - question: "Can I use my phone during the update?"
     answer: "No. Your iPhone will restart during the update and you will not be able to use it until the update is complete."
+
 ---
 
 ## What you will learn

@@ -1,12 +1,12 @@
 ---
 title: "Come salvare una foto da WhatsApp"
 description: "Impara a salvare le foto ricevute su WhatsApp nella libreria foto del tuo iPhone."
-category: "applications"
-steps: 5
-difficulty: "facile"
-platform: "iphone"
 lang: "it"
-date: "2026-01-23"
+category: "applications"
+difficulty: "facile"
+steps: 5
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Dove viene salvata la foto?"
     answer: "La foto viene salvata nella tua app Foto. La troverai nell'album Recenti o nell'album WhatsApp."
@@ -16,6 +16,7 @@ faq:
     answer: "No. L'altra persona non sapra che hai salvato la sua foto."
   - question: "E per i video?"
     answer: "Gli stessi passaggi funzionano per salvare video da WhatsApp. Tocca semplicemente il video invece della foto."
+
 ---
 
 ## Cosa imparerai

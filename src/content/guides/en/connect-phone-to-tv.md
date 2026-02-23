@@ -6,7 +6,7 @@ category: "smartphone"
 difficulty: "facile"
 steps: 5
 platform: "iphone"
-date: "2026-02-22"
+date: "2026-02-23"
 faq:
   - question: "Do I need a smart TV for this?"
     answer: "Screen mirroring works best with a smart TV. If your TV is not a smart TV, you can buy a streaming device like Apple TV, Chromecast, or Amazon Fire TV Stick and plug it into your TV."
@@ -18,6 +18,7 @@ faq:
     answer: "Yes, but everything you do on your phone will show on the TV. If you open a private message, the people watching the TV will see it too."
   - question: "Does screen mirroring use a lot of battery?"
     answer: "Yes, more than normal use. If you plan to mirror for a long time, keep your phone plugged in to a charger."
+
 ---
 
 ## What You Will Need

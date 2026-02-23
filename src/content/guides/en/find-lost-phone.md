@@ -6,7 +6,7 @@ category: "smartphone"
 difficulty: "facile"
 steps: 5
 platform: "iphone"
-date: "2026-02-22"
+date: "2026-02-23"
 faq:
   - question: "Can I find my phone if it is turned off?"
     answer: "On newer iPhones (iPhone 11 and later), yes. Find My iPhone can locate it even when the phone is off. On Android and older iPhones, the phone needs to be turned on."
@@ -16,6 +16,7 @@ faq:
     answer: "Unfortunately, you need to have enabled Find My iPhone or Find My Device before losing the phone. If you did not, try calling your phone number from another phone to hear it ring."
   - question: "Can I use someone else's phone to find mine?"
     answer: "Yes. Open a web browser on any device, go to icloud.com/find (iPhone) or google.com/android/find (Android), and sign in with your account."
+
 ---
 
 ## What You Will Need

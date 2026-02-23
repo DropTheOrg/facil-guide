@@ -14,6 +14,7 @@ faq:
     answer: "You can always go back and make it smaller. Try different sizes until you find what's comfortable for you."
   - question: "Is there a way to zoom in temporarily?"
     answer: "Yes. On iPhone, triple-tap the screen with three fingers to zoom. On Android, triple-tap the screen to zoom in."
+
 ---
 
 ## Passo 1: Open Impostazioni

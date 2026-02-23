@@ -1,11 +1,11 @@
 ---
 title: "How to set up your email on an Android phone"
 description: "Learn how to add your email account to your Android phone so you can send and receive messages."
-category: "communication"
-steps: 7
-difficulty: "facile"
-platform: "android"
 lang: "en"
+category: "communication"
+difficulty: "facile"
+steps: 7
+platform: "android"
 date: "2026-02-23"
 faq:
   - question: "Which email app should I use?"
@@ -16,6 +16,7 @@ faq:
     answer: "Yes. Once set up, new emails will appear automatically. You will also receive notifications when a new email arrives."
   - question: "Do I need to know my email password?"
     answer: "Yes. You will need your email address and password to sign in. If you have forgotten your password, you will need to reset it through your email provider's website first."
+
 ---
 
 ## What you will learn

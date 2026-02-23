@@ -1,12 +1,12 @@
 ---
 title: "Que faire quand on oublie son mot de passe"
 description: "Apprenez a recuperer votre mot de passe pour votre email, vos applications et votre telephone quand vous l'avez oublie."
-category: "troubleshooting"
-steps: 6
-difficulty: "facile"
-platform: "web"
 lang: "fr"
-date: "2026-02-20"
+category: "troubleshooting"
+difficulty: "moyen"
+steps: 6
+platform: "web"
+date: "2026-02-23"
 faq:
   - question: "Et si je ne me souviens plus de mon adresse email non plus ?"
     answer: "Si vous utilisez Gmail, allez sur accounts.google.com et cliquez sur Adresse email oubliee. Google peut vous aider a retrouver votre compte grace a votre numero de telephone."
@@ -16,6 +16,7 @@ faq:
     answer: "La plupart des services proposent des options de recuperation alternatives, comme une adresse email de secours ou des questions de securite. Si vous les avez configurees lors de la creation de votre compte, vous pouvez les utiliser maintenant."
   - question: "Comment eviter d'oublier mon mot de passe a l'avenir ?"
     answer: "Ecrivez vos mots de passe dans un carnet et gardez-le en lieu sur chez vous. Vous pouvez aussi demander a un membre de votre famille de confiance de garder une copie."
+
 ---
 
 ## Ce que vous allez apprendre

@@ -1,12 +1,12 @@
 ---
 title: "Que faire quand votre telephone ne se connecte pas au Wi-Fi"
 description: "Apprenez a resoudre le probleme quand votre telephone refuse de se connecter a un reseau Wi-Fi, avec des etapes simples pour iPhone et Android."
-category: "troubleshooting"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "fr"
-date: "2026-02-20"
+category: "troubleshooting"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Vais-je perdre quelque chose si j'oublie le reseau Wi-Fi ?"
     answer: "Non. Oublier un reseau ne fait que supprimer le mot de passe enregistre. Vous ne perdrez ni photos, ni applications, ni donnees. Vous devrez simplement retaper le mot de passe Wi-Fi."
@@ -14,6 +14,7 @@ faq:
     answer: "Cela peut arriver si votre box est connectee au Wi-Fi mais a perdu sa connexion Internet. Essayez de redemarrer votre box. Si le probleme continue, contactez votre fournisseur d'acces."
   - question: "Et si je ne connais pas mon mot de passe Wi-Fi ?"
     answer: "Le mot de passe Wi-Fi est generalement imprime sur une etiquette sous ou derriere votre box. Si quelqu'un l'a change, demandez-lui le nouveau mot de passe."
+
 ---
 
 ## Ce que vous allez apprendre

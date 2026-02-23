@@ -1,12 +1,12 @@
 ---
 title: "Como compartir tu ubicacion en WhatsApp"
 description: "Aprende a compartir tu ubicacion actual o en tiempo real con alguien en WhatsApp para que pueda encontrarte facilmente."
-category: "applications"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "es"
-date: "2026-02-11"
+category: "applications"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Es seguro compartir mi ubicacion en WhatsApp?"
     answer: "Tu ubicacion solo se comparte con la persona o grupo que elijas. WhatsApp usa cifrado, asi que nadie mas puede verla. Puedes dejar de compartir en cualquier momento."
@@ -16,6 +16,7 @@ faq:
     answer: "La ubicacion en tiempo real gasta mas bateria de lo normal porque tu telefono actualiza constantemente tu posicion. Se detiene automaticamente despues del tiempo seleccionado."
   - question: "Puedo compartir mi ubicacion en un grupo?"
     answer: "Si. Los pasos son los mismos. Todos en el grupo podran ver tu ubicacion."
+
 ---
 
 ## Lo que vas a aprender

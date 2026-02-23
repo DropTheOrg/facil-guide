@@ -1,12 +1,12 @@
 ---
 title: "Come fare una videochiamata su WhatsApp"
 description: "Scopri come fare una videochiamata gratuita alla tua famiglia e ai tuoi amici con WhatsApp su iPhone."
-category: "communication"
-steps: 5
-difficulty: "facile"
-platform: "iphone"
 lang: "it"
-date: "2026-01-31"
+category: "communication"
+difficulty: "facile"
+steps: 5
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Le videochiamate WhatsApp sono gratuite?"
     answer: "Si, sono completamente gratuite. Usano la tua connessione Internet (Wi-Fi o dati mobili), non i tuoi minuti di chiamata."
@@ -16,6 +16,7 @@ faq:
     answer: "Puoi avere fino a 32 persone in una videochiamata di gruppo."
   - question: "Cosa succede se l'altra persona non risponde?"
     answer: "La chiamata squillera per circa 30 secondi. Se non risponde, puoi riprovare piu tardi o inviarle un messaggio."
+
 ---
 
 ## Cosa imparerai

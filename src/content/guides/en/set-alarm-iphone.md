@@ -1,12 +1,12 @@
 ---
 title: "How to set an alarm on iPhone"
 description: "Learn how to set an alarm on your iPhone so you never miss a wake-up call or important reminder."
-category: "smartphone"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "en"
-date: "2026-02-03"
+category: "smartphone"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Will my alarm go off if my phone is on silent?"
     answer: "Yes. Alarms will sound even when your iPhone is on silent mode. Just make sure the volume is turned up in the Clock app."
@@ -16,6 +16,7 @@ faq:
     answer: "In the Alarms list, tap the green switch next to the alarm. It will turn gray, which means the alarm is off but saved for later."
   - question: "Why did my alarm not go off?"
     answer: "Make sure the alarm is toggled on (green switch). Also check that your iPhone is not powered off. Alarms do not work when the phone is completely turned off."
+
 ---
 
 ## What you will learn

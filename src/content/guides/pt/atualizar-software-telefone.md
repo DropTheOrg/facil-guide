@@ -1,12 +1,12 @@
 ---
 title: "Como atualizar o seu telefone para a ultima versao de software"
 description: "Aprenda a atualizar o software do seu iPhone ou Android para obter novas funcoes, corrigir problemas e ficar protegido contra ameacas de seguranca."
-category: "smartphone"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "pt"
-date: "2026-02-20"
+category: "smartphone"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Atualizar o telefone vai apagar as minhas fotos ou mensagens?"
     answer: "Nao. Uma atualizacao de software nao apaga as suas fotos, mensagens, contactos ou aplicacoes. Tudo fica exatamente onde esta. Ainda assim, e boa ideia ter uma copia de seguranca por precaucao."
@@ -18,6 +18,7 @@ faq:
     answer: "Nao. Durante a fase de instalacao, o telefone ira reiniciar e mostrar uma barra de progresso. Nao pode usa-lo ate a atualizacao terminar. Certifique-se de iniciar a atualizacao quando nao precisar do telefone durante algum tempo."
   - question: "O que fazer se a atualizacao falhar?"
     answer: "Se uma atualizacao falhar, reinicie o telefone e tente novamente. Certifique-se de ter uma boa ligacao Wi-Fi e pelo menos 50 por cento de bateria. Se continuar a falhar, ligue o iPhone a um computador com iTunes ou Finder, ou visite uma loja de reparacao para Android."
+
 ---
 
 ## O que vai aprender

@@ -1,12 +1,12 @@
 ---
 title: "What to do when your phone screen is frozen"
 description: "Learn how to fix a frozen phone screen that will not respond to touch, with simple steps for iPhone and Android."
-category: "troubleshooting"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "en"
-date: "2026-02-20"
+category: "troubleshooting"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Will I lose my data if I force restart?"
     answer: "No. A force restart does not delete anything. It simply turns your phone off and back on again, just like restarting a computer."
@@ -16,6 +16,7 @@ faq:
     answer: "If your phone freezes often, try updating your software, deleting apps you do not use, or freeing up storage space. If the problem continues, visit a phone repair shop."
   - question: "Is a frozen screen the same as a broken screen?"
     answer: "No. A frozen screen means the software is stuck but the screen itself is fine. If your screen is cracked or shows no image at all, that is a hardware problem and needs repair."
+
 ---
 
 ## What you will learn

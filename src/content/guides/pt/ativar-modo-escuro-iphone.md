@@ -1,12 +1,12 @@
 ---
 title: "Como ativar o modo escuro no iPhone"
 description: "Aprenda a mudar o seu iPhone para o modo escuro, que usa um fundo preto e e mais confortavel para os seus olhos a noite."
-category: "smartphone"
-steps: 5
-difficulty: "facile"
-platform: "iphone"
 lang: "pt"
-date: "2026-02-08"
+category: "smartphone"
+difficulty: "facile"
+steps: 5
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "O modo escuro poupa bateria?"
     answer: "Em iPhones com ecra OLED (iPhone X e mais recentes), o modo escuro pode poupar bateria porque os pixeis pretos consomem menos energia. Em iPhones mais antigos com ecra LCD, a diferenca e pequena."
@@ -14,6 +14,7 @@ faq:
     answer: "A maioria das aplicacoes segue a definicao do sistema e mudara automaticamente para o modo escuro. Algumas aplicacoes tem a sua propria definicao que pode precisar de ativar separadamente."
   - question: "Posso programar o modo escuro para se ativar automaticamente a noite?"
     answer: "Sim. Nas Definicoes, va a Ecra e brilho, ative Automatico e defina para Do por do sol ao nascer do sol. O seu telemovel mudara para o modo escuro quando escurecer."
+
 ---
 
 ## O que vai aprender

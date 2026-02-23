@@ -2,11 +2,11 @@
 title: "How to Set Up WhatsApp on a New Phone"
 description: "Learn how to install WhatsApp, verify your phone number, and start messaging for free."
 lang: "en"
-category: "applications"
+category: "communication"
 difficulty: "facile"
 steps: 6
-platform: "iphone"
-date: "2026-02-22"
+platform: "all"
+date: "2026-02-23"
 faq:
   - question: "Is WhatsApp free?"
     answer: "Yes. WhatsApp is free to download and use. It uses your internet connection (Wi-Fi or mobile data) instead of SMS. Calls and messages are free."
@@ -18,6 +18,7 @@ faq:
     answer: "If you backed up your chats (the app asks you during setup), your messages will be restored on your new phone. iPhone backups use iCloud, Android uses Google Drive."
   - question: "Can I use WhatsApp without internet?"
     answer: "No. WhatsApp needs an internet connection to send and receive messages. Without Wi-Fi or mobile data, messages will be sent when you reconnect."
+
 ---
 
 ## What You Will Need

@@ -6,7 +6,7 @@ category: "smartphone"
 difficulty: "facile"
 steps: 4
 platform: "iphone"
-date: "2026-02-22"
+date: "2026-02-23"
 faq:
   - question: "How long can I record?"
     answer: "There is no hard time limit. You can record for hours as long as you have enough storage space on your phone. One hour of recording uses about 25-30 MB."
@@ -16,6 +16,7 @@ faq:
     answer: "Yes. Open the recording, tap the Share button, and send it via WhatsApp, email, or text message."
   - question: "Is it legal to record conversations?"
     answer: "Laws vary by country and region. In many places, you need to tell the other person you are recording. Check your local laws before recording phone calls or conversations."
+
 ---
 
 ## What You Will Need

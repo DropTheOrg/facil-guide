@@ -6,7 +6,7 @@ category: "internet"
 difficulty: "facile"
 steps: 4
 platform: "iphone"
-date: "2026-02-22"
+date: "2026-02-23"
 faq:
   - question: "Can I share Wi-Fi from iPhone to Android?"
     answer: "The automatic sharing feature only works between Apple devices. For Android guests, you will need to tell them the password or use the QR code method described in this guide."
@@ -14,6 +14,7 @@ faq:
     answer: "Yes, sharing with people you trust is safe. They can only use your internet, not see your files or personal information. If you are worried, you can change your Wi-Fi password later."
   - question: "What if the automatic share pop-up does not appear?"
     answer: "Make sure both phones have Wi-Fi and Bluetooth turned on. Both people should be in each other's Contacts. Keep the phones close together (within 1 meter)."
+
 ---
 
 ## What You Will Need

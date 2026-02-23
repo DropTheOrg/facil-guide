@@ -1,12 +1,12 @@
 ---
 title: "How to organize files and folders on your computer"
 description: "Learn how to create folders, move files, and keep your computer organized so you can find things easily."
-difficulty: "moyen"
-platform: "web"
-category: "ordinateur"
-steps: 5
 lang: "en"
-date: "2026-02-06"
+category: "ordinateur"
+difficulty: "moyen"
+steps: 5
+platform: "web"
+date: "2026-02-23"
 faq:
   - question: "What is the difference between a file and a folder?"
     answer: "A file is a single document, photo, or item. A folder is like a container that holds files and other folders, helping you organize them."
@@ -14,6 +14,7 @@ faq:
     answer: "Yes. This is very common and helps you stay organized. For example, you could have a Photos folder with subfolders for each year."
   - question: "What happens if I delete a folder?"
     answer: "Everything inside the folder will also be deleted. On most computers, deleted items go to the Trash or Recycle Bin first, so you can recover them if needed."
+
 ---
 
 ## Step 1: Open your file manager

@@ -1,12 +1,12 @@
 ---
 title: "How to book a doctor appointment on Doctolib"
 description: "Learn how to use Doctolib to find a doctor and book a medical appointment online from your phone or computer, step by step."
-category: "government"
-steps: 7
-difficulty: "facile"
-platform: "all"
 lang: "en"
-date: "2026-02-22"
+category: "government"
+difficulty: "facile"
+steps: 7
+platform: "all"
+date: "2026-02-23"
 faq:
   - question: "Is Doctolib free to use?"
     answer: "Yes, creating an account and booking appointments on Doctolib is completely free. You only pay the doctor's consultation fee, which may be covered by your health insurance."
@@ -18,6 +18,7 @@ faq:
     answer: "No, not all doctors are on Doctolib. If you cannot find your doctor, they may use another booking platform or only accept phone bookings. Doctolib is most widely used in France and Germany."
   - question: "Can I see my medical documents on Doctolib?"
     answer: "Yes, some doctors share documents like prescriptions and test results through Doctolib. You can find them in the Documents section of your account."
+
 ---
 
 ## What you will learn

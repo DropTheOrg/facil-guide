@@ -1,12 +1,12 @@
 ---
 title: "Come fare una telefonata su iPhone"
 description: "Impara a chiamare qualcuno sul tuo iPhone usando l'app Telefono, i tuoi contatti o componendo un numero."
-category: "communication"
-steps: 5
-difficulty: "facile"
-platform: "iphone"
 lang: "it"
-date: "2026-02-16"
+category: "communication"
+difficulty: "facile"
+steps: 5
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Come chiamo qualcuno usando il nome invece del numero?"
     answer: "Apri l'app Telefono e tocca Contatti in basso. Trova il nome della persona nell'elenco e toccalo, poi tocca l'icona del telefono o il suo numero."
@@ -14,6 +14,7 @@ faq:
     answer: "Durante una chiamata, guarda i pulsanti sullo schermo e tocca l'icona dell'altoparlante. Sembra un triangolo con onde sonore. Toccalo di nuovo per tornare alla normalita."
   - question: "Cosa faccio se qualcuno non risponde?"
     answer: "Puoi provare a richiamare piu tardi. Puoi anche lasciare un messaggio vocale se la persona ha la segreteria configurata. Un messaggio ti chiedera di registrare dopo il segnale."
+
 ---
 
 ## Cosa imparerai

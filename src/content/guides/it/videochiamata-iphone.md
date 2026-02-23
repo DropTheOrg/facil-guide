@@ -1,17 +1,18 @@
 ---
 title: "Come fare una videochiamata su iPhone"
 description: "Impara a fare una videochiamata FaceTime con il tuo iPhone per vedere i tuoi cari in diretta."
-category: "communication"
-steps: 5
-difficulty: "facile"
-platform: "iphone"
 lang: "it"
-date: "2026-01-17"
+category: "communication"
+difficulty: "facile"
+steps: 5
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "FaceTime e gratuito?"
     answer: "Si, FaceTime e completamente gratuito. Usa la connessione Internet del telefono (Wi-Fi o dati mobili)."
   - question: "Posso chiamare qualcuno che ha Android?"
     answer: "Si, puoi invitare utenti Android a una chiamata FaceTime tramite un link. Pero non puoi chiamarli direttamente dall'app Telefono."
+
 ---
 
 ## Cosa imparerai

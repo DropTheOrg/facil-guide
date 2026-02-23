@@ -1,12 +1,13 @@
 ---
 title: "Como hacer una videollamada en iPhone"
 description: "Aprenda a hacer una videollamada con FaceTime en su iPhone para ver a sus seres queridos en directo."
-category: "communication"
-steps: 5
-difficulty: "facile"
-platform: "iphone"
 lang: "es"
-date: "2026-01-31"
+category: "communication"
+difficulty: "facile"
+steps: 5
+platform: "iphone"
+date: "2026-02-23"
+faq: []
 ---
 
 ## Lo que va a aprender

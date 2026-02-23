@@ -1,12 +1,12 @@
 ---
 title: "Como criar uma conta Google"
 description: "Aprenda a criar uma conta Google gratuita para usar o Gmail, YouTube, Google Maps e muito mais."
-category: "internet"
-steps: 6
-difficulty: "facile"
-platform: "web"
 lang: "pt"
-date: "2026-01-16"
+category: "internet"
+difficulty: "facile"
+steps: 6
+platform: "web"
+date: "2026-02-23"
 faq:
   - question: "Uma conta Google e gratuita?"
     answer: "Sim, e totalmente gratuita para criar e usar."
@@ -16,6 +16,7 @@ faq:
     answer: "Sim. Os passos sao os mesmos. Abra o seu navegador no telemovel e va a accounts.google.com."
   - question: "Esqueci a minha palavra-passe. O que faco?"
     answer: "Va a accounts.google.com, clique em Iniciar sessao e depois em Esqueci a palavra-passe. O Google ajuda-o a recuperar a sua conta usando o seu numero de telefone ou email de recuperacao."
+
 ---
 
 ## O que vai aprender

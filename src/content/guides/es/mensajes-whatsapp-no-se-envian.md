@@ -1,12 +1,12 @@
 ---
 title: "Como arreglar los mensajes de WhatsApp que no se envian"
 description: "Aprende que hacer cuando tus mensajes de WhatsApp muestran solo una marca de verificacion o no se envian."
-category: "troubleshooting"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "es"
-date: "2026-02-20"
+category: "troubleshooting"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Que significan las marcas de verificacion en WhatsApp?"
     answer: "Una marca gris significa que el mensaje se envio desde tu telefono. Dos marcas grises significan que se entrego a la otra persona. Dos marcas azules significan que lo ha leido. Un icono de reloj significa que el mensaje aun no se ha enviado."
@@ -14,6 +14,7 @@ faq:
     answer: "Si te han bloqueado, tus mensajes mostraran una marca de verificacion para siempre y no veras la foto de perfil ni el estado de la persona. Sin embargo, los problemas de conexion tienen el mismo aspecto, asi que no saques conclusiones precipitadas."
   - question: "Perdere mis mensajes si reinstalo WhatsApp?"
     answer: "Si tienes una copia de seguridad, no. WhatsApp hace copias de seguridad automaticamente. Al reinstalar, te preguntara si quieres restaurarla. Asegurate de que la copia de seguridad esta activada en Ajustes > Chats > Copia de seguridad antes de desinstalar."
+
 ---
 
 ## Lo que vas a aprender

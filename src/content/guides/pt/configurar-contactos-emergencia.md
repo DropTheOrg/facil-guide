@@ -1,12 +1,12 @@
 ---
 title: "Como configurar contactos de emergencia e ficha medica no seu telefone"
 description: "Aprenda a adicionar contactos de emergencia e configurar a ficha medica no iPhone e Android para que os servicos de emergencia possam contactar a sua familia."
-category: "smartphone"
-steps: 7
-difficulty: "facile"
-platform: "iphone"
 lang: "pt"
-date: "2026-02-20"
+category: "smartphone"
+difficulty: "facile"
+steps: 7
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Os contactos de emergencia sao acessiveis com o telefone bloqueado?"
     answer: "Sim. Esse e o objetivo principal desta funcao. Os servicos de emergencia podem ver os seus contactos de emergencia e informacoes medicas a partir do ecra de bloqueio sem precisar do seu codigo."
@@ -18,6 +18,7 @@ faq:
     answer: "Sim. Pode adicionar varios contactos de emergencia. E aconselhavel adicionar pelo menos dois, como o conjuge e um filho adulto."
   - question: "Isto tem algum custo?"
     answer: "Nao. E uma funcao gratuita integrada em todos os iPhone e telefones Android."
+
 ---
 
 ## O que vai aprender

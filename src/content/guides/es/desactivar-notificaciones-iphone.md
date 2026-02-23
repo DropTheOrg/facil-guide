@@ -1,12 +1,12 @@
 ---
 title: "Como desactivar las notificaciones en iPhone"
 description: "Aprenda a detener las notificaciones no deseadas de aplicaciones en su iPhone para tener un telefono mas tranquilo."
-category: "smartphone"
-steps: 5
-difficulty: "facile"
-platform: "iphone"
 lang: "es"
-date: "2026-02-17"
+category: "smartphone"
+difficulty: "facile"
+steps: 5
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Perdere llamadas importantes si desactivo las notificaciones?"
     answer: "No. Desactivar las notificaciones de una aplicacion solo detiene las alertas de esa aplicacion. Las llamadas telefonicas seguiran llegando, a menos que tambien active No molestar."
@@ -14,6 +14,7 @@ faq:
     answer: "Si. Siga los mismos pasos y vuelva a activar el interruptor de Permitir notificaciones."
   - question: "Que es No molestar?"
     answer: "No molestar silencia todas las notificaciones, llamadas y alertas de una vez. Puede activarlo desde Ajustes o deslizando hacia abajo desde la esquina superior derecha de su pantalla y tocando el icono de la luna."
+
 ---
 
 ## Lo que va a aprender

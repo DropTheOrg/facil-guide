@@ -1,12 +1,12 @@
 ---
 title: "How to join a Zoom video call"
 description: "Learn how to join a Zoom meeting on your phone or computer when someone sends you an invitation link."
-category: "communication"
-steps: 5
-difficulty: "facile"
-platform: "web"
 lang: "en"
-date: "2026-02-17"
+category: "communication"
+difficulty: "facile"
+steps: 5
+platform: "web"
+date: "2026-02-23"
 faq:
   - question: "Do I need a Zoom account to join a meeting?"
     answer: "No. You can join most Zoom meetings without creating an account. Just click the link or enter the meeting ID."
@@ -14,6 +14,7 @@ faq:
     answer: "No. When you join, Zoom shows you a preview of your camera. You can choose to turn your camera on or off before entering the meeting."
   - question: "What if I cannot hear anyone in the meeting?"
     answer: "Make sure your phone or computer volume is turned up. When Zoom asks how to join audio, tap Join with Internet Audio or Call Using Internet Audio. If audio still does not work, leave and rejoin the meeting."
+
 ---
 
 ## What you will learn

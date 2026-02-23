@@ -1,11 +1,11 @@
 ---
 title: "Come prenotare una corsa con Uber sul tuo telefono"
 description: "Scopri come scaricare Uber, creare il tuo account e prenotare la tua prima corsa passo dopo passo."
-category: "applications"
-steps: 7
-difficulty: "facile"
-platform: "all"
 lang: "it"
+category: "applications"
+difficulty: "facile"
+steps: 7
+platform: "all"
 date: "2026-02-23"
 faq:
   - question: "Quanto costa una corsa Uber?"
@@ -18,6 +18,7 @@ faq:
     answer: "Si. Quando inserisci la destinazione, puoi cambiare il punto di ritiro e inviare i dettagli della corsa a un'altra persona."
   - question: "Cosa fare se ho dimenticato qualcosa in auto?"
     answer: "Apri l'app Uber, vai su I tuoi viaggi, seleziona la corsa e tocca Oggetto smarrito. L'app ti aiutera a contattare l'autista."
+
 ---
 
 ## Cosa imparerai

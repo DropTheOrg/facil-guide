@@ -1,11 +1,11 @@
 ---
 title: "Como configurar e ouvir o correio de voz no seu telemóvel"
 description: "Aprenda a configurar o correio de voz no seu iPhone ou telemóvel Android para que as pessoas possam deixar-lhe uma mensagem quando não puder atender."
-category: "communication"
-steps: 6
-difficulty: "facile"
-platform: "all"
 lang: "pt"
+category: "communication"
+difficulty: "facile"
+steps: 6
+platform: "all"
 date: "2026-02-23"
 faq:
   - question: "O correio de voz é gratuito?"
@@ -18,6 +18,7 @@ faq:
     answer: "Se o seu correio de voz estiver cheio, as pessoas que ligarem não poderão deixar novas mensagens. Precisará de apagar mensagens antigas para libertar espaço. Ouça as suas mensagens guardadas e apague as que já não precisa."
   - question: "Posso ouvir o correio de voz a partir de outro telemóvel?"
     answer: "Sim, a maioria dos operadores permite-lhe ligar para o seu próprio número a partir de outro telemóvel e premir uma tecla (normalmente asterisco ou cardinal) para aceder ao seu correio de voz. Precisará do seu PIN do correio de voz."
+
 ---
 
 ## O que vai aprender

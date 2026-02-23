@@ -1,12 +1,12 @@
 ---
 title: "Como reconocer un correo electronico de estafa"
 description: "Aprenda las senales de alerta de correos fraudulentos y protejase del phishing, facturas falsas y estafas en linea."
-category: "securite"
-steps: 6
-difficulty: "facile"
-platform: "web"
 lang: "es"
-date: "2026-02-11"
+category: "securite"
+difficulty: "facile"
+steps: 6
+platform: "web"
+date: "2026-02-23"
 faq:
   - question: "Que hago si ya hice clic en un enlace sospechoso?"
     answer: "No se asuste. Cierre el sitio web inmediatamente. Si ingreso alguna contrasena, cambiela de inmediato en el sitio real. Si dio datos bancarios, contacte a su banco inmediatamente. Ejecute un analisis antivirus en su dispositivo si es posible."
@@ -16,6 +16,7 @@ faq:
     answer: "No. Los correos de estafa existen en todos los idiomas. Las estafas en su idioma nativo pueden ser aun mas convincentes porque resultan familiares."
   - question: "Como consiguen los estafadores mi direccion de correo?"
     answer: "Las direcciones de correo se recopilan de filtraciones de datos, sitios web publicos, perfiles de redes sociales o simplemente se adivinan. Esto le pasa a todo el mundo. Lo importante es saber reconocer las estafas."
+
 ---
 
 ## Lo que aprendera

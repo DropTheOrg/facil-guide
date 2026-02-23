@@ -1,12 +1,12 @@
 ---
 title: "Comment mettre a jour son iPhone"
 description: "Apprenez a mettre a jour votre iPhone vers la derniere version d'iOS pour obtenir les nouvelles fonctionnalites et les correctifs de securite."
-category: "smartphone"
-steps: 6
-difficulty: "moyen"
-platform: "iphone"
 lang: "fr"
-date: "2026-01-16"
+category: "smartphone"
+difficulty: "moyen"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Combien de temps dure une mise a jour iPhone ?"
     answer: "La plupart des mises a jour prennent entre 15 et 30 minutes. Les mises a jour majeures peuvent prendre jusqu'a une heure. N'eteignez pas votre telephone pendant la mise a jour."
@@ -16,6 +16,7 @@ faq:
     answer: "Vous avez besoin d'espace libre pour la mise a jour. Essayez de supprimer des applications ou des photos dont vous n'avez plus besoin, puis reessayez."
   - question: "Puis-je utiliser mon telephone pendant la mise a jour ?"
     answer: "Non. Votre iPhone redemarrera pendant la mise a jour et vous ne pourrez pas l'utiliser tant qu'elle n'est pas terminee."
+
 ---
 
 ## Ce que vous allez apprendre

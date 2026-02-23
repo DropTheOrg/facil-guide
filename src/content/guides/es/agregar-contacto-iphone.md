@@ -1,12 +1,12 @@
 ---
 title: "Como agregar un contacto en iPhone"
 description: "Aprenda a guardar un numero de telefono como contacto en su iPhone para poder llamar o enviar mensajes facilmente."
-category: "smartphone"
-steps: 5
-difficulty: "facile"
-platform: "iphone"
 lang: "es"
-date: "2026-02-06"
+category: "smartphone"
+difficulty: "facile"
+steps: 5
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Puedo agregar una foto a un contacto?"
     answer: "Si. Abra el contacto, toque Editar en la esquina superior derecha y luego toque Agregar foto. Puede tomar una foto nueva o elegir una de su biblioteca."
@@ -14,6 +14,7 @@ faq:
     answer: "Abra la aplicacion Contactos, busque a la persona, toque su nombre y luego toque Editar en la esquina superior derecha. Haga sus cambios y toque OK."
   - question: "Puedo guardar un contacto desde una llamada reciente?"
     answer: "Si. Abra la aplicacion Telefono, toque Recientes, y luego toque el icono de informacion (un circulo pequeno con una i) junto al numero. Toque Crear contacto nuevo para guardarlo."
+
 ---
 
 ## Lo que va a aprender

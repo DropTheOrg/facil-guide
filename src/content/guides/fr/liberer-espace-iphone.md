@@ -1,12 +1,12 @@
 ---
 title: "Comment liberer de l'espace sur iPhone"
 description: "Apprenez a verifier le stockage de votre iPhone et a liberer de l'espace en supprimant les fichiers, applications et photos dont vous n'avez plus besoin."
-category: "smartphone"
-steps: 6
-difficulty: "moyen"
-platform: "iphone"
 lang: "fr"
-date: "2026-01-19"
+category: "smartphone"
+difficulty: "moyen"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Comment savoir si mon iPhone manque d'espace ?"
     answer: "Votre iPhone affichera un message 'Stockage iPhone presque plein'. Vous remarquerez aussi que les applications plantent, les photos ne s'enregistrent pas ou les mises a jour echouent."
@@ -16,6 +16,7 @@ faq:
     answer: "Decharger une app la supprime mais conserve ses donnees. Si vous la reinstallez plus tard, vos donnees reviennent. Cela economise de l'espace sans perdre d'informations."
   - question: "Effacer les donnees Safari me deconnectera-t-il des sites ?"
     answer: "Oui. Effacer les donnees Safari supprime les mots de passe et sessions de connexion enregistres. Vous devrez vous reconnecter aux sites que vous visitez."
+
 ---
 
 ## Ce que vous allez apprendre

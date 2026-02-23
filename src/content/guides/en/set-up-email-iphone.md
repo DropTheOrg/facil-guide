@@ -1,12 +1,12 @@
 ---
 title: "How to set up email on iPhone"
 description: "Learn how to add your email account (Gmail, Outlook, Yahoo, or others) to the Mail app on your iPhone."
-category: "communication"
-steps: 6
-difficulty: "moyen"
-platform: "iphone"
 lang: "en"
-date: "2026-02-05"
+category: "communication"
+difficulty: "moyen"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Can I add more than one email account?"
     answer: "Yes. You can add as many email accounts as you want. Repeat the same steps for each account. The Mail app will show all of them in one place."
@@ -14,6 +14,7 @@ faq:
     answer: "Go to your email provider's website (like gmail.com or outlook.com) and click Forgot Password. Follow the steps to reset it, then try adding the account again."
   - question: "Will I get notifications for new emails?"
     answer: "Yes. By default, your iPhone will notify you when new emails arrive. You can change this in Settings, then Notifications, then Mail."
+
 ---
 
 ## What you will learn

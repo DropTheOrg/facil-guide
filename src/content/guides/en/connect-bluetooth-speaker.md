@@ -1,12 +1,12 @@
 ---
 title: "How to connect a Bluetooth speaker"
 description: "Learn how to connect a Bluetooth speaker to your iPhone to play music and audio wirelessly."
-category: "smartphone"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "en"
-date: "2026-01-20"
+category: "smartphone"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "How far can I be from the speaker?"
     answer: "Bluetooth usually works within 10 meters (about 30 feet). Walls and obstacles can reduce this range."
@@ -14,6 +14,7 @@ faq:
     answer: "It depends on your iPhone and speaker. Most iPhones can only play audio to one Bluetooth speaker at a time."
   - question: "Why is my speaker not appearing?"
     answer: "Make sure the speaker is in pairing mode (usually indicated by a flashing light) and that Bluetooth is turned on on your iPhone. Try turning both off and on again."
+
 ---
 
 ## What you will learn

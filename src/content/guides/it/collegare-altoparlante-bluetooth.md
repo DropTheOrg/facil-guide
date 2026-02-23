@@ -1,12 +1,12 @@
 ---
 title: "Come collegare un altoparlante Bluetooth"
 description: "Impara a collegare un altoparlante Bluetooth al tuo iPhone per ascoltare musica e audio senza fili."
-category: "smartphone"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "it"
-date: "2026-02-02"
+category: "smartphone"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "A che distanza posso stare dall'altoparlante?"
     answer: "Il Bluetooth funziona di solito entro 10 metri (circa 30 passi). Muri e ostacoli possono ridurre questa portata."
@@ -14,6 +14,7 @@ faq:
     answer: "Dipende dall'iPhone e dall'altoparlante. La maggior parte degli iPhone puo riprodurre audio su un solo altoparlante Bluetooth alla volta."
   - question: "Perche il mio altoparlante non appare?"
     answer: "Assicurati che l'altoparlante sia in modalita di associazione (di solito indicata da una luce lampeggiante) e che il Bluetooth sia attivato sul tuo iPhone. Prova a spegnere e riaccendere entrambi."
+
 ---
 
 ## Cosa imparerai

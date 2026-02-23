@@ -1,12 +1,12 @@
 ---
 title: "Come velocizzare un telefono lento senza comprarne uno nuovo"
 description: "Scopri come rendere il tuo iPhone o Android piu veloce con semplici passaggi che liberano memoria e spazio di archiviazione."
-category: "troubleshooting"
-steps: 7
-difficulty: "facile"
-platform: "iphone"
 lang: "it"
-date: "2026-02-20"
+category: "troubleshooting"
+difficulty: "facile"
+steps: 7
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Perche il mio telefono e cosi lento?"
     answer: "I telefoni rallentano quando finiscono lo spazio di archiviazione, hanno troppe app in esecuzione o hanno bisogno di un aggiornamento software. Le batterie vecchie possono anche causare rallentamenti perche il telefono riduce la velocita per risparmiare energia."
@@ -18,6 +18,7 @@ faq:
     answer: "Un ripristino di fabbrica cancella tutto sul telefono e lo riporta come nuovo. E efficace ma deve essere l'ultima risorsa. Fai sempre il backup di foto e contatti prima. Prova gli altri passaggi di questa guida prima."
   - question: "Ogni quanto devo riavviare il telefono?"
     answer: "Riavviare una volta a settimana e una buona abitudine. Aiuta a mantenere il telefono fluido cancellando i file temporanei e rinfrescando il sistema."
+
 ---
 
 ## Cosa imparerai

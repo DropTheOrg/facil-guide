@@ -16,6 +16,7 @@ faq:
     answer: "You can skip this step. Your phone will show their initials instead. You can always add a photo later."
   - question: "Will the photo show up when they call?"
     answer: "Yes. When that person calls you, their photo will appear on your screen so you can see who is calling."
+
 ---
 
 ## Lo que va a necesitar

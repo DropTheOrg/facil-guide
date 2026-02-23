@@ -1,11 +1,11 @@
 ---
 title: "Como ver vídeos no YouTube"
 description: "Aprenda a usar o YouTube no seu telemóvel para ver vídeos, pesquisar temas do seu interesse e subscrever canais."
-category: "applications"
-steps: 7
-difficulty: "facile"
-platform: "all"
 lang: "pt"
+category: "applications"
+difficulty: "facile"
+steps: 7
+platform: "all"
 date: "2026-02-23"
 faq:
   - question: "O YouTube é gratuito?"
@@ -18,6 +18,7 @@ faq:
     answer: "Sim, se tiver uma televisão inteligente, pode abrir a aplicação YouTube diretamente nela. Também pode usar o Chromecast ou AirPlay para enviar um vídeo do seu telemóvel para a televisão."
   - question: "Como impedir o YouTube de reproduzir automaticamente o próximo vídeo?"
     answer: "Toque na sua foto de perfil no canto superior direito, depois em Definições, depois em Geral, e desative a Reprodução automática."
+
 ---
 
 ## O que vai aprender

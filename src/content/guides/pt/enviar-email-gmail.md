@@ -1,12 +1,12 @@
 ---
 title: "Como enviar um email com Gmail"
 description: "Aprenda a escrever e enviar um email com Gmail, passo a passo."
-category: "communication"
-steps: 6
-difficulty: "facile"
-platform: "web"
 lang: "pt"
-date: "2026-02-10"
+category: "communication"
+difficulty: "facile"
+steps: 6
+platform: "web"
+date: "2026-02-23"
 faq:
   - question: "O Gmail e gratuito?"
     answer: "Sim, o Gmail e completamente gratuito. So precisa de uma conta Google para o utilizar."
@@ -16,6 +16,7 @@ faq:
     answer: "CC significa Com Copia. Todos podem ver quem recebeu o email. BCC significa Com Copia Oculta. Os outros destinatarios nao podem ver quem esta no BCC."
   - question: "Posso anexar um ficheiro?"
     answer: "Sim. Clique no icone do clip na parte inferior da janela de redacao para anexar um ficheiro do seu computador."
+
 ---
 
 ## O que vai aprender

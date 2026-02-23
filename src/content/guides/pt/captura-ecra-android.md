@@ -1,11 +1,11 @@
 ---
 title: "Como fazer uma captura de ecra no Android"
 description: "Aprenda a capturar o ecra do seu telefone Android como uma foto, em qualquer marca ou modelo."
-category: "smartphone"
-steps: 6
-difficulty: "facile"
-platform: "android"
 lang: "pt"
+category: "smartphone"
+difficulty: "facile"
+steps: 6
+platform: "android"
 date: "2026-02-23"
 faq:
   - question: "Onde ficam guardadas as minhas capturas de ecra?"
@@ -16,6 +16,7 @@ faq:
     answer: "Sim. Uma notificacao ou pre-visualizacao aparece logo apos a captura. Toque nela para recortar, desenhar ou adicionar texto antes de partilhar."
   - question: "E se o metodo dos botoes nao funcionar?"
     answer: "Alguns telefones mais antigos usam Ligar/Desligar + botao Inicio. Tambem pode experimentar o metodo das Definicoes rapidas descrito neste guia."
+
 ---
 
 ## O que vai aprender

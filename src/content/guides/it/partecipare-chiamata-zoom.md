@@ -1,12 +1,12 @@
 ---
 title: "Come partecipare a una chiamata video su Zoom"
 description: "Impara a partecipare a una riunione Zoom sul telefono o computer quando qualcuno ti invia un link di invito."
-category: "communication"
-steps: 5
-difficulty: "facile"
-platform: "web"
 lang: "it"
-date: "2026-02-05"
+category: "communication"
+difficulty: "facile"
+steps: 5
+platform: "web"
+date: "2026-02-23"
 faq:
   - question: "Ho bisogno di un account Zoom per partecipare?"
     answer: "No. Puoi partecipare alla maggior parte delle riunioni Zoom senza creare un account. Basta cliccare sul link o inserire l'ID della riunione."
@@ -14,6 +14,7 @@ faq:
     answer: "No. Quando entri, Zoom ti mostra un'anteprima della fotocamera. Puoi scegliere di attivare o disattivare la fotocamera prima di entrare nella riunione."
   - question: "Cosa faccio se non sento nessuno nella riunione?"
     answer: "Assicurati che il volume del telefono o computer sia alto. Quando Zoom chiede come entrare nell'audio, tocca Entra con audio Internet. Se l'audio ancora non funziona, esci e rientra nella riunione."
+
 ---
 
 ## Cosa imparerai

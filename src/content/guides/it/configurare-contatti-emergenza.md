@@ -1,12 +1,12 @@
 ---
 title: "Come configurare i contatti di emergenza e la cartella clinica sul telefono"
 description: "Scopri come aggiungere contatti di emergenza e configurare la cartella clinica su iPhone e Android per permettere ai soccorritori di contattare la tua famiglia."
-category: "smartphone"
-steps: 7
-difficulty: "facile"
-platform: "iphone"
 lang: "it"
-date: "2026-02-20"
+category: "smartphone"
+difficulty: "facile"
+steps: 7
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "I contatti di emergenza sono accessibili anche con il telefono bloccato?"
     answer: "Si. Questo e lo scopo principale della funzione. I servizi di emergenza possono vedere i tuoi contatti di emergenza e le informazioni mediche dalla schermata di blocco senza bisogno del codice."
@@ -18,6 +18,7 @@ faq:
     answer: "Si. Puoi aggiungere piu contatti di emergenza. E consigliabile aggiungerne almeno due, come il coniuge e un figlio adulto."
   - question: "Costa qualcosa?"
     answer: "No. E una funzione gratuita integrata in tutti gli iPhone e telefoni Android."
+
 ---
 
 ## Cosa imparerai

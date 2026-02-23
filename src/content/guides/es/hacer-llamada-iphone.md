@@ -1,12 +1,12 @@
 ---
 title: "Como hacer una llamada en iPhone"
 description: "Aprenda a llamar a alguien en su iPhone usando la aplicacion Telefono, sus contactos o marcando un numero."
-category: "communication"
-steps: 5
-difficulty: "facile"
-platform: "iphone"
 lang: "es"
-date: "2026-01-22"
+category: "communication"
+difficulty: "facile"
+steps: 5
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Como llamo a alguien usando su nombre en vez de un numero?"
     answer: "Abra la aplicacion Telefono y toque Contactos en la parte inferior. Busque el nombre de la persona en la lista y toquelo, luego toque el icono del telefono o su numero."
@@ -14,6 +14,7 @@ faq:
     answer: "Durante una llamada, mire los botones en su pantalla y toque el icono del altavoz. Parece un triangulo con ondas de sonido. Toquelo de nuevo para volver a la normalidad."
   - question: "Que hago si alguien no contesta?"
     answer: "Puede intentar llamar de nuevo mas tarde. Tambien puede dejar un mensaje de voz si la persona lo tiene configurado. Un mensaje le pedira que grabe despues del tono."
+
 ---
 
 ## Lo que va a aprender

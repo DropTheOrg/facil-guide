@@ -1,12 +1,12 @@
 ---
 title: "Comment envoyer un SMS sur iPhone"
 description: "Apprenez a envoyer un message texte (SMS ou iMessage) a quelqu'un avec l'application Messages de votre iPhone."
-category: "communication"
-steps: 5
-difficulty: "facile"
-platform: "iphone"
 lang: "fr"
-date: "2026-02-12"
+category: "communication"
+difficulty: "facile"
+steps: 5
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Quelle est la difference entre un message vert et bleu ?"
     answer: "Les messages bleus sont des iMessages, envoyes gratuitement par Internet a d'autres appareils Apple. Les messages verts sont des SMS classiques, qui peuvent couter de l'argent selon votre forfait."
@@ -14,6 +14,7 @@ faq:
     answer: "Oui. L'application Messages envoie des SMS classiques aux telephones non-Apple. La bulle de message apparaitra en vert au lieu de bleu."
   - question: "Puis-je envoyer des photos dans un message ?"
     answer: "Oui. Dans la conversation, appuyez sur le bouton + ou l'icone appareil photo pour joindre une photo avant d'envoyer."
+
 ---
 
 ## Ce que vous allez apprendre

@@ -1,12 +1,12 @@
 ---
 title: "Comment envoyer une photo par e-mail en piece jointe"
 description: "Apprenez a joindre et envoyer une photo par e-mail sur iPhone et Android avec des instructions simples etape par etape pour Gmail et d'autres applications."
-category: "communication"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "fr"
-date: "2026-02-20"
+category: "communication"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Y a-t-il une limite au nombre de photos que je peux envoyer ?"
     answer: "La plupart des services de messagerie ont une limite de 25 megaoctets par e-mail. Une photo fait generalement 2 a 5 megaoctets, donc vous pouvez envoyer 5 a 10 photos par e-mail. Si vous devez en envoyer plus, repartissez-les sur plusieurs e-mails."
@@ -16,6 +16,7 @@ faq:
     answer: "Oui, mais les videos sont beaucoup plus volumineuses. Si la video est trop grosse pour l'e-mail, le telephone peut proposer d'envoyer un lien a la place (comme un lien iCloud sur iPhone ou Google Drive sur Android)."
   - question: "Et si la personne dit ne pas avoir recu mon e-mail ?"
     answer: "Verifiez votre dossier Envoyes pour confirmer que l'e-mail a ete envoye. Les pieces jointes volumineuses sont parfois bloquees par le fournisseur du destinataire. Demandez-lui de verifier son dossier spam. Si les photos etaient trop grandes, reessayez avec une taille plus petite."
+
 ---
 
 ## Ce que vous allez apprendre

@@ -1,12 +1,12 @@
 ---
 title: "How to make text bigger on iPhone"
 description: "Learn how to increase the text size on your iPhone so everything is easier to read."
-category: "smartphone"
-steps: 5
-difficulty: "facile"
-platform: "iphone"
 lang: "en"
-date: "2026-01-24"
+category: "smartphone"
+difficulty: "facile"
+steps: 5
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Does this change text size in all apps?"
     answer: "Most apps support Dynamic Type and will respect your text size choice. A few apps may not change, but the majority will."
@@ -14,6 +14,7 @@ faq:
     answer: "Yes. Go to Settings > Accessibility > Display and Text Size > Larger Text. Turn on Larger Accessibility Sizes for even bigger options."
   - question: "Will this change affect other people who use my phone?"
     answer: "Yes, the text size setting applies to the whole phone. Anyone using your iPhone will see the larger text."
+
 ---
 
 ## What you will learn

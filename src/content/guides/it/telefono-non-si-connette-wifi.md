@@ -1,12 +1,12 @@
 ---
 title: "Cosa fare quando il telefono non si connette al Wi-Fi"
 description: "Scopri come risolvere il problema quando il tuo telefono non si connette a una rete Wi-Fi, con passaggi semplici per iPhone e Android."
-category: "troubleshooting"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "it"
-date: "2026-02-20"
+category: "troubleshooting"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Perdero qualcosa se dimentico la rete Wi-Fi?"
     answer: "No. Dimenticare una rete rimuove solo la password salvata dal telefono. Non perderai foto, app ne dati. Dovrai solo riscrivere la password."
@@ -14,6 +14,7 @@ faq:
     answer: "Questo puo succedere se il router e connesso al Wi-Fi ma ha perso la connessione Internet. Prova a riavviare il router. Se il problema continua, contatta il tuo provider Internet."
   - question: "E se non conosco la mia password Wi-Fi?"
     answer: "La password del Wi-Fi e di solito stampata su un'etichetta sul retro o sotto il router. Se qualcuno l'ha cambiata, chiedigli la nuova password."
+
 ---
 
 ## Cosa imparerai

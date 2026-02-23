@@ -1,12 +1,12 @@
 ---
 title: "Come usare l'app NHS per gestire la tua salute"
 description: "Impara a configurare e usare l'app NHS per prenotare visite mediche, richiedere ricette e consultare la tua cartella clinica dal tuo telefono."
-category: "government"
-steps: 7
-difficulty: "facile"
-platform: "all"
 lang: "it"
-date: "2026-02-22"
+category: "government"
+difficulty: "facile"
+steps: 7
+platform: "all"
+date: "2026-02-23"
 faq:
   - question: "L'app NHS è gratuita?"
     answer: "Sì, l'app NHS è completamente gratuita. È l'app ufficiale del National Health Service in Inghilterra."
@@ -18,6 +18,7 @@ faq:
     answer: "Sì, l'app NHS usa una crittografia forte e richiede la verifica dell'identità prima di poter accedere ai tuoi dati. Solo tu puoi vedere le tue informazioni."
   - question: "Posso vedere il mio stato vaccinale COVID-19 nell'app NHS?"
     answer: "Sì, i tuoi registri vaccinali, incluso il COVID-19, sono disponibili nell'app. Puoi consultare il tuo storico vaccinale e scaricare un certificato se necessario."
+
 ---
 
 ## Cosa imparerai

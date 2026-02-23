@@ -1,12 +1,12 @@
 ---
 title: "Como verificar el almacenamiento en Android"
 description: "Aprenda a ver cuanto espacio de almacenamiento queda en su telefono Android y que esta usando mas espacio."
-category: "smartphone"
-steps: 5
-difficulty: "facile"
-platform: "android"
 lang: "es"
-date: "2026-01-27"
+category: "smartphone"
+difficulty: "facile"
+steps: 5
+platform: "android"
+date: "2026-02-23"
 faq:
   - question: "Que pasa cuando mi telefono se queda sin almacenamiento?"
     answer: "Su telefono puede volverse lento, las aplicaciones pueden dejar de funcionar correctamente, y no podra descargar nuevas aplicaciones ni tomar nuevas fotos hasta que libere espacio."
@@ -14,6 +14,7 @@ faq:
     answer: "Las fotos, videos y aplicaciones suelen ser lo que mas ocupa. Los archivos antiguos de WhatsApp y las descargas tambien pueden ocupar mucho."
   - question: "Como libero espacio?"
     answer: "Elimine aplicaciones que ya no use, borre fotos y videos antiguos (o muevalos a Google Photos) y limpie la cache en Ajustes."
+
 ---
 
 ## Lo que va a aprender

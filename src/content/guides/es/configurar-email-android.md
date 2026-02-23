@@ -1,11 +1,11 @@
 ---
 title: "Como configurar tu email en un telefono Android"
 description: "Aprende a anadir tu cuenta de correo electronico a tu telefono Android para enviar y recibir mensajes."
-category: "communication"
-steps: 7
-difficulty: "facile"
-platform: "android"
 lang: "es"
+category: "communication"
+difficulty: "facile"
+steps: 7
+platform: "android"
 date: "2026-02-23"
 faq:
   - question: "Que aplicacion de correo debo usar?"
@@ -16,6 +16,7 @@ faq:
     answer: "Si. Una vez configurado, los nuevos correos apareceran automaticamente. Tambien recibiras notificaciones cuando llegue un nuevo correo."
   - question: "Necesito saber mi contrasena de correo?"
     answer: "Si. Necesitaras tu direccion de correo y tu contrasena para iniciar sesion. Si has olvidado tu contrasena, deberas restablecerla primero en el sitio web de tu proveedor de correo."
+
 ---
 
 ## Lo que vas a aprender

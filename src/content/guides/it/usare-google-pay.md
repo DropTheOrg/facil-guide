@@ -1,11 +1,11 @@
 ---
 title: "Come configurare e usare Google Pay su Android"
 description: "Scopri come aggiungere la tua carta bancaria a Google Pay e pagare nei negozi con il tuo telefono Android."
-category: "money"
-steps: 7
-difficulty: "facile"
-platform: "android"
 lang: "it"
+category: "money"
+difficulty: "facile"
+steps: 7
+platform: "android"
 date: "2026-02-23"
 faq:
   - question: "Google Pay e sicuro?"
@@ -18,6 +18,7 @@ faq:
     answer: "I limiti variano in base al paese e alla banca. In alcuni luoghi, i pagamenti contactless sopra un certo importo possono richiedere l'inserimento del PIN sul terminale."
   - question: "Si puo usare Google Pay per acquisti online?"
     answer: "Si. Molti siti web e app accettano Google Pay. Cerca il pulsante Google Pay al momento del pagamento."
+
 ---
 
 ## Cosa imparerai

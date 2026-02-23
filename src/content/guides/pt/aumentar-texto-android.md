@@ -1,12 +1,12 @@
 ---
 title: "Como aumentar o texto no Android"
 description: "Aprenda a aumentar o tamanho do texto no seu telemóvel Android."
-difficulty: "facile"
-platform: "android"
-category: "smartphone"
-steps: 4
 lang: "pt"
-date: "2026-02-01"
+category: "smartphone"
+difficulty: "facile"
+steps: 4
+platform: "android"
+date: "2026-02-23"
 faq:
   - question: "Will this change text size in all apps?"
     answer: "Most apps respect the system text size setting. Some apps may have their own text size settings."
@@ -14,6 +14,7 @@ faq:
     answer: "Yes. In the same Display settings, look for Display size or Screen zoom to make everything on screen larger, not just text."
   - question: "Can I go back to the original size?"
     answer: "Yes. Follow the same steps and move the slider back to the default position."
+
 ---
 
 ## Passo 1 : Open Settings

@@ -1,12 +1,12 @@
 ---
 title: "What to do when you can't hear during a phone call"
 description: "Learn how to fix the problem when you cannot hear the other person during a phone call on your iPhone or Android."
-category: "troubleshooting"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "en"
-date: "2026-02-20"
+category: "troubleshooting"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Why can I hear on speakerphone but not normally?"
     answer: "This usually means the small earpiece speaker at the top of your phone is blocked or damaged. Try cleaning it gently with a soft brush. If that does not work, the speaker may need repair."
@@ -14,6 +14,7 @@ faq:
     answer: "Yes. If you have poor signal, calls can sound muffled or silent. Try moving to a different location or near a window. If the problem only happens in one place, it is likely a signal issue."
   - question: "What if the other person says they cannot hear me?"
     answer: "That is a microphone problem, not a speaker problem. Make sure nothing is covering the bottom of your phone where the microphone is. Try removing your phone case temporarily."
+
 ---
 
 ## What you will learn

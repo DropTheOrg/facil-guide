@@ -1,12 +1,12 @@
 ---
 title: "Comment partager votre position avec votre famille pour votre securite"
 description: "Apprenez a partager votre position en temps reel avec vos proches sur iPhone et Android pour qu'ils sachent toujours ou vous etes."
-category: "smartphone"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "fr"
-date: "2026-02-20"
+category: "smartphone"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Partager ma position vide-t-il ma batterie ?"
     answer: "Cela consomme un peu de batterie supplementaire, mais les telephones modernes gerent cela efficacement. Vous ne devriez pas remarquer de grande difference dans l'autonomie quotidienne."
@@ -18,6 +18,7 @@ faq:
     answer: "Quand votre telephone a un bon signal GPS et une connexion internet, la position est generalement precise a quelques metres pres. A l'interieur, elle peut etre moins precise."
   - question: "L'autre personne a-t-elle besoin du meme type de telephone ?"
     answer: "Pour Apple Localiser, les deux personnes doivent avoir un iPhone. Pour le partage de position Google Maps, cela fonctionne entre tous les telephones a condition que les deux aient Google Maps installe."
+
 ---
 
 ## Ce que vous allez apprendre

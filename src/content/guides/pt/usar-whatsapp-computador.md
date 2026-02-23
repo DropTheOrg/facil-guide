@@ -1,12 +1,12 @@
 ---
 title: "Como usar o WhatsApp no computador"
 description: "Aprenda a abrir o WhatsApp no seu computador para escrever mensagens com um teclado completo."
-category: "applications"
-steps: 6
-difficulty: "facile"
-platform: "web"
 lang: "pt"
-date: "2026-02-13"
+category: "applications"
+difficulty: "facile"
+steps: 6
+platform: "web"
+date: "2026-02-23"
 faq:
   - question: "Preciso de ter o telemovel por perto?"
     answer: "As versoes recentes do WhatsApp funcionam mesmo que o telemovel esteja desligado ou desconectado. As versoes mais antigas requerem que o telemovel esteja ligado a Internet."
@@ -14,6 +14,7 @@ faq:
     answer: "Sim, desde que use o site oficial (web.whatsapp.com) e termine a sessao quando usar um computador partilhado. Nunca use o WhatsApp Web num computador em que nao confie."
   - question: "Posso fazer chamadas a partir do WhatsApp Web?"
     answer: "Sim. Pode fazer chamadas de voz e video a partir do WhatsApp no seu computador clicando no icone do telefone ou da camara numa conversa."
+
 ---
 
 ## O que vai aprender

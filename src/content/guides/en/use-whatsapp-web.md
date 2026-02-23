@@ -1,12 +1,12 @@
 ---
 title: "How to use WhatsApp on your computer"
 description: "Learn how to open WhatsApp on your computer so you can type messages with a full keyboard."
-category: "applications"
-steps: 6
-difficulty: "facile"
-platform: "web"
 lang: "en"
-date: "2026-02-13"
+category: "applications"
+difficulty: "facile"
+steps: 6
+platform: "web"
+date: "2026-02-23"
 faq:
   - question: "Do I need to keep my phone nearby?"
     answer: "Newer versions of WhatsApp work even if your phone is off or disconnected. Older versions require your phone to be connected to the internet."
@@ -14,6 +14,7 @@ faq:
     answer: "Yes, as long as you use the official website (web.whatsapp.com) and log out when using a shared computer. Never use WhatsApp Web on a computer you do not trust."
   - question: "Can I make calls from WhatsApp Web?"
     answer: "Yes. You can make voice and video calls from WhatsApp on your computer by clicking the phone or camera icon in a conversation."
+
 ---
 
 ## What you will learn

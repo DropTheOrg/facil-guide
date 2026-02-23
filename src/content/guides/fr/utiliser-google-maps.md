@@ -1,12 +1,12 @@
 ---
 title: "Comment utiliser Google Maps pour un itineraire"
 description: "Apprenez a utiliser Google Maps sur votre telephone pour obtenir un itineraire pas a pas vers n'importe quelle destination."
-category: "applications"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "fr"
-date: "2026-02-13"
+category: "applications"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Est-ce que Google Maps est gratuit ?"
     answer: "Oui. Google Maps est entierement gratuit. Il utilise la connexion Internet de votre telephone."
@@ -16,6 +16,7 @@ faq:
     answer: "Google Maps est tres precis dans la plupart des zones. Il utilise le GPS et les donnees de trafic pour vous proposer le meilleur trajet."
   - question: "Puis-je obtenir un itineraire a pied ?"
     answer: "Oui. Apres avoir cherche une destination, appuyez sur l'icone du pieton au lieu de la voiture pour obtenir un itineraire a pied."
+
 ---
 
 ## Ce que vous allez apprendre

@@ -1,12 +1,12 @@
 ---
 title: "How to send a text message on iPhone"
 description: "Learn how to send a text message (SMS or iMessage) to someone using the Messages app on your iPhone."
-category: "communication"
-steps: 5
-difficulty: "facile"
-platform: "iphone"
 lang: "en"
-date: "2026-02-02"
+category: "communication"
+difficulty: "facile"
+steps: 5
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "What is the difference between a green and blue message?"
     answer: "Blue messages are iMessages, sent over the internet to other Apple devices for free. Green messages are regular SMS texts, which may cost money depending on your phone plan."
@@ -14,6 +14,7 @@ faq:
     answer: "Yes. The Messages app sends regular SMS texts to non-Apple phones. The message bubble will appear green instead of blue."
   - question: "Can I send photos in a text message?"
     answer: "Yes. In the message conversation, tap the + button or the camera icon to attach a photo before sending."
+
 ---
 
 ## What you will learn

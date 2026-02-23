@@ -1,12 +1,12 @@
 ---
 title: "Como usar o Google Fotos para guardar e encontrar as suas fotografias"
 description: "Aprenda a usar o Google Fotos para fazer cópias de segurança das suas fotografias na nuvem, encontrar fotos antigas rapidamente e libertar espaço no seu telemóvel."
-category: "applications"
-steps: 7
-difficulty: "facile"
-platform: "all"
 lang: "pt"
-date: "2026-02-22"
+category: "applications"
+difficulty: "facile"
+steps: 7
+platform: "all"
+date: "2026-02-23"
 faq:
   - question: "O Google Fotos é gratuito?"
     answer: "Sim, o Google Fotos é gratuito. Cada conta Google inclui 15 gigabytes de armazenamento gratuito partilhado entre Google Fotos, Gmail e Google Drive. Depois pode comprar mais espaço ou apagar ficheiros."
@@ -18,6 +18,7 @@ faq:
     answer: "Sim, pode partilhar fotos individuais, álbuns ou configurar uma biblioteca familiar partilhada. Toque no ícone de partilha em qualquer foto."
   - question: "O que acontece se apagar uma foto do Google Fotos?"
     answer: "Se apagar uma foto, ela vai para o Lixo e fica lá 60 dias antes de ser eliminada permanentemente. Pode recuperá-la durante esse período. Atenção: se a cópia de segurança estiver ativada, apagar do Google Fotos pode também apagar do seu telemóvel."
+
 ---
 
 ## O que vai aprender

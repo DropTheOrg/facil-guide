@@ -1,12 +1,12 @@
 ---
 title: "Come usare Google Foto per salvare e trovare le tue foto"
 description: "Impara a usare Google Foto per fare il backup delle tue foto nel cloud, trovare vecchie foto velocemente e liberare spazio sul tuo telefono."
-category: "applications"
-steps: 7
-difficulty: "facile"
-platform: "all"
 lang: "it"
-date: "2026-02-22"
+category: "applications"
+difficulty: "facile"
+steps: 7
+platform: "all"
+date: "2026-02-23"
 faq:
   - question: "Google Foto è gratuito?"
     answer: "Sì, Google Foto è gratuito. Ogni account Google include 15 gigabyte di spazio di archiviazione gratuito condiviso tra Google Foto, Gmail e Google Drive. Dopo puoi comprare più spazio o eliminare file."
@@ -18,6 +18,7 @@ faq:
     answer: "Sì, puoi condividere singole foto, album o configurare una libreria familiare condivisa. Tocca l'icona di condivisione su qualsiasi foto."
   - question: "Cosa succede se elimino una foto da Google Foto?"
     answer: "Se elimini una foto, va nel Cestino e rimane lì per 60 giorni prima di essere eliminata definitivamente. Puoi recuperarla durante quel periodo. Attenzione: se il backup è attivo, eliminare da Google Foto potrebbe eliminare anche dal telefono."
+
 ---
 
 ## Cosa imparerai

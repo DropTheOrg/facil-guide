@@ -1,12 +1,12 @@
 ---
 title: "How to tell if a text message, email, or call is a scam"
 description: "Learn how to recognize scam messages, phishing emails, and fraudulent phone calls so you can protect yourself and your personal information."
-category: "securite"
-steps: 7
-difficulty: "facile"
-platform: "iphone"
 lang: "en"
-date: "2026-02-20"
+category: "securite"
+difficulty: "facile"
+steps: 7
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "What should I do if I already clicked a suspicious link?"
     answer: "Do not enter any personal information. Close the page immediately. If you entered a password, change it right away on the real website. If you entered banking details, call your bank immediately. Run a security scan on your phone if you have an antivirus app."
@@ -18,6 +18,7 @@ faq:
     answer: "Yes. On iPhone, you can report spam text messages by tapping Report Junk below the message. On Android, tap and hold the message, then tap Report spam. You can also forward suspicious texts to 7726 (SPAM) in many countries."
   - question: "Are scams only sent by text and email?"
     answer: "No. Scams can come through text messages, emails, phone calls, WhatsApp messages, social media messages, and even paper mail. The warning signs are similar regardless of how the message arrives."
+
 ---
 
 ## What you will learn

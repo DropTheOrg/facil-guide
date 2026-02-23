@@ -1,12 +1,12 @@
 ---
 title: "How to use the NHS App to manage your health"
 description: "Learn how to set up and use the NHS App to book GP appointments, order repeat prescriptions, view your health records, and access NHS services from your phone."
-category: "government"
-steps: 7
-difficulty: "facile"
-platform: "all"
 lang: "en"
-date: "2026-02-22"
+category: "government"
+difficulty: "facile"
+steps: 7
+platform: "all"
+date: "2026-02-23"
 faq:
   - question: "Is the NHS App free?"
     answer: "Yes, the NHS App is completely free to download and use. It is the official app of the National Health Service in England."
@@ -18,6 +18,7 @@ faq:
     answer: "Yes, the NHS App uses strong encryption and requires identity verification before you can access your records. Only you can see your information unless you choose to share it."
   - question: "Can I get my COVID-19 vaccination status on the NHS App?"
     answer: "Yes, your vaccination records including COVID-19 are available in the app. You can view your vaccination history and download proof if needed for travel."
+
 ---
 
 ## What you will learn

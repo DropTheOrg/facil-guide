@@ -1,12 +1,12 @@
 ---
 title: "Como cambiar la contrasena del Wi-Fi"
 description: "Aprende a cambiar la contrasena de tu red Wi-Fi para mantener tu conexion a Internet segura."
-category: "internet"
-steps: 6
-difficulty: "moyen"
-platform: "web"
 lang: "es"
-date: "2026-02-17"
+category: "internet"
+difficulty: "moyen"
+steps: 6
+platform: "web"
+date: "2026-02-23"
 faq:
   - question: "Se desconectaran todos mis dispositivos?"
     answer: "Si. Todos los dispositivos conectados a tu Wi-Fi se desconectaran. Tendras que volver a conectar cada uno con la nueva contrasena."
@@ -16,6 +16,7 @@ faq:
     answer: "Una buena contrasena tiene al menos 12 caracteres y mezcla letras, numeros y simbolos. Evita palabras simples como tu nombre o direccion."
   - question: "Donde encuentro mi contrasena Wi-Fi actual?"
     answer: "Tu contrasena actual suele estar impresa en una etiqueta en la parte trasera o inferior de tu router."
+
 ---
 
 ## Lo que vas a aprender

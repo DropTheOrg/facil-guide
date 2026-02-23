@@ -1,12 +1,12 @@
 ---
 title: "Comment bloquer un numero sur iPhone"
 description: "Apprenez a bloquer les appels et messages indesirables sur votre iPhone en quelques etapes simples."
-category: "smartphone"
-steps: 5
-difficulty: "facile"
-platform: "iphone"
 lang: "fr"
-date: "2026-02-18"
+category: "smartphone"
+difficulty: "facile"
+steps: 5
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "La personne bloquee saura-t-elle qu'elle est bloquee ?"
     answer: "Non, elle ne recevra aucune notification. Ses appels iront directement sur votre messagerie vocale et ses messages ne vous seront pas livres."
@@ -14,6 +14,7 @@ faq:
     answer: "Oui. Allez dans Reglages, puis Telephone, puis Contacts bloques. Balayez vers la gauche sur le numero a debloquer et appuyez sur Debloquer."
   - question: "Le blocage arrete-t-il tout contact ?"
     answer: "Le blocage arrete les appels, les messages et FaceTime de ce numero. Il ne bloque pas cette personne sur des applications comme WhatsApp, qui ont leur propre fonction de blocage."
+
 ---
 
 ## Ce que vous allez apprendre

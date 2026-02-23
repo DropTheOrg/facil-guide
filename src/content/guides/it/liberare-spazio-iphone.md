@@ -1,12 +1,12 @@
 ---
 title: "Come liberare spazio su iPhone"
 description: "Scopri come controllare lo spazio di archiviazione del tuo iPhone e liberare spazio rimuovendo file, app e foto che non ti servono piu."
-category: "smartphone"
-steps: 6
-difficulty: "moyen"
-platform: "iphone"
 lang: "it"
-date: "2026-01-24"
+category: "smartphone"
+difficulty: "moyen"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Come faccio a sapere se il mio iPhone sta esaurendo lo spazio?"
     answer: "Il tuo iPhone mostrera un messaggio 'Spazio iPhone quasi esaurito'. Noterai anche che le app si chiudono da sole, le foto non si salvano o gli aggiornamenti non riescono."
@@ -16,6 +16,7 @@ faq:
     answer: "Disinstallare un'app la rimuove ma conserva i suoi dati. Se la reinstalli piu tardi, i tuoi dati tornano. Risparmia spazio senza perdere informazioni."
   - question: "Cancellare i dati di Safari mi disconnettera dai siti?"
     answer: "Si. Cancellare i dati di Safari rimuove le password salvate e le sessioni di accesso. Dovrai accedere nuovamente ai siti che visiti."
+
 ---
 
 ## Cosa imparerai

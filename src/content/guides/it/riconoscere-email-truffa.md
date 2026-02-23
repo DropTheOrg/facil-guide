@@ -1,12 +1,12 @@
 ---
 title: "Come riconoscere un'email truffa"
 description: "Impara i segnali di allarme delle email fraudolente e proteggiti dal phishing, dalle false fatture e dalle truffe online."
-category: "securite"
-steps: 6
-difficulty: "facile"
-platform: "web"
 lang: "it"
-date: "2026-02-10"
+category: "securite"
+difficulty: "facile"
+steps: 6
+platform: "web"
+date: "2026-02-23"
 faq:
   - question: "Cosa fare se ho gia cliccato su un link sospetto?"
     answer: "Niente panico. Chiudi il sito immediatamente. Se hai inserito una password, cambiala subito sul sito vero. Se hai fornito dati bancari, contatta la tua banca immediatamente. Esegui una scansione antivirus sul tuo dispositivo se possibile."
@@ -16,6 +16,7 @@ faq:
     answer: "No. Le email truffa esistono in ogni lingua. Le truffe nella tua lingua madre possono essere ancora piu convincenti perche sembrano familiari."
   - question: "Come fanno i truffatori ad avere il mio indirizzo email?"
     answer: "Gli indirizzi email vengono spesso raccolti da violazioni di dati, siti web pubblici, profili social o semplicemente indovinati. Succede a tutti. L'importante e saper riconoscere le truffe."
+
 ---
 
 ## Cosa imparerai

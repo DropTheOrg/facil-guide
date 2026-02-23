@@ -1,12 +1,12 @@
 ---
 title: "Como recuperar una foto que borraste por accidente de tu telefono"
 description: "Aprende a recuperar una foto eliminada en iPhone o Android usando la carpeta Eliminados recientemente, con instrucciones sencillas paso a paso."
-category: "troubleshooting"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "es"
-date: "2026-02-20"
+category: "troubleshooting"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Cuanto tiempo permanecen las fotos eliminadas en la carpeta Eliminados recientemente?"
     answer: "En la mayoria de los telefonos, las fotos eliminadas permanecen en la carpeta Eliminados recientemente durante 30 dias. Despues de eso, se eliminan permanentemente y son mucho mas dificiles de recuperar."
@@ -18,6 +18,7 @@ faq:
     answer: "Si. Los videos eliminados tambien van a la carpeta Eliminados recientemente y se pueden recuperar de la misma manera que las fotos."
   - question: "Como puedo evitar eliminar fotos por accidente en el futuro?"
     answer: "Activa la copia de seguridad en la nube para que tus fotos se guarden en linea. En iPhone, activa Fotos en iCloud en Ajustes. En Android, abre Google Photos y activa la copia de seguridad. Asi, aunque elimines una foto, existira una copia en la nube."
+
 ---
 
 ## Lo que vas a aprender

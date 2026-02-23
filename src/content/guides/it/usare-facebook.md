@@ -1,11 +1,11 @@
 ---
 title: "Come usare Facebook sul tuo telefono"
 description: "Impara a usare Facebook sul tuo telefono per restare in contatto con la famiglia e gli amici, condividere foto e leggere gli aggiornamenti delle persone che conosci."
-category: "applications"
-steps: 7
-difficulty: "facile"
-platform: "all"
 lang: "it"
+category: "applications"
+difficulty: "facile"
+steps: 7
+platform: "all"
 date: "2026-02-23"
 faq:
   - question: "Facebook è gratuito?"
@@ -18,6 +18,7 @@ faq:
     answer: "Sì. Trova il post che vuoi rimuovere, tocca i tre puntini nell'angolo in alto a destra del post e tocca Elimina post. Una volta eliminato, scomparirà dal tuo profilo e dal feed degli altri."
   - question: "Come faccio a impedire a qualcuno di contattarmi?"
     answer: "Puoi bloccare una persona in modo che non possa vedere il tuo profilo, inviarti messaggi o interagire con i tuoi post. Vai sul suo profilo, tocca i tre puntini e scegli Blocca. Non riceverà nessuna notifica del blocco."
+
 ---
 
 ## Cosa imparerai

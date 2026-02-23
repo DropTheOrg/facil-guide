@@ -18,6 +18,7 @@ faq:
     answer: "Yes, but everything you do on your phone will show on the TV. If you open a private message, the people watching the TV will see it too."
   - question: "Does screen mirroring use a lot of battery?"
     answer: "Yes, more than normal use. If you plan to mirror for a long time, keep your phone plugged in to a charger."
+
 ---
 
 ## O que vai precisar

@@ -1,12 +1,12 @@
 ---
 title: "Como hacer una captura de pantalla en iPhone"
 description: "Aprende a capturar la pantalla de tu iPhone como una foto en pocos segundos."
-category: "smartphone"
-steps: 5
-difficulty: "facile"
-platform: "iphone"
 lang: "es"
-date: "2026-02-14"
+category: "smartphone"
+difficulty: "facile"
+steps: 5
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Donde se guardan mis capturas de pantalla?"
     answer: "Las capturas de pantalla se guardan en la aplicacion Fotos. Tambien puedes encontrarlas en un album especial llamado Capturas de pantalla."
@@ -14,6 +14,7 @@ faq:
     answer: "Si. Todos los iPhone pueden hacer capturas de pantalla. La combinacion de botones es diferente segun tu modelo (consulta la guia para mas detalles)."
   - question: "Puedo editar mi captura de pantalla?"
     answer: "Si. Justo despues de hacer la captura, aparece una pequena vista previa en la esquina inferior izquierda. Toca sobre ella para recortar, dibujar o anadir texto antes de guardar."
+
 ---
 
 ## Lo que vas a aprender

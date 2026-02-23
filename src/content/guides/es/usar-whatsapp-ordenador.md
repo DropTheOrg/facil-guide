@@ -1,12 +1,12 @@
 ---
 title: "Como usar WhatsApp en su ordenador"
 description: "Aprenda a abrir WhatsApp en su ordenador para escribir mensajes con un teclado completo."
-category: "applications"
-steps: 6
-difficulty: "facile"
-platform: "web"
 lang: "es"
-date: "2026-01-26"
+category: "applications"
+difficulty: "facile"
+steps: 6
+platform: "web"
+date: "2026-02-23"
 faq:
   - question: "Necesito tener mi telefono cerca?"
     answer: "Las versiones recientes de WhatsApp funcionan aunque su telefono este apagado o desconectado. Las versiones mas antiguas requieren que el telefono este conectado a Internet."
@@ -14,6 +14,7 @@ faq:
     answer: "Si, siempre que use el sitio oficial (web.whatsapp.com) y cierre sesion cuando use un ordenador compartido. Nunca use WhatsApp Web en un ordenador en el que no confie."
   - question: "Puedo hacer llamadas desde WhatsApp Web?"
     answer: "Si. Puede hacer llamadas de voz y video desde WhatsApp en su ordenador haciendo clic en el icono del telefono o la camara en una conversacion."
+
 ---
 
 ## Lo que va a aprender

@@ -1,12 +1,12 @@
 ---
 title: "O que fazer quando esquece a sua senha"
 description: "Aprenda a recuperar a sua senha de email, aplicacoes e telefone quando a esqueceu."
-category: "troubleshooting"
-steps: 6
-difficulty: "facile"
-platform: "web"
 lang: "pt"
-date: "2026-02-20"
+category: "troubleshooting"
+difficulty: "facile"
+steps: 6
+platform: "web"
+date: "2026-02-23"
 faq:
   - question: "E se tambem nao me lembrar do meu endereco de email?"
     answer: "Se usa o Gmail, va a accounts.google.com e clique em Email esquecido. A Google pode ajuda-lo a encontrar a sua conta usando o seu numero de telefone."
@@ -16,6 +16,7 @@ faq:
     answer: "A maioria dos servicos oferece opcoes de recuperacao alternativas, como um endereco de email de recuperacao ou perguntas de seguranca. Se as configurou quando criou a sua conta, pode usa-las agora."
   - question: "Como posso evitar esquecer a minha senha no futuro?"
     answer: "Escreva as suas senhas num caderno e guarde-o num local seguro em casa. Tambem pode pedir a um familiar de confianca que guarde uma copia."
+
 ---
 
 ## O que vai aprender

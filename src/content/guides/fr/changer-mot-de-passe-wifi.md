@@ -1,12 +1,12 @@
 ---
 title: "Comment changer son mot de passe Wi-Fi"
 description: "Apprenez a changer le mot de passe de votre reseau Wi-Fi pour proteger votre connexion Internet."
-category: "internet"
-steps: 6
-difficulty: "moyen"
-platform: "web"
 lang: "fr"
-date: "2026-02-10"
+category: "internet"
+difficulty: "moyen"
+steps: 6
+platform: "web"
+date: "2026-02-23"
 faq:
   - question: "Est-ce que tous mes appareils seront deconnectes ?"
     answer: "Oui. Tous les appareils connectes a votre Wi-Fi seront deconnectes. Vous devrez reconnecter chaque appareil avec le nouveau mot de passe."
@@ -16,6 +16,7 @@ faq:
     answer: "Un bon mot de passe fait au moins 12 caracteres et melange des lettres, des chiffres et des symboles. Evitez les mots simples comme votre nom ou votre adresse."
   - question: "Ou trouver mon mot de passe Wi-Fi actuel ?"
     answer: "Votre mot de passe actuel est souvent imprime sur une etiquette collee sous ou derriere votre box Internet."
+
 ---
 
 ## Ce que vous allez apprendre

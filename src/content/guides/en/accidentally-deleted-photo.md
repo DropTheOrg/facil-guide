@@ -1,12 +1,12 @@
 ---
 title: "How to recover a photo you accidentally deleted from your phone"
 description: "Learn how to recover a deleted photo on iPhone or Android using the Recently Deleted folder, with simple step-by-step instructions."
-category: "troubleshooting"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "en"
-date: "2026-02-20"
+category: "troubleshooting"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "How long do deleted photos stay in the Recently Deleted folder?"
     answer: "On most phones, deleted photos stay in the Recently Deleted folder for 30 days. After that, they are permanently removed and much harder to get back."
@@ -18,6 +18,7 @@ faq:
     answer: "Yes. Deleted videos also go to the Recently Deleted folder and can be recovered the same way as photos."
   - question: "How can I avoid accidentally deleting photos in the future?"
     answer: "Turn on cloud backup so your photos are saved online. On iPhone, enable iCloud Photos in Settings. On Android, open Google Photos and turn on Backup. This way, even if you delete a photo, a copy exists in the cloud."
+
 ---
 
 ## What you will learn

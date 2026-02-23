@@ -1,12 +1,12 @@
 ---
 title: "Comment enregistrer une photo de WhatsApp"
 description: "Apprenez a sauvegarder les photos recues sur WhatsApp dans la bibliotheque photos de votre iPhone."
-category: "applications"
-steps: 5
-difficulty: "facile"
-platform: "iphone"
 lang: "fr"
-date: "2026-01-22"
+category: "applications"
+difficulty: "facile"
+steps: 5
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Ou est stockee la photo enregistree ?"
     answer: "La photo est enregistree dans votre application Photos. Vous la trouverez dans l'album Recents ou l'album WhatsApp."
@@ -16,6 +16,7 @@ faq:
     answer: "Non. L'autre personne ne saura pas que vous avez enregistre sa photo."
   - question: "Et pour les videos ?"
     answer: "Les memes etapes fonctionnent pour enregistrer les videos de WhatsApp. Appuyez simplement sur la video au lieu de la photo."
+
 ---
 
 ## Ce que vous allez apprendre

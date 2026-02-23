@@ -1,12 +1,12 @@
 ---
 title: "Comment mettre une alarme sur iPhone"
 description: "Apprenez a mettre une alarme sur votre iPhone pour ne jamais manquer un reveil ou un rappel important."
-category: "smartphone"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "fr"
-date: "2026-01-23"
+category: "smartphone"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "L'alarme sonne-t-elle si mon telephone est en mode silencieux ?"
     answer: "Oui. Les alarmes sonnent meme lorsque votre iPhone est en mode silencieux. Assurez-vous simplement que le volume est suffisant."
@@ -16,6 +16,7 @@ faq:
     answer: "Dans la liste des alarmes, appuyez sur l'interrupteur vert a cote de l'alarme. Il deviendra gris, ce qui signifie que l'alarme est desactivee mais conservee."
   - question: "Pourquoi mon alarme n'a-t-elle pas sonne ?"
     answer: "Verifiez que l'alarme est bien activee (interrupteur vert). Assurez-vous aussi que votre iPhone n'est pas completement eteint. Les alarmes ne fonctionnent pas quand le telephone est eteint."
+
 ---
 
 ## Ce que vous allez apprendre

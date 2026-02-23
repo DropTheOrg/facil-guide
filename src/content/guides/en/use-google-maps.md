@@ -1,12 +1,12 @@
 ---
 title: "How to use Google Maps for directions"
 description: "Learn how to use Google Maps on your phone to get step-by-step directions to any destination."
-category: "applications"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "en"
-date: "2026-02-12"
+category: "applications"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Is Google Maps free to use?"
     answer: "Yes. Google Maps is completely free to download and use. It does use your phone's Internet connection."
@@ -16,6 +16,7 @@ faq:
     answer: "Google Maps is very accurate in most areas. It uses GPS and traffic data to give you the best route."
   - question: "Can I use Google Maps for walking directions?"
     answer: "Yes. After searching for a destination, tap the walking icon (a person) instead of the car icon to get walking directions."
+
 ---
 
 ## What you will learn

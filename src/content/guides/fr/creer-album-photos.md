@@ -16,6 +16,7 @@ faq:
     answer: "On iPhone, removing a photo from an album does NOT delete the original. It just removes it from that album. On Android, it depends on the gallery app -- some delete the photo, some just remove it from the album. Be careful."
   - question: "Can I share an album with someone?"
     answer: "Yes. On iPhone, you can create a Shared Album and invite people. On Android with Google Photos, you can share an album link."
+
 ---
 
 ## Ce dont vous aurez besoin

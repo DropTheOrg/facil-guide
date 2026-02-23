@@ -6,7 +6,7 @@ category: "smartphone"
 difficulty: "facile"
 steps: 5
 platform: "iphone"
-date: "2026-02-20"
+date: "2026-02-23"
 faq:
   - question: "What is a QR code?"
     answer: "A QR code is a small square image made of black and white patterns. It contains information -- usually a website link. When you scan it with your phone camera, it opens that link automatically."
@@ -18,6 +18,7 @@ faq:
     answer: "QR codes from trusted sources (restaurants, shops, official documents) are safe. Be careful with QR codes from unknown sources -- they could link to suspicious websites. If the link looks strange after scanning, do not tap on it."
   - question: "Can I scan a QR code from a picture on my screen?"
     answer: "On iPhone, you can press and hold on a QR code image in Photos or Safari and your phone will read it. On Android, Google Lens can read QR codes from screenshots."
+
 ---
 
 ## What You Will Need

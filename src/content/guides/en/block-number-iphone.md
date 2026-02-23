@@ -1,12 +1,12 @@
 ---
 title: "How to block a phone number on iPhone"
 description: "Learn how to block unwanted calls and messages on your iPhone in a few simple steps."
-category: "smartphone"
-steps: 5
-difficulty: "facile"
-platform: "iphone"
 lang: "en"
-date: "2026-01-17"
+category: "smartphone"
+difficulty: "facile"
+steps: 5
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Will the blocked person know they are blocked?"
     answer: "No, they will not receive a notification. Their calls will go straight to voicemail and their messages will not be delivered to you."
@@ -14,6 +14,7 @@ faq:
     answer: "Yes. Go to Settings, then Phone, then Blocked Contacts. Swipe left on the number you want to unblock and tap Unblock."
   - question: "Does blocking stop all contact?"
     answer: "Blocking stops calls, messages, and FaceTime from that number. It does not block them on apps like WhatsApp, which have their own blocking feature."
+
 ---
 
 ## What you will learn

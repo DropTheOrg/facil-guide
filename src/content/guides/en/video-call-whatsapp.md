@@ -1,12 +1,12 @@
 ---
 title: "How to make a video call on WhatsApp"
 description: "Learn how to make a free video call to your family and friends using WhatsApp on your iPhone."
-category: "communication"
-steps: 5
-difficulty: "facile"
-platform: "iphone"
 lang: "en"
-date: "2026-02-15"
+category: "communication"
+difficulty: "facile"
+steps: 5
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Are WhatsApp video calls free?"
     answer: "Yes, they are completely free. They use your Internet connection (Wi-Fi or mobile data), not your phone minutes."
@@ -16,6 +16,7 @@ faq:
     answer: "You can have up to 32 people on a group video call."
   - question: "What if the other person does not answer?"
     answer: "The call will ring for about 30 seconds. If they do not answer, you can try again later or send them a message."
+
 ---
 
 ## What you will learn

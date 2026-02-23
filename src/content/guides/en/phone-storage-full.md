@@ -1,12 +1,12 @@
 ---
 title: "What to do when your phone says storage is full"
 description: "Your phone says there is no more space. Learn how to free up storage and make your phone work smoothly again."
-difficulty: "moyen"
-platform: "iphone"
-category: "troubleshooting"
-steps: 5
 lang: "en"
-date: "2026-02-12"
+category: "troubleshooting"
+difficulty: "moyen"
+steps: 5
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Why does my phone run out of storage?"
     answer: "Photos, videos, apps, and messages all take up space over time. Videos and photos are usually the biggest files."
@@ -14,6 +14,7 @@ faq:
     answer: "No. Deleting an app removes it from your phone, but your account still exists. You can reinstall the app and sign in again later."
   - question: "What about WhatsApp messages and photos?"
     answer: "WhatsApp stores photos and videos on your phone. You can clear them in WhatsApp Settings, then Storage and Data, then Manage Storage."
+
 ---
 
 ## Step 1: Check what is using your storage

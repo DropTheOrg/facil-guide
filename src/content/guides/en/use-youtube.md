@@ -1,11 +1,11 @@
 ---
 title: "How to watch videos on YouTube"
 description: "Learn how to use YouTube on your phone to watch videos, search for topics you enjoy, and subscribe to channels you like."
-category: "applications"
-steps: 7
-difficulty: "facile"
-platform: "all"
 lang: "en"
+category: "applications"
+difficulty: "facile"
+steps: 7
+platform: "all"
 date: "2026-02-23"
 faq:
   - question: "Is YouTube free to use?"
@@ -18,6 +18,7 @@ faq:
     answer: "Yes, if you have a smart TV, you can open the YouTube app directly on it. You can also use Chromecast or AirPlay to send a video from your phone to your television screen."
   - question: "How do I stop YouTube from playing videos automatically?"
     answer: "Tap your profile picture in the top right corner, then tap Settings, then General, and turn off Autoplay. This stops the next video from starting automatically when the current one finishes."
+
 ---
 
 ## What you will learn

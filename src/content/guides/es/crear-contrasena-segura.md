@@ -1,12 +1,12 @@
 ---
 title: "Como crear una contrasena segura"
 description: "Aprenda a crear contrasenas fuertes y seguras que protejan sus cuentas en linea contra piratas informaticos."
-category: "securite"
-steps: 6
-difficulty: "facile"
-platform: "web"
 lang: "es"
-date: "2026-01-29"
+category: "securite"
+difficulty: "facile"
+steps: 6
+platform: "web"
+date: "2026-02-23"
 faq:
   - question: "Que longitud debe tener una buena contrasena?"
     answer: "Una buena contrasena debe tener al menos 12 caracteres. Cuanto mas larga, mas dificil de descifrar. Apunte a 14 caracteres o mas para cuentas importantes."
@@ -16,6 +16,7 @@ faq:
     answer: "Cambie una contrasena inmediatamente si cree que una cuenta ha sido comprometida. De lo contrario, actualizar las contrasenas importantes una vez al ano es un buen habito."
   - question: "Que es la autenticacion de dos factores?"
     answer: "La autenticacion de dos factores agrega un paso de seguridad extra al iniciar sesion. Despues de introducir su contrasena, tambien introduce un codigo enviado a su telefono. Un hacker necesitaria su contrasena Y su telefono para acceder a su cuenta."
+
 ---
 
 ## Lo que va a aprender

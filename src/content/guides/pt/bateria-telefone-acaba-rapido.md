@@ -1,12 +1,12 @@
 ---
 title: "Porque e que a bateria do seu telefone acaba rapido e como resolver"
 description: "Saiba porque a bateria do seu telefone se esgota rapidamente e como faze-la durar mais com alteracoes simples nas definicoes do iPhone e Android."
-category: "troubleshooting"
-steps: 7
-difficulty: "facile"
-platform: "iphone"
 lang: "pt"
-date: "2026-02-20"
+category: "troubleshooting"
+difficulty: "facile"
+steps: 7
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "E normal a bateria durar menos com o tempo?"
     answer: "Sim. As baterias dos telefones perdem capacidade com o tempo. Apos dois ou tres anos, a sua bateria pode reter apenas 80 por cento da carga original. Pode verificar o estado da bateria nas Definicoes."
@@ -18,6 +18,7 @@ faq:
     answer: "Nao. As baterias modernas duram mais se as mantiver entre 20 e 80 por cento. Nao e necessario descarrega-las completamente."
   - question: "Quando devo substituir a bateria?"
     answer: "Se o estado da bateria estiver abaixo de 80 por cento e o telefone se desligar muito rapidamente, pode ser altura de substituir a bateria. Visite um centro de reparacao autorizado."
+
 ---
 
 ## O que vai aprender

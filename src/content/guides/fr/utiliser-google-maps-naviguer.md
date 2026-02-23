@@ -1,12 +1,12 @@
 ---
 title: "Comment utiliser Google Maps pour obtenir des itineraires et naviguer"
 description: "Apprenez a utiliser Google Maps sur votre telephone pour chercher des lieux, obtenir des itineraires et suivre la navigation en voiture ou a pied."
-category: "applications"
-steps: 7
-difficulty: "facile"
-platform: "iphone"
 lang: "fr"
-date: "2026-02-20"
+category: "applications"
+difficulty: "facile"
+steps: 7
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Google Maps fonctionne-t-il sans internet ?"
     answer: "Google Maps a besoin d'internet pour chercher et calculer les itineraires. Cependant, vous pouvez telecharger des cartes hors ligne avant de voyager. Appuyez sur votre photo de profil, puis Cartes hors ligne, puis Selectionnez votre propre carte."
@@ -18,6 +18,7 @@ faq:
     answer: "Appuyez sur l'ecran pour afficher les commandes, puis appuyez sur le bouton X ou Quitter dans le coin inferieur gauche. La navigation s'arretera et vous reviendrez a la vue normale de la carte."
   - question: "Google Maps est-il gratuit ?"
     answer: "Oui. Google Maps est entierement gratuit a telecharger et utiliser, y compris la navigation, la recherche et les cartes hors ligne."
+
 ---
 
 ## Ce que vous allez apprendre

@@ -1,12 +1,12 @@
 ---
 title: "Como liberar espacio en iPhone"
 description: "Aprende a comprobar el almacenamiento de tu iPhone y liberar espacio eliminando archivos, aplicaciones y fotos que ya no necesitas."
-category: "smartphone"
-steps: 6
-difficulty: "moyen"
-platform: "iphone"
 lang: "es"
-date: "2026-02-11"
+category: "smartphone"
+difficulty: "moyen"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Como se si mi iPhone se esta quedando sin espacio?"
     answer: "Tu iPhone mostrara un mensaje 'Almacenamiento del iPhone casi lleno'. Tambien notaras que las apps se cierran solas, las fotos no se guardan o las actualizaciones fallan."
@@ -16,6 +16,7 @@ faq:
     answer: "Descargar una app la elimina pero conserva sus datos. Si la reinstalas mas tarde, tus datos vuelven. Ahorra espacio sin perder informacion."
   - question: "Borrar datos de Safari me cerrara la sesion en los sitios web?"
     answer: "Si. Borrar datos de Safari elimina las contrasenas guardadas y las sesiones de inicio. Tendras que iniciar sesion de nuevo en los sitios que visitas."
+
 ---
 
 ## Lo que vas a aprender

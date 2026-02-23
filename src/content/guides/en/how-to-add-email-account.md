@@ -1,12 +1,12 @@
 ---
 title: "How to add an email account to your phone"
 description: "Set up your Gmail, Yahoo, or Outlook email on your iPhone or Android phone so you can read and send emails from anywhere."
-difficulty: "moyen"
-platform: "all"
-category: "smartphone"
-steps: 5
 lang: "en"
-date: "2026-02-22"
+category: "smartphone"
+difficulty: "moyen"
+steps: 5
+platform: "all"
+date: "2026-02-23"
 faq:
   - question: "Can I have more than one email account on my phone?"
     answer: "Yes. You can add multiple email accounts. Repeat these steps for each account you want to add."
@@ -14,6 +14,7 @@ faq:
     answer: "Yes. You'll need the email address and password for the account you're adding. If you've forgotten it, reset your password first on the email provider's website."
   - question: "Will my emails be deleted from the computer?"
     answer: "No. Adding email to your phone doesn't affect your computer. Your emails stay in both places."
+
 ---
 
 ## Step 1: Open Settings

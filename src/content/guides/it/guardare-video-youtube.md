@@ -1,11 +1,11 @@
 ---
 title: "Come guardare video su YouTube"
 description: "Impara a usare YouTube sul tuo telefono per guardare video, cercare argomenti che ti piacciono e iscriverti ai canali."
-category: "applications"
-steps: 7
-difficulty: "facile"
-platform: "all"
 lang: "it"
+category: "applications"
+difficulty: "facile"
+steps: 7
+platform: "all"
 date: "2026-02-23"
 faq:
   - question: "YouTube è gratuito?"
@@ -18,6 +18,7 @@ faq:
     answer: "Sì, se hai una smart TV, puoi aprire l'app YouTube direttamente su di essa. Puoi anche usare Chromecast o AirPlay per inviare un video dal tuo telefono alla televisione."
   - question: "Come faccio a impedire a YouTube di riprodurre automaticamente il video successivo?"
     answer: "Tocca la tua foto profilo nell'angolo in alto a destra, poi Impostazioni, poi Generali, e disattiva la Riproduzione automatica."
+
 ---
 
 ## Cosa imparerai

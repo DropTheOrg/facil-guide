@@ -1,12 +1,12 @@
 ---
 title: "Como marcar consulta médica no Doctolib"
 description: "Aprenda a usar o Doctolib para encontrar um médico e marcar uma consulta médica online a partir do seu telemóvel ou computador, passo a passo."
-category: "government"
-steps: 7
-difficulty: "facile"
-platform: "all"
 lang: "pt"
-date: "2026-02-22"
+category: "government"
+difficulty: "facile"
+steps: 7
+platform: "all"
+date: "2026-02-23"
 faq:
   - question: "O Doctolib é gratuito?"
     answer: "Sim, criar uma conta e marcar consultas no Doctolib é completamente gratuito. Só paga a consulta do médico, que pode ser coberta pelo seu seguro de saúde."
@@ -18,6 +18,7 @@ faq:
     answer: "Não, nem todos os médicos estão no Doctolib. Se não encontrar o seu médico, ele pode usar outra plataforma ou aceitar marcações apenas por telefone. O Doctolib é mais usado em França e na Alemanha."
   - question: "Posso ver os meus documentos médicos no Doctolib?"
     answer: "Sim, alguns médicos partilham documentos como receitas e resultados de exames através do Doctolib. Pode encontrá-los na secção Documentos da sua conta."
+
 ---
 
 ## O que vai aprender

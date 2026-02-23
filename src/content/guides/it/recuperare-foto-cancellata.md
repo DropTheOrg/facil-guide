@@ -1,12 +1,12 @@
 ---
 title: "Come recuperare una foto cancellata per sbaglio dal telefono"
 description: "Scopri come recuperare una foto eliminata su iPhone o Android usando la cartella Eliminati di recente, con istruzioni semplici passo dopo passo."
-category: "troubleshooting"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "it"
-date: "2026-02-20"
+category: "troubleshooting"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Per quanto tempo le foto cancellate restano nella cartella Eliminati di recente?"
     answer: "Sulla maggior parte dei telefoni, le foto cancellate restano nella cartella Eliminati di recente per 30 giorni. Dopo, vengono eliminate definitivamente e sono molto piu difficili da recuperare."
@@ -18,6 +18,7 @@ faq:
     answer: "Si. Anche i video cancellati vanno nella cartella Eliminati di recente e possono essere recuperati nello stesso modo delle foto."
   - question: "Come posso evitare di cancellare foto per sbaglio in futuro?"
     answer: "Attiva il backup nel cloud in modo che le tue foto vengano salvate online. Su iPhone, attiva Foto di iCloud nelle Impostazioni. Su Android, apri Google Photos e attiva il backup. Cosi, anche se cancelli una foto, ne esiste una copia nel cloud."
+
 ---
 
 ## Cosa imparerai

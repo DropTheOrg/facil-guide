@@ -1,12 +1,12 @@
 ---
 title: "Come collegarsi al Wi-Fi in hotel, bar e aeroporti"
 description: "Scopri come collegare il telefono alle reti Wi-Fi pubbliche in hotel, bar e aeroporti con istruzioni semplici passo dopo passo."
-category: "internet"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "it"
-date: "2026-02-20"
+category: "internet"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Il Wi-Fi pubblico e sicuro?"
     answer: "Il Wi-Fi pubblico e comodo ma meno sicuro della rete di casa. Evita di inserire password, dati bancari o numeri di carta su Wi-Fi pubblico. Se devi fare qualcosa di sensibile, usa i dati mobili."
@@ -18,6 +18,7 @@ faq:
     answer: "Molti hotel offrono Wi-Fi gratuito, ma alcuni applicano una tariffa giornaliera. Chiedi alla reception. La password e spesso stampata su un cartoncino nella stanza."
   - question: "Perche il Wi-Fi e cosi lento?"
     answer: "Il Wi-Fi pubblico e condiviso tra molte persone. Nelle ore di punta puo essere lento. Se hai bisogno di internet piu veloce, usa i dati mobili."
+
 ---
 
 ## Cosa imparerai

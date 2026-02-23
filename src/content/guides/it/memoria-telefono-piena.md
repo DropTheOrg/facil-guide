@@ -1,12 +1,12 @@
 ---
 title: "Come risolvere l'avviso di memoria piena sul telefono"
 description: "Scopri come liberare spazio sul telefono quando appare l'avviso di memoria piena, passo dopo passo."
-category: "troubleshooting"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "it"
-date: "2026-02-20"
+category: "troubleshooting"
+difficulty: "moyen"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Cosa succede se ignoro l'avviso di memoria piena?"
     answer: "Il telefono diventera piu lento, non potrai fare nuove foto e alcune app potrebbero smettere di funzionare correttamente. E meglio liberare spazio appena vedi l'avviso."
@@ -16,6 +16,7 @@ faq:
     answer: "Le foto e i video di solito occupano piu spazio. Poi le app (soprattutto giochi e social media) e i file scaricati occupano piu posto."
   - question: "Quanto spazio libero dovrei avere?"
     answer: "Cerca di mantenere almeno 2 o 3 gigabyte (GB) di spazio libero sul telefono. Questo aiuta il telefono a funzionare bene."
+
 ---
 
 ## Cosa imparerai

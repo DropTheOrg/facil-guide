@@ -1,12 +1,12 @@
 ---
 title: "Comment se connecter au Wi-Fi dans les hotels, cafes et aeroports"
 description: "Apprenez a connecter votre telephone au Wi-Fi public dans les hotels, cafes et aeroports avec des instructions simples etape par etape."
-category: "internet"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "fr"
-date: "2026-02-20"
+category: "internet"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Le Wi-Fi public est-il sur a utiliser ?"
     answer: "Le Wi-Fi public est pratique mais moins securise que votre reseau domestique. Evitez de saisir des mots de passe, des informations bancaires ou des numeros de carte de credit sur un Wi-Fi public. Si vous devez faire quelque chose de sensible, utilisez vos donnees mobiles."
@@ -18,6 +18,7 @@ faq:
     answer: "Beaucoup d'hotels offrent le Wi-Fi gratuit, mais certains facturent un forfait journalier. Demandez a la reception. Le mot de passe est souvent imprime sur une carte dans votre chambre."
   - question: "Pourquoi le Wi-Fi est-il si lent ?"
     answer: "Le Wi-Fi public est partage entre beaucoup de personnes. Aux heures de pointe, il peut etre lent. Si vous avez besoin d'un internet plus rapide, utilisez vos donnees mobiles."
+
 ---
 
 ## Ce que vous allez apprendre

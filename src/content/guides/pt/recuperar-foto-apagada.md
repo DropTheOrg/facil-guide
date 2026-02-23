@@ -1,12 +1,12 @@
 ---
 title: "Como recuperar uma foto que apagou por acidente do seu telefone"
 description: "Aprenda a recuperar uma foto apagada no iPhone ou Android usando a pasta Apagadas recentemente, com instrucoes simples passo a passo."
-category: "troubleshooting"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "pt"
-date: "2026-02-20"
+category: "troubleshooting"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Quanto tempo as fotos apagadas ficam na pasta Apagadas recentemente?"
     answer: "Na maioria dos telefones, as fotos apagadas ficam na pasta Apagadas recentemente durante 30 dias. Depois disso, sao eliminadas permanentemente e muito mais dificeis de recuperar."
@@ -18,6 +18,7 @@ faq:
     answer: "Sim. Os videos apagados tambem vao para a pasta Apagadas recentemente e podem ser recuperados da mesma forma que as fotos."
   - question: "Como posso evitar apagar fotos por acidente no futuro?"
     answer: "Ative a copia de seguranca na nuvem para que as suas fotos sejam guardadas online. No iPhone, ative Fotos em iCloud nas Definicoes. No Android, abra o Google Photos e ative a copia de seguranca. Assim, mesmo que apague uma foto, existe uma copia na nuvem."
+
 ---
 
 ## O que vai aprender

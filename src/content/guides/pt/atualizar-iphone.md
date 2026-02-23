@@ -1,12 +1,12 @@
 ---
 title: "Como atualizar o iPhone"
 description: "Aprenda a atualizar o seu iPhone para a versao mais recente do iOS para obter novas funcionalidades e correcoes de seguranca importantes."
-category: "smartphone"
-steps: 6
-difficulty: "moyen"
-platform: "iphone"
 lang: "pt"
-date: "2026-01-16"
+category: "smartphone"
+difficulty: "moyen"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Quanto tempo demora uma atualizacao do iPhone?"
     answer: "A maioria das atualizacoes demora entre 15 e 30 minutos. Atualizacoes grandes podem demorar ate uma hora. Nao desligue o telefone durante a atualizacao."
@@ -16,6 +16,7 @@ faq:
     answer: "Precisa de espaco livre para a atualizacao. Tente apagar aplicacoes ou fotos de que ja nao precisa e depois tente novamente."
   - question: "Posso usar o telefone durante a atualizacao?"
     answer: "Nao. O iPhone reiniciara durante a atualizacao e nao podera usa-lo ate que termine."
+
 ---
 
 ## O que vai aprender

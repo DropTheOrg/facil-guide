@@ -1,12 +1,12 @@
 ---
 title: "How to create a strong password"
 description: "Learn how to create strong and secure passwords that protect your online accounts from hackers and unauthorized access."
-category: "securite"
-steps: 6
-difficulty: "facile"
-platform: "web"
 lang: "en"
-date: "2026-01-22"
+category: "securite"
+difficulty: "facile"
+steps: 6
+platform: "web"
+date: "2026-02-23"
 faq:
   - question: "How long should a strong password be?"
     answer: "A strong password should be at least 12 characters long. Longer passwords are harder to crack. Aim for 14 characters or more for important accounts."
@@ -16,6 +16,7 @@ faq:
     answer: "Change a password immediately if you think an account has been compromised. Otherwise, updating important passwords once a year is a good habit."
   - question: "What is two-factor authentication?"
     answer: "Two-factor authentication adds an extra security step when you log in. After entering your password, you also enter a code sent to your phone. This means a hacker would need both your password and your phone to access your account."
+
 ---
 
 ## What you will learn

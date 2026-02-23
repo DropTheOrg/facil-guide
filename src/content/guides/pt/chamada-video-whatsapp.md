@@ -1,12 +1,12 @@
 ---
 title: "Como fazer uma chamada de video no WhatsApp"
 description: "Aprenda a fazer uma chamada de video gratuita para a sua familia e amigos com o WhatsApp no iPhone."
-category: "communication"
-steps: 5
-difficulty: "facile"
-platform: "iphone"
 lang: "pt"
-date: "2026-01-15"
+category: "communication"
+difficulty: "facile"
+steps: 5
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "As chamadas de video do WhatsApp sao gratuitas?"
     answer: "Sim, sao completamente gratuitas. Usam a sua ligacao a Internet (Wi-Fi ou dados moveis), nao os seus minutos de chamada."
@@ -16,6 +16,7 @@ faq:
     answer: "Pode ter ate 32 pessoas numa chamada de video de grupo."
   - question: "O que acontece se a outra pessoa nao atender?"
     answer: "A chamada toca durante cerca de 30 segundos. Se nao atender, pode tentar mais tarde ou enviar-lhe uma mensagem."
+
 ---
 
 ## O que vai aprender

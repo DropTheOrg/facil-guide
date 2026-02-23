@@ -1,12 +1,12 @@
 ---
 title: "How to make a phone call on iPhone"
 description: "Learn how to call someone on your iPhone using the Phone app, your contacts, or by dialing a number."
-category: "communication"
-steps: 5
-difficulty: "facile"
-platform: "iphone"
 lang: "en"
-date: "2026-01-29"
+category: "communication"
+difficulty: "facile"
+steps: 5
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "How do I call someone using their name instead of a number?"
     answer: "Open the Phone app and tap Contacts at the bottom. Find the person's name in the list and tap on it, then tap the phone icon or their number."
@@ -14,6 +14,7 @@ faq:
     answer: "During a call, look at the buttons on your screen and tap the speaker icon. It looks like a triangle with sound waves. Tap it again to go back to normal."
   - question: "What if someone does not answer?"
     answer: "You can try calling again later. You can also leave a voicemail if the person has it set up. A message will appear asking you to record after the beep."
+
 ---
 
 ## What you will learn

@@ -6,7 +6,7 @@ category: "applications"
 difficulty: "facile"
 steps: 5
 platform: "iphone"
-date: "2026-02-22"
+date: "2026-02-23"
 faq:
   - question: "Is Google Translate free?"
     answer: "Yes, Google Translate is completely free. You can download the app from the App Store or Google Play Store at no cost."
@@ -18,6 +18,7 @@ faq:
     answer: "Yes. Open Google Translate, tap the Camera icon, and point your phone at the text. The translation will appear on your screen in real time."
   - question: "Can I speak into the app instead of typing?"
     answer: "Yes. Tap the microphone icon and speak. Google Translate will detect your language and translate what you said."
+
 ---
 
 ## What You Will Need

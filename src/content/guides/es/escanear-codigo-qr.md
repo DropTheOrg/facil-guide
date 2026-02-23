@@ -6,7 +6,7 @@ category: "smartphone"
 difficulty: "facile"
 steps: 5
 platform: "iphone"
-date: "2026-02-20"
+date: "2026-02-23"
 faq:
   - question: "Que es un codigo QR?"
     answer: "Un codigo QR es una pequena imagen cuadrada hecha de patrones blancos y negros. Contiene informacion -- normalmente un enlace a un sitio web. Cuando lo escaneas con la camara de tu telefono, el enlace se abre automaticamente."
@@ -18,6 +18,7 @@ faq:
     answer: "Los codigos QR de fuentes fiables (restaurantes, tiendas, documentos oficiales) son seguros. Ten cuidado con los codigos QR de fuentes desconocidas -- podrian llevar a sitios sospechosos. Si el enlace parece extrano despues de escanearlo, no lo toques."
   - question: "Puedo escanear un codigo QR desde una imagen en mi pantalla?"
     answer: "En iPhone, puedes mantener pulsada la imagen de un codigo QR en Fotos o Safari y tu telefono lo leera. En Android, Google Lens puede leer codigos QR desde capturas de pantalla."
+
 ---
 
 ## Lo que necesitaras

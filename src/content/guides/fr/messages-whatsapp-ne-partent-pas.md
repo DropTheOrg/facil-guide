@@ -1,12 +1,12 @@
 ---
 title: "Comment resoudre les messages WhatsApp qui ne s'envoient pas"
 description: "Apprenez quoi faire quand vos messages WhatsApp affichent une seule coche ou ne partent pas du tout."
-category: "troubleshooting"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "fr"
-date: "2026-02-20"
+category: "troubleshooting"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Que signifient les coches dans WhatsApp ?"
     answer: "Une coche grise signifie que le message a ete envoye depuis votre telephone. Deux coches grises signifient qu'il a ete livre. Deux coches bleues signifient qu'il a ete lu. Une icone d'horloge signifie que le message n'a pas encore ete envoye."
@@ -14,6 +14,7 @@ faq:
     answer: "Si vous etes bloque, vos messages afficheront une seule coche indefiniment et vous ne verrez plus la photo de profil ni le statut de la personne. Cependant, les problemes de connexion ont le meme aspect, donc ne tirez pas de conclusions trop vite."
   - question: "Vais-je perdre mes messages si je reinstalle WhatsApp ?"
     answer: "Si vous avez une sauvegarde, non. WhatsApp sauvegarde vos conversations automatiquement. Quand vous reinstallez, il vous demandera si vous voulez restaurer la sauvegarde. Verifiez que la sauvegarde est activee dans Reglages > Discussions > Sauvegarde avant de desinstaller."
+
 ---
 
 ## Ce que vous allez apprendre

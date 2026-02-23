@@ -1,12 +1,12 @@
 ---
 title: "Cosa fare quando non si sente durante una chiamata"
 description: "Scopri come risolvere il problema quando non riesci a sentire l'altra persona durante una chiamata su iPhone o Android."
-category: "troubleshooting"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "it"
-date: "2026-02-20"
+category: "troubleshooting"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Perche sento con il vivavoce ma non normalmente?"
     answer: "Questo di solito significa che il piccolo altoparlante dell'auricolare in cima al telefono e bloccato o danneggiato. Prova a pulirlo delicatamente con un pennello morbido. Se non funziona, l'altoparlante potrebbe aver bisogno di riparazione."
@@ -14,6 +14,7 @@ faq:
     answer: "Si. Se hai un segnale debole, le chiamate possono risultare ovattate o silenziose. Prova a spostarti o ad avvicinarti a una finestra."
   - question: "E se l'altra persona dice che non mi sente?"
     answer: "Quello e un problema di microfono, non di altoparlante. Assicurati che nulla copra la parte inferiore del telefono dove si trova il microfono. Prova a togliere la custodia temporaneamente."
+
 ---
 
 ## Cosa imparerai

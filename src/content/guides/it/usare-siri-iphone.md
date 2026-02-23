@@ -1,12 +1,12 @@
 ---
 title: "Come usare Siri su iPhone"
 description: "Impara ad attivare e usare Siri, l'assistente vocale dell'iPhone, per fare chiamate, impostare promemoria, ottenere risposte e altro."
-category: "ia"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "it"
-date: "2026-02-01"
+category: "ia"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Siri ascolta sempre?"
     answer: "Siri ascolta solo dopo che dici 'Ehi Siri' o premi il tasto laterale. Non registra le tue conversazioni negli altri momenti."
@@ -16,6 +16,7 @@ faq:
     answer: "Prova a parlare chiaramente in un ambiente tranquillo. Assicurati che il microfono dell'iPhone non sia bloccato. Puoi anche riformulare la domanda."
   - question: "Siri funziona senza Internet?"
     answer: "Alcuni comandi di base funzionano offline, ma la maggior parte delle funzioni come le ricerche web e i messaggi richiedono una connessione Internet."
+
 ---
 
 ## Cosa imparerai

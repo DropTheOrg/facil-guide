@@ -1,12 +1,12 @@
 ---
 title: "Comment utiliser WhatsApp sur votre ordinateur"
 description: "Apprenez a ouvrir WhatsApp sur votre ordinateur pour taper des messages avec un vrai clavier."
-category: "applications"
-steps: 6
-difficulty: "facile"
-platform: "web"
 lang: "fr"
-date: "2026-01-22"
+category: "applications"
+difficulty: "facile"
+steps: 6
+platform: "web"
+date: "2026-02-23"
 faq:
   - question: "Dois-je garder mon telephone a proximite ?"
     answer: "Les versions recentes de WhatsApp fonctionnent meme si votre telephone est eteint ou deconnecte. Les versions plus anciennes necessitent que votre telephone soit connecte a Internet."
@@ -14,6 +14,7 @@ faq:
     answer: "Oui, tant que vous utilisez le site officiel (web.whatsapp.com) et que vous vous deconnectez quand vous utilisez un ordinateur partage. N'utilisez jamais WhatsApp Web sur un ordinateur en lequel vous n'avez pas confiance."
   - question: "Puis-je passer des appels depuis WhatsApp Web ?"
     answer: "Oui. Vous pouvez passer des appels vocaux et video depuis WhatsApp sur votre ordinateur en cliquant sur l'icone telephone ou camera dans une conversation."
+
 ---
 
 ## Ce que vous allez apprendre

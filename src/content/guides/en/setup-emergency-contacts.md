@@ -1,12 +1,12 @@
 ---
 title: "How to set up emergency contacts and Medical ID on your phone"
 description: "Learn how to add emergency contacts and set up Medical ID on iPhone and Android so first responders can reach your family in an emergency."
-category: "smartphone"
-steps: 7
-difficulty: "facile"
-platform: "iphone"
 lang: "en"
-date: "2026-02-20"
+category: "smartphone"
+difficulty: "facile"
+steps: 7
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Can emergency contacts be reached even when my phone is locked?"
     answer: "Yes. That is the main purpose of this feature. Emergency services and first responders can see your emergency contacts and medical information from the lock screen without needing your passcode."
@@ -18,6 +18,7 @@ faq:
     answer: "Yes. You can add multiple emergency contacts. It is a good idea to add at least two people, such as a spouse and an adult child."
   - question: "Will setting this up cost me anything?"
     answer: "No. This is a free feature built into every iPhone and Android phone."
+
 ---
 
 ## What you will learn

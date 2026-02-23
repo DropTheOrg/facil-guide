@@ -1,12 +1,12 @@
 ---
 title: "Como ligar uma coluna Bluetooth"
 description: "Aprenda a ligar uma coluna Bluetooth ao seu iPhone para ouvir musica e audio sem fios."
-category: "smartphone"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "pt"
-date: "2026-02-11"
+category: "smartphone"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "A que distancia posso estar da coluna?"
     answer: "O Bluetooth funciona normalmente ate 10 metros (cerca de 30 passos). Paredes e obstaculos podem reduzir este alcance."
@@ -14,6 +14,7 @@ faq:
     answer: "Depende do iPhone e da coluna. A maioria dos iPhones so pode reproduzir audio para uma coluna Bluetooth de cada vez."
   - question: "Porque e que a minha coluna nao aparece?"
     answer: "Confirme que a coluna esta em modo de emparelhamento (geralmente indicado por uma luz a piscar) e que o Bluetooth esta ligado no iPhone. Tente desligar e voltar a ligar ambos."
+
 ---
 
 ## O que vai aprender

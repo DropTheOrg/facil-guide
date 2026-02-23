@@ -1,12 +1,12 @@
 ---
 title: "Come prenotare una visita medica su Doctolib"
 description: "Impara a usare Doctolib per trovare un medico e prenotare una visita medica online dal tuo telefono o computer, passo dopo passo."
-category: "government"
-steps: 7
-difficulty: "facile"
-platform: "all"
 lang: "it"
-date: "2026-02-22"
+category: "government"
+difficulty: "facile"
+steps: 7
+platform: "all"
+date: "2026-02-23"
 faq:
   - question: "Doctolib è gratuito?"
     answer: "Sì, creare un account e prenotare visite su Doctolib è completamente gratuito. Paghi solo la visita dal medico, che può essere coperta dalla tua assicurazione sanitaria."
@@ -18,6 +18,7 @@ faq:
     answer: "No, non tutti i medici sono su Doctolib. Se non trovi il tuo medico, potrebbe usare un'altra piattaforma o accettare prenotazioni solo per telefono. Doctolib è usato principalmente in Francia e Germania."
   - question: "Posso vedere i miei documenti medici su Doctolib?"
     answer: "Sì, alcuni medici condividono documenti come ricette e risultati di esami tramite Doctolib. Li troverai nella sezione Documenti del tuo account."
+
 ---
 
 ## Cosa imparerai

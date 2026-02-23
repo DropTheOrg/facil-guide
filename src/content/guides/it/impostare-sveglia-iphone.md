@@ -1,12 +1,12 @@
 ---
 title: "Come impostare una sveglia su iPhone"
 description: "Scopri come impostare una sveglia sul tuo iPhone per non perdere mai un risveglio o un promemoria importante."
-category: "smartphone"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "it"
-date: "2026-02-11"
+category: "smartphone"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "La sveglia suona se il telefono e in modalita silenziosa?"
     answer: "Si. Le sveglie suonano anche quando l'iPhone e in modalita silenziosa. Assicurati solo che il volume sia sufficientemente alto."
@@ -16,6 +16,7 @@ faq:
     answer: "Nell'elenco delle sveglie, tocca l'interruttore verde accanto alla sveglia. Diventera grigio, il che significa che la sveglia e disattivata ma salvata."
   - question: "Perche la mia sveglia non ha suonato?"
     answer: "Verifica che la sveglia sia attivata (interruttore verde). Assicurati anche che il tuo iPhone non sia completamente spento."
+
 ---
 
 ## Cosa imparerai

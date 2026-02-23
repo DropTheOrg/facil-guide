@@ -1,12 +1,12 @@
 ---
 title: "Que faire quand l'ecran de votre telephone est bloque"
 description: "Apprenez a debloquer un ecran de telephone qui ne repond plus au toucher, avec des etapes simples pour iPhone et Android."
-category: "troubleshooting"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "fr"
-date: "2026-02-20"
+category: "troubleshooting"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Vais-je perdre mes donnees si je force le redemarrage ?"
     answer: "Non. Un redemarrage force ne supprime rien. Il eteint simplement votre telephone et le rallume, comme lorsque vous redemarrez un ordinateur."
@@ -16,6 +16,7 @@ faq:
     answer: "Si votre telephone se bloque souvent, essayez de mettre a jour votre logiciel, de supprimer les applications que vous n'utilisez pas ou de liberer de l'espace de stockage. Si le probleme persiste, rendez-vous dans un magasin de reparation."
   - question: "Un ecran bloque est-il la meme chose qu'un ecran casse ?"
     answer: "Non. Un ecran bloque signifie que le logiciel est coince, mais l'ecran lui-meme fonctionne. Si votre ecran est fissure ou n'affiche rien, c'est un probleme materiel qui necessite une reparation."
+
 ---
 
 ## Ce que vous allez apprendre

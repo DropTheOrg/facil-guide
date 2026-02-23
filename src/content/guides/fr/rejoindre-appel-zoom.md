@@ -1,12 +1,12 @@
 ---
 title: "Comment rejoindre un appel video Zoom"
 description: "Apprenez a rejoindre une reunion Zoom sur votre telephone ou ordinateur quand quelqu'un vous envoie un lien d'invitation."
-category: "communication"
-steps: 5
-difficulty: "facile"
-platform: "web"
 lang: "fr"
-date: "2026-02-05"
+category: "communication"
+difficulty: "facile"
+steps: 5
+platform: "web"
+date: "2026-02-23"
 faq:
   - question: "Ai-je besoin d'un compte Zoom pour rejoindre une reunion ?"
     answer: "Non. Vous pouvez rejoindre la plupart des reunions Zoom sans creer de compte. Cliquez simplement sur le lien ou entrez l'identifiant de la reunion."
@@ -14,6 +14,7 @@ faq:
     answer: "Non. Quand vous rejoignez, Zoom vous montre un apercu de votre camera. Vous pouvez choisir d'activer ou desactiver votre camera avant d'entrer dans la reunion."
   - question: "Et si je n'entends personne dans la reunion ?"
     answer: "Verifiez que le volume de votre telephone ou ordinateur est monte. Quand Zoom demande comment rejoindre l'audio, appuyez sur Rejoindre avec l'audio Internet. Si l'audio ne fonctionne toujours pas, quittez et rejoignez la reunion."
+
 ---
 
 ## Ce que vous allez apprendre

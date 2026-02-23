@@ -1,12 +1,12 @@
 ---
 title: "Cómo pedir cita médica en Doctolib"
 description: "Aprende a usar Doctolib para buscar un médico y reservar una cita médica en línea desde tu teléfono u ordenador, paso a paso."
-category: "government"
-steps: 7
-difficulty: "facile"
-platform: "all"
 lang: "es"
-date: "2026-02-22"
+category: "government"
+difficulty: "facile"
+steps: 7
+platform: "all"
+date: "2026-02-23"
 faq:
   - question: "¿Doctolib es gratis?"
     answer: "Sí, crear una cuenta y pedir citas en Doctolib es completamente gratis. Solo pagas la consulta del médico, que puede estar cubierta por tu seguro médico."
@@ -18,6 +18,7 @@ faq:
     answer: "No, no todos los médicos están en Doctolib. Si no encuentras a tu médico, puede que use otra plataforma o que solo acepte citas por teléfono. Doctolib se usa principalmente en Francia y Alemania."
   - question: "¿Puedo ver mis documentos médicos en Doctolib?"
     answer: "Sí, algunos médicos comparten documentos como recetas y resultados de análisis a través de Doctolib. Los encontrarás en la sección Documentos de tu cuenta."
+
 ---
 
 ## Lo que aprenderás

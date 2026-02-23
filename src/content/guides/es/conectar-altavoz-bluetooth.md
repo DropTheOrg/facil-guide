@@ -1,12 +1,12 @@
 ---
 title: "Como conectar un altavoz Bluetooth"
 description: "Aprende a conectar un altavoz Bluetooth a tu iPhone para escuchar musica de forma inalambrica."
-category: "smartphone"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "es"
-date: "2026-02-12"
+category: "smartphone"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "A que distancia puedo estar del altavoz?"
     answer: "El Bluetooth suele funcionar en un radio de 10 metros (unos 30 pies). Las paredes y los obstaculos pueden reducir este alcance."
@@ -14,6 +14,7 @@ faq:
     answer: "Depende de tu iPhone y del altavoz. La mayoria de los iPhone solo pueden reproducir audio en un altavoz Bluetooth a la vez."
   - question: "Por que no aparece mi altavoz?"
     answer: "Asegurate de que el altavoz esta en modo de emparejamiento (suele indicarse con una luz parpadeante) y de que el Bluetooth esta activado en tu iPhone. Prueba a apagar y encender ambos."
+
 ---
 
 ## Lo que vas a aprender

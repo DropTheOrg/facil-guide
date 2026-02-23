@@ -1,12 +1,12 @@
 ---
 title: "Como conectarse al Wi-Fi en iPhone"
 description: "Aprenda a conectar su iPhone a una red Wi-Fi en casa, en una cafeteria o en cualquier otro lugar."
-category: "internet"
-steps: 5
-difficulty: "facile"
-platform: "iphone"
 lang: "es"
-date: "2026-01-24"
+category: "internet"
+difficulty: "facile"
+steps: 5
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Por que no veo mi red Wi-Fi en la lista?"
     answer: "Asegurese de que su router Wi-Fi este encendido. Si la red esta oculta, desplacese hacia abajo y toque Otra para introducir el nombre de la red manualmente."
@@ -14,6 +14,7 @@ faq:
     answer: "Mire en la parte trasera o inferior de su router Wi-Fi. La contrasena por defecto suele estar impresa en una etiqueta. Si alguien la cambio, pregunte a la persona que configuro el router."
   - question: "El Wi-Fi usa mis datos moviles?"
     answer: "No. Cuando esta conectado al Wi-Fi, su telefono usa la conexion a Internet del Wi-Fi en lugar de sus datos moviles. Esto puede ahorrarle dinero en su factura telefonica."
+
 ---
 
 ## Lo que va a aprender

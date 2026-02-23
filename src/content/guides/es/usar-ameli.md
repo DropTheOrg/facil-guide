@@ -1,12 +1,12 @@
 ---
 title: "Cómo usar Ameli para el seguro de salud y reembolsos en Francia"
 description: "Aprende a acceder a tu cuenta Ameli para consultar reembolsos, descargar certificados y gestionar tu seguridad social francesa en línea."
-category: "government"
-steps: 7
-difficulty: "facile"
-platform: "all"
 lang: "es"
-date: "2026-02-22"
+category: "government"
+difficulty: "facile"
+steps: 7
+platform: "all"
+date: "2026-02-23"
 faq:
   - question: "¿Qué es Ameli?"
     answer: "Ameli es la plataforma en línea del sistema de salud público francés (Assurance Maladie). Te permite consultar tus reembolsos, descargar documentos oficiales, actualizar tus datos personales y contactar con tu oficina de seguro de salud sin ir en persona."
@@ -18,6 +18,7 @@ faq:
     answer: "Sí, puedes acceder a tu cuenta Ameli en un ordenador yendo a ameli.fr e iniciando sesión. La aplicación y el sitio web ofrecen las mismas funciones."
   - question: "¿Qué es una attestation de droits?"
     answer: "Es un documento oficial que demuestra que tienes seguro de salud en Francia. Puede que lo necesites al visitar un médico nuevo, empezar un trabajo o inscribir a tus hijos en la escuela. Puedes descargarlo al instante desde Ameli."
+
 ---
 
 ## Lo que aprenderás

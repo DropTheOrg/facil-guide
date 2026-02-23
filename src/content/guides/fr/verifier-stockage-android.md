@@ -1,12 +1,12 @@
 ---
 title: "Comment verifier le stockage sur Android"
 description: "Apprenez a voir combien d'espace de stockage il reste sur votre telephone Android et a decouvrir ce qui occupe le plus de place."
-category: "smartphone"
-steps: 5
-difficulty: "facile"
-platform: "android"
 lang: "fr"
-date: "2026-02-06"
+category: "smartphone"
+difficulty: "facile"
+steps: 5
+platform: "android"
+date: "2026-02-23"
 faq:
   - question: "Que se passe-t-il quand mon telephone n'a plus de stockage ?"
     answer: "Votre telephone peut devenir lent, les applications peuvent mal fonctionner, et vous ne pourrez plus telecharger de nouvelles applications ni prendre de nouvelles photos tant que vous n'aurez pas libere de l'espace."
@@ -14,6 +14,7 @@ faq:
     answer: "Les photos, videos et applications occupent generalement le plus d'espace. Les anciens medias WhatsApp et les fichiers telecharges peuvent aussi prendre beaucoup de place."
   - question: "Comment liberer de l'espace ?"
     answer: "Supprimez les applications que vous n'utilisez plus, supprimez les anciennes photos et videos (ou deplacez-les vers Google Photos), et videz le cache dans les Parametres."
+
 ---
 
 ## Ce que vous allez apprendre

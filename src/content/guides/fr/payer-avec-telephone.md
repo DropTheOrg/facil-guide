@@ -18,6 +18,7 @@ faq:
     answer: "If your phone is completely out of battery, you cannot pay with it. Some newer iPhones have a Power Reserve feature that lets Apple Pay work for a few hours after the battery dies, but it is best to keep a backup payment method."
   - question: "Is there a limit on how much I can pay?"
     answer: "For small amounts, you just tap. For larger amounts (usually over 50 euros or pounds), you may need to confirm with Face ID, fingerprint, or your passcode. There is usually no maximum limit."
+
 ---
 
 ## Ce dont vous aurez besoin

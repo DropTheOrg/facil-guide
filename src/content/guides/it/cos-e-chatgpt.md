@@ -1,12 +1,12 @@
 ---
 title: "Cos'e ChatGPT e come usarlo"
 description: "Una guida chiara, passo dopo passo, per capire e usare ChatGPT, l'assistente IA che risponde alle domande, scrive testi e aiuta nelle attivita quotidiane."
-category: "ia"
-steps: 7
-difficulty: "facile"
-platform: "web"
 lang: "it"
-date: "2026-01-25"
+category: "ia"
+difficulty: "facile"
+steps: 7
+platform: "web"
+date: "2026-02-23"
 faq:
   - question: "ChatGPT e gratuito?"
     answer: "Si, ChatGPT ha una versione gratuita che funziona bene per la maggior parte delle attivita. Esiste anche una versione a pagamento (ChatGPT Plus), ma quella gratuita e perfetta per iniziare."
@@ -14,6 +14,7 @@ faq:
     answer: "Si, e sicuro per domande generali. Tuttavia, non condividere mai informazioni sensibili come password o dati bancari."
   - question: "ChatGPT puo sbagliare?"
     answer: "Si. Verifica sempre le informazioni importanti, specialmente su salute, questioni legali o finanziarie."
+
 ---
 
 ## Cosa imparerai

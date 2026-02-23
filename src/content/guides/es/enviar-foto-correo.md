@@ -1,12 +1,12 @@
 ---
 title: "Como enviar una foto como adjunto en un correo electronico"
 description: "Aprende a adjuntar y enviar una foto por correo electronico en iPhone y Android con instrucciones sencillas paso a paso para Gmail y otras aplicaciones."
-category: "communication"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "es"
-date: "2026-02-20"
+category: "communication"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Hay un limite de cuantas fotos puedo enviar?"
     answer: "La mayoria de los servicios de correo tienen un limite de 25 megabytes por correo. Una foto suele pesar entre 2 y 5 megabytes, asi que puedes enviar entre 5 y 10 fotos por correo. Si necesitas enviar mas, dividelasn varios correos."
@@ -16,6 +16,7 @@ faq:
     answer: "Si, pero los videos son mucho mas grandes. Si el video es demasiado grande para el correo, el telefono puede ofrecer enviar un enlace en su lugar (como un enlace de iCloud en iPhone o Google Drive en Android)."
   - question: "Que pasa si la persona dice que no recibio mi correo?"
     answer: "Revisa tu carpeta de Enviados para confirmar que el correo se envio. Los adjuntos grandes a veces son bloqueados por el proveedor del destinatario. Pidele que revise su carpeta de spam. Si las fotos eran demasiado grandes, intenta reenviar con un tamano menor."
+
 ---
 
 ## Lo que vas a aprender

@@ -1,12 +1,12 @@
 ---
 title: "Why your phone battery dies fast and how to fix it"
 description: "Learn why your phone battery drains quickly and how to make it last longer with simple settings changes on iPhone and Android."
-category: "troubleshooting"
-steps: 7
-difficulty: "facile"
-platform: "iphone"
 lang: "en"
-date: "2026-02-20"
+category: "troubleshooting"
+difficulty: "facile"
+steps: 7
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Is it normal for my battery to drain faster as my phone gets older?"
     answer: "Yes. Phone batteries lose capacity over time. After two or three years, your battery may only hold 80 percent of its original charge. You can check your battery health in Settings."
@@ -18,6 +18,7 @@ faq:
     answer: "No. Modern phone batteries last longer if you keep them between 20 and 80 percent. There is no need to fully drain them."
   - question: "When should I replace my battery?"
     answer: "If your battery health is below 80 percent and your phone dies very quickly, it may be time for a battery replacement. Visit an authorized repair center for a new battery."
+
 ---
 
 ## What you will learn

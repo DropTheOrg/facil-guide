@@ -1,12 +1,12 @@
 ---
 title: "Come bloccare un numero su iPhone"
 description: "Scopri come bloccare chiamate e messaggi indesiderati sul tuo iPhone in pochi semplici passaggi."
-category: "smartphone"
-steps: 5
-difficulty: "facile"
-platform: "iphone"
 lang: "it"
-date: "2026-01-21"
+category: "smartphone"
+difficulty: "facile"
+steps: 5
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "La persona bloccata sapra di essere stata bloccata?"
     answer: "No, non ricevera alcuna notifica. Le sue chiamate andranno direttamente alla segreteria e i suoi messaggi non ti verranno recapitati."
@@ -14,6 +14,7 @@ faq:
     answer: "Si. Vai su Impostazioni, poi Telefono, poi Contatti bloccati. Scorri verso sinistra sul numero che vuoi sbloccare e tocca Sblocca."
   - question: "Il blocco ferma tutti i contatti?"
     answer: "Il blocco ferma chiamate, messaggi e FaceTime da quel numero. Non blocca quella persona su app come WhatsApp, che hanno la propria funzione di blocco."
+
 ---
 
 ## Cosa imparerai

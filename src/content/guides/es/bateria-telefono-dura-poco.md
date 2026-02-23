@@ -1,12 +1,12 @@
 ---
 title: "Por que la bateria de tu telefono dura poco y como solucionarlo"
 description: "Aprende por que la bateria de tu telefono se agota rapido y como hacer que dure mas con ajustes sencillos en iPhone y Android."
-category: "troubleshooting"
-steps: 7
-difficulty: "facile"
-platform: "iphone"
 lang: "es"
-date: "2026-02-20"
+category: "troubleshooting"
+difficulty: "facile"
+steps: 7
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Es normal que la bateria dure menos con el tiempo?"
     answer: "Si. Las baterias de telefono pierden capacidad con el tiempo. Despues de dos o tres anos, tu bateria puede retener solo el 80 por ciento de su carga original. Puedes verificar el estado de tu bateria en Ajustes."
@@ -18,6 +18,7 @@ faq:
     answer: "No. Las baterias modernas duran mas si las mantienes entre el 20 y el 80 por ciento. No es necesario descargarlas completamente."
   - question: "Cuando debo reemplazar la bateria?"
     answer: "Si el estado de tu bateria esta por debajo del 80 por ciento y tu telefono se apaga muy rapido, puede ser momento de cambiarla. Visita un centro de reparacion autorizado."
+
 ---
 
 ## Lo que vas a aprender

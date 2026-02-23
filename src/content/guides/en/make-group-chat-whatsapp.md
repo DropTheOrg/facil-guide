@@ -6,7 +6,7 @@ category: "applications"
 difficulty: "facile"
 steps: 5
 platform: "iphone"
-date: "2026-02-22"
+date: "2026-02-23"
 faq:
   - question: "How many people can be in a WhatsApp group?"
     answer: "Up to 1,024 people can be in one WhatsApp group."
@@ -16,6 +16,7 @@ faq:
     answer: "Yes. Open the group, tap the group name at the top, scroll down to Mute Notifications, and choose 8 hours, 1 week, or Always. You will still see messages but your phone will not buzz."
   - question: "Who can add people to the group?"
     answer: "By default, any member can add people. As admin, you can change this in Group Settings so only admins can add new members."
+
 ---
 
 ## What You Will Need

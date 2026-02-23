@@ -1,12 +1,12 @@
 ---
 title: "How to fix WhatsApp messages that won't send"
 description: "Learn what to do when your WhatsApp messages show only one check mark or won't send at all."
-category: "troubleshooting"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "en"
-date: "2026-02-20"
+category: "troubleshooting"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "What do the check marks in WhatsApp mean?"
     answer: "One grey check mark means the message was sent from your phone. Two grey check marks mean it was delivered to the other person. Two blue check marks mean they have read it. A clock icon means the message has not been sent yet."
@@ -14,6 +14,7 @@ faq:
     answer: "If you are blocked, your messages will show one check mark forever and you will not see the person's profile photo or last seen status. However, connection problems look the same, so do not jump to conclusions."
   - question: "Will I lose my messages if I reinstall WhatsApp?"
     answer: "If you have a backup, no. WhatsApp backs up your chats automatically. When you reinstall, it will ask if you want to restore from backup. Make sure backup is enabled in Settings > Chats > Chat Backup before uninstalling."
+
 ---
 
 ## What you will learn

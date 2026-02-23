@@ -1,11 +1,11 @@
 ---
 title: "Comment faire un appel video FaceTime sur iPhone"
 description: "Apprenez a passer un appel video FaceTime sur votre iPhone pour voir et parler a votre famille et vos amis."
-category: "communication"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "fr"
+category: "communication"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
 date: "2026-02-23"
 faq:
   - question: "FaceTime est-il gratuit ?"
@@ -16,6 +16,7 @@ faq:
     answer: "Vous avez besoin d'un iPhone (ou iPad ou Mac) avec une connexion internet. La personne que vous appelez doit aussi avoir un appareil Apple avec FaceTime, ou elle peut rejoindre via un lien partage dans un navigateur web."
   - question: "Peut-on faire un appel FaceTime en groupe ?"
     answer: "Oui. Vous pouvez ajouter jusqu'a 32 personnes a un appel FaceTime. Appuyez simplement sur le bouton Ajouter une personne pendant un appel pour inviter plus de monde."
+
 ---
 
 ## Ce que vous allez apprendre

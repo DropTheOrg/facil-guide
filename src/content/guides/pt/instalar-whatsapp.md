@@ -1,12 +1,12 @@
 ---
 title: "Como instalar e configurar o WhatsApp no seu telemóvel"
 description: "Aprenda a descarregar, instalar e configurar o WhatsApp no seu iPhone ou Android para começar a enviar mensagens, fotos e fazer chamadas grátis."
-category: "communication"
-steps: 7
-difficulty: "facile"
-platform: "all"
 lang: "pt"
-date: "2026-02-22"
+category: "communication"
+difficulty: "facile"
+steps: 7
+platform: "all"
+date: "2026-02-23"
 faq:
   - question: "O WhatsApp é gratuito?"
     answer: "Sim, o WhatsApp é gratuito. Usa a sua ligação à internet (Wi-Fi ou dados móveis) em vez dos SMS ou minutos de chamada do seu tarifário."
@@ -18,6 +18,7 @@ faq:
     answer: "Sim, depois de configurar o WhatsApp no seu telemóvel, pode ligá-lo a um tablet ou computador. No seu computador, vá a web.whatsapp.com e leia o código QR com o seu telemóvel."
   - question: "O que acontece aos meus SMS antigos?"
     answer: "O WhatsApp é uma aplicação separada dos seus SMS. Os seus SMS antigos ficam na aplicação Mensagens do seu telemóvel. As mensagens do WhatsApp só aparecem no WhatsApp."
+
 ---
 
 ## O que vai aprender

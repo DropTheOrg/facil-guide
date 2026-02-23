@@ -6,7 +6,7 @@ category: "smartphone"
 difficulty: "facile"
 steps: 3
 platform: "iphone"
-date: "2026-02-22"
+date: "2026-02-23"
 faq:
   - question: "Does a brighter screen use more battery?"
     answer: "Yes. The brighter your screen, the faster your battery drains. Lowering the brightness or using auto-brightness helps save battery."
@@ -14,6 +14,7 @@ faq:
     answer: "Auto-brightness lets your phone adjust the screen brightness automatically based on how much light is around you. In a dark room, it dims the screen. Outside in sunlight, it makes it brighter."
   - question: "Why can I not see my screen in the sun?"
     answer: "Even at maximum brightness, direct sunlight can make screens hard to read. Move to a shaded area, cup your hand over the screen, or increase brightness to maximum temporarily."
+
 ---
 
 ## What You Will Need

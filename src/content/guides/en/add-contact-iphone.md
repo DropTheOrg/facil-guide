@@ -1,12 +1,12 @@
 ---
 title: "How to add a contact on iPhone"
 description: "Learn how to save a phone number as a contact on your iPhone so you can call or message them easily."
-category: "smartphone"
-steps: 5
-difficulty: "facile"
-platform: "iphone"
 lang: "en"
-date: "2026-01-15"
+category: "smartphone"
+difficulty: "facile"
+steps: 5
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Can I add a photo to a contact?"
     answer: "Yes. Open the contact, tap Edit in the top right corner, then tap Add Photo. You can take a new photo or choose one from your library."
@@ -14,6 +14,7 @@ faq:
     answer: "Open the Contacts app, find the person, tap their name, then tap Edit in the top right corner. Make your changes and tap Done."
   - question: "Can I save a contact from a recent call?"
     answer: "Yes. Open the Phone app, tap Recents, then tap the info icon (a small circle with an i) next to the number. Tap Create New Contact to save it."
+
 ---
 
 ## What you will learn

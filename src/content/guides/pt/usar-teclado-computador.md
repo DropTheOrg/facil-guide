@@ -1,12 +1,12 @@
 ---
 title: "Como usar o teclado do computador"
 description: "Aprenda as teclas essenciais: letras, Shift, Backspace, Enter e teclas especiais."
-difficulty: "facile"
-platform: "web"
-category: "ordinateur"
-steps: 6
 lang: "pt"
-date: "2026-01-20"
+category: "ordinateur"
+difficulty: "facile"
+steps: 6
+platform: "web"
+date: "2026-02-23"
 faq:
   - question: "How do I type special characters like @ or #?"
     answer: "Hold the Shift key and press the number key that has the symbol printed on it. For example, Shift + 2 gives you @."
@@ -14,6 +14,7 @@ faq:
     answer: "When Caps Lock is on, every letter you type will be uppercase. Press it again to turn it off. A small light on the key may indicate if it is on."
   - question: "What is the difference between Backspace and Delete?"
     answer: "Backspace removes the character to the left of your cursor. Delete removes the character to the right."
+
 ---
 
 ## Passo 1 : The letter keys

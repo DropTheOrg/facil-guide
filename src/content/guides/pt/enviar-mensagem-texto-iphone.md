@@ -1,12 +1,12 @@
 ---
 title: "Como enviar uma mensagem de texto no iPhone"
 description: "Aprenda a enviar uma mensagem de texto (SMS ou iMessage) a alguem usando a aplicacao Mensagens do seu iPhone."
-category: "communication"
-steps: 5
-difficulty: "facile"
-platform: "iphone"
 lang: "pt"
-date: "2026-02-05"
+category: "communication"
+difficulty: "facile"
+steps: 5
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Qual e a diferenca entre uma mensagem verde e azul?"
     answer: "As mensagens azuis sao iMessages, enviadas gratuitamente pela Internet para outros dispositivos Apple. As mensagens verdes sao SMS normais, que podem custar dinheiro dependendo do seu plano."
@@ -14,6 +14,7 @@ faq:
     answer: "Sim. A aplicacao Mensagens envia SMS normais para telemoveis nao Apple. A bolha da mensagem aparecera verde em vez de azul."
   - question: "Posso enviar fotos numa mensagem de texto?"
     answer: "Sim. Na conversa, toque no botao + ou no icone da camara para anexar uma foto antes de enviar."
+
 ---
 
 ## O que vai aprender

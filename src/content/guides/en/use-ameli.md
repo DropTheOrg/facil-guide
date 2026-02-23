@@ -1,12 +1,12 @@
 ---
 title: "How to use Ameli for health insurance and reimbursements"
 description: "Learn how to access your Ameli account to check health insurance reimbursements, download attestations, and manage your French social security online."
-category: "government"
-steps: 7
-difficulty: "facile"
-platform: "all"
 lang: "en"
-date: "2026-02-22"
+category: "government"
+difficulty: "facile"
+steps: 7
+platform: "all"
+date: "2026-02-23"
 faq:
   - question: "What is Ameli?"
     answer: "Ameli is the online platform of the French national health insurance system (Assurance Maladie). It lets you check your reimbursements, download official documents, update your personal information, and contact your health insurance office without going in person."
@@ -18,6 +18,7 @@ faq:
     answer: "Yes, you can access your Ameli account on a computer by going to ameli.fr and logging in. The app and website offer the same features."
   - question: "What is an attestation de droits?"
     answer: "An attestation de droits is an official document that proves you have health insurance in France. You may need it when visiting a new doctor, starting a new job, or enrolling your children in school. You can download it instantly from Ameli."
+
 ---
 
 ## What you will learn

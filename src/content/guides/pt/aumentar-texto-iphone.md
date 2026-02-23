@@ -1,12 +1,12 @@
 ---
 title: "Como aumentar o texto no iPhone"
 description: "Aprenda a aumentar o tamanho do texto no seu iPhone para que tudo seja mais facil de ler."
-category: "smartphone"
-steps: 5
-difficulty: "facile"
-platform: "iphone"
 lang: "pt"
-date: "2026-01-29"
+category: "smartphone"
+difficulty: "facile"
+steps: 5
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Isto muda o tamanho do texto em todas as aplicacoes?"
     answer: "A maioria das aplicacoes suporta Dynamic Type e respeitara a sua escolha de tamanho de texto. Algumas aplicacoes podem nao mudar, mas a grande maioria ira."
@@ -14,6 +14,7 @@ faq:
     answer: "Sim. Va a Definicoes > Acessibilidade > Ecra e tamanho do texto > Texto maior. Ative Tamanhos de acessibilidade maiores para opcoes ainda maiores."
   - question: "Esta definicao afeta outras pessoas que usem o meu telemovel?"
     answer: "Sim, a definicao de tamanho do texto aplica-se a todo o telemovel. Qualquer pessoa que use o seu iPhone vera o texto maior."
+
 ---
 
 ## O que vai aprender

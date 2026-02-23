@@ -1,12 +1,12 @@
 ---
 title: "How to install an app on Android"
 description: "Learn how to download and install apps on your Android phone using the Google Play Store."
-category: "smartphone"
-steps: 6
-difficulty: "facile"
-platform: "android"
 lang: "en"
-date: "2026-01-28"
+category: "smartphone"
+difficulty: "facile"
+steps: 6
+platform: "android"
+date: "2026-02-23"
 faq:
   - question: "Is the Google Play Store free?"
     answer: "Yes, the Play Store itself is free. Many apps are free too, but some cost money. Free apps will show Install, while paid apps show a price."
@@ -16,6 +16,7 @@ faq:
     answer: "Check the star rating and read reviews from other users. Apps with millions of downloads and high ratings are generally safe."
   - question: "Can I delete an app after installing it?"
     answer: "Yes. Press and hold the app icon on your home screen, then select Remove or Uninstall."
+
 ---
 
 ## What you will learn

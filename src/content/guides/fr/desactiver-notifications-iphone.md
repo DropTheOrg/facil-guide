@@ -1,12 +1,12 @@
 ---
 title: "Comment desactiver les notifications sur iPhone"
 description: "Apprenez a arreter les notifications indesirables des applications sur votre iPhone pour avoir un telephone plus calme."
-category: "smartphone"
-steps: 5
-difficulty: "facile"
-platform: "iphone"
 lang: "fr"
-date: "2026-01-27"
+category: "smartphone"
+difficulty: "facile"
+steps: 5
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Vais-je rater des appels importants si je desactive les notifications ?"
     answer: "Non. Desactiver les notifications d'une application arrete uniquement les alertes de cette application. Les appels telephoniques continueront a arriver, sauf si vous activez aussi Ne pas deranger."
@@ -14,6 +14,7 @@ faq:
     answer: "Oui. Suivez les memes etapes et reactivez le bouton Autoriser les notifications."
   - question: "Qu'est-ce que Ne pas deranger ?"
     answer: "Ne pas deranger desactive toutes les notifications, appels et alertes d'un coup. Vous pouvez l'activer depuis les Reglages ou en balayant vers le bas depuis le coin superieur droit de votre ecran et en appuyant sur l'icone en forme de lune."
+
 ---
 
 ## Ce que vous allez apprendre

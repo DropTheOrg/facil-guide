@@ -16,6 +16,7 @@ faq:
     answer: "Yes. Open the recording, tap the Share button, and send it via WhatsApp, email, or text message."
   - question: "Is it legal to record conversations?"
     answer: "Laws vary by country and region. In many places, you need to tell the other person you are recording. Check your local laws before recording phone calls or conversations."
+
 ---
 
 ## O que vai precisar

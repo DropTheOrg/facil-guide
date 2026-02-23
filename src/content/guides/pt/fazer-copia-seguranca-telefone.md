@@ -1,12 +1,12 @@
 ---
 title: "Como fazer copia de seguranca do telefone para nao perder fotos e contactos"
 description: "Aprenda a fazer copia de seguranca do seu iPhone ou Android na nuvem para que as suas fotos, contactos e mensagens estejam seguros mesmo que perca o telefone."
-category: "smartphone"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "pt"
-date: "2026-02-20"
+category: "smartphone"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "O que e uma copia de seguranca?"
     answer: "Uma copia de seguranca e uma copia de tudo o que esta no seu telefone -- fotos, contactos, mensagens, dados de aplicacoes e definicoes -- guardada em seguranca na internet ou num computador. Se perder, partir ou trocar o telefone, pode restaurar tudo a partir da copia."
@@ -18,6 +18,7 @@ faq:
     answer: "Nao. Depois de ativar a copia automatica, o telefone faz a copia sozinho todos os dias quando esta ligado ao Wi-Fi, a carregar e com o ecra bloqueado."
   - question: "O que acontece com a minha copia se comprar um telefone novo?"
     answer: "Quando configurar um telefone novo, ele perguntara se quer restaurar a partir de uma copia de seguranca. Escolha a ultima copia e tudo -- fotos, contactos, aplicacoes e definicoes -- sera transferido para o novo telefone."
+
 ---
 
 ## O que vai aprender

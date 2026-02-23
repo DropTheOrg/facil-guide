@@ -1,12 +1,12 @@
 ---
 title: "Como saber si un mensaje de texto, correo o llamada es una estafa"
 description: "Aprende a reconocer mensajes fraudulentos, correos de phishing y llamadas de estafa para proteger tu informacion personal."
-category: "securite"
-steps: 7
-difficulty: "facile"
-platform: "iphone"
 lang: "es"
-date: "2026-02-20"
+category: "securite"
+difficulty: "facile"
+steps: 7
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Que debo hacer si ya hice clic en un enlace sospechoso?"
     answer: "No introduzcas ninguna informacion personal. Cierra la pagina inmediatamente. Si introdujiste una contrasena, cambiala de inmediato en el sitio real. Si introdujiste datos bancarios, llama a tu banco inmediatamente."
@@ -18,6 +18,7 @@ faq:
     answer: "Si. En iPhone puedes reportar mensajes spam tocando Reportar como no deseado. En Android, mantiene presionado el mensaje y toca Reportar spam. Esto ayuda a proteger a otros."
   - question: "Las estafas solo llegan por SMS y correo?"
     answer: "No. Las estafas pueden llegar por SMS, correo electronico, llamadas telefonicas, mensajes de WhatsApp, redes sociales e incluso correo postal. Las senales de alerta son similares sin importar como llegue el mensaje."
+
 ---
 
 ## Lo que vas a aprender

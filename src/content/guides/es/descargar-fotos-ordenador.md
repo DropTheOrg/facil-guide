@@ -14,6 +14,7 @@ faq:
     answer: "Use the charging cable that came with your phone. Plug the USB end into your computer and the other end into your phone."
   - question: "Can I do this wirelessly?"
     answer: "Yes. You can email photos to yourself, use Google Photos, iCloud, or AirDrop (iPhone to Mac). But a cable is the fastest and easiest method for many photos."
+
 ---
 
 ## Paso 1: Connect your phone to the computer

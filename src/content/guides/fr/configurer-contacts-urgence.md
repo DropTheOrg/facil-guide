@@ -1,12 +1,12 @@
 ---
 title: "Comment configurer les contacts d'urgence et la fiche medicale sur votre telephone"
 description: "Apprenez a ajouter des contacts d'urgence et configurer la fiche medicale sur iPhone et Android pour que les secours puissent contacter vos proches."
-category: "smartphone"
-steps: 7
-difficulty: "facile"
-platform: "iphone"
 lang: "fr"
-date: "2026-02-20"
+category: "smartphone"
+difficulty: "facile"
+steps: 7
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Les contacts d'urgence sont-ils accessibles meme quand le telephone est verrouille ?"
     answer: "Oui. C'est le but principal de cette fonction. Les services d'urgence peuvent voir vos contacts d'urgence et vos informations medicales depuis l'ecran verrouille sans avoir besoin de votre code."
@@ -18,6 +18,7 @@ faq:
     answer: "Oui. Vous pouvez ajouter plusieurs contacts d'urgence. Il est conseille d'en ajouter au moins deux, comme votre conjoint et un enfant adulte."
   - question: "Cela coute-t-il quelque chose ?"
     answer: "Non. C'est une fonction gratuite integree a tous les iPhone et telephones Android."
+
 ---
 
 ## Ce que vous allez apprendre

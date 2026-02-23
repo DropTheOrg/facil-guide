@@ -1,11 +1,11 @@
 ---
 title: "Como fazer uma videochamada FaceTime no iPhone"
 description: "Aprenda a iniciar uma videochamada FaceTime no seu iPhone para ver e falar com a sua familia e amigos."
-category: "communication"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "pt"
+category: "communication"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
 date: "2026-02-23"
 faq:
   - question: "O FaceTime e gratuito?"
@@ -16,6 +16,7 @@ faq:
     answer: "Precisa de um iPhone (ou iPad ou Mac) com ligacao a internet. A pessoa que esta a ligar tambem precisa de um dispositivo Apple com FaceTime, ou pode entrar atraves de um link partilhado num navegador web."
   - question: "Posso fazer chamadas de grupo no FaceTime?"
     answer: "Sim. Pode adicionar ate 32 pessoas a uma chamada FaceTime. Basta tocar no botao Adicionar pessoa durante uma chamada para convidar mais pessoas."
+
 ---
 
 ## O que vai aprender

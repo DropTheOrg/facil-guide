@@ -1,12 +1,12 @@
 ---
 title: "How to fix the storage full warning on your phone"
 description: "Learn how to free up space on your phone when you see the storage full warning, step by step."
-category: "troubleshooting"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "en"
-date: "2026-02-20"
+category: "troubleshooting"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "What happens if I ignore the storage full warning?"
     answer: "Your phone will become slower, you will not be able to take new photos, and some apps may stop working properly. It is best to free up space as soon as you see the warning."
@@ -16,6 +16,7 @@ faq:
     answer: "Photos and videos are usually the biggest space users. After that, apps (especially games and social media) and downloaded files take up the most room."
   - question: "How much free space should I have?"
     answer: "Try to keep at least 2 to 3 gigabytes (GB) of free space on your phone. This helps your phone run smoothly."
+
 ---
 
 ## What you will learn

@@ -1,11 +1,11 @@
 ---
 title: "Como pedir un viaje con Uber en tu telefono"
 description: "Aprende a descargar Uber, crear tu cuenta y pedir tu primer viaje paso a paso."
-category: "applications"
-steps: 7
-difficulty: "facile"
-platform: "all"
 lang: "es"
+category: "applications"
+difficulty: "facile"
+steps: 7
+platform: "all"
 date: "2026-02-23"
 faq:
   - question: "Cuanto cuesta un viaje en Uber?"
@@ -18,6 +18,7 @@ faq:
     answer: "Si. Al introducir el destino, puedes cambiar el punto de recogida a otra direccion y enviar los detalles del viaje a otra persona."
   - question: "Que hago si deje algo en el coche?"
     answer: "Abre la app de Uber, ve a Tus viajes, selecciona el viaje y toca Objeto perdido. La app te ayudara a contactar al conductor."
+
 ---
 
 ## Lo que vas a aprender

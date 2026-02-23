@@ -1,12 +1,12 @@
 ---
 title: "How to adjust the volume on your phone"
 description: "Learn how to make your phone louder or quieter for calls, music, alarms, and notifications."
-difficulty: "facile"
-platform: "all"
-category: "smartphone"
-steps: 4
 lang: "en"
-date: "2026-02-22"
+category: "smartphone"
+difficulty: "facile"
+steps: 4
+platform: "all"
+date: "2026-02-23"
 faq:
   - question: "Why is my phone on silent?"
     answer: "On iPhone, check the small switch on the left side -- if you see orange, it's on silent. Flip it back. On Android, press the Volume Up button."
@@ -14,6 +14,7 @@ faq:
     answer: "Yes. In Settings > Sounds (iPhone) or Sound (Android), you can set separate volumes for ringtone, media, alarms, and notifications."
   - question: "Why can't I hear the other person on a call?"
     answer: "During a call, press the Volume Up button on the side of your phone to increase the call volume. This only works while you're on a call."
+
 ---
 
 ## Step 1: Use the side buttons

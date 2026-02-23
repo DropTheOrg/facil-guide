@@ -1,12 +1,12 @@
 ---
 title: "Cosa fare quando lo schermo del telefono si blocca"
 description: "Scopri come risolvere uno schermo del telefono bloccato che non risponde al tocco, con passaggi semplici per iPhone e Android."
-category: "troubleshooting"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "it"
-date: "2026-02-20"
+category: "troubleshooting"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Perdero i miei dati se forzo il riavvio?"
     answer: "No. Un riavvio forzato non cancella nulla. Semplicemente spegne il telefono e lo riaccende, proprio come riavviare un computer."
@@ -16,6 +16,7 @@ faq:
     answer: "Se il telefono si blocca spesso, prova ad aggiornare il software, eliminare le app che non usi o liberare spazio di archiviazione. Se il problema continua, visita un negozio di riparazione."
   - question: "Uno schermo bloccato e la stessa cosa di uno schermo rotto?"
     answer: "No. Uno schermo bloccato significa che il software e bloccato ma lo schermo in se funziona. Se lo schermo e incrinato o non mostra alcuna immagine, e un problema hardware che richiede riparazione."
+
 ---
 
 ## Cosa imparerai

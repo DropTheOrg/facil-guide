@@ -1,12 +1,12 @@
 ---
 title: "How to change your Wi-Fi password"
 description: "Learn how to change your Wi-Fi password to keep your home network safe and secure."
-category: "internet"
-steps: 6
-difficulty: "moyen"
-platform: "web"
 lang: "en"
-date: "2026-01-18"
+category: "internet"
+difficulty: "moyen"
+steps: 6
+platform: "web"
+date: "2026-02-23"
 faq:
   - question: "Will all my devices disconnect if I change the Wi-Fi password?"
     answer: "Yes. Every device connected to your Wi-Fi will be disconnected. You will need to reconnect each device using the new password."
@@ -16,6 +16,7 @@ faq:
     answer: "A good password is at least 12 characters long and mixes letters, numbers, and symbols. Avoid simple words like your name or address."
   - question: "Where do I find my current Wi-Fi password?"
     answer: "Your current password is often printed on a sticker on the back or bottom of your router. You can also find it in your router settings."
+
 ---
 
 ## What you will learn

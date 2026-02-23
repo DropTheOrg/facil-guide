@@ -1,12 +1,12 @@
 ---
 title: "O que fazer quando o ecra do telefone bloqueia"
 description: "Aprenda a resolver um ecra de telefone bloqueado que nao responde ao toque, com passos simples para iPhone e Android."
-category: "troubleshooting"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "pt"
-date: "2026-02-20"
+category: "troubleshooting"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Vou perder os meus dados se forcar o reinicio?"
     answer: "Nao. Um reinicio forcado nao apaga nada. Simplesmente desliga o seu telefone e volta a liga-lo, tal como reiniciar um computador."
@@ -16,6 +16,7 @@ faq:
     answer: "Se o seu telefone bloqueia frequentemente, tente atualizar o software, apagar aplicacoes que nao usa ou libertar espaco de armazenamento. Se o problema continuar, visite uma loja de reparacao."
   - question: "Um ecra bloqueado e o mesmo que um ecra partido?"
     answer: "Nao. Um ecra bloqueado significa que o software esta preso, mas o ecra em si esta bem. Se o seu ecra esta rachado ou nao mostra imagem, e um problema de hardware que precisa de reparacao."
+
 ---
 
 ## O que vai aprender

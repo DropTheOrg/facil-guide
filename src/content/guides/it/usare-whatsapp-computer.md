@@ -1,12 +1,12 @@
 ---
 title: "Come usare WhatsApp sul computer"
 description: "Impara ad aprire WhatsApp sul tuo computer per scrivere messaggi con una tastiera completa."
-category: "applications"
-steps: 6
-difficulty: "facile"
-platform: "web"
 lang: "it"
-date: "2026-02-07"
+category: "applications"
+difficulty: "facile"
+steps: 6
+platform: "web"
+date: "2026-02-23"
 faq:
   - question: "Devo tenere il telefono vicino?"
     answer: "Le versioni recenti di WhatsApp funzionano anche se il telefono e spento o disconnesso. Le versioni piu vecchie richiedono che il telefono sia connesso a Internet."
@@ -14,6 +14,7 @@ faq:
     answer: "Si, a patto che usi il sito ufficiale (web.whatsapp.com) e ti disconnetta quando usi un computer condiviso. Non usare mai WhatsApp Web su un computer di cui non ti fidi."
   - question: "Posso fare chiamate da WhatsApp Web?"
     answer: "Si. Puoi fare chiamate vocali e video da WhatsApp sul computer cliccando sull'icona del telefono o della fotocamera in una conversazione."
+
 ---
 
 ## Cosa imparerai

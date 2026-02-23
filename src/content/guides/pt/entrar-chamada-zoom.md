@@ -1,12 +1,12 @@
 ---
 title: "Como entrar numa chamada de video no Zoom"
 description: "Aprenda a entrar numa reuniao Zoom no seu telemovel ou computador quando alguem lhe envia um link de convite."
-category: "communication"
-steps: 5
-difficulty: "facile"
-platform: "web"
 lang: "pt"
-date: "2026-02-03"
+category: "communication"
+difficulty: "facile"
+steps: 5
+platform: "web"
+date: "2026-02-23"
 faq:
   - question: "Preciso de uma conta Zoom para entrar numa reuniao?"
     answer: "Nao. Pode entrar na maioria das reunioes Zoom sem criar conta. Basta clicar no link ou introduzir o ID da reuniao."
@@ -14,6 +14,7 @@ faq:
     answer: "Nao. Ao entrar, o Zoom mostra-lhe uma pre-visualizacao da camara. Pode escolher ligar ou desligar a camara antes de entrar na reuniao."
   - question: "E se nao ouvir ninguem na reuniao?"
     answer: "Confirme que o volume do telemovel ou computador esta alto. Quando o Zoom perguntar como entrar no audio, toque em Entrar com audio da Internet. Se o audio continuar sem funcionar, saia e volte a entrar."
+
 ---
 
 ## O que vai aprender

@@ -16,6 +16,7 @@ faq:
     answer: "Unfortunately, you need to have enabled Find My iPhone or Find My Device before losing the phone. If you did not, try calling your phone number from another phone to hear it ring."
   - question: "Can I use someone else's phone to find mine?"
     answer: "Yes. Open a web browser on any device, go to icloud.com/find (iPhone) or google.com/android/find (Android), and sign in with your account."
+
 ---
 
 ## O que vai precisar

@@ -1,12 +1,12 @@
 ---
 title: "Como enviar un correo con Gmail"
 description: "Aprende a redactar y enviar un correo electronico con Gmail, paso a paso."
-category: "communication"
-steps: 6
-difficulty: "facile"
-platform: "web"
 lang: "es"
-date: "2026-01-30"
+category: "communication"
+difficulty: "facile"
+steps: 6
+platform: "web"
+date: "2026-02-23"
 faq:
   - question: "Es Gmail gratuito?"
     answer: "Si, Gmail es completamente gratuito. Solo necesitas una cuenta de Google para usarlo."
@@ -16,6 +16,7 @@ faq:
     answer: "CC significa Copia de Carbon. Todos pueden ver quien recibio el correo. CCO significa Copia de Carbon Oculta. Los demas destinatarios no pueden ver quien esta en CCO."
   - question: "Puedo adjuntar un archivo?"
     answer: "Si. Haz clic en el icono del clip en la parte inferior de la ventana de redaccion para adjuntar un archivo de tu ordenador."
+
 ---
 
 ## Lo que vas a aprender

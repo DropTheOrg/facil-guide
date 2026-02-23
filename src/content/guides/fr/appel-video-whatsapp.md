@@ -1,12 +1,12 @@
 ---
 title: "Comment faire un appel video sur WhatsApp"
 description: "Apprenez a faire un appel video gratuit a votre famille et vos amis avec WhatsApp sur iPhone."
-category: "communication"
-steps: 5
-difficulty: "facile"
-platform: "iphone"
 lang: "fr"
-date: "2026-02-14"
+category: "communication"
+difficulty: "facile"
+steps: 5
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Les appels video WhatsApp sont-ils gratuits ?"
     answer: "Oui, ils sont entierement gratuits. Ils utilisent votre connexion Internet (Wi-Fi ou donnees mobiles), pas vos minutes d'appel."
@@ -16,6 +16,7 @@ faq:
     answer: "Vous pouvez avoir jusqu'a 32 personnes dans un appel video de groupe."
   - question: "Que se passe-t-il si la personne ne repond pas ?"
     answer: "L'appel sonnera pendant environ 30 secondes. Si elle ne repond pas, vous pouvez reessayer plus tard ou lui envoyer un message."
+
 ---
 
 ## Ce que vous allez apprendre

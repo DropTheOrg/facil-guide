@@ -14,6 +14,7 @@ faq:
     answer: "Once a week is a good habit. It clears temporary files and can fix small issues before they become big problems."
   - question: "What if my iPhone is completely frozen and won't turn off?"
     answer: "Try a force restart: quickly press and release the Volume Up button, then Volume Down, then press and hold the Side button until you see the Apple logo."
+
 ---
 
 ## Paso 1: Find the Side button

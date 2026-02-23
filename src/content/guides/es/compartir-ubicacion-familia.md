@@ -1,12 +1,12 @@
 ---
 title: "Como compartir tu ubicacion con familiares para tu seguridad"
 description: "Aprende a compartir tu ubicacion en tiempo real con tu familia en iPhone y Android para que siempre sepan donde estas."
-category: "smartphone"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "es"
-date: "2026-02-20"
+category: "smartphone"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Compartir mi ubicacion gasta mucha bateria?"
     answer: "Consume un poco de bateria extra, pero los telefonos modernos lo gestionan de forma eficiente. No deberia notar una gran diferencia en la duracion diaria de la bateria."
@@ -18,6 +18,7 @@ faq:
     answer: "Cuando tu telefono tiene buena senal GPS y conexion a internet, la ubicacion suele ser precisa a unos pocos metros. En interiores puede ser menos precisa."
   - question: "La otra persona necesita el mismo tipo de telefono?"
     answer: "Para Apple Buscar, ambas personas necesitan un iPhone. Para compartir ubicacion en Google Maps, funciona entre cualquier telefono siempre que ambos tengan Google Maps instalado."
+
 ---
 
 ## Lo que vas a aprender

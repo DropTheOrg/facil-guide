@@ -1,12 +1,12 @@
 ---
 title: "Como colocar um alarme no iPhone"
 description: "Aprenda a colocar um alarme no seu iPhone para nunca perder um despertar ou um lembrete importante."
-category: "smartphone"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "pt"
-date: "2026-01-26"
+category: "smartphone"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "O alarme toca se o telefone estiver em silencio?"
     answer: "Sim. Os alarmes tocam mesmo quando o iPhone esta em modo silencioso. Apenas certifique-se de que o volume esta suficientemente alto."
@@ -16,6 +16,7 @@ faq:
     answer: "Na lista de alarmes, toque no interruptor verde ao lado do alarme. Ficara cinzento, o que significa que esta desativado mas guardado."
   - question: "Porque e que o meu alarme nao tocou?"
     answer: "Verifique se o alarme esta ativado (interruptor verde). Certifique-se tambem de que o iPhone nao esta completamente desligado."
+
 ---
 
 ## O que vai aprender

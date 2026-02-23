@@ -1,12 +1,12 @@
 ---
 title: "Comment installer et configurer WhatsApp sur votre téléphone"
 description: "Apprenez à télécharger, installer et configurer WhatsApp sur votre iPhone ou Android pour envoyer des messages, des photos et passer des appels gratuits."
-category: "communication"
-steps: 7
-difficulty: "facile"
-platform: "all"
 lang: "fr"
-date: "2026-02-22"
+category: "communication"
+difficulty: "facile"
+steps: 7
+platform: "all"
+date: "2026-02-23"
 faq:
   - question: "WhatsApp est-il gratuit ?"
     answer: "Oui, WhatsApp est gratuit. Il utilise votre connexion internet (Wi-Fi ou données mobiles) au lieu des SMS ou des minutes d'appel de votre forfait téléphonique."
@@ -18,6 +18,7 @@ faq:
     answer: "Oui, après avoir configuré WhatsApp sur votre téléphone, vous pouvez le lier à une tablette ou un ordinateur. Sur votre ordinateur, allez sur web.whatsapp.com et scannez le code QR avec votre téléphone."
   - question: "Que deviennent mes anciens SMS ?"
     answer: "WhatsApp est une application séparée de vos SMS. Vos anciens SMS restent dans l'application Messages de votre téléphone. Les messages WhatsApp n'apparaissent que dans WhatsApp."
+
 ---
 
 ## Ce que vous allez apprendre

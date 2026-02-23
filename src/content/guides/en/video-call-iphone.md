@@ -1,17 +1,18 @@
 ---
 title: "How to video call on iPhone"
 description: "Learn how to make a FaceTime video call on your iPhone to see your loved ones live."
-category: "communication"
-steps: 5
-difficulty: "facile"
-platform: "iphone"
 lang: "en"
-date: "2026-02-14"
+category: "communication"
+difficulty: "facile"
+steps: 5
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Is FaceTime free?"
     answer: "Yes. FaceTime uses your Internet connection (Wi-Fi or mobile data), not your phone minutes."
   - question: "Can I FaceTime someone with an Android phone?"
     answer: "Not directly from the FaceTime app. FaceTime only works between Apple devices. Use WhatsApp or Zoom to call Android users."
+
 ---
 
 ## What you will learn

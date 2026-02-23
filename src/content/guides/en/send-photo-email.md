@@ -1,12 +1,12 @@
 ---
 title: "How to send a photo as an email attachment"
 description: "Learn how to attach and send a photo by email on iPhone and Android with simple step-by-step instructions for Gmail and other email apps."
-category: "communication"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "en"
-date: "2026-02-20"
+category: "communication"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Is there a limit to how many photos I can send?"
     answer: "Most email services have a size limit of 25 megabytes per email. One photo is usually 2 to 5 megabytes, so you can typically send 5 to 10 photos per email. If you need to send more, split them across multiple emails."
@@ -16,6 +16,7 @@ faq:
     answer: "Yes, but videos are much larger than photos. If the video is too big for email, the phone may offer to send a link instead (like an iCloud link on iPhone or a Google Drive link on Android)."
   - question: "What if the person says they did not receive my email?"
     answer: "Check your Sent folder to confirm the email was sent. Large attachments sometimes get blocked by the recipient's email provider. Ask them to check their spam folder. If the photos were too large, try resending with a smaller size."
+
 ---
 
 ## What you will learn

@@ -1,12 +1,12 @@
 ---
 title: "Comment configurer Face ID sur iPhone"
 description: "Apprenez a configurer Face ID sur votre iPhone pour deverrouiller votre telephone, approuver des achats et vous connecter a des applications avec votre visage."
-category: "securite"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "fr"
-date: "2026-02-10"
+category: "securite"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Quels iPhone ont Face ID ?"
     answer: "Face ID est disponible sur l'iPhone X et tous les modeles plus recents (iPhone 11, 12, 13, 14, 15, 16 et leurs variantes). Les anciens iPhone utilisent Touch ID (empreinte digitale) a la place."
@@ -16,6 +16,7 @@ faq:
     answer: "Oui. Face ID est tres securise. La probabilite qu'une autre personne deverrouille votre telephone avec son visage est inferieure a une sur un million. Vos donnees faciales sont stockees uniquement sur votre telephone, pas dans le cloud."
   - question: "Que faire si Face ID ne fonctionne plus ?"
     answer: "Essayez de reinitialiser Face ID dans les Reglages et de le configurer a nouveau. Assurez-vous que la camera en haut de votre ecran est propre et non couverte."
+
 ---
 
 ## Ce que vous allez apprendre

@@ -1,11 +1,11 @@
 ---
 title: "How to use Facebook on your phone"
 description: "Learn how to use Facebook on your phone to stay in touch with family and friends, share photos, and read updates from people you know."
-category: "applications"
-steps: 7
-difficulty: "facile"
-platform: "all"
 lang: "en"
+category: "applications"
+difficulty: "facile"
+steps: 7
+platform: "all"
 date: "2026-02-23"
 faq:
   - question: "Is Facebook free?"
@@ -18,6 +18,7 @@ faq:
     answer: "Yes. Find the post you want to remove, tap the three dots in the top right corner of the post, and tap Delete Post. Once deleted, it will be removed from your profile and other people's feeds."
   - question: "How do I stop someone from contacting me?"
     answer: "You can block a person so they cannot see your profile, send you messages, or interact with your posts. Go to their profile, tap the three dots, and choose Block. They will not be notified that you blocked them."
+
 ---
 
 ## What you will learn

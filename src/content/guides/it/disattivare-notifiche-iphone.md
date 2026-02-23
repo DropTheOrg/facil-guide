@@ -1,12 +1,12 @@
 ---
 title: "Come disattivare le notifiche su iPhone"
 description: "Impara a fermare le notifiche indesiderate delle app sul tuo iPhone per avere un telefono piu tranquillo."
-category: "smartphone"
-steps: 5
-difficulty: "facile"
-platform: "iphone"
 lang: "it"
-date: "2026-02-19"
+category: "smartphone"
+difficulty: "facile"
+steps: 5
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Perdero chiamate importanti se disattivo le notifiche?"
     answer: "No. Disattivare le notifiche di un'app ferma solo gli avvisi di quella app. Le chiamate continueranno ad arrivare, a meno che tu non attivi anche Non disturbare."
@@ -14,6 +14,7 @@ faq:
     answer: "Si. Segui gli stessi passaggi e riattiva l'interruttore Consenti notifiche."
   - question: "Cos'e Non disturbare?"
     answer: "Non disturbare silenzia tutte le notifiche, chiamate e avvisi contemporaneamente. Puoi attivarlo dalle Impostazioni o scorrendo verso il basso dall'angolo in alto a destra dello schermo e toccando l'icona della luna."
+
 ---
 
 ## Cosa imparerai

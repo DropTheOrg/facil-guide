@@ -1,17 +1,18 @@
 ---
 title: "How to send a photo on WhatsApp"
 description: "Learn how to send a photo to your loved ones via WhatsApp in a few simple steps."
-category: "applications"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "en"
-date: "2026-01-31"
+category: "applications"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Can I send more than one photo at a time?"
     answer: "Yes. When selecting a photo, you can tap on multiple photos to send them all together."
   - question: "Will the photo quality be reduced?"
     answer: "WhatsApp slightly compresses photos to save data. For full quality, send the photo as a document instead."
+
 ---
 
 ## What you will learn

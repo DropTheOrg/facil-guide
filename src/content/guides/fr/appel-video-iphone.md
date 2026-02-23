@@ -1,12 +1,13 @@
 ---
 title: "Comment faire un appel video sur iPhone"
 description: "Apprenez a passer un appel video FaceTime avec votre iPhone pour voir vos proches en direct."
-category: "communication"
-steps: 5
-difficulty: "facile"
-platform: "iphone"
 lang: "fr"
-date: "2026-02-14"
+category: "communication"
+difficulty: "facile"
+steps: 5
+platform: "iphone"
+date: "2026-02-23"
+faq: []
 ---
 
 ## Ce que vous allez apprendre

@@ -1,11 +1,11 @@
 ---
 title: "How to set up and listen to voicemail on your phone"
 description: "Learn how to set up voicemail on your iPhone or Android phone so callers can leave you a message when you cannot answer."
-category: "communication"
-steps: 6
-difficulty: "facile"
-platform: "all"
 lang: "en"
+category: "communication"
+difficulty: "facile"
+steps: 6
+platform: "all"
 date: "2026-02-23"
 faq:
   - question: "Is voicemail free?"
@@ -18,6 +18,7 @@ faq:
     answer: "If your voicemail inbox is full, callers will not be able to leave new messages. You will need to delete old voicemails to make room. Listen to your saved messages and delete the ones you no longer need."
   - question: "Can I listen to voicemail from another phone?"
     answer: "Yes, most carriers let you call your own number from another phone and press a key (usually the star or hash key) to access your voicemail. You will need your voicemail password or PIN."
+
 ---
 
 ## What you will learn

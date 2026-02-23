@@ -14,6 +14,7 @@ faq:
     answer: "Auto-brightness lets your phone adjust the screen brightness automatically based on how much light is around you. In a dark room, it dims the screen. Outside in sunlight, it makes it brighter."
   - question: "Why can I not see my screen in the sun?"
     answer: "Even at maximum brightness, direct sunlight can make screens hard to read. Move to a shaded area, cup your hand over the screen, or increase brightness to maximum temporarily."
+
 ---
 
 ## Lo que va a necesitar

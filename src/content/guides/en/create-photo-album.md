@@ -6,7 +6,7 @@ category: "smartphone"
 difficulty: "facile"
 steps: 5
 platform: "iphone"
-date: "2026-02-22"
+date: "2026-02-23"
 faq:
   - question: "Does creating an album duplicate my photos?"
     answer: "No. Adding a photo to an album does not create a copy. The photo stays in one place but appears in both your main gallery and the album. It does not use extra storage."
@@ -16,6 +16,7 @@ faq:
     answer: "On iPhone, removing a photo from an album does NOT delete the original. It just removes it from that album. On Android, it depends on the gallery app -- some delete the photo, some just remove it from the album. Be careful."
   - question: "Can I share an album with someone?"
     answer: "Yes. On iPhone, you can create a Shared Album and invite people. On Android with Google Photos, you can share an album link."
+
 ---
 
 ## What You Will Need

@@ -1,12 +1,12 @@
 ---
 title: "Como resolver mensagens do WhatsApp que nao enviam"
 description: "Aprenda o que fazer quando as suas mensagens do WhatsApp mostram apenas uma marca ou nao enviam de todo."
-category: "troubleshooting"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "pt"
-date: "2026-02-20"
+category: "troubleshooting"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "O que significam as marcas no WhatsApp?"
     answer: "Uma marca cinzenta significa que a mensagem foi enviada do seu telefone. Duas marcas cinzentas significam que foi entregue. Duas marcas azuis significam que foi lida. Um icone de relogio significa que a mensagem ainda nao foi enviada."
@@ -14,6 +14,7 @@ faq:
     answer: "Se foi bloqueado, as suas mensagens mostrarao uma marca de verificacao para sempre e nao vera a foto de perfil nem o estado da pessoa. Contudo, os problemas de ligacao tem o mesmo aspeto, por isso nao tire conclusoes precipitadas."
   - question: "Vou perder as minhas mensagens se reinstalar o WhatsApp?"
     answer: "Se tiver uma copia de seguranca, nao. O WhatsApp faz copias de seguranca automaticamente. Ao reinstalar, perguntara se quer restaurar. Verifique que a copia de seguranca esta ativada em Definicoes > Conversas > Copia de seguranca antes de desinstalar."
+
 ---
 
 ## O que vai aprender

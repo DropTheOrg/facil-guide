@@ -1,12 +1,12 @@
 ---
 title: "How to speed up a slow phone without buying a new one"
 description: "Learn how to make your slow iPhone or Android phone faster with simple steps that free up memory and storage space."
-category: "troubleshooting"
-steps: 7
-difficulty: "facile"
-platform: "iphone"
 lang: "en"
-date: "2026-02-20"
+category: "troubleshooting"
+difficulty: "facile"
+steps: 7
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Why is my phone so slow?"
     answer: "Phones slow down when they run out of storage space, have too many apps running, or need a software update. Old batteries can also cause slowness because the phone reduces its speed to save power."
@@ -18,6 +18,7 @@ faq:
     answer: "A factory reset erases everything on your phone and makes it like new. It is effective but should be a last resort. Always back up your photos and contacts first. Try the other steps in this guide before resetting."
   - question: "How often should I restart my phone?"
     answer: "Restarting once a week is a good habit. It helps keep your phone running smoothly by clearing temporary files and refreshing the system."
+
 ---
 
 ## What you will learn

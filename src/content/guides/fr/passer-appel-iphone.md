@@ -1,12 +1,12 @@
 ---
 title: "Comment passer un appel telephonique sur iPhone"
 description: "Apprenez a appeler quelqu'un sur votre iPhone en utilisant l'application Telephone, vos contacts ou en composant un numero."
-category: "communication"
-steps: 5
-difficulty: "facile"
-platform: "iphone"
 lang: "fr"
-date: "2026-02-08"
+category: "communication"
+difficulty: "facile"
+steps: 5
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Comment appeler quelqu'un en utilisant son nom au lieu d'un numero ?"
     answer: "Ouvrez l'application Telephone et appuyez sur Contacts en bas. Trouvez le nom de la personne dans la liste et appuyez dessus, puis appuyez sur l'icone telephone ou son numero."
@@ -14,6 +14,7 @@ faq:
     answer: "Pendant un appel, regardez les boutons a l'ecran et appuyez sur l'icone haut-parleur. Elle ressemble a un triangle avec des ondes sonores. Appuyez a nouveau pour revenir a la normale."
   - question: "Que faire si quelqu'un ne repond pas ?"
     answer: "Vous pouvez reessayer plus tard. Vous pouvez aussi laisser un message vocal si la personne l'a configure. Un message vous demandera d'enregistrer apres le bip."
+
 ---
 
 ## Ce que vous allez apprendre

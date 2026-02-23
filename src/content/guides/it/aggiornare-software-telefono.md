@@ -1,12 +1,12 @@
 ---
 title: "Come aggiornare il telefono all'ultima versione del software"
 description: "Scopri come aggiornare il software del tuo iPhone o Android per ottenere nuove funzioni, risolvere problemi e restare protetto dalle minacce di sicurezza."
-category: "smartphone"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "it"
-date: "2026-02-20"
+category: "smartphone"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "L'aggiornamento cancellera le mie foto o i messaggi?"
     answer: "No. Un aggiornamento software non cancella foto, messaggi, contatti o app. Tutto resta esattamente dove si trova. E comunque una buona idea avere un backup per sicurezza."
@@ -18,6 +18,7 @@ faq:
     answer: "No. Durante la fase di installazione, il telefono si riavviera e mostrera una barra di avanzamento. Non puoi usarlo fino al termine dell'aggiornamento. Assicurati di avviare l'aggiornamento quando non hai bisogno del telefono per un po'."
   - question: "Cosa fare se l'aggiornamento fallisce?"
     answer: "Se un aggiornamento fallisce, riavvia il telefono e riprova. Assicurati di avere una buona connessione Wi-Fi e almeno il 50 per cento di batteria. Se continua a fallire, collega l'iPhone a un computer con iTunes o Finder, oppure visita un centro di riparazione per Android."
+
 ---
 
 ## Cosa imparerai

@@ -1,12 +1,12 @@
 ---
 title: "Come creare una password sicura"
 description: "Impara a creare password forti e sicure che proteggano i tuoi account online dagli hacker."
-category: "securite"
-steps: 6
-difficulty: "facile"
-platform: "web"
 lang: "it"
-date: "2026-01-17"
+category: "securite"
+difficulty: "facile"
+steps: 6
+platform: "web"
+date: "2026-02-23"
 faq:
   - question: "Quanto deve essere lunga una buona password?"
     answer: "Una buona password deve avere almeno 12 caratteri. Piu e lunga, piu e difficile da decifrare. Punta a 14 caratteri o piu per gli account importanti."
@@ -16,6 +16,7 @@ faq:
     answer: "Cambia una password immediatamente se pensi che un account sia stato compromesso. Altrimenti, aggiornare le password importanti una volta all'anno e una buona abitudine."
   - question: "Cos'e l'autenticazione a due fattori?"
     answer: "L'autenticazione a due fattori aggiunge un passaggio di sicurezza extra quando accedi. Dopo aver inserito la password, inserisci anche un codice inviato al tuo telefono. Un hacker avrebbe bisogno della tua password E del tuo telefono per accedere al tuo account."
+
 ---
 
 ## Cosa imparerai

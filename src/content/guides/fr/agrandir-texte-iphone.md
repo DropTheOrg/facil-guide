@@ -1,12 +1,12 @@
 ---
 title: "Comment agrandir le texte sur iPhone"
 description: "Apprenez a augmenter la taille du texte sur votre iPhone pour que tout soit plus facile a lire."
-category: "smartphone"
-steps: 5
-difficulty: "facile"
-platform: "iphone"
 lang: "fr"
-date: "2026-02-13"
+category: "smartphone"
+difficulty: "facile"
+steps: 5
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Cela change-t-il la taille du texte dans toutes les applications ?"
     answer: "La plupart des applications supportent Dynamic Type et respecteront votre choix de taille de texte. Quelques applications peuvent ne pas changer, mais la majorite le fera."
@@ -14,6 +14,7 @@ faq:
     answer: "Oui. Allez dans Reglages > Accessibilite > Affichage et taille du texte > Texte plus grand. Activez Tailles d'accessibilite plus grandes pour des options encore plus grandes."
   - question: "Ce reglage affecte-t-il les autres personnes qui utilisent mon telephone ?"
     answer: "Oui, le reglage de taille du texte s'applique a tout le telephone. Toute personne utilisant votre iPhone verra le texte agrandi."
+
 ---
 
 ## Ce que vous allez apprendre

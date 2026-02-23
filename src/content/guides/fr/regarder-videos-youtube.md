@@ -1,11 +1,11 @@
 ---
 title: "Comment regarder des vidéos sur YouTube"
 description: "Apprenez à utiliser YouTube sur votre téléphone pour regarder des vidéos, chercher des sujets qui vous intéressent et vous abonner à des chaînes."
-category: "applications"
-steps: 7
-difficulty: "facile"
-platform: "all"
 lang: "fr"
+category: "applications"
+difficulty: "facile"
+steps: 7
+platform: "all"
 date: "2026-02-23"
 faq:
   - question: "YouTube est-il gratuit ?"
@@ -18,6 +18,7 @@ faq:
     answer: "Oui, si vous avez une télévision connectée, vous pouvez ouvrir l'application YouTube directement dessus. Vous pouvez aussi utiliser Chromecast ou AirPlay pour envoyer une vidéo de votre téléphone vers votre télévision."
   - question: "Comment empêcher YouTube de lancer automatiquement la vidéo suivante ?"
     answer: "Appuyez sur votre photo de profil en haut à droite, puis sur Paramètres, puis Général, et désactivez la Lecture automatique."
+
 ---
 
 ## Ce que vous allez apprendre

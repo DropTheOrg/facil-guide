@@ -1,12 +1,12 @@
 ---
 title: "Como crear una cuenta de Google"
 description: "Aprenda a crear una cuenta de Google gratuita para usar Gmail, YouTube, Google Maps y mas."
-category: "internet"
-steps: 6
-difficulty: "facile"
-platform: "web"
 lang: "es"
-date: "2026-02-14"
+category: "internet"
+difficulty: "facile"
+steps: 6
+platform: "web"
+date: "2026-02-23"
 faq:
   - question: "Una cuenta de Google es gratuita?"
     answer: "Si, es completamente gratuita de crear y usar."
@@ -16,6 +16,7 @@ faq:
     answer: "Si. Los pasos son los mismos. Abra su navegador en el telefono y vaya a accounts.google.com."
   - question: "Olvide mi contrasena. Que hago?"
     answer: "Vaya a accounts.google.com, haga clic en Iniciar sesion y luego en Contrasena olvidada. Google le ayudara a recuperar su cuenta usando su numero de telefono o correo de recuperacion."
+
 ---
 
 ## Lo que va a aprender

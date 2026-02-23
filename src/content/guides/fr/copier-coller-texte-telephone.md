@@ -1,12 +1,12 @@
 ---
 title: "Comment copier et coller du texte sur votre telephone"
 description: "Apprenez a copier et coller du texte sur iPhone et Android avec des instructions simples etape par etape pour les messages, sites web et applications."
-category: "smartphone"
-steps: 5
-difficulty: "facile"
-platform: "iphone"
 lang: "fr"
-date: "2026-02-20"
+category: "smartphone"
+difficulty: "facile"
+steps: 5
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Puis-je aussi copier et coller des images ?"
     answer: "Cela depend de l'application. Dans certaines applications, vous pouvez appuyer longuement sur une image pour voir l'option Copier. Vous pouvez ensuite la coller dans un message ou un e-mail. Toutes les applications ne le permettent pas."
@@ -16,6 +16,7 @@ faq:
     answer: "Non. Le texte copie reste dans votre presse-papiers jusqu'a ce que vous copiez autre chose ou redemarriez votre telephone. Certains telephones Android ont un historique du presse-papiers qui sauvegarde plusieurs elements."
   - question: "Puis-je coller le meme texte plusieurs fois ?"
     answer: "Oui. Apres avoir copie un texte une fois, vous pouvez le coller autant de fois que vous voulez. Il reste dans le presse-papiers jusqu'a ce que vous copiez quelque chose de nouveau."
+
 ---
 
 ## Ce que vous allez apprendre

@@ -1,12 +1,12 @@
 ---
 title: "O que fazer quando o telemóvel diz armazenamento cheio"
 description: "O seu telemóvel diz que não há mais espaço. Aprenda a libertar armazenamento."
-difficulty: "moyen"
-platform: "iphone"
-category: "troubleshooting"
-steps: 5
 lang: "pt"
-date: "2026-02-12"
+category: "troubleshooting"
+difficulty: "moyen"
+steps: 5
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Why does my phone run out of storage?"
     answer: "Photos, videos, apps, and messages all take up space over time. Videos and photos are usually the biggest files."
@@ -14,6 +14,7 @@ faq:
     answer: "No. Deleting an app removes it from your phone, but your account still exists. You can reinstall the app and sign in again later."
   - question: "What about WhatsApp messages and photos?"
     answer: "WhatsApp stores photos and videos on your phone. You can clear them in WhatsApp Settings, then Storage and Data, then Manage Storage."
+
 ---
 
 ## Passo 1 : Check what is using your storage

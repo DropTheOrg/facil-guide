@@ -6,7 +6,7 @@ category: "smartphone"
 difficulty: "facile"
 steps: 5
 platform: "iphone"
-date: "2026-02-22"
+date: "2026-02-23"
 faq:
   - question: "Do I need a special printer?"
     answer: "You need a wireless printer that supports Wi-Fi or AirPrint (for iPhone). Most printers made after 2015 support wireless printing. Check your printer manual or look for a Wi-Fi symbol on the printer."
@@ -16,6 +16,7 @@ faq:
     answer: "Make sure the printer is turned on and connected to the same Wi-Fi network as your phone. If it still does not appear, restart both the printer and your phone."
   - question: "Can I print from any app?"
     answer: "Most apps that display documents, photos, or web pages have a print option. Look for the Share button or the three-dot menu and then Print."
+
 ---
 
 ## What You Will Need

@@ -1,12 +1,12 @@
 ---
 title: "Como instalar um aplicativo no Android"
 description: "Aprenda a descarregar e instalar aplicacoes no seu telefone Android usando a Google Play Store."
-category: "smartphone"
-steps: 6
-difficulty: "facile"
-platform: "android"
 lang: "pt"
-date: "2026-01-15"
+category: "smartphone"
+difficulty: "facile"
+steps: 6
+platform: "android"
+date: "2026-02-23"
 faq:
   - question: "A Google Play Store e gratuita?"
     answer: "Sim, a Play Store e gratuita. Muitas aplicacoes tambem sao gratuitas, mas algumas sao pagas. As gratuitas mostram Instalar, as pagas mostram um preco."
@@ -16,6 +16,7 @@ faq:
     answer: "Verifique a classificacao em estrelas e leia as opinioes de outros utilizadores. As aplicacoes com milhoes de transferencias e boas classificacoes sao geralmente seguras."
   - question: "Posso apagar uma aplicacao depois de a instalar?"
     answer: "Sim. Mantenha premido o icone da aplicacao no ecra inicial e selecione Remover ou Desinstalar."
+
 ---
 
 ## O que vai aprender

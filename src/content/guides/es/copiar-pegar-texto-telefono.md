@@ -1,12 +1,12 @@
 ---
 title: "Como copiar y pegar texto en tu telefono"
 description: "Aprende a copiar y pegar texto en iPhone y Android con instrucciones sencillas paso a paso para mensajes, sitios web y aplicaciones."
-category: "smartphone"
-steps: 5
-difficulty: "facile"
-platform: "iphone"
 lang: "es"
-date: "2026-02-20"
+category: "smartphone"
+difficulty: "facile"
+steps: 5
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Puedo copiar y pegar imagenes tambien?"
     answer: "Depende de la aplicacion. En algunas aplicaciones, puedes mantener presionada una imagen para ver la opcion Copiar. Luego puedes pegarla en un mensaje o correo electronico. No todas las aplicaciones lo permiten."
@@ -16,6 +16,7 @@ faq:
     answer: "No. El texto copiado se queda en el portapapeles hasta que copies otra cosa o reinicies tu telefono. Algunos telefonos Android tienen un historial de portapapeles que guarda varios elementos."
   - question: "Puedo pegar el mismo texto varias veces?"
     answer: "Si. Despues de copiar un texto una vez, puedes pegarlo tantas veces como quieras. Se queda en el portapapeles hasta que copies algo nuevo."
+
 ---
 
 ## Lo que vas a aprender

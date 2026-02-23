@@ -6,7 +6,7 @@ category: "smartphone"
 difficulty: "facile"
 steps: 5
 platform: "iphone"
-date: "2026-02-22"
+date: "2026-02-23"
 faq:
   - question: "Will sending a photo cost me money?"
     answer: "If you send a photo as an MMS (multimedia message), it may cost a small amount depending on your phone plan. If you send it through iMessage (iPhone to iPhone) or over Wi-Fi, it is usually free. Check your phone plan if you are unsure."
@@ -16,6 +16,7 @@ faq:
     answer: "Yes. In most messaging apps, you can tap the photo icon and select multiple photos before sending. On iPhone, tap each photo you want to include, then press send."
   - question: "What if the person says they did not receive my photo?"
     answer: "The photo may be too large for their phone to download, or their phone plan may not support MMS. Try sending it through WhatsApp or email instead."
+
 ---
 
 ## What You Will Need

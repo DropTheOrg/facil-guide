@@ -1,12 +1,12 @@
 ---
 title: "Come condividere la posizione su WhatsApp"
 description: "Scopri come condividere la tua posizione attuale o in tempo reale con qualcuno su WhatsApp in modo che possa trovarti facilmente."
-category: "applications"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "it"
-date: "2026-02-08"
+category: "applications"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "E sicuro condividere la posizione su WhatsApp?"
     answer: "La tua posizione viene condivisa solo con la persona o il gruppo che scegli. WhatsApp usa la crittografia, quindi nessun altro puo vederla. Puoi interrompere la condivisione in qualsiasi momento."
@@ -16,6 +16,7 @@ faq:
     answer: "La posizione in tempo reale consuma piu batteria del normale perche il telefono aggiorna costantemente la tua posizione. Si interrompe automaticamente dopo il tempo selezionato."
   - question: "Posso condividere la posizione in un gruppo?"
     answer: "Si. I passaggi sono gli stessi. Tutti nel gruppo potranno vedere la tua posizione."
+
 ---
 
 ## Cosa imparerai

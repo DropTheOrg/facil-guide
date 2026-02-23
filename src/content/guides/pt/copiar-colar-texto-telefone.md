@@ -1,12 +1,12 @@
 ---
 title: "Como copiar e colar texto no seu telefone"
 description: "Aprenda a copiar e colar texto no iPhone e Android com instrucoes simples passo a passo para mensagens, sites e aplicacoes."
-category: "smartphone"
-steps: 5
-difficulty: "facile"
-platform: "iphone"
 lang: "pt"
-date: "2026-02-20"
+category: "smartphone"
+difficulty: "facile"
+steps: 5
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Posso copiar e colar imagens tambem?"
     answer: "Depende da aplicacao. Em algumas aplicacoes, pode manter premida uma imagem para ver a opcao Copiar. Depois pode cola-la numa mensagem ou e-mail. Nem todas as aplicacoes permitem isso."
@@ -16,6 +16,7 @@ faq:
     answer: "Nao. O texto copiado fica na area de transferencia ate copiar outra coisa ou reiniciar o telefone. Alguns telefones Android tem um historico da area de transferencia que guarda varios itens."
   - question: "Posso colar o mesmo texto varias vezes?"
     answer: "Sim. Depois de copiar um texto uma vez, pode cola-lo quantas vezes quiser. Fica na area de transferencia ate copiar algo novo."
+
 ---
 
 ## O que vai aprender

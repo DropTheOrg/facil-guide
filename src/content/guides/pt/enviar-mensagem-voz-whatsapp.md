@@ -1,12 +1,12 @@
 ---
 title: "Como enviar uma mensagem de voz no WhatsApp"
 description: "Aprenda a gravar e enviar uma mensagem de voz no WhatsApp em vez de escrever, para comunicar de forma rapida e pessoal."
-category: "applications"
-steps: 5
-difficulty: "facile"
-platform: "iphone"
 lang: "pt"
-date: "2026-01-24"
+category: "applications"
+difficulty: "facile"
+steps: 5
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Ha um limite de tempo para mensagens de voz?"
     answer: "Nao ha um limite rigoroso. Pode gravar mensagens de varios minutos. No entanto, mensagens mais curtas sao geralmente mais faceis de ouvir para a outra pessoa."
@@ -16,6 +16,7 @@ faq:
     answer: "Sim. O destinatario pode reencaminhar ou guardar a sua mensagem de voz. Tenha isto em conta ao gravar informacoes pessoais."
   - question: "Porque e que a minha mensagem de voz fica muito baixa?"
     answer: "Confirme que nao esta a tapar o microfone na parte inferior do telemovel. Fale a um volume normal e segure o telemovel a cerca de 15 centimetros da boca."
+
 ---
 
 ## O que vai aprender

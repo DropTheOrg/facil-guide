@@ -1,12 +1,12 @@
 ---
 title: "Comment faire une capture d'ecran sur iPhone"
 description: "Apprenez a capturer l'ecran de votre iPhone en photo en quelques secondes."
-category: "smartphone"
-steps: 5
-difficulty: "facile"
-platform: "iphone"
 lang: "fr"
-date: "2026-02-12"
+category: "smartphone"
+difficulty: "facile"
+steps: 5
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Ou sont enregistrees mes captures d'ecran ?"
     answer: "Les captures d'ecran sont enregistrees dans l'application Photos. Vous pouvez aussi les trouver dans un album special appele Captures d'ecran."
@@ -14,6 +14,7 @@ faq:
     answer: "Oui. Tous les iPhone peuvent faire des captures d'ecran. La combinaison de boutons est differente selon votre modele (voir le guide pour les details)."
   - question: "Peut-on modifier une capture d'ecran ?"
     answer: "Oui. Juste apres avoir fait la capture, un petit apercu apparait en bas a gauche. Appuyez dessus pour recadrer, dessiner ou ajouter du texte avant d'enregistrer."
+
 ---
 
 ## Ce que vous allez apprendre

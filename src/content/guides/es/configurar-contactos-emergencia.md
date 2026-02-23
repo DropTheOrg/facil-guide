@@ -1,12 +1,12 @@
 ---
 title: "Como configurar contactos de emergencia y ficha medica en tu telefono"
 description: "Aprende a anadir contactos de emergencia y configurar la ficha medica en iPhone y Android para que los servicios de emergencia puedan contactar a tu familia."
-category: "smartphone"
-steps: 7
-difficulty: "facile"
-platform: "iphone"
 lang: "es"
-date: "2026-02-20"
+category: "smartphone"
+difficulty: "facile"
+steps: 7
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Los contactos de emergencia son accesibles cuando el telefono esta bloqueado?"
     answer: "Si. Ese es el proposito principal de esta funcion. Los servicios de emergencia pueden ver tus contactos de emergencia e informacion medica desde la pantalla de bloqueo sin necesitar tu codigo."
@@ -18,6 +18,7 @@ faq:
     answer: "Si. Puedes anadir varios contactos de emergencia. Es recomendable anadir al menos dos, como tu pareja y un hijo adulto."
   - question: "Esto tiene algun costo?"
     answer: "No. Es una funcion gratuita integrada en todos los iPhone y telefonos Android."
+
 ---
 
 ## Lo que vas a aprender

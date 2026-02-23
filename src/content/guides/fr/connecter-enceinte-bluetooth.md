@@ -1,12 +1,12 @@
 ---
 title: "Comment connecter une enceinte Bluetooth"
 description: "Apprenez a connecter une enceinte Bluetooth a votre iPhone pour ecouter de la musique sans fil."
-category: "smartphone"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "fr"
-date: "2026-01-22"
+category: "smartphone"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "A quelle distance puis-je etre de l'enceinte ?"
     answer: "Le Bluetooth fonctionne generalement dans un rayon de 10 metres (environ 30 pieds). Les murs et les obstacles peuvent reduire cette portee."
@@ -14,6 +14,7 @@ faq:
     answer: "Cela depend de votre iPhone et de l'enceinte. La plupart des iPhone ne peuvent diffuser de l'audio que sur une seule enceinte Bluetooth a la fois."
   - question: "Pourquoi mon enceinte n'apparait-elle pas ?"
     answer: "Assurez-vous que l'enceinte est en mode appairage (generalement indique par un voyant clignotant) et que le Bluetooth est active sur votre iPhone. Essayez d'eteindre et de rallumer les deux."
+
 ---
 
 ## Ce que vous allez apprendre

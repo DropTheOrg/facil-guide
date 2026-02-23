@@ -1,11 +1,11 @@
 ---
 title: "Comment faire une capture d'ecran sur Android"
 description: "Apprenez a capturer l'ecran de votre telephone Android en photo, quelle que soit la marque ou le modele."
-category: "smartphone"
-steps: 6
-difficulty: "facile"
-platform: "android"
 lang: "fr"
+category: "smartphone"
+difficulty: "facile"
+steps: 6
+platform: "android"
 date: "2026-02-23"
 faq:
   - question: "Ou sont enregistrees mes captures d'ecran ?"
@@ -16,6 +16,7 @@ faq:
     answer: "Oui. Une notification ou un apercu apparait juste apres la capture. Appuyez dessus pour recadrer, dessiner ou ajouter du texte avant de partager."
   - question: "Que faire si la methode avec les boutons ne fonctionne pas ?"
     answer: "Certains telephones plus anciens utilisent Marche/Arret + bouton Accueil. Vous pouvez aussi essayer la methode des Parametres rapides decrite dans ce guide."
+
 ---
 
 ## Ce que vous allez apprendre

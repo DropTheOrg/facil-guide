@@ -1,12 +1,12 @@
 ---
 title: "Que faire quand on n'entend pas pendant un appel"
 description: "Apprenez a resoudre le probleme quand vous n'entendez pas l'autre personne pendant un appel sur iPhone ou Android."
-category: "troubleshooting"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "fr"
-date: "2026-02-20"
+category: "troubleshooting"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Pourquoi j'entends en haut-parleur mais pas normalement ?"
     answer: "Cela signifie generalement que le petit haut-parleur d'ecouteur en haut de votre telephone est bloque ou endommage. Essayez de le nettoyer delicatement avec une brosse douce. Si cela ne fonctionne pas, le haut-parleur a peut-etre besoin d'etre repare."
@@ -14,6 +14,7 @@ faq:
     answer: "Oui. Si vous avez un mauvais signal, les appels peuvent etre etouffes ou silencieux. Essayez de vous deplacer ou de vous rapprocher d'une fenetre. Si le probleme ne survient qu'a un endroit, c'est probablement un probleme de signal."
   - question: "Et si l'autre personne dit qu'elle ne m'entend pas ?"
     answer: "C'est un probleme de microphone, pas de haut-parleur. Verifiez que rien ne couvre le bas de votre telephone ou se trouve le microphone. Essayez de retirer votre coque temporairement."
+
 ---
 
 ## Ce que vous allez apprendre

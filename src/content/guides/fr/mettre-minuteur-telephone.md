@@ -14,6 +14,7 @@ faq:
     answer: "On iPhone, the timer will vibrate but not make a sound if your phone is on silent mode. If you want to hear the alarm, switch off silent mode using the switch on the side of your phone. On Android, timers usually sound even in silent mode."
   - question: "Can I use the timer without unlocking my phone?"
     answer: "Yes. You can ask Siri (iPhone) or Google Assistant (Android) to set a timer without touching your phone. Just say 'Set a timer for 10 minutes.'"
+
 ---
 
 ## Ce dont vous aurez besoin

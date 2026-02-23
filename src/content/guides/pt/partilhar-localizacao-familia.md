@@ -1,12 +1,12 @@
 ---
 title: "Como partilhar a sua localizacao com familiares para sua seguranca"
 description: "Aprenda a partilhar a sua localizacao em tempo real com familiares no iPhone e Android para que saibam sempre onde esta."
-category: "smartphone"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "pt"
-date: "2026-02-20"
+category: "smartphone"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Partilhar a localizacao gasta muita bateria?"
     answer: "Consome um pouco de bateria extra, mas os telefones modernos gerem isso de forma eficiente. Nao devera notar grande diferenca na autonomia diaria."
@@ -18,6 +18,7 @@ faq:
     answer: "Quando o telefone tem bom sinal GPS e ligacao a internet, a localizacao e normalmente precisa com margem de poucos metros. Em interiores pode ser menos precisa."
   - question: "A outra pessoa precisa do mesmo tipo de telefone?"
     answer: "Para o Apple Encontrar, ambas as pessoas precisam de um iPhone. Para partilha de localizacao no Google Maps, funciona entre quaisquer telefones desde que ambos tenham o Google Maps instalado."
+
 ---
 
 ## O que vai aprender

@@ -1,11 +1,11 @@
 ---
 title: "Comment commander une course Uber sur votre telephone"
 description: "Apprenez a telecharger Uber, creer votre compte et commander votre premiere course etape par etape."
-category: "applications"
-steps: 7
-difficulty: "facile"
-platform: "all"
 lang: "fr"
+category: "applications"
+difficulty: "facile"
+steps: 7
+platform: "all"
 date: "2026-02-23"
 faq:
   - question: "Combien coute une course Uber ?"
@@ -18,6 +18,7 @@ faq:
     answer: "Oui. Lors de la saisie de la destination, vous pouvez changer le lieu de prise en charge et envoyer les details de la course a une autre personne."
   - question: "Que faire si j'ai oublie quelque chose dans la voiture ?"
     answer: "Ouvrez l'application Uber, allez dans Vos courses, selectionnez la course et touchez Objet perdu. L'application vous aidera a contacter le chauffeur."
+
 ---
 
 ## Ce que vous allez apprendre

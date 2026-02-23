@@ -1,12 +1,12 @@
 ---
 title: "O que fazer quando esqueceu a sua palavra-passe"
 description: "Bloqueado fora da sua conta? Aprenda a recuperar a sua palavra-passe."
-difficulty: "moyen"
-platform: "web"
-category: "troubleshooting"
-steps: 5
 lang: "pt"
-date: "2026-02-10"
+category: "troubleshooting"
+difficulty: "moyen"
+steps: 5
+platform: "web"
+date: "2026-02-23"
 faq:
   - question: "What if I do not remember my email address either?"
     answer: "Try logging in with your phone number instead. Many services like Google and Apple let you recover accounts using a phone number."
@@ -14,6 +14,7 @@ faq:
     answer: "Check your Spam or Junk folder. If it is not there, wait a few minutes and try again. Make sure you are checking the correct email address."
   - question: "How can I avoid forgetting passwords in the future?"
     answer: "Write your passwords in a notebook kept in a safe place at home. Or use the password manager built into your phone -- it saves and fills passwords automatically."
+
 ---
 
 ## Passo 1 : Go to the login page

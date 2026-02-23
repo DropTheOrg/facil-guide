@@ -1,12 +1,12 @@
 ---
 title: "Como ligar ao Wi-Fi no iPhone"
 description: "Aprenda a ligar o seu iPhone a uma rede Wi-Fi em casa, num cafe ou em qualquer outro lugar."
-category: "internet"
-steps: 5
-difficulty: "facile"
-platform: "iphone"
 lang: "pt"
-date: "2026-01-20"
+category: "internet"
+difficulty: "facile"
+steps: 5
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Porque nao vejo a minha rede Wi-Fi na lista?"
     answer: "Confirme que o seu router Wi-Fi esta ligado. Se a rede estiver oculta, deslize ate ao fundo e toque em Outra para introduzir o nome da rede manualmente."
@@ -14,6 +14,7 @@ faq:
     answer: "Verifique a parte de tras ou de baixo do seu router Wi-Fi. A palavra-passe predefinida costuma estar impressa numa etiqueta. Se alguem a alterou, pergunte a pessoa que configurou o router."
   - question: "O Wi-Fi gasta os meus dados moveis?"
     answer: "Nao. Quando esta ligado ao Wi-Fi, o seu telemovel usa a ligacao a Internet do Wi-Fi em vez dos seus dados moveis. Isto pode poupar-lhe dinheiro no seu plano."
+
 ---
 
 ## O que vai aprender

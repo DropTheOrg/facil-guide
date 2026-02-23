@@ -1,12 +1,12 @@
 ---
 title: "Comment envoyer un email avec Gmail"
 description: "Apprenez a rediger et envoyer un email avec Gmail, etape par etape."
-category: "communication"
-steps: 6
-difficulty: "facile"
-platform: "web"
 lang: "fr"
-date: "2026-02-02"
+category: "communication"
+difficulty: "facile"
+steps: 6
+platform: "web"
+date: "2026-02-23"
 faq:
   - question: "Gmail est-il gratuit ?"
     answer: "Oui, Gmail est entierement gratuit. Vous avez juste besoin d'un compte Google pour l'utiliser."
@@ -16,6 +16,7 @@ faq:
     answer: "CC signifie Copie Carbone. Tout le monde peut voir qui a recu l'email. CCI signifie Copie Carbone Invisible. Les autres destinataires ne peuvent pas voir qui est en CCI."
   - question: "Peut-on joindre un fichier a un email ?"
     answer: "Oui. Cliquez sur l'icone en forme de trombone en bas de la fenetre de redaction pour joindre un fichier depuis votre ordinateur."
+
 ---
 
 ## Ce que vous allez apprendre

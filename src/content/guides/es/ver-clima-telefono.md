@@ -16,6 +16,7 @@ faq:
     answer: "Yes. In the weather app, you can search for any city in the world and add it to your list."
   - question: "What does humidity mean?"
     answer: "Humidity tells you how much moisture is in the air. High humidity (above 70%) makes it feel warmer and sticky. Low humidity (below 30%) can make your skin feel dry."
+
 ---
 
 ## Lo que va a necesitar

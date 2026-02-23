@@ -1,12 +1,12 @@
 ---
 title: "Comment reconnaitre un email frauduleux"
 description: "Apprenez a identifier les emails d'arnaque et protegez-vous contre le phishing, les fausses factures et les escroqueries en ligne."
-category: "securite"
-steps: 6
-difficulty: "facile"
-platform: "web"
 lang: "fr"
-date: "2026-02-15"
+category: "securite"
+difficulty: "facile"
+steps: 6
+platform: "web"
+date: "2026-02-23"
 faq:
   - question: "Que faire si j'ai deja clique sur un lien suspect ?"
     answer: "Pas de panique. Fermez le site immediatement. Si vous avez entre un mot de passe, changez-le tout de suite sur le vrai site. Si vous avez donne des informations bancaires, contactez votre banque immediatement."
@@ -14,6 +14,7 @@ faq:
     answer: "Oui. Les escrocs peuvent falsifier l'adresse d'expediteur ou pirater le compte email de quelqu'un. Si un message d'un ami vous semble bizarre, appelez-le pour verifier."
   - question: "Comment les escrocs obtiennent-ils mon adresse email ?"
     answer: "Les adresses email sont souvent collectees lors de fuites de donnees, sur des sites publics ou les reseaux sociaux. C'est normal et arrive a tout le monde. L'important est de savoir reperer les arnaques."
+
 ---
 
 ## Ce que vous allez apprendre

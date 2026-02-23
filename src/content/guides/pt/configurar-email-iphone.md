@@ -1,12 +1,12 @@
 ---
 title: "Como configurar o email no iPhone"
 description: "Aprenda a adicionar a sua conta de email (Gmail, Outlook, Yahoo ou outra) a aplicacao Mail do seu iPhone."
-category: "communication"
-steps: 6
-difficulty: "moyen"
-platform: "iphone"
 lang: "pt"
-date: "2026-01-20"
+category: "communication"
+difficulty: "moyen"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Posso adicionar mais do que uma conta de email?"
     answer: "Sim. Pode adicionar tantas contas de email quantas quiser. Repita os mesmos passos para cada conta. A aplicacao Mail mostra-as todas num so lugar."
@@ -14,6 +14,7 @@ faq:
     answer: "Va ao site do seu fornecedor de email (como gmail.com ou outlook.com) e clique em Esqueci a palavra-passe. Siga os passos para a repor e depois tente adicionar a conta novamente."
   - question: "Vou receber notificacoes de emails novos?"
     answer: "Sim. Por defeito, o seu iPhone avisa-o quando chegam emails novos. Pode alterar isto em Definicoes, depois Notificacoes e depois Mail."
+
 ---
 
 ## O que vai aprender

@@ -1,12 +1,12 @@
 ---
 title: "Como apagar aplicativos no iPhone"
 description: "Aprenda a apagar os aplicativos que ja nao precisa do seu iPhone para libertar espaco e manter o telefone organizado."
-category: "smartphone"
-steps: 5
-difficulty: "facile"
-platform: "iphone"
 lang: "pt"
-date: "2026-01-23"
+category: "smartphone"
+difficulty: "facile"
+steps: 5
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Vou perder os meus dados se apagar um aplicativo?"
     answer: "Depende do aplicativo. Alguns guardam os seus dados na nuvem (como o WhatsApp ou o Gmail), por isso podera recupera-los ao reinstalar. Outros guardam os dados apenas no telefone e serao perdidos."
@@ -16,6 +16,7 @@ faq:
     answer: "Remover do ecra inicial apenas esconde o icone. Apagar o aplicativo remove-o completamente do iPhone e liberta espaco de armazenamento."
   - question: "Ha aplicativos que nao posso apagar?"
     answer: "Alguns aplicativos da Apple como Telefone, Mensagens e Camara nao podem ser apagados. Outros como Bolsa e Dicas podem ser removidos."
+
 ---
 
 ## O que vai aprender

@@ -1,12 +1,12 @@
 ---
 title: "Como ligar-se ao Wi-Fi em hoteis, cafes e aeroportos"
 description: "Aprenda a ligar o seu telefone a redes Wi-Fi publicas em hoteis, cafes e aeroportos com instrucoes simples passo a passo."
-category: "internet"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "pt"
-date: "2026-02-20"
+category: "internet"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "O Wi-Fi publico e seguro?"
     answer: "O Wi-Fi publico e pratico mas menos seguro que a sua rede de casa. Evite introduzir palavras-passe, dados bancarios ou numeros de cartao em Wi-Fi publico. Se precisar de fazer algo sensivel, use os dados moveis."
@@ -18,6 +18,7 @@ faq:
     answer: "Muitos hoteis oferecem Wi-Fi gratuito, mas alguns cobram uma taxa diaria. Pergunte na recepcao. A palavra-passe costuma estar impressa num cartao no quarto."
   - question: "Porque e que o Wi-Fi e tao lento?"
     answer: "O Wi-Fi publico e partilhado entre muitas pessoas. Nas horas de ponta pode ser lento. Se precisar de internet mais rapida, use os dados moveis."
+
 ---
 
 ## O que vai aprender

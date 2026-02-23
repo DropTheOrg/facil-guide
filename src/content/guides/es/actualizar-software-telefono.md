@@ -1,12 +1,12 @@
 ---
 title: "Como actualizar tu telefono a la ultima version de software"
 description: "Aprende a actualizar el software de tu iPhone o Android para obtener nuevas funciones, solucionar problemas y estar protegido contra amenazas de seguridad."
-category: "smartphone"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "es"
-date: "2026-02-20"
+category: "smartphone"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Actualizar mi telefono borrara mis fotos o mensajes?"
     answer: "No. Una actualizacion de software no borra tus fotos, mensajes, contactos ni aplicaciones. Todo se queda exactamente donde esta. Aun asi, es buena idea tener una copia de seguridad por si acaso."
@@ -18,6 +18,7 @@ faq:
     answer: "No. Durante la fase de instalacion, tu telefono se reiniciara y mostrara una barra de progreso. No puedes usarlo hasta que termine la actualizacion. Asegurate de iniciar la actualizacion cuando no necesites tu telefono por un rato."
   - question: "Que pasa si la actualizacion falla?"
     answer: "Si una actualizacion falla, reinicia tu telefono e intentalo de nuevo. Asegurate de tener una buena conexion Wi-Fi y al menos 50 por ciento de bateria. Si sigue fallando, conecta tu iPhone a un ordenador con iTunes o Finder, o visita un taller de reparacion para Android."
+
 ---
 
 ## Lo que vas a aprender

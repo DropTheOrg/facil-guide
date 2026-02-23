@@ -1,12 +1,12 @@
 ---
 title: "Come attivare la modalita scura su iPhone"
 description: "Impara a cambiare il tuo iPhone in modalita scura, che usa uno sfondo nero ed e piu comodo per i tuoi occhi di notte."
-category: "smartphone"
-steps: 5
-difficulty: "facile"
-platform: "iphone"
 lang: "it"
-date: "2026-01-22"
+category: "smartphone"
+difficulty: "facile"
+steps: 5
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "La modalita scura risparmia batteria?"
     answer: "Sugli iPhone con schermo OLED (iPhone X e piu recenti), la modalita scura puo risparmiare batteria perche i pixel neri consumano meno energia. Sugli iPhone piu vecchi con schermo LCD, la differenza e piccola."
@@ -14,6 +14,7 @@ faq:
     answer: "La maggior parte delle app segue l'impostazione del sistema e passera automaticamente alla modalita scura. Alcune app hanno la propria impostazione che potresti dover attivare separatamente."
   - question: "Posso programmare la modalita scura per attivarsi automaticamente di notte?"
     answer: "Si. Nelle Impostazioni, vai in Schermo e luminosita, attiva Automatico e impostalo su Dal tramonto all'alba. Il tuo telefono passera in modalita scura quando fa buio."
+
 ---
 
 ## Cosa imparerai

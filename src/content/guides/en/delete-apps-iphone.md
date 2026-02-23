@@ -1,12 +1,12 @@
 ---
 title: "How to delete apps on iPhone"
 description: "Learn how to delete apps you no longer need from your iPhone to free up space and keep your phone organized."
-category: "smartphone"
-steps: 5
-difficulty: "facile"
-platform: "iphone"
 lang: "en"
-date: "2026-01-25"
+category: "smartphone"
+difficulty: "facile"
+steps: 5
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Will I lose my data if I delete an app?"
     answer: "It depends on the app. Some apps save your data in the cloud (like WhatsApp or Gmail), so you can get it back when you reinstall. Others store data only on your phone, which will be lost."
@@ -16,6 +16,7 @@ faq:
     answer: "Remove App from Home Screen only hides the icon. Delete App removes it completely from your iPhone and frees up storage space."
   - question: "Are there apps I cannot delete?"
     answer: "Some built-in Apple apps like Phone, Messages, and Camera cannot be deleted. Others like Stocks and Tips can be removed."
+
 ---
 
 ## What you will learn

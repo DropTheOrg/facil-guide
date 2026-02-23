@@ -1,12 +1,12 @@
 ---
 title: "Come inviare un messaggio di testo su iPhone"
 description: "Impara a inviare un messaggio di testo (SMS o iMessage) a qualcuno usando l'app Messaggi del tuo iPhone."
-category: "communication"
-steps: 5
-difficulty: "facile"
-platform: "iphone"
 lang: "it"
-date: "2026-01-24"
+category: "communication"
+difficulty: "facile"
+steps: 5
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Qual e la differenza tra un messaggio verde e uno blu?"
     answer: "I messaggi blu sono iMessage, inviati gratuitamente via Internet ad altri dispositivi Apple. I messaggi verdi sono SMS normali, che possono costare a seconda del tuo piano tariffario."
@@ -14,6 +14,7 @@ faq:
     answer: "Si. L'app Messaggi invia SMS normali ai telefoni non Apple. La bolla del messaggio apparira verde invece che blu."
   - question: "Posso inviare foto in un messaggio di testo?"
     answer: "Si. Nella conversazione, tocca il pulsante + o l'icona della fotocamera per allegare una foto prima di inviare."
+
 ---
 
 ## Cosa imparerai

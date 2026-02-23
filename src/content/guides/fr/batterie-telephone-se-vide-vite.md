@@ -1,12 +1,12 @@
 ---
 title: "Pourquoi la batterie de votre telephone se vide vite et comment y remedier"
 description: "Decouvrez pourquoi la batterie de votre telephone se decharge rapidement et comment la faire durer plus longtemps avec des reglages simples sur iPhone et Android."
-category: "troubleshooting"
-steps: 7
-difficulty: "facile"
-platform: "iphone"
 lang: "fr"
-date: "2026-02-20"
+category: "troubleshooting"
+difficulty: "facile"
+steps: 7
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Est-ce normal que ma batterie se decharge plus vite avec le temps ?"
     answer: "Oui. Les batteries de telephone perdent de leur capacite avec le temps. Apres deux ou trois ans, votre batterie peut ne conserver que 80 pour cent de sa charge d'origine. Vous pouvez verifier l'etat de votre batterie dans les Reglages."
@@ -18,6 +18,7 @@ faq:
     answer: "Non. Les batteries modernes durent plus longtemps si vous les maintenez entre 20 et 80 pour cent. Il n'est pas necessaire de les vider completement."
   - question: "Quand dois-je remplacer ma batterie ?"
     answer: "Si l'etat de votre batterie est inferieur a 80 pour cent et que votre telephone s'eteint tres rapidement, il est peut-etre temps de la remplacer. Rendez-vous dans un centre de reparation agree."
+
 ---
 
 ## Ce que vous allez apprendre

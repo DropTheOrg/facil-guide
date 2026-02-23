@@ -1,12 +1,12 @@
 ---
 title: "Como acelerar um telefone lento sem comprar um novo"
 description: "Aprenda a tornar o seu iPhone ou Android mais rapido com passos simples que libertam memoria e espaco de armazenamento."
-category: "troubleshooting"
-steps: 7
-difficulty: "facile"
-platform: "iphone"
 lang: "pt"
-date: "2026-02-20"
+category: "troubleshooting"
+difficulty: "facile"
+steps: 7
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Porque e que o meu telefone esta tao lento?"
     answer: "Os telefones ficam lentos quando ficam sem espaco de armazenamento, tem demasiadas aplicacoes a correr ou precisam de uma atualizacao de software. Baterias velhas tambem podem causar lentidao porque o telefone reduz a velocidade para poupar energia."
@@ -18,6 +18,7 @@ faq:
     answer: "Uma reposicao de fabrica apaga tudo no telefone e deixa-o como novo. E eficaz mas deve ser o ultimo recurso. Faca sempre copia de seguranca das fotos e contactos primeiro. Tente os outros passos deste guia antes."
   - question: "Com que frequencia devo reiniciar o telefone?"
     answer: "Reiniciar uma vez por semana e um bom habito. Ajuda a manter o telefone a funcionar bem ao limpar ficheiros temporarios e refrescar o sistema."
+
 ---
 
 ## O que vai aprender

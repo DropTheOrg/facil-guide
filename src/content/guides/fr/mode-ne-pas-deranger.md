@@ -16,6 +16,7 @@ faq:
     answer: "Yes. Alarms you set in the Clock app will still go off in Do Not Disturb mode."
   - question: "Can I let certain people through?"
     answer: "Yes. You can set favorite contacts who can always reach you. On iPhone, go to Settings > Focus > Do Not Disturb > People. On Android, go to Settings > Do Not Disturb > Exceptions."
+
 ---
 
 ## Ce dont vous aurez besoin

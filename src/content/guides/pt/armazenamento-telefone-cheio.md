@@ -1,12 +1,12 @@
 ---
 title: "Como resolver o aviso de armazenamento cheio no telefone"
 description: "Aprenda a libertar espaco no seu telefone quando aparece o aviso de armazenamento cheio, passo a passo."
-category: "troubleshooting"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "pt"
-date: "2026-02-20"
+category: "troubleshooting"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "O que acontece se ignorar o aviso de armazenamento cheio?"
     answer: "O seu telefone ficara mais lento, nao podera tirar novas fotos e algumas aplicacoes podem deixar de funcionar corretamente. E melhor libertar espaco assim que vir o aviso."
@@ -16,6 +16,7 @@ faq:
     answer: "As fotos e os videos costumam ser os que mais espaco ocupam. Depois, as aplicacoes (especialmente jogos e redes sociais) e os ficheiros transferidos ocupam mais lugar."
   - question: "Quanto espaco livre devo ter?"
     answer: "Tente manter pelo menos 2 a 3 gigabytes (GB) de espaco livre no telefone. Isto ajuda o telefone a funcionar bem."
+
 ---
 
 ## O que vai aprender

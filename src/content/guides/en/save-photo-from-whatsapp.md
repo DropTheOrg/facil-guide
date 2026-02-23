@@ -1,12 +1,12 @@
 ---
 title: "How to save a photo from WhatsApp"
 description: "Learn how to save photos received on WhatsApp to your iPhone's photo library."
-category: "applications"
-steps: 5
-difficulty: "facile"
-platform: "iphone"
 lang: "en"
-date: "2026-01-30"
+category: "applications"
+difficulty: "facile"
+steps: 5
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Where is the saved photo stored?"
     answer: "The photo is saved in your Photos app. You can find it in the Recents album or the WhatsApp album."
@@ -16,6 +16,7 @@ faq:
     answer: "No. The other person will not know that you saved their photo."
   - question: "What about videos?"
     answer: "The same steps work for saving videos from WhatsApp. Just tap and hold the video instead of the photo."
+
 ---
 
 ## What you will learn

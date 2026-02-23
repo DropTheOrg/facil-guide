@@ -1,12 +1,12 @@
 ---
 title: "What to do when your phone won't connect to Wi-Fi"
 description: "Learn how to fix your phone when it refuses to connect to a Wi-Fi network, with simple steps for iPhone and Android."
-category: "troubleshooting"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "en"
-date: "2026-02-20"
+category: "troubleshooting"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Will I lose anything if I forget the Wi-Fi network?"
     answer: "No. Forgetting a network only removes the saved password from your phone. You will not lose any photos, apps, or data. You will just need to type the Wi-Fi password again."
@@ -14,6 +14,7 @@ faq:
     answer: "This can happen if your router is connected to Wi-Fi but has lost its Internet connection. Try restarting your router. If the problem continues, contact your Internet provider."
   - question: "What if I don't know my Wi-Fi password?"
     answer: "The Wi-Fi password is usually printed on a sticker on the back or bottom of your router. If someone changed it, ask them for the new password."
+
 ---
 
 ## What you will learn

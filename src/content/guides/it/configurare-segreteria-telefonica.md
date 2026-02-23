@@ -1,11 +1,11 @@
 ---
 title: "Come configurare e ascoltare la segreteria telefonica"
 description: "Impara a configurare la segreteria telefonica sul tuo iPhone o telefono Android in modo che le persone possano lasciarti un messaggio quando non puoi rispondere."
-category: "communication"
-steps: 6
-difficulty: "facile"
-platform: "all"
 lang: "it"
+category: "communication"
+difficulty: "facile"
+steps: 6
+platform: "all"
 date: "2026-02-23"
 faq:
   - question: "La segreteria telefonica è gratuita?"
@@ -18,6 +18,7 @@ faq:
     answer: "Se la tua segreteria è piena, chi ti chiama non potrà lasciare nuovi messaggi. Dovrai eliminare i vecchi messaggi per fare spazio. Ascolta i messaggi salvati e cancella quelli che non ti servono più."
   - question: "Posso ascoltare la segreteria da un altro telefono?"
     answer: "Sì, la maggior parte degli operatori ti permette di chiamare il tuo numero da un altro telefono e premere un tasto (di solito asterisco o cancelletto) per accedere alla tua segreteria. Avrai bisogno del tuo PIN della segreteria."
+
 ---
 
 ## Cosa imparerai

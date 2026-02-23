@@ -14,6 +14,7 @@ faq:
     answer: "Yes. You'll need the email address and password for the account you're adding. If you've forgotten it, reset your password first on the email provider's website."
   - question: "Will my emails be deleted from the computer?"
     answer: "No. Adding email to your phone doesn't affect your computer. Your emails stay in both places."
+
 ---
 
 ## Paso 1: Open Ajustes

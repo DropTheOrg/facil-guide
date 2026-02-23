@@ -1,12 +1,12 @@
 ---
 title: "Come capire se un messaggio, un'email o una chiamata e una truffa"
 description: "Scopri come riconoscere messaggi fraudolenti, email di phishing e telefonate truffa per proteggere te stesso e le tue informazioni personali."
-category: "securite"
-steps: 7
-difficulty: "facile"
-platform: "iphone"
 lang: "it"
-date: "2026-02-20"
+category: "securite"
+difficulty: "facile"
+steps: 7
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "Cosa devo fare se ho gia cliccato su un link sospetto?"
     answer: "Non inserire nessuna informazione personale. Chiudi la pagina immediatamente. Se hai inserito una password, cambiala subito sul sito vero. Se hai inserito dati bancari, chiama la banca immediatamente."
@@ -18,6 +18,7 @@ faq:
     answer: "Si. Su iPhone puoi segnalare i messaggi spam toccando Segnala come indesiderato. Su Android, tieni premuto il messaggio e tocca Segnala come spam. Questo aiuta a proteggere gli altri."
   - question: "Le truffe arrivano solo via SMS ed email?"
     answer: "No. Le truffe possono arrivare via SMS, email, telefonate, messaggi WhatsApp, social media e persino posta cartacea. I segnali di allarme sono simili indipendentemente da come arriva il messaggio."
+
 ---
 
 ## Cosa imparerai

@@ -6,7 +6,7 @@ category: "smartphone"
 difficulty: "facile"
 steps: 4
 platform: "iphone"
-date: "2026-02-22"
+date: "2026-02-23"
 faq:
   - question: "Is the weather app free?"
     answer: "Yes. Both iPhone and Android come with a free weather app already installed. You do not need to download anything."
@@ -16,6 +16,7 @@ faq:
     answer: "Yes. In the weather app, you can search for any city in the world and add it to your list."
   - question: "What does humidity mean?"
     answer: "Humidity tells you how much moisture is in the air. High humidity (above 70%) makes it feel warmer and sticky. Low humidity (below 30%) can make your skin feel dry."
+
 ---
 
 ## What You Will Need

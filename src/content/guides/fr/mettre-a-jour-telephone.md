@@ -1,12 +1,12 @@
 ---
 title: "Comment mettre a jour votre telephone vers la derniere version"
 description: "Apprenez a mettre a jour le logiciel de votre iPhone ou Android pour obtenir de nouvelles fonctions, corriger des problemes et rester protege contre les menaces de securite."
-category: "smartphone"
-steps: 6
-difficulty: "facile"
-platform: "iphone"
 lang: "fr"
-date: "2026-02-20"
+category: "smartphone"
+difficulty: "facile"
+steps: 6
+platform: "iphone"
+date: "2026-02-23"
 faq:
   - question: "La mise a jour va-t-elle supprimer mes photos ou messages ?"
     answer: "Non. Une mise a jour logicielle ne supprime pas vos photos, messages, contacts ou applications. Tout reste exactement a sa place. C'est quand meme une bonne idee d'avoir une sauvegarde au cas ou."
@@ -18,6 +18,7 @@ faq:
     answer: "Non. Pendant la phase d'installation, votre telephone redemarrera et affichera une barre de progression. Vous ne pouvez pas l'utiliser tant que la mise a jour n'est pas terminee. Lancez la mise a jour quand vous n'avez pas besoin de votre telephone pendant un moment."
   - question: "Que faire si la mise a jour echoue ?"
     answer: "Si une mise a jour echoue, redemarrez votre telephone et reessayez. Assurez-vous d'avoir une bonne connexion Wi-Fi et au moins 50 pour cent de batterie. Si ca echoue encore, connectez votre iPhone a un ordinateur avec iTunes ou Finder, ou visitez un reparateur pour Android."
+
 ---
 
 ## Ce que vous allez apprendre

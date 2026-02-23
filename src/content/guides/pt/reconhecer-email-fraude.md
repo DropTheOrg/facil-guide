@@ -1,12 +1,12 @@
 ---
 title: "Como reconhecer um email fraudulento"
 description: "Aprenda os sinais de alerta de emails fraudulentos e proteja-se contra phishing, faturas falsas e burlas online."
-category: "securite"
-steps: 6
-difficulty: "facile"
-platform: "web"
 lang: "pt"
-date: "2026-01-28"
+category: "securite"
+difficulty: "facile"
+steps: 6
+platform: "web"
+date: "2026-02-23"
 faq:
   - question: "O que fazer se ja cliquei num link suspeito?"
     answer: "Nao entre em panico. Feche o site imediatamente. Se introduziu alguma palavra-passe, altere-a imediatamente no site verdadeiro. Se forneceu dados bancarios, contacte o seu banco imediatamente. Execute um antivirus no seu dispositivo se possivel."
@@ -16,6 +16,7 @@ faq:
     answer: "Nao. Os emails fraudulentos existem em todas as linguas. As burlas na sua lingua materna podem ser ainda mais convincentes porque parecem familiares."
   - question: "Como e que os burloes conseguem o meu endereco de email?"
     answer: "Os enderecos de email sao recolhidos de fugas de dados, sites publicos, perfis de redes sociais ou simplesmente adivinhados. Acontece a toda a gente. O importante e saber reconhecer as burlas."
+
 ---
 
 ## O que vai aprender

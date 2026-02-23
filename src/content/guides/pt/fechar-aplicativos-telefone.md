@@ -14,6 +14,7 @@ faq:
     answer: "Most apps save your progress automatically. However, if you were typing something and hadn't saved it, that text may be lost."
   - question: "How many apps can I have open at once?"
     answer: "Your phone can handle many apps open at once. But if your phone feels slow, closing some apps can help."
+
 ---
 
 ## Passo 1: Open the app switcher

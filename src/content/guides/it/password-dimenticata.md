@@ -1,12 +1,12 @@
 ---
 title: "Cosa fare quando dimentichi la password"
 description: "Scopri come recuperare la tua password per email, app e telefono quando l'hai dimenticata."
-category: "troubleshooting"
-steps: 6
-difficulty: "facile"
-platform: "web"
 lang: "it"
-date: "2026-02-20"
+category: "troubleshooting"
+difficulty: "facile"
+steps: 6
+platform: "web"
+date: "2026-02-23"
 faq:
   - question: "E se non ricordo nemmeno il mio indirizzo email?"
     answer: "Se usi Gmail, vai su accounts.google.com e clicca su Email dimenticata. Google puo aiutarti a trovare il tuo account usando il tuo numero di telefono."
@@ -16,6 +16,7 @@ faq:
     answer: "La maggior parte dei servizi offre opzioni di recupero alternative, come un indirizzo email di recupero o domande di sicurezza. Se le hai impostate quando hai creato l'account, puoi usarle adesso."
   - question: "Come posso evitare di dimenticare la password in futuro?"
     answer: "Scrivi le tue password in un quaderno e conservalo in un posto sicuro a casa. Puoi anche chiedere a un familiare di fiducia di tenerne una copia."
+
 ---
 
 ## Cosa imparerai
