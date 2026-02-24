@@ -75,7 +75,7 @@ Go back to your storage settings (Step 1) to see how much space you freed up. Yo
 
 ## Helpful tips
 
-- **Back up photos first**: Before deleting photos, you can save them to Google Photos or iCloud so you still have a copy. [Learn how to back up your phone](/en/backup-phone/).
+- **Back up photos first**: Before deleting photos, you can save them to Google Photos or iCloud so you still have a copy. [Learn how to back up your phone](/en/guide/backup-phone/).
 - **Offload unused apps (iPhone)**: Go to **Settings** > **General** > **iPhone Storage** and turn on **"Offload Unused Apps"**. This removes apps you rarely use but keeps their data so you can reinstall them easily.
 - **Check downloads folder (Android)**: Open the **Files** app and look in the **Downloads** folder. Delete old files you no longer need.
 - **Streaming saves space**: Instead of downloading music and videos, use streaming services like YouTube or Spotify. This uses Internet data but saves storage.
