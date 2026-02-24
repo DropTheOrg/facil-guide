@@ -9,12 +9,18 @@ const lang = Astro.url.pathname.split('/')[1] as Lang;
 const aboutSlugs: Record<string, string> = {
   fr: 'a-propos', en: 'about', es: 'acerca-de', pt: 'sobre', it: 'chi-siamo',
 };
+
+const alternates = Object.entries(aboutSlugs).map(([l, slug]) => ({
+  lang: l,
+  url: `/${l}/${slug}/`,
+}));
 ---
 
 <BaseLayout
   title={t(lang, 'about.title')}
   lang={lang}
   currentPath={`/${lang}/${aboutSlugs[lang]}/`}
+  alternates={alternates}
 >
   <SchemaMarkup
     slot="head"

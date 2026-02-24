@@ -9,11 +9,13 @@ const lang = Astro.url.pathname.split('/')[1] as Lang;
 const aboutSlugs: Record<string, string> = {
   fr: 'a-propos', en: 'about', es: 'acerca-de', pt: 'sobre', it: 'chi-siamo',
 };
+const alternates = [{ lang: 'fr', url: '/fr/a-propos/' }, { lang: 'en', url: '/en/about/' }, { lang: 'es', url: '/es/acerca-de/' }, { lang: 'pt', url: '/pt/sobre/' }, { lang: 'it', url: '/it/chi-siamo/' }];
 ---
 
 <BaseLayout
   title={t(lang, 'about.title')}
   lang={lang}
+  alternates={alternates}
   currentPath={`/${lang}/${aboutSlugs[lang]}/`}
 >
   <SchemaMarkup
@@ -57,6 +59,12 @@ const aboutSlugs: Record<string, string> = {
       <h2>{t(lang, 'about.contact')}</h2>
       <p>{t(lang, 'about.contactText')} <a href="mailto:facil@dropthe.org">facil@dropthe.org</a></p>
     </section>
+
+    <section class="about-section about-dropthe">
+      <h2>{t(lang, 'about.dropthe')}</h2>
+      <p set:html={t(lang, 'about.droptheText')} />
+      <p set:html={t(lang, 'about.directoryText')} />
+    </section>
   </article>
 </BaseLayout>
 
@@ -65,4 +73,6 @@ const aboutSlugs: Record<string, string> = {
   .about-section { margin-bottom: 2.5rem; }
   .about-section h2 { margin-bottom: 1rem; }
   .about-section p { color: var(--fg-text-light); line-height: 1.8; max-width: 680px; }
+  .about-dropthe a { color: var(--fg-primary); font-weight: 600; text-decoration: none; }
+  .about-dropthe a:hover { text-decoration: underline; }
 </style>

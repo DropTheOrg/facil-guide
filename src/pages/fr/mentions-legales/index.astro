@@ -8,9 +8,11 @@ import type { Lang } from "../../../i18n/translations";
 const lang: Lang = "fr";
 const content = legalContent[lang];
 const slug = "mentions-legales";
+const alternates = [{ lang: 'fr', url: '/fr/mentions-legales/' }, { lang: 'en', url: '/en/legal/' }, { lang: 'es', url: '/es/aviso-legal/' }, { lang: 'pt', url: '/pt/aviso-legal/' }, { lang: 'it', url: '/it/avviso-legale/' }];
 ---
 
-<BaseLayout title={content.heading} lang={lang} currentPath={`/${lang}/${slug}/`}>
+<BaseLayout title={content.heading} lang={lang} alternates={alternates}
+  currentPath={`/${lang}/${slug}/`}>
   <SchemaMarkup slot="head" type="website" breadcrumbs={[
     { name: t(lang, "breadcrumb.home"), url: `/${lang}/` },
     { name: t(lang, "nav.legal"), url: `/${lang}/${slug}/` },
