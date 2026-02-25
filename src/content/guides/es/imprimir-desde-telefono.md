@@ -1,62 +1,72 @@
 ---
-title: "Como imprimir desde el telefono"
-description: "Aprenda a imprimir fotos y documentos directamente desde su telefono."
+title: "Como imprimir desde tu telefono"
+description: "Aprende a conectar tu iPhone o telefono Android a una impresora inalambrica e imprimir documentos, fotos y emails directamente desde tu telefono."
 lang: "es"
 category: "smartphone"
 difficulty: "facile"
-steps: 5
-platform: "iphone"
-date: "2026-02-23"
+steps: 7
+platform: "all"
+date: "2026-02-25"
 faq:
-  - question: "Do I need a special printer?"
-    answer: "You need a wireless printer that supports Wi-Fi or AirPrint (for iPhone). Most printers made after 2015 support wireless printing. Check your printer manual or look for a Wi-Fi symbol on the printer."
-  - question: "Can I print without Wi-Fi?"
-    answer: "Some printers support Bluetooth or Wi-Fi Direct, which lets you print without a home Wi-Fi network. Check your printer's manual for instructions."
-  - question: "Why does my phone not find my printer?"
-    answer: "Make sure the printer is turned on and connected to the same Wi-Fi network as your phone. If it still does not appear, restart both the printer and your phone."
-  - question: "Can I print from any app?"
-    answer: "Most apps that display documents, photos, or web pages have a print option. Look for the Share button or the three-dot menu and then Print."
+  - question: "Mi impresora necesita ser inalambrica?"
+    answer: "Para la configuracion mas facil, si. La mayoria de las impresoras modernas tienen Wi-Fi integrado. Si tu impresora es antigua y solo se conecta por cable USB, puede que necesites un ordenador para imprimir."
+  - question: "Necesito instalar una aplicacion para imprimir?"
+    answer: "En iPhone, no se necesita aplicacion si tu impresora es compatible con AirPrint (la mayoria de las modernas lo son). En Android, no se necesita aplicacion si tu impresora es compatible con el servicio de impresion integrado. Para algunas marcas, la aplicacion gratuita del fabricante (como HP Smart o Epson iPrint) puede dar mejores resultados."
+  - question: "Puedo imprimir fotos desde mi telefono?"
+    answer: "Si. Abre cualquier foto en tu galeria, toca el boton de compartir y selecciona Imprimir. Para mejores resultados, usa papel fotografico en tu impresora."
+  - question: "Por que no encuentro mi impresora?"
+    answer: "Asegurate de que tu impresora esta encendida, conectada al Wi-Fi y en la misma red Wi-Fi que tu telefono. Si sigue sin aparecer, intenta reiniciar la impresora y el telefono."
 
 ---
 
-## Lo que va a necesitar
+## Lo que aprenderas
 
-- Su telefono iPhone o Android
-- A wireless printer connected to your Wi-Fi network
-- Paper and ink in the printer
+En esta guia, aprenderas a imprimir documentos, fotos y emails directamente desde tu telefono. Conectaras tu telefono a una impresora inalambrica por Wi-Fi e podras imprimir sin necesitar un ordenador.
 
-## Paso 1: Make Sure Your Printer Is On and Connected
+## Lo que necesitas
 
-Turn on your printer and make sure it is connected to the same Wi-Fi network as your phone.
+- Un telefono (iPhone o Android)
+- Una impresora inalambrica conectada a tu red Wi-Fi
+- Tu telefono y la impresora deben estar en la misma red Wi-Fi
 
-Most wireless printers have a small screen or light that shows the Wi-Fi connection status. If the Wi-Fi light is solid (not blinking), the printer is connected.
+## Pasos
 
-## Paso 2: Open What You Want to Print
+### Paso 1: Asegurarte de que tu impresora esta conectada al Wi-Fi
 
-On your phone, open the document, photo, email, or web page you want to print.
+Comprueba que tu impresora esta encendida y conectada a tu red Wi-Fi domestica. La mayoria de las impresoras muestran un icono de Wi-Fi en su pantalla cuando estan conectadas. Si tu impresora aun no esta conectada, revisa el menu de ajustes de la impresora y busca **Configuracion inalambrica** o **Ajustes de red**.
 
-## Paso 3: Find the Print Option
+### Paso 2: Conectar tu telefono a la misma red Wi-Fi
 
-- **En iPhone:** Tap the **Share** button (square with an arrow pointing up), then scroll down and tap **Print**
-- **En Android:** Tap the **three dots** menu (top-right corner), then tap **Print** or **Share** > **Print**
+Asegurate de que tu telefono esta conectado a la misma red Wi-Fi que tu impresora. Ve a **Ajustes** en tu telefono, toca **Wi-Fi** y comprueba que estas en tu red domestica. Si tu telefono esta con datos moviles o en otra red, la impresora no se encontrara.
 
-If you are in the Photos app, look for the Share button and then Print.
+### Paso 3: Abrir el documento o foto que quieres imprimir
 
-## Paso 4: Seleccione Your Printer
+Encuentra lo que quieres imprimir en tu telefono. Puede ser una foto en tu galeria, un documento en tu email, una pagina web en tu navegador o un archivo PDF. Abrelo para que se muestre en tu pantalla.
 
-A print preview screen will appear. Tap **Seleccione Printer** or **Printer** and choose your printer from the list.
+### Paso 4: Tocar el boton de compartir o menu
 
-You can also choose:
-- **Number of copies** (usually 1)
-- **Color or black and white**
-- **Paper size** (usually A4 or Letter)
+Busca el boton **compartir** o el menu de **tres puntos**. En iPhone, el boton de compartir es un cuadrado con una flecha hacia arriba. En Android, busca tres puntos en la esquina superior derecha o un icono de compartir. Tocalo para ver la lista de opciones.
 
-## Paso 5: Tap Print
+### Paso 5: Seleccionar Imprimir
 
-When everything looks right, tap the **Print** button. Your printer will start printing.
+En la lista de opciones, desplazate hacia abajo y toca **Imprimir**. En iPhone, puede que necesites desplazar la fila de iconos en la parte inferior para encontrarlo. En Android, puede estar bajo **Mas** o directamente visible en el menu. Aparecera una pantalla de vista previa de impresion.
 
-Wait a moment. The document or photo will come out of the printer.
+### Paso 6: Elegir tu impresora y ajustes
 
-## Lo ha conseguido!
+En la pantalla de vista previa, toca **Seleccionar impresora** o **Impresora** en la parte superior. Tu telefono buscara impresoras cercanas. Toca el nombre de tu impresora cuando aparezca. Luego ajusta los parametros si es necesario: elige el numero de **copias**, selecciona **color** o **blanco y negro**, y escoge el **tamano de papel**.
 
-You printed something directly from your phone. No computer needed. This works for photos, emails, recipes, boarding passes, and more.
+### Paso 7: Tocar Imprimir
+
+Cuando todo se vea bien en la vista previa, toca el boton **Imprimir**. Tu telefono enviara el documento a la impresora. Espera un momento y tu documento empezara a imprimirse. No cierres la aplicacion hasta que el trabajo de impresion se haya enviado.
+
+## Consejos
+
+- Si imprimes a menudo, tu telefono recordara tu impresora y la seleccionara automaticamente la proxima vez.
+- Para imprimir una pagina web, abrela en tu navegador, toca el menu o boton de compartir y selecciona Imprimir.
+- Para imprimir emails, abre el email, toca el menu de tres puntos y selecciona Imprimir.
+- Si tu impresora no tiene Wi-Fi, puedes conectarla por cable USB a tu ordenador y compartirla en la red. Pide a un familiar que te ayude.
+
+## Enlaces utiles
+
+- [Imprimir desde iPhone con AirPrint](https://support.apple.com/es-es/111801)
+- [Imprimir desde un telefono Android](https://support.google.com/android/answer/7582872?hl=es)

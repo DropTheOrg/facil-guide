@@ -336,6 +336,18 @@
     {
       "slug": "transfer-photos-to-computer",
       "date": "2026-02-25"
+    },
+    {
+      "slug": "set-up-two-factor-authentication",
+      "date": "2026-02-25"
+    },
+    {
+      "slug": "use-magnifier-phone",
+      "date": "2026-02-25"
+    },
+    {
+      "slug": "connect-phone-to-printer",
+      "date": "2026-02-25"
     }
   ],
   "last_batch": "2026-02-25"
