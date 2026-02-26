@@ -372,6 +372,18 @@
     {
       "slug": "connect-hearing-aid-phone",
       "date": "2026-02-26"
+    },
+    {
+      "slug": "set-up-wifi-calling",
+      "date": "2026-02-26"
+    },
+    {
+      "slug": "use-airdrop-share-files",
+      "date": "2026-02-26"
+    },
+    {
+      "slug": "check-data-usage-phone",
+      "date": "2026-02-26"
     }
   ],
   "last_batch": "2026-02-26"
