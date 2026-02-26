@@ -384,6 +384,18 @@
     {
       "slug": "check-data-usage-phone",
       "date": "2026-02-26"
+    },
+    {
+      "slug": "use-netflix",
+      "date": "2026-02-26"
+    },
+    {
+      "slug": "order-food-delivery-app",
+      "date": "2026-02-26"
+    },
+    {
+      "slug": "use-health-app-iphone",
+      "date": "2026-02-26"
     }
   ],
   "last_batch": "2026-02-26"
