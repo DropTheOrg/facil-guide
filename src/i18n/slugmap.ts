@@ -159,6 +159,16 @@ export const guideSlugMap: Record<string, Record<string, string>> = {
   'use-whatsapp-call': { en: 'use-whatsapp-call', es: 'llamar-con-whatsapp', fr: 'appeler-gratuitement-whatsapp', it: 'chiamare-gratis-whatsapp', pt: 'ligar-gratis-whatsapp' },
   'use-whatsapp-group': { en: 'use-whatsapp-group', es: 'crear-grupo-whatsapp-familia', fr: 'creer-groupe-whatsapp-famille', it: 'creare-gruppo-whatsapp-famiglia', pt: 'criar-grupo-whatsapp-familia' },
   'use-whatsapp-status': { en: 'use-whatsapp-status', es: 'usar-estado-whatsapp', fr: 'utiliser-statut-whatsapp', it: 'usare-stato-whatsapp', pt: 'usar-estado-whatsapp' },
+  'connect-computer-wifi': { en: 'connect-computer-wifi', fr: 'connecter-ordinateur-wifi', es: 'conectar-ordenador-wifi', pt: 'ligar-computador-wifi', it: 'collegare-computer-wifi' },
+  'connect-printer-computer': { en: 'connect-printer-computer', fr: 'connecter-imprimante-ordinateur', es: 'conectar-impresora-ordenador', pt: 'ligar-impressora-computador', it: 'collegare-stampante-computer' },
+  'copy-paste-text-computer': { en: 'copy-paste-text-computer', fr: 'copier-coller-texte-ordinateur', es: 'copiar-pegar-texto-ordenador', pt: 'copiar-colar-texto-computador', it: 'copiare-incollare-testo-computer' },
+  'find-files-computer': { en: 'find-files-computer', fr: 'retrouver-fichiers-ordinateur', es: 'encontrar-archivos-ordenador', pt: 'encontrar-ficheiros-computador', it: 'trovare-file-computer' },
+  'install-program-windows': { en: 'install-program-windows', fr: 'installer-programme-windows', es: 'instalar-programa-windows', pt: 'instalar-programa-windows', it: 'installare-programma-windows' },
+  'save-file-computer': { en: 'save-file-computer', fr: 'enregistrer-fichier-ordinateur', es: 'guardar-archivo-ordenador', pt: 'guardar-ficheiro-computador', it: 'salvare-file-computer' },
+  'take-screenshot-computer': { en: 'take-screenshot-computer', fr: 'capture-ecran-ordinateur', es: 'captura-pantalla-ordenador', pt: 'captura-ecra-computador', it: 'screenshot-computer' },
+  'uninstall-program-windows': { en: 'uninstall-program-windows', fr: 'desinstaller-programme-windows', es: 'desinstalar-programa-windows', pt: 'desinstalar-programa-windows', it: 'disinstallare-programma-windows' },
+  'use-usb-drive': { en: 'use-usb-drive', fr: 'utiliser-cle-usb', es: 'usar-memoria-usb', pt: 'usar-pen-usb', it: 'usare-chiavetta-usb' },
+  'what-is-desktop-laptop': { en: 'what-is-desktop-laptop', fr: 'difference-ordinateur-bureau-portable', es: 'diferencia-ordenador-escritorio-portatil', pt: 'diferenca-computador-secretaria-portatil', it: 'differenza-computer-fisso-portatile' },
 };
 
 
