@@ -6,6 +6,7 @@ export default defineConfig({
   output: 'static',
   integrations: [
     sitemap({
+      filter: (page) => page !== 'https://facil.guide/',
       i18n: {
         defaultLocale: 'en',
         locales: {

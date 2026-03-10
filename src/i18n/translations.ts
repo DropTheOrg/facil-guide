@@ -14,7 +14,7 @@ export const translations: Record<Lang, Record<string, string>> = {
   fr: {
     'site.title': 'facil.guide',
     'site.tagline': 'La tech, simplifiée',
-    'site.description': 'Des guides pas-à-pas simples et clairs pour simplifier le quotidien.',
+    'site.description': 'Des guides pas-a-pas simples et clairs pour maitriser votre telephone, ordinateur et Internet. Conçus pour toute la famille, disponibles en 5 langues.',
     'nav.home': 'Accueil',
     'nav.about': 'A propos',
     'nav.search': 'Rechercher un guide...',
@@ -102,7 +102,7 @@ export const translations: Record<Lang, Record<string, string>> = {
   en: {
     'site.title': 'facil.guide',
     'site.tagline': 'Tech, simplified',
-    'site.description': 'Simple, clear step-by-step guides to simplify everyday life.',
+    'site.description': 'Simple, clear step-by-step guides to master your phone, computer and the Internet. Designed for the whole family, available in 5 languages.',
     'nav.home': 'Home',
     'nav.about': 'About',
     'nav.search': 'Search for a guide...',
@@ -190,7 +190,7 @@ export const translations: Record<Lang, Record<string, string>> = {
   es: {
     'site.title': 'facil.guide',
     'site.tagline': 'Tech, simplificada',
-    'site.description': 'Guias paso a paso simples y claras para simplificar el dia a dia.',
+    'site.description': 'Guias paso a paso simples y claras para dominar tu telefono, ordenador e Internet. Disenadas para toda la familia, disponibles en 5 idiomas.',
     'nav.home': 'Inicio',
     'nav.about': 'Acerca de',
     'nav.search': 'Buscar una guia...',
@@ -278,7 +278,7 @@ export const translations: Record<Lang, Record<string, string>> = {
   pt: {
     'site.title': 'facil.guide',
     'site.tagline': 'Tech, simplificada',
-    'site.description': 'Guias passo a passo simples e claros para simplificar o dia a dia.',
+    'site.description': 'Guias passo a passo simples e claros para dominar o seu telefone, computador e Internet. Feitos para toda a familia, disponiveis em 5 idiomas.',
     'nav.home': 'Inicio',
     'nav.about': 'Sobre',
     'nav.search': 'Procurar um guia...',
@@ -362,7 +362,7 @@ export const translations: Record<Lang, Record<string, string>> = {
   it: {
     'site.title': 'facil.guide',
     'site.tagline': 'Tech, semplificata',
-    'site.description': 'Guide passo passo semplici e chiare per semplificare la vita quotidiana.',
+    'site.description': 'Guide passo passo semplici e chiare per padroneggiare telefono, computer e Internet. Pensate per tutta la famiglia, disponibili in 5 lingue.',
     'nav.home': 'Home',
     'nav.about': 'Chi siamo',
     'nav.search': 'Cerca una guida...',

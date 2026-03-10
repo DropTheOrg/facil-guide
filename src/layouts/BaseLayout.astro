@@ -19,7 +19,9 @@ interface Props {
 
 const { title, description, lang, currentPath, alternates, publishDate, modifiedDate, ogImage } = Astro.props;
 const siteTitle = t(lang, 'site.title');
-const fullTitle = title === siteTitle ? `${siteTitle} — ${t(lang, 'site.tagline')}` : `${title} | ${siteTitle}`;
+const fullTitle = title === siteTitle
+  ? `${siteTitle} - ${t(lang, 'site.tagline')}`
+  : (title.length + siteTitle.length + 3 > 60 ? title : `${title} | ${siteTitle}`);
 const metaDesc = description || t(lang, 'site.description');
 const canonicalUrl = `https://facil.guide${currentPath}`;
 
@@ -65,7 +67,7 @@ const defaultAlternates = alternates || allLangs.map((l) => ({
     {/* Open Graph */}
     <meta property="og:title" content={fullTitle} />
     <meta property="og:description" content={metaDesc} />
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content={publishDate ? "article" : "website"} />
     <meta property="og:url" content={canonicalUrl} />
     <meta property="og:locale" content={ogLocales[lang] || 'en_US'} />
     <meta property="og:site_name" content="facil.guide" />
@@ -75,7 +77,6 @@ const defaultAlternates = alternates || allLangs.map((l) => ({
 
     {publishDate && <meta property="article:published_time" content={publishDate} />}
     {modifiedDate && <meta property="article:modified_time" content={modifiedDate} />}
-    {publishDate && <meta property="og:type" content="article" />}
 
     {/* Twitter / X */}
     <meta name="twitter:card" content="summary_large_image" />
