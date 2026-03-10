@@ -11,7 +11,7 @@ export const guideSlugMap: Record<string, Record<string, string>> = {
   'adjust-screen-brightness': { en: 'adjust-screen-brightness', fr: 'regler-luminosite-ecran', es: 'ajustar-brillo-pantalla', pt: 'ajustar-brilho-tela', it: 'regolare-luminosita-schermo' },
   'backup-phone': { en: 'backup-phone', fr: 'sauvegarder-telephone', es: 'hacer-copia-seguridad-telefono', pt: 'fazer-copia-seguranca-telefone', it: 'backup-telefono' },
   'block-number-iphone': { en: 'block-number-iphone', fr: 'bloquer-numero-iphone', es: 'bloquear-numero-iphone', pt: 'bloquear-numero-iphone', it: 'bloccare-numero-iphone' },
-  'block-unknown-callers': { en: 'block-unknown-callers', es: 'no-se-oye-llamada-telefono', pt: 'nao-se-ouve-chamada-telefone', it: 'non-si-sente-chiamata-telefono' },
+  'block-unknown-callers': { en: 'block-unknown-callers', es: 'bloquear-llamadas-desconocidas', fr: 'bloquer-appels-inconnus', pt: 'bloquear-chamadas-desconhecidas', it: 'bloccare-chiamate-sconosciute' },
   'cant-hear-phone-call': { en: 'cant-hear-phone-call', fr: 'pas-de-son-appel-telephone', es: 'no-oigo-llamada-telefono', pt: 'nao-ouco-chamada', it: 'non-sento-chiamata' },
   'change-wifi-password': { en: 'change-wifi-password', fr: 'changer-mot-de-passe-wifi', es: 'cambiar-contrasena-wifi', pt: 'mudar-senha-wifi', it: 'cambiare-password-wifi' },
   'check-storage-space-android': { en: 'check-storage-space-android', fr: 'verifier-stockage-android', es: 'verificar-almacenamiento-android', pt: 'verificar-armazenamento-android', it: 'verificare-spazio-android' },
@@ -56,7 +56,7 @@ export const guideSlugMap: Record<string, Record<string, string>> = {
   'phone-running-slow': { en: 'phone-running-slow', fr: 'telephone-lent-comment-accelerer', es: 'telefono-lento-como-acelerar', pt: 'telefone-lento-como-acelerar', it: 'telefono-lento-come-velocizzare' },
   'phone-screen-frozen': { en: 'phone-screen-frozen', fr: 'ecran-telephone-bloque', es: 'pantalla-telefono-congelada', pt: 'ecra-telefone-bloqueado', it: 'schermo-telefono-bloccato' },
   'phone-storage-full': { en: 'phone-storage-full', fr: 'stockage-telephone-plein', es: 'almacenamiento-telefono-lleno', pt: 'armazenamento-telemovel-cheio', it: 'memoria-telefono-piena' },
-  'phone-storage-full-fix': { en: 'phone-storage-full-fix', pt: 'armazenamento-telefone-cheio' },
+  'phone-storage-full-fix': { en: 'phone-storage-full-fix', es: 'almacenamiento-lleno-solucion', pt: 'armazenamento-telefone-cheio' },
   'phone-wont-connect-wifi': { en: 'phone-wont-connect-wifi', fr: 'telephone-ne-connecte-pas-wifi', es: 'telefono-no-conecta-wifi', pt: 'telefone-nao-liga-wifi', it: 'telefono-non-si-connette-wifi' },
   'print-from-phone': { en: 'print-from-phone', fr: 'imprimer-depuis-telephone', es: 'imprimir-desde-telefono', pt: 'imprimir-pelo-telefone', it: 'stampare-da-telefono' },
   'recognize-email-scam': { en: 'recognize-email-scam', fr: 'reconnaitre-email-arnaque', es: 'reconocer-email-estafa', pt: 'reconhecer-email-fraude', it: 'riconoscere-email-truffa' },
@@ -169,6 +169,23 @@ export const guideSlugMap: Record<string, Record<string, string>> = {
   'uninstall-program-windows': { en: 'uninstall-program-windows', fr: 'desinstaller-programme-windows', es: 'desinstalar-programa-windows', pt: 'desinstalar-programa-windows', it: 'disinstallare-programma-windows' },
   'use-usb-drive': { en: 'use-usb-drive', fr: 'utiliser-cle-usb', es: 'usar-memoria-usb', pt: 'usar-pen-usb', it: 'usare-chiavetta-usb' },
   'what-is-desktop-laptop': { en: 'what-is-desktop-laptop', fr: 'difference-ordinateur-bureau-portable', es: 'diferencia-ordenador-escritorio-portatil', pt: 'diferenca-computador-secretaria-portatil', it: 'differenza-computer-fisso-portatile' },
+  // Country-specific guides (single language only)
+  'usar-gov-br': { pt: 'usar-gov-br' },
+  'usar-chave-movel-digital': { pt: 'usar-chave-movel-digital' },
+  'usar-mb-way': { pt: 'usar-mb-way' },
+  'usar-pix': { pt: 'usar-pix' },
+  'usar-bizum': { es: 'usar-bizum' },
+  'usar-mi-argentina': { es: 'usar-mi-argentina' },
+  'usar-sat-mexico': { es: 'usar-sat-mexico' },
+  'activar-clave-digital': { es: 'activar-clave-digital' },
+  'utiliser-france-connect': { fr: 'utiliser-france-connect' },
+  'attivare-spid': { it: 'attivare-spid' },
+  // Duplicate guide variants (same topic, different slug from existing mapped version)
+  'cant-hear-phone-call-v2': { es: 'no-se-oye-llamada-telefono', pt: 'nao-se-ouve-chamada-telefone', it: 'non-si-sente-chiamata-telefono' },
+  'whatsapp-free-call': { es: 'llamar-gratis-whatsapp', fr: 'appeler-avec-whatsapp', it: 'chiamare-con-whatsapp', pt: 'ligar-com-whatsapp' },
+  'read-ebooks-kindle': { es: 'leer-ebooks-kindle', fr: 'lire-ebooks-kindle', it: 'usare-kindle-leggere-ebook', pt: 'usar-kindle-ler-ebooks' },
+  'block-spam-emails-v2': { es: 'bloquear-correos-spam', fr: 'bloquer-emails-spam' },
+  'cattura-schermo-android': { it: 'cattura-schermo-android' },
 };
 
 

@@ -60,7 +60,7 @@ const defaultAlternates = alternates || allLangs.map((l) => ({
     {defaultAlternates.map((alt) => (
       <link rel="alternate" hreflang={alt.lang} href={`https://facil.guide${alt.url}`} />
     ))}
-    <link rel="alternate" hreflang="x-default" href={`https://facil.guide${(defaultAlternates.find(a => a.lang === 'en') || { url: currentPath.replace(/^\/(fr|en|es|pt|it)/, '/en') }).url}`} />
+    <link rel="alternate" hreflang="x-default" href={`https://facil.guide${(defaultAlternates.find(a => a.lang === 'en') || { url: currentPath.match(/\/(guide|review|compare)\//) ? (defaultAlternates[0]?.url || '/en/') : currentPath.replace(/^\/(fr|en|es|pt|it)/, '/en') }).url}`} />
 
     {/* Open Graph */}
     <meta property="og:title" content={fullTitle} />
