@@ -1,5 +1,5 @@
 ---
-title: "Comment telecharger des cartes pour une utilisation hors ligne sur votre telephone"
+title: "Telecharger des cartes hors ligne sur votre telephone"
 description: "Apprenez a telecharger Google Maps ou Apple Maps sur votre telephone pour naviguer sans connexion internet en voyage."
 lang: "fr"
 category: "applications"

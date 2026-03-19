@@ -223,10 +223,20 @@ export function getContentAlternates(
   const prefix = pathPrefixes[type];
 
   let translationKey: string | null = null;
+  // First pass: find an entry where this exact lang+slug pair matches
   for (const [key, slugs] of Object.entries(map)) {
-    if (Object.values(slugs).includes(currentSlug)) {
+    if (slugs[currentLang] === currentSlug) {
       translationKey = key;
       break;
+    }
+  }
+  // Fallback: find any entry containing this slug (for backwards compat)
+  if (!translationKey) {
+    for (const [key, slugs] of Object.entries(map)) {
+      if (Object.values(slugs).includes(currentSlug)) {
+        translationKey = key;
+        break;
+      }
     }
   }
 

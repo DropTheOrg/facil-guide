@@ -1,6 +1,6 @@
 ---
 title: "Comment utiliser l'application Notes sur votre telephone"
-description: "Apprenez a creer, modifier et organiser des notes sur votre iPhone ou telephone Android pour garder une trace de vos listes de courses, rappels et informations importantes."
+description: "Apprenez a creer, modifier et organiser des notes sur votre iPhone ou telephone Android pour garder une trace de vos listes de courses, rappels et."
 lang: "fr"
 category: "applications"
 difficulty: "facile"

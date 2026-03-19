@@ -1,6 +1,6 @@
 ---
 title: "How to set up Wi-Fi calling on your phone"
-description: "Learn how to enable Wi-Fi calling on your iPhone or Android phone so you can make and receive calls even when your mobile signal is weak, using your Wi-Fi connection instead."
+description: "Learn how to enable Wi-Fi calling on your iPhone or Android phone so you can make and receive calls even when your mobile signal is weak, using your Wi-Fi."
 lang: "en"
 category: "smartphone"
 difficulty: "facile"

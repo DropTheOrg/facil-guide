@@ -1,5 +1,5 @@
 ---
-title: "Comment envoyer un message a plusieurs personnes sur WhatsApp avec la diffusion"
+title: "Envoyer un message a plusieurs sur WhatsApp"
 description: "Apprenez a creer une liste de diffusion WhatsApp pour envoyer le meme message a plusieurs contacts sans creer un groupe. Un guide simple etape par etape."
 lang: "fr"
 category: "communication"

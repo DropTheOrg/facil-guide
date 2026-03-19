@@ -1,6 +1,6 @@
 ---
 title: "Comment configurer un nouveau telephone et transferer vos donnees"
-description: "Apprenez a configurer votre nouveau iPhone ou telephone Android etape par etape, y compris comment transferer vos contacts, photos et applications depuis votre ancien telephone."
+description: "Apprenez a configurer votre nouveau iPhone ou telephone Android etape par etape, y compris comment transferer vos contacts, photos et applications depuis."
 lang: "fr"
 category: "smartphone"
 difficulty: "facile"

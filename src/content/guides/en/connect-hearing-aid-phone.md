@@ -1,6 +1,6 @@
 ---
 title: "How to connect a hearing aid to your phone"
-description: "Learn how to pair and connect your Bluetooth hearing aid to an iPhone or Android phone so you can hear phone calls, music, and notifications directly in your hearing aid."
+description: "Learn how to pair and connect your Bluetooth hearing aid to an iPhone or Android phone so you can hear phone calls, music, and notifications directly in."
 lang: "en"
 category: "smartphone"
 difficulty: "facile"

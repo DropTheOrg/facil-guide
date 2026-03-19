@@ -1,5 +1,5 @@
 ---
-title: "Comment utiliser votre application bancaire pour verifier votre solde et vos transactions"
+title: "Utiliser votre application bancaire sur telephone"
 description: "Apprenez a utiliser l'application mobile de votre banque pour verifier votre solde, voir vos transactions recentes et gerer votre argent en toute securite."
 lang: "fr"
 category: "money"

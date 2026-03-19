@@ -1,6 +1,6 @@
 ---
 title: "Come cancellare la cronologia di navigazione sul telefono"
-description: "Impara a eliminare la cronologia di navigazione, i cookie e i dati salvati in Safari e Chrome sul tuo telefono. Una guida semplice per proteggere la tua privacy."
+description: "Impara a eliminare la cronologia di navigazione, i cookie e i dati salvati in Safari e Chrome sul tuo telefono."
 lang: "it"
 category: "internet"
 difficulty: "facile"

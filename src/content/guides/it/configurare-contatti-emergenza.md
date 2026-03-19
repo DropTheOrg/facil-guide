@@ -1,5 +1,5 @@
 ---
-title: "Come configurare i contatti di emergenza e la cartella clinica sul telefono"
+title: "Configurare contatti di emergenza sul telefono"
 description: "Scopri come aggiungere contatti di emergenza e configurare la cartella clinica su iPhone e Android per permettere ai soccorritori di contattare la tua famiglia."
 lang: "it"
 category: "smartphone"

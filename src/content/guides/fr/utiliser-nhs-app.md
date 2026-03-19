@@ -1,6 +1,6 @@
 ---
 title: "Comment utiliser l'application NHS pour gérer votre santé"
-description: "Apprenez à configurer et utiliser l'application NHS pour prendre rendez-vous chez le médecin, commander des ordonnances et consulter votre dossier médical depuis votre téléphone."
+description: "Apprenez a configurer et utiliser l'application NHS pour prendre rendez-vous, commander des ordonnances et consulter votre dossier medical."
 lang: "fr"
 category: "government"
 difficulty: "facile"

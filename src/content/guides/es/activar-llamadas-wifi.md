@@ -1,6 +1,6 @@
 ---
 title: "Como activar las llamadas por Wi-Fi en tu telefono"
-description: "Aprende a activar las llamadas por Wi-Fi en tu iPhone o telefono Android para hacer y recibir llamadas incluso cuando tu senal movil es debil, usando tu conexion Wi-Fi."
+description: "Aprende a activar las llamadas por Wi-Fi en tu iPhone o telefono Android para hacer y recibir llamadas incluso cuando tu senal movil es debil, usando tu."
 lang: "es"
 category: "smartphone"
 difficulty: "facile"

@@ -1,5 +1,5 @@
 ---
-title: "Comment utiliser le calendrier sur votre téléphone pour ne pas oublier vos rendez-vous"
+title: "Utiliser le calendrier sur votre telephone"
 description: "Apprenez à ajouter des événements, configurer des rappels et utiliser l'application calendrier sur votre iPhone ou téléphone Android."
 category: "applications"
 steps: 6

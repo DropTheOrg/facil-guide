@@ -1,6 +1,6 @@
 ---
 title: "Como bloquear correos spam en tu telefono"
-description: "Aprende a bloquear correos no deseados en Gmail, Yahoo u Outlook desde tu telefono. Una guia sencilla para mantener tu bandeja de entrada limpia y evitar estafas."
+description: "Aprende a bloquear correos no deseados en Gmail, Yahoo u Outlook desde tu telefono. Guia sencilla para mantener tu bandeja limpia y evitar estafas."
 lang: "es"
 category: "securite"
 difficulty: "facile"

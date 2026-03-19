@@ -1,6 +1,6 @@
 ---
-title: "Pourquoi la batterie de votre telephone se vide vite et comment y remedier"
-description: "Decouvrez pourquoi la batterie de votre telephone se decharge rapidement et comment la faire durer plus longtemps avec des reglages simples sur iPhone et Android."
+title: "Batterie qui se vide vite : comment y remedier"
+description: "Decouvrez pourquoi la batterie de votre telephone se decharge rapidement et comment la faire durer plus longtemps avec des reglages simples."
 lang: "fr"
 category: "troubleshooting"
 difficulty: "facile"

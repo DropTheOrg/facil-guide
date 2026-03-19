@@ -1,6 +1,6 @@
 ---
 title: "Come registrare lo schermo del telefono"
-description: "Impara a registrare un video dello schermo del tuo telefono su iPhone o Android. Utile per salvare un tutorial, mostrare un problema o registrare una videochiamata."
+description: "Impara a registrare un video dello schermo del tuo telefono su iPhone o Android. Utile per salvare un tutorial, mostrare un problema o registrare una."
 lang: "it"
 category: "smartphone"
 difficulty: "facile"

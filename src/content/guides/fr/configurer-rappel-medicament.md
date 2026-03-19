@@ -1,6 +1,6 @@
 ---
 title: "Comment configurer des rappels de medicaments sur votre telephone"
-description: "Apprenez a utiliser votre iPhone ou telephone Android pour programmer des rappels quotidiens de medicaments afin de ne jamais oublier de prendre vos comprimes a l'heure."
+description: "Apprenez a utiliser votre iPhone ou telephone Android pour programmer des rappels quotidiens de medicaments afin de ne jamais oublier de prendre vos."
 lang: "fr"
 category: "smartphone"
 difficulty: "facile"

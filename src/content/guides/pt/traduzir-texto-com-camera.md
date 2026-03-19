@@ -1,6 +1,6 @@
 ---
 title: "Como traduzir texto usando a camera do telefone"
-description: "Aprenda a usar a camera do seu telefone para traduzir instantaneamente placas, menus, rotulos e documentos para o seu idioma com o Google Tradutor ou Apple Traduzir."
+description: "Aprenda a usar a camera do seu telefone para traduzir instantaneamente placas, menus, rotulos e documentos para o seu idioma com o Google Tradutor ou."
 lang: "pt"
 category: "applications"
 difficulty: "facile"

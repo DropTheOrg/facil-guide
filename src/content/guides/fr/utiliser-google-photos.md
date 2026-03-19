@@ -1,5 +1,5 @@
 ---
-title: "Comment utiliser Google Photos pour sauvegarder et retrouver vos photos"
+title: "Utiliser Google Photos pour sauvegarder vos photos"
 description: "Apprenez à utiliser Google Photos pour sauvegarder vos photos dans le cloud, retrouver facilement d'anciennes photos et libérer de l'espace sur votre téléphone."
 lang: "fr"
 category: "applications"

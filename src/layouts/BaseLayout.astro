@@ -4,6 +4,7 @@ import Footer from '../components/Footer.astro';
 import BackToTop from '../components/BackToTop.astro';
 import type { Lang } from '../i18n/translations';
 import { t } from '../i18n/translations';
+import { getCollection } from 'astro:content';
 import '../styles/global.css';
 
 interface Props {
@@ -30,10 +31,51 @@ const ogLocales: Record<string, string> = {
   fr: 'fr_FR', en: 'en_US', es: 'es_ES', pt: 'pt_BR', it: 'it_IT',
 };
 
-const defaultAlternates = alternates || allLangs.map((l) => ({
+// Build a set of all existing content slugs for hreflang validation
+const allGuides = await getCollection('guides');
+const allReviews = await getCollection('reviews');
+const allComparisons = await getCollection('comparisons');
+
+const existingSlugs = new Set<string>();
+for (const g of allGuides) {
+  const parts = g.id.split('/');
+  const slug = parts[parts.length - 1].replace(/\.md$/, '');
+  existingSlugs.add(`/${g.data.lang}/guide/${slug}/`);
+}
+for (const r of allReviews) {
+  const parts = r.id.split('/');
+  const slug = parts[parts.length - 1].replace(/\.md$/, '');
+  existingSlugs.add(`/${r.data.lang}/review/${slug}/`);
+}
+for (const c of allComparisons) {
+  const parts = c.id.split('/');
+  const slug = parts[parts.length - 1].replace(/\.md$/, '');
+  existingSlugs.add(`/${c.data.lang}/compare/${slug}/`);
+}
+
+// Hub and static pages always exist for all languages
+const staticPaths = new Set<string>();
+for (const l of allLangs) {
+  staticPaths.add(`/${l}/`);
+  staticPaths.add(`/${l}/all/`);
+}
+
+function alternateExists(url: string): boolean {
+  // Content pages: check against collection
+  if (url.match(/\/(guide|review|compare)\//)) {
+    return existingSlugs.has(url);
+  }
+  // All other pages (hubs, categories, static): assumed to exist
+  return true;
+}
+
+const rawAlternates = alternates || allLangs.map((l) => ({
   lang: l,
   url: currentPath.match(/\/(guide|review|compare)\//) ? `/${l}/` : currentPath.replace(/^\/(fr|en|es|pt|it)/, `/${l}`),
 }));
+
+// Filter alternates to only include pages that actually exist
+const defaultAlternates = rawAlternates.filter((alt) => alternateExists(alt.url));
 ---
 
 <!doctype html>
@@ -62,7 +104,7 @@ const defaultAlternates = alternates || allLangs.map((l) => ({
     {defaultAlternates.map((alt) => (
       <link rel="alternate" hreflang={alt.lang} href={`https://facil.guide${alt.url}`} />
     ))}
-    <link rel="alternate" hreflang="x-default" href={`https://facil.guide${(defaultAlternates.find(a => a.lang === 'en') || { url: currentPath.match(/\/(guide|review|compare)\//) ? (defaultAlternates[0]?.url || '/en/') : currentPath.replace(/^\/(fr|en|es|pt|it)/, '/en') }).url}`} />
+    <link rel="alternate" hreflang="x-default" href={`https://facil.guide${(defaultAlternates.find(a => a.lang === 'en') || defaultAlternates[0] || { url: '/en/' }).url}`} />
 
     {/* Open Graph */}
     <meta property="og:title" content={fullTitle} />
@@ -89,6 +131,7 @@ const defaultAlternates = alternates || allLangs.map((l) => ({
 
     {/* Analytics */}
     <script defer data-domain="facil.guide" src="https://plausible.io/js/script.js"></script>
+    <script src="https://analytics.ahrefs.com/analytics.js" data-key="h+exwO01u5YCjT5T5peuEg" async></script>
 
 
     {/* Schema slot */}

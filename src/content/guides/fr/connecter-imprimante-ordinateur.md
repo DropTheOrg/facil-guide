@@ -1,6 +1,6 @@
 ---
 title: "Comment connecter une imprimante a votre ordinateur"
-description: "Instructions pas a pas pour connecter une imprimante a votre ordinateur via un cable USB ou le Wi-Fi, afin de pouvoir imprimer des documents et des photos depuis chez vous."
+description: "Instructions pas a pas pour connecter une imprimante a votre ordinateur via un cable USB ou le Wi-Fi, afin de pouvoir imprimer des documents et des photos."
 lang: "fr"
 category: "ordinateur"
 difficulty: "facile"

@@ -1,6 +1,6 @@
 ---
 title: "Como leer libros electronicos en tu telefono con la app Kindle"
-description: "Aprende a instalar la app Kindle, encontrar libros y leer libros electronicos en tu telefono. Una guia sencilla con consejos para agrandar el texto y leer comodamente."
+description: "Aprende a instalar la app Kindle, encontrar libros y leer libros electronicos en tu telefono. Con consejos para agrandar el texto y leer comodamente."
 lang: "es"
 category: "applications"
 difficulty: "facile"

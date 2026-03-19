@@ -1,6 +1,6 @@
 ---
 title: "Como configurar a ficha medica no seu telefone"
-description: "Aprenda a adicionar as suas informacoes medicas e contactos de emergencia no seu iPhone ou telefone Android para que os socorristas possam aceder em caso de emergencia."
+description: "Aprenda a adicionar as suas informacoes medicas e contactos de emergencia no seu iPhone ou telefone Android para que os socorristas possam aceder em caso."
 lang: "pt"
 category: "smartphone"
 difficulty: "facile"

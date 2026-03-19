@@ -1,6 +1,6 @@
 ---
 title: "Comment traduire du texte avec l'appareil photo de votre telephone"
-description: "Apprenez a utiliser l'appareil photo de votre telephone pour traduire instantanement des panneaux, menus, etiquettes et documents dans votre langue avec Google Traduction ou Apple Traduction."
+description: "Apprenez a utiliser l'appareil photo de votre telephone pour traduire instantanement des panneaux, menus, etiquettes et documents dans votre langue avec."
 lang: "fr"
 category: "applications"
 difficulty: "facile"

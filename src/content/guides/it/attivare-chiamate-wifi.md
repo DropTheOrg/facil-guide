@@ -1,6 +1,6 @@
 ---
 title: "Come attivare le chiamate Wi-Fi sul telefono"
-description: "Scopri come attivare le chiamate Wi-Fi sul tuo iPhone o telefono Android per fare e ricevere chiamate anche quando il segnale mobile e debole, usando la tua connessione Wi-Fi."
+description: "Scopri come attivare le chiamate Wi-Fi sul tuo iPhone o telefono Android per fare e ricevere chiamate anche quando il segnale mobile e debole, usando la."
 lang: "it"
 category: "smartphone"
 difficulty: "facile"

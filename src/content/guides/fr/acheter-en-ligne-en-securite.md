@@ -1,6 +1,6 @@
 ---
 title: "Comment acheter en ligne en toute securite sur votre telephone"
-description: "Apprenez a acheter en ligne en toute securite depuis votre telephone, a eviter les arnaques et a effectuer des achats sur des sites et applications de confiance."
+description: "Apprenez a acheter en ligne en toute securite depuis votre telephone, a eviter les arnaques et a effectuer des achats sur des sites et applications de."
 lang: "fr"
 category: "internet"
 difficulty: "facile"

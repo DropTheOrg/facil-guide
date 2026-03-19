@@ -1,6 +1,6 @@
 ---
 title: "Comment retrouver des fichiers sur votre ordinateur"
-description: "Apprenez a chercher et retrouver des documents, photos et autres fichiers sur votre ordinateur Windows ou Mac quand vous ne vous souvenez plus ou vous les avez enregistres."
+description: "Apprenez a chercher et retrouver des documents, photos et autres fichiers sur votre ordinateur Windows ou Mac quand vous ne vous souvenez plus ou vous les."
 lang: "fr"
 category: "ordinateur"
 difficulty: "facile"

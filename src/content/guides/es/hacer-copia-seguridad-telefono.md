@@ -1,5 +1,5 @@
 ---
-title: "Como hacer una copia de seguridad de tu telefono para no perder tus fotos y contactos"
+title: "Como hacer copia de seguridad del telefono"
 description: "Aprende a hacer una copia de seguridad de tu iPhone o Android en la nube para que tus fotos, contactos y mensajes esten seguros aunque pierdas tu telefono."
 lang: "es"
 category: "smartphone"

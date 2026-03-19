@@ -1,5 +1,5 @@
 ---
-title: "Comment utiliser le Statut WhatsApp pour partager des photos et des nouvelles"
+title: "Utiliser le Statut WhatsApp pour partager"
 description: "Apprenez a publier un Statut WhatsApp avec des photos ou du texte, a voir les statuts des autres et a comprendre combien de temps ils restent visibles."
 lang: "fr"
 category: "communication"

@@ -1,5 +1,5 @@
 ---
-title: "Perche la batteria del telefono si scarica velocemente e come risolvere"
+title: "Batteria che si scarica veloce: come risolvere"
 description: "Scopri perche la batteria del tuo telefono si scarica in fretta e come farla durare di piu con semplici modifiche alle impostazioni su iPhone e Android."
 lang: "it"
 category: "troubleshooting"

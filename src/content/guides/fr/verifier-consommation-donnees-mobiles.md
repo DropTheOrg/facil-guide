@@ -1,6 +1,6 @@
 ---
 title: "Comment verifier votre consommation de donnees mobiles"
-description: "Apprenez a verifier combien de donnees mobiles vous avez utilisees sur votre iPhone ou telephone Android pour eviter de depasser votre forfait et d'etre facture en supplement."
+description: "Apprenez a verifier combien de donnees mobiles vous avez utilisees sur votre iPhone ou telephone Android pour eviter de depasser votre forfait et d'etre."
 lang: "fr"
 category: "smartphone"
 difficulty: "facile"

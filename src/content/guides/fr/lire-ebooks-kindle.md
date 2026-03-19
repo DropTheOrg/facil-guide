@@ -1,6 +1,6 @@
 ---
-title: "Comment lire des livres numeriques sur votre telephone avec l'application Kindle"
-description: "Apprenez a installer l'application Kindle, trouver des livres et lire des livres numeriques sur votre telephone. Un guide simple avec des astuces pour agrandir le texte et lire confortablement."
+title: "Lire des livres numeriques avec Kindle"
+description: "Apprenez a installer l'application Kindle, trouver des livres et lire des livres numeriques sur votre telephone."
 lang: "fr"
 category: "applications"
 difficulty: "facile"

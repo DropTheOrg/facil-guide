@@ -1,6 +1,6 @@
 ---
 title: "Comment scanner un document avec l'appareil photo de votre telephone"
-description: "Apprenez a utiliser votre iPhone ou telephone Android pour scanner des documents comme des lettres, des factures et des formulaires et les enregistrer en fichier PDF."
+description: "Apprenez a utiliser votre iPhone ou telephone Android pour scanner des documents comme des lettres, des factures et des formulaires et les enregistrer en."
 lang: "fr"
 category: "smartphone"
 difficulty: "facile"

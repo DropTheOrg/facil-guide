@@ -1,6 +1,6 @@
 ---
 title: "Comment utiliser l'application Sante sur iPhone"
-description: "Apprenez a utiliser l'application Sante d'Apple sur votre iPhone pour suivre vos pas, surveiller vos donnees de sante et partager des informations avec votre medecin."
+description: "Apprenez a utiliser l'application Sante d'Apple sur votre iPhone pour suivre vos pas, surveiller vos donnees de sante et partager des informations avec."
 category: "applications"
 steps: 7
 difficulty: "facile"

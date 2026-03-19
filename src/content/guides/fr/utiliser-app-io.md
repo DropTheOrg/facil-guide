@@ -1,6 +1,6 @@
 ---
 title: "Comment utiliser l'application IO pour les services publics italiens"
-description: "Apprenez à configurer et utiliser l'application IO pour accéder aux services publics italiens, recevoir des messages officiels et effectuer des paiements depuis votre téléphone."
+description: "Apprenez a configurer et utiliser l'application IO pour acceder aux services publics italiens, recevoir des messages officiels et effectuer des paiements."
 lang: "fr"
 category: "government"
 difficulty: "facile"

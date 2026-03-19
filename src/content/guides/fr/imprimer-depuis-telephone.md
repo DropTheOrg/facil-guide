@@ -1,6 +1,6 @@
 ---
 title: "Comment imprimer depuis votre telephone"
-description: "Apprenez a connecter votre iPhone ou telephone Android a une imprimante sans fil et a imprimer des documents, photos et emails directement depuis votre telephone."
+description: "Apprenez a connecter votre iPhone ou telephone Android a une imprimante sans fil et a imprimer des documents, photos et emails directement depuis votre."
 lang: "fr"
 category: "smartphone"
 difficulty: "facile"

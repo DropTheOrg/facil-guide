@@ -1,6 +1,6 @@
 ---
 title: "Comment configurer un partage de connexion sur votre telephone"
-description: "Apprenez a partager la connexion internet de votre telephone avec d'autres appareils grace au partage de connexion. Un guide etape par etape pour iPhone et Android."
+description: "Apprenez a partager la connexion internet de votre telephone avec d'autres appareils grace au partage de connexion."
 lang: "fr"
 category: "internet"
 difficulty: "facile"

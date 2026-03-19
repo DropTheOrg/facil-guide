@@ -1,6 +1,6 @@
 ---
 title: "Comment enregistrer l'ecran de votre telephone"
-description: "Apprenez a enregistrer une video de l'ecran de votre telephone sur iPhone ou Android. Utile pour sauvegarder un tutoriel, montrer un probleme ou enregistrer un appel video."
+description: "Apprenez a enregistrer une video de l'ecran de votre telephone sur iPhone ou Android. Utile pour sauvegarder un tutoriel ou montrer un probleme."
 lang: "fr"
 category: "smartphone"
 difficulty: "facile"

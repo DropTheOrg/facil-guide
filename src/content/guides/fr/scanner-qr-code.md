@@ -1,6 +1,6 @@
 ---
 title: "Comment scanner un QR code avec votre téléphone"
-description: "Apprenez à utiliser l'appareil photo de votre téléphone pour scanner les QR codes -- ces petits carrés que vous voyez sur les menus, les tickets et les affiches."
+description: "Apprenez a utiliser l'appareil photo de votre telephone pour scanner les QR codes sur les menus, tickets et affiches. Guide simple pour iPhone et Android."
 lang: "fr"
 category: "smartphone"
 difficulty: "facile"

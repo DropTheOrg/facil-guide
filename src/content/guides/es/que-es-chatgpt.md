@@ -1,6 +1,6 @@
 ---
 title: "Que es ChatGPT y como usarlo"
-description: "Una guia clara, paso a paso, para entender y usar ChatGPT, el asistente de inteligencia artificial que responde preguntas, escribe textos y ayuda en tareas diarias."
+description: "Una guia clara, paso a paso, para entender y usar ChatGPT, el asistente de inteligencia artificial que responde preguntas, escribe textos y ayuda en."
 lang: "es"
 category: "ia"
 difficulty: "facile"

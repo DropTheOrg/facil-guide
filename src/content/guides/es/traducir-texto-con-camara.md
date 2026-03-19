@@ -1,6 +1,6 @@
 ---
 title: "Como traducir texto usando la camara del telefono"
-description: "Aprende a usar la camara de tu telefono para traducir instantaneamente carteles, menus, etiquetas y documentos a tu idioma con Google Translate o Apple Traducir."
+description: "Aprende a usar la camara de tu telefono para traducir instantaneamente carteles, menus, etiquetas y documentos a tu idioma con Google Translate o Apple."
 lang: "es"
 category: "applications"
 difficulty: "facile"

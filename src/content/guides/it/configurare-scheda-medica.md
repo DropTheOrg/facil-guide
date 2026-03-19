@@ -1,6 +1,6 @@
 ---
 title: "Come configurare la cartella clinica sul telefono"
-description: "Impara ad aggiungere le tue informazioni mediche e i contatti di emergenza sul tuo iPhone o telefono Android per permettere ai soccorritori di accedervi in caso di emergenza."
+description: "Impara ad aggiungere le tue informazioni mediche e i contatti di emergenza sul tuo iPhone o telefono Android per permettere ai soccorritori di accedervi."
 lang: "it"
 category: "smartphone"
 difficulty: "facile"

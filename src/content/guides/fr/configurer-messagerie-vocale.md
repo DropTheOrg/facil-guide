@@ -1,6 +1,6 @@
 ---
 title: "Comment configurer et écouter la messagerie vocale sur votre téléphone"
-description: "Apprenez à configurer la messagerie vocale sur votre iPhone ou téléphone Android pour que vos correspondants puissent vous laisser un message quand vous ne pouvez pas répondre."
+description: "Apprenez a configurer la messagerie vocale sur votre iPhone ou Android pour que vos correspondants puissent vous laisser un message."
 lang: "fr"
 category: "communication"
 difficulty: "facile"

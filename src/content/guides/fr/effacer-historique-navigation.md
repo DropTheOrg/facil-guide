@@ -1,6 +1,6 @@
 ---
 title: "Comment effacer l'historique de navigation sur votre telephone"
-description: "Apprenez a supprimer votre historique de navigation, les cookies et les donnees enregistrees dans Safari et Chrome sur votre telephone. Un guide simple pour proteger votre vie privee."
+description: "Apprenez a supprimer votre historique de navigation, les cookies et les donnees enregistrees dans Safari et Chrome sur votre telephone."
 lang: "fr"
 category: "internet"
 difficulty: "facile"

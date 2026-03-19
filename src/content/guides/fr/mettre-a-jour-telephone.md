@@ -1,6 +1,6 @@
 ---
 title: "Comment mettre a jour votre telephone vers la derniere version"
-description: "Apprenez a mettre a jour le logiciel de votre iPhone ou Android pour obtenir de nouvelles fonctions, corriger des problemes et rester protege contre les menaces de securite."
+description: "Apprenez a mettre a jour le logiciel de votre iPhone ou Android pour obtenir de nouvelles fonctions, corriger des problemes et rester protege contre les."
 lang: "fr"
 category: "smartphone"
 difficulty: "facile"

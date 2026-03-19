@@ -1,6 +1,6 @@
 ---
 title: "Come tradurre testo usando la fotocamera del telefono"
-description: "Impara a usare la fotocamera del telefono per tradurre istantaneamente cartelli, menu, etichette e documenti nella tua lingua con Google Traduttore o Apple Traduttore."
+description: "Impara a usare la fotocamera del telefono per tradurre istantaneamente cartelli, menu, etichette e documenti nella tua lingua con Google Traduttore o."
 lang: "it"
 category: "applications"
 difficulty: "facile"

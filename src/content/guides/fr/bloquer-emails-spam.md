@@ -1,6 +1,6 @@
 ---
 title: "Comment bloquer les emails indesirables sur votre telephone"
-description: "Apprenez a bloquer les spams dans Gmail, Yahoo ou Outlook sur votre telephone. Un guide simple pour garder votre boite de reception propre et eviter les arnaques."
+description: "Apprenez a bloquer les spams dans Gmail, Yahoo ou Outlook sur votre telephone. Un guide simple pour garder votre boite de reception propre et eviter les."
 lang: "fr"
 category: "securite"
 difficulty: "facile"

@@ -1,6 +1,6 @@
 ---
 title: "Como usar o Google Fotos para guardar e encontrar as suas fotografias"
-description: "Aprenda a usar o Google Fotos para fazer cópias de segurança das suas fotografias na nuvem, encontrar fotos antigas rapidamente e libertar espaço no seu telemóvel."
+description: "Aprenda a usar o Google Fotos para fazer cópias de segurança das suas fotografias na nuvem, encontrar fotos antigas rapidamente e libertar espaço no seu te."
 lang: "pt"
 category: "applications"
 difficulty: "facile"

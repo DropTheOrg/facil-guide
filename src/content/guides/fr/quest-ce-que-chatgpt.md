@@ -1,6 +1,6 @@
 ---
 title: "Qu'est-ce que ChatGPT et comment l'utiliser"
-description: "Un guide clair, etape par etape, pour comprendre et utiliser ChatGPT, l'assistant IA qui peut repondre a vos questions, ecrire des textes et vous aider au quotidien."
+description: "Un guide clair, etape par etape, pour comprendre et utiliser ChatGPT, l'assistant IA qui peut repondre a vos questions, ecrire des textes et vous aider au."
 lang: "fr"
 category: "ia"
 difficulty: "facile"

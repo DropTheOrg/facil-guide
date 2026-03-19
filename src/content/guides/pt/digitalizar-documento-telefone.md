@@ -1,6 +1,6 @@
 ---
 title: "Como digitalizar um documento com a camara do telefone"
-description: "Aprenda a usar o seu iPhone ou telefone Android para digitalizar documentos como cartas, recibos e formularios e guarda-los como ficheiros PDF que pode partilhar."
+description: "Aprenda a usar o seu iPhone ou telefone Android para digitalizar documentos como cartas, recibos e formularios e guarda-los como ficheiros PDF que pode."
 lang: "pt"
 category: "smartphone"
 difficulty: "facile"

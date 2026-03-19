@@ -1,6 +1,6 @@
 ---
 title: "Comment passer un appel gratuit avec WhatsApp"
-description: "Apprenez a passer des appels vocaux gratuits a n'importe qui dans le monde en utilisant WhatsApp sur votre telephone. Un guide simple etape par etape pour debutants."
+description: "Apprenez a passer des appels vocaux gratuits a n'importe qui dans le monde en utilisant WhatsApp sur votre telephone."
 lang: "fr"
 category: "communication"
 difficulty: "facile"

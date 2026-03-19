@@ -67,7 +67,7 @@ export async function onRequest(context) {
   if (path === '/' || path === '') {
     // For homepage, redirect to language version
     const lang = resolveLang(request);
-    return Response.redirect(new URL(`/${lang}/`, url.origin), 302);
+    return Response.redirect(new URL(`/${lang}/`, url.origin), 301);
   }
 
   // Resolve language

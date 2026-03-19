@@ -1,6 +1,6 @@
 ---
 title: "Como configurar a chamada de emergencia SOS no seu telefone"
-description: "Aprenda a configurar e usar a funcao de emergencia SOS no seu iPhone ou Android para ligar rapidamente para os servicos de emergencia e partilhar a sua localizacao."
+description: "Aprenda a configurar e usar a funcao de emergencia SOS no seu iPhone ou Android para ligar rapidamente para os servicos de emergencia e partilhar a sua."
 lang: "pt"
 category: "smartphone"
 difficulty: "facile"

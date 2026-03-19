@@ -1,5 +1,5 @@
 ---
-title: "Comment bloquer les appels indésirables et les numéros inconnus sur votre téléphone"
+title: "Bloquer les appels indesirables sur votre telephone"
 description: "Apprenez à bloquer les appels inconnus, les appels indésirables et les démarchages téléphoniques sur iPhone et Android grâce à des réglages simples."
 lang: "fr"
 category: "troubleshooting"

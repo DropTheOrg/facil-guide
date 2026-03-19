@@ -1,6 +1,6 @@
 ---
 title: "Come collegare un apparecchio acustico al telefono"
-description: "Scopri come associare e collegare il tuo apparecchio acustico Bluetooth a un iPhone o telefono Android per sentire chiamate, musica e notifiche direttamente nel tuo apparecchio acustico."
+description: "Scopri come associare e collegare il tuo apparecchio acustico Bluetooth a un iPhone o telefono Android per sentire chiamate, musica e notifiche."
 lang: "it"
 category: "smartphone"
 difficulty: "facile"

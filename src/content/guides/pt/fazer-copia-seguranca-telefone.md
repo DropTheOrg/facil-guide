@@ -1,5 +1,5 @@
 ---
-title: "Como fazer copia de seguranca do telefone para nao perder fotos e contactos"
+title: "Como fazer copia de seguranca do telefone"
 description: "Aprenda a fazer copia de seguranca do seu iPhone ou Android na nuvem para que as suas fotos, contactos e mensagens estejam seguros mesmo que perca o telefone."
 lang: "pt"
 category: "smartphone"

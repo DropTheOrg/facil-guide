@@ -1,6 +1,6 @@
 ---
 title: "Comment configurer la fiche medicale sur votre telephone"
-description: "Apprenez a ajouter vos informations medicales et contacts d'urgence sur votre iPhone ou telephone Android pour que les secouristes puissent y acceder en cas d'urgence."
+description: "Apprenez a ajouter vos informations medicales et contacts d'urgence sur votre iPhone ou telephone Android pour que les secouristes puissent y acceder en."
 lang: "fr"
 category: "smartphone"
 difficulty: "facile"

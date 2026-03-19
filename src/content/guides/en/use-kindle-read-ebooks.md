@@ -1,6 +1,6 @@
 ---
 title: "How to Read eBooks on Your Phone with the Kindle App"
-description: "Learn how to install the Kindle app, find books, and read eBooks on your phone. A beginner-friendly guide with tips for making text larger and reading comfortably."
+description: "Learn how to install the Kindle app, find books, and read eBooks on your phone. A beginner-friendly guide with tips for making text larger and reading."
 lang: "en"
 category: "applications"
 difficulty: "facile"

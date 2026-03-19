@@ -77,7 +77,7 @@ function getPathForLang(targetLang: string): string {
       <a href={`/${lang}/`}>{t(lang, 'nav.home')}</a>
       <a href={`/${lang}/${aboutSlugs[lang]}/`}>{t(lang, 'nav.about')}</a>
       <a href={`/${lang}/${legalSlugs[lang]}/`}>{t(lang, 'nav.legal')}</a>
-      <a href="mailto:facil@dropthe.org">facil@dropthe.org</a>
+      <a href="#" class="footer-email" data-u="facil" data-d="dropthe.org" onclick="this.href='mailto:'+this.dataset.u+'@'+this.dataset.d;return true;">facil [at] dropthe.org</a>
     </nav>
 
     <div class="footer-disclaimer">
@@ -225,3 +225,14 @@ function getPathForLang(targetLang: string): string {
     color: var(--fg-primary);
   }
 </style>
+<script is:inline>
+  (function() {
+    var el = document.querySelector('.footer-email');
+    if (el) {
+      var u = el.getAttribute('data-u');
+      var d = el.getAttribute('data-d');
+      el.textContent = u + '@' + d;
+      el.href = 'mailto:' + u + '@' + d;
+    }
+  })();
+</script>

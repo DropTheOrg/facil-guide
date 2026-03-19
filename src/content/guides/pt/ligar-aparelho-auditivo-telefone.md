@@ -1,6 +1,6 @@
 ---
 title: "Como ligar um aparelho auditivo ao seu telefone"
-description: "Aprenda a emparelhar e ligar o seu aparelho auditivo Bluetooth a um iPhone ou telefone Android para ouvir chamadas, musica e notificacoes diretamente no seu aparelho auditivo."
+description: "Aprenda a emparelhar e ligar o seu aparelho auditivo Bluetooth a um iPhone ou telefone Android para ouvir chamadas, musica e notificacoes diretamente no."
 lang: "pt"
 category: "smartphone"
 difficulty: "facile"

@@ -1,6 +1,6 @@
 ---
 title: "Comment activer les appels Wi-Fi sur votre telephone"
-description: "Apprenez a activer les appels Wi-Fi sur votre iPhone ou telephone Android pour passer et recevoir des appels meme quand votre signal mobile est faible, en utilisant votre connexion Wi-Fi."
+description: "Apprenez a activer les appels Wi-Fi sur votre iPhone ou telephone Android pour passer et recevoir des appels meme quand votre signal mobile est faible, en."
 lang: "fr"
 category: "smartphone"
 difficulty: "facile"

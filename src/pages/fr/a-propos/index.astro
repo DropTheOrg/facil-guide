@@ -53,7 +53,7 @@ const alternates = [{ lang: 'fr', url: '/fr/a-propos/' }, { lang: 'en', url: '/e
 
     <section class="about-section">
       <h2>{t(lang, 'about.contact')}</h2>
-      <p>{t(lang, 'about.contactText')} <a href="mailto:facil@dropthe.org">facil@dropthe.org</a></p>
+      <p>{t(lang, 'about.contactText')} <a href="#" class="about-email" data-u="facil" data-d="dropthe.org" onclick="this.href='mailto:'+this.dataset.u+'@'+this.dataset.d;return true;">facil [at] dropthe.org</a></p>
     </section>
 
     <section class="about-section about-dropthe">

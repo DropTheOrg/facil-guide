@@ -1,6 +1,6 @@
 ---
 title: "Como leer libros electronicos en el telefono con Kindle"
-description: "Aprende a instalar la aplicacion Kindle, buscar libros y leer ebooks en tu telefono. Una guia para principiantes con consejos para agrandar el texto y leer comodamente."
+description: "Aprende a instalar la aplicacion Kindle, buscar libros y leer ebooks en tu telefono. Guia para principiantes con consejos para agrandar el texto."
 lang: "es"
 category: "applications"
 difficulty: "facile"

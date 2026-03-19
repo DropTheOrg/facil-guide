@@ -1,6 +1,6 @@
 ---
 title: "Comment utiliser Facebook sur votre téléphone"
-description: "Apprenez à utiliser Facebook sur votre téléphone pour rester en contact avec votre famille et vos amis, partager des photos et lire les nouvelles de vos proches."
+description: "Apprenez a utiliser Facebook sur votre telephone pour rester en contact avec votre famille et vos amis, partager des photos et lire les nouvelles."
 lang: "fr"
 category: "applications"
 difficulty: "facile"

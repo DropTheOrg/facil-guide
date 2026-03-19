@@ -1,5 +1,5 @@
 ---
-title: "Comment sauvegarder votre telephone pour ne pas perdre vos photos et contacts"
+title: "Sauvegarder votre telephone : photos et contacts"
 description: "Apprenez a sauvegarder votre iPhone ou Android dans le cloud pour que vos photos, contacts et messages soient en securite meme si vous perdez votre telephone."
 lang: "fr"
 category: "smartphone"

@@ -1,6 +1,6 @@
 ---
 title: "Comment connecter un appareil auditif a votre telephone"
-description: "Apprenez a associer et connecter votre appareil auditif Bluetooth a un iPhone ou telephone Android pour entendre les appels, la musique et les notifications directement dans votre appareil auditif."
+description: "Apprenez a associer et connecter votre appareil auditif Bluetooth a un iPhone ou telephone Android pour entendre les appels, la musique et les."
 lang: "fr"
 category: "smartphone"
 difficulty: "facile"

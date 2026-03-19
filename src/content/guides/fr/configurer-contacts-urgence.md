@@ -1,5 +1,5 @@
 ---
-title: "Comment configurer les contacts d'urgence et la fiche medicale sur votre telephone"
+title: "Configurer les contacts d'urgence sur votre telephone"
 description: "Apprenez a ajouter des contacts d'urgence et configurer la fiche medicale sur iPhone et Android pour que les secours puissent contacter vos proches."
 lang: "fr"
 category: "smartphone"

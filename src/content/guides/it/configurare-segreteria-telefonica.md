@@ -1,6 +1,6 @@
 ---
 title: "Come configurare e ascoltare la segreteria telefonica"
-description: "Impara a configurare la segreteria telefonica sul tuo iPhone o telefono Android in modo che le persone possano lasciarti un messaggio quando non puoi rispondere."
+description: "Impara a configurare la segreteria telefonica sul tuo iPhone o telefono Android in modo che le persone possano lasciarti un messaggio quando non puoi."
 lang: "it"
 category: "communication"
 difficulty: "facile"

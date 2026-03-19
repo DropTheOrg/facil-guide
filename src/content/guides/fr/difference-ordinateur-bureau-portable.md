@@ -1,6 +1,6 @@
 ---
 title: "Quelle est la difference entre un ordinateur de bureau et un portable"
-description: "Une explication claire des differences entre un ordinateur de bureau et un ordinateur portable, pour comprendre lequel vous utilisez et lequel pourrait vous convenir."
+description: "Une explication claire des differences entre un ordinateur de bureau et un ordinateur portable, pour comprendre lequel vous utilisez et lequel pourrait."
 lang: "fr"
 category: "ordinateur"
 difficulty: "facile"

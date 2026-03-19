@@ -1,6 +1,6 @@
 ---
 title: "Como usar AirDrop para compartir archivos entre dispositivos Apple"
-description: "Aprende a usar AirDrop en tu iPhone, iPad o Mac para enviar fotos, documentos y otros archivos a dispositivos Apple cercanos de forma rapida y sin usar internet."
+description: "Aprende a usar AirDrop en tu iPhone, iPad o Mac para enviar fotos, documentos y otros archivos a dispositivos Apple cercanos de forma rapida y sin usar."
 lang: "es"
 category: "smartphone"
 difficulty: "facile"
