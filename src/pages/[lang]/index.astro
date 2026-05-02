@@ -2,6 +2,8 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import CategoryNav from '../../components/CategoryNav.astro';
 import GuideCard from '../../components/GuideCard.astro';
+import QuickHelp from '../../components/QuickHelp.astro';
+import TrustBlock from '../../components/TrustBlock.astro';
 import SchemaMarkup from '../../components/SchemaMarkup.astro';
 import { getCollection } from 'astro:content';
 import { t, getCategoryName, getDifficultyName } from '../../i18n/translations';
@@ -53,7 +55,7 @@ const searchIndex = guides.map((g) => {
   };
 });
 
-const featuredGuides = guides.slice(0, 8);
+const latestGuides = guides.slice(0, 8);
 const hasMore = guides.length > 8;
 
 const allReviews = await getCollection('reviews');
@@ -68,6 +70,7 @@ const comparisons = allComparisons
 
 const stepsLabel = t(lang, 'guide.steps');
 const readLabel = t(lang, 'guide.readGuide') || 'Read guide';
+
 // Popular guides - handpicked most universally useful (by EN base slug)
 const popularSlugs = [
   'scan-qr-code',
@@ -99,16 +102,6 @@ const popularGuides = popularSlugs
   })
   .filter(Boolean)
   .slice(0, 6);
-
-// Device filter counts
-const deviceCounts = {
-  all: guides.length,
-  iphone: guides.filter(g => g.data.platform === 'iphone').length,
-  android: guides.filter(g => g.data.platform === 'android').length,
-  web: guides.filter(g => ['web', 'both'].includes(g.data.platform)).length,
-};
-
-
 ---
 
 <BaseLayout
@@ -123,148 +116,103 @@ const deviceCounts = {
     <div class="fg-container">
       <h1 class="hero-title">{t(lang, 'home.hero')}</h1>
       <p class="hero-sub">{t(lang, 'home.heroSub')}</p>
-      <p class="hero-hook">{t(lang, 'home.hook')}</p>
-    </div>
-  </section>
+      <p class="trust-line">{t(lang, 'home.trustLine')}</p>
 
-  {/* Search */}
-  <section class="fg-container search-section">
-    <div class="search-bar">
-      <label for="guide-search" class="sr-only">{t(lang, 'nav.search')}</label>
-      <input
-        type="search"
-        id="guide-search"
-        class="search-input"
-        placeholder={t(lang, 'nav.search')}
-        autocomplete="off"
-      />
-      <span class="search-icon" aria-hidden="true">&#8981;</span>
-      <button class="search-clear" id="search-clear" aria-label="Clear" style="display:none;">&times;</button>
-    </div>
-  </section>
-
-  {/* Categories - visible when NOT searching */}
-  <section class="fg-container fg-section fade-section" id="categories-section">
-    <h2>{t(lang, 'home.categories')}</h2>
-    <CategoryNav lang={lang} guideCounts={guideCounts} />
-  </section>
-
-  {/* Search results - hidden by default, shown when typing */}
-  <section class="fg-container fg-section fade-section" id="search-results" style="display:none;">
-    <h2 id="search-results-title"></h2>
-    <div class="guides-grid" id="search-results-grid"></div>
-    <p id="search-no-results" class="no-content" style="display:none;">{t(lang, 'search.noResults')}</p>
-  </section>
-
-
-  {/* Popular guides */}
-  <section class="fg-container fg-section fade-section" id="popular-section">
-    <h2>{lang === 'fr' ? 'Guides les plus utiles' : lang === 'es' ? 'Guias mas utiles' : lang === 'pt' ? 'Guias mais uteis' : lang === 'it' ? 'Guide piu utili' : 'Most useful guides'}</h2>
-    <div class="guides-grid">
-      {popularGuides.map((guide) => {
-        if (!guide) return null;
-        const slugParts = guide.id.split('/');
-        const slug = slugParts[slugParts.length - 1].replace(/\.md$/, '');
-        return (
-          <GuideCard
-            title={guide.data.title}
-            description={guide.data.description}
-            category={guide.data.category}
-            steps={guide.data.steps}
-            difficulty={guide.data.difficulty}
-            platform={guide.data.platform}
-            lang={lang}
-            slug={slug}
-            heroSrc={getHeroSrc(slug)}
-          />
-        );
-      })}
-    </div>
-  </section>
-
-  {/* Latest guides - visible when NOT searching */}
-  <section class="fg-container fg-section fade-section" id="latest-section">
-    <h2>{t(lang, 'home.latestGuides')}</h2>
-    <div class="guides-grid">
-      {featuredGuides.map((guide) => {
-        const slugParts = guide.id.split('/');
-        const slug = slugParts[slugParts.length - 1].replace(/\.md$/, '');
-        return (
-          <GuideCard
-            title={guide.data.title}
-            description={guide.data.description}
-            category={guide.data.category}
-            steps={guide.data.steps}
-            difficulty={guide.data.difficulty}
-            platform={guide.data.platform}
-            lang={lang}
-            slug={slug}
-            heroSrc={getHeroSrc(slug)}
-          />
-        );
-      })}
-    </div>
-    {hasMore && (
-      <div class="browse-all-wrap">
-        <a href={`/${lang}/all/`} class="fg-btn fg-btn-primary browse-all-btn">
-          {t(lang, 'home.browseAll')} ({guides.length}) &rarr;
-        </a>
+      {/* Search */}
+      <div class="search-bar">
+        <label for="guide-search" class="sr-only">{t(lang, 'nav.search')}</label>
+        <span class="search-icon" aria-hidden="true">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        </span>
+        <input
+          type="search"
+          id="guide-search"
+          class="search-input"
+          placeholder={t(lang, 'home.searchPlaceholder')}
+          autocomplete="off"
+        />
+        <button class="search-clear" id="search-clear" aria-label="Clear" style="display:none;">&times;</button>
       </div>
-    )}
+    </div>
   </section>
 
-  {/* Reviews */}
-  {reviews.length > 0 && (
-    <section class="fg-container fg-section fade-section" id="reviews-section">
-      <h2>{t(lang, 'home.reviews')}</h2>
+  <div class="fg-container">
+    {/* Quick help */}
+    <div class="fade-section" id="quickhelp-section">
+      <QuickHelp lang={lang} />
+    </div>
+
+    {/* Categories - visible when NOT searching */}
+    <section class="fg-section fade-section" id="categories-section">
+      <h2>{t(lang, 'home.categories')}</h2>
+      <CategoryNav lang={lang} guideCounts={guideCounts} />
+    </section>
+
+    {/* Search results - hidden by default, shown when typing */}
+    <section class="fg-section fade-section" id="search-results" style="display:none;">
+      <h2 id="search-results-title"></h2>
+      <div class="guides-grid" id="search-results-grid"></div>
+      <p id="search-no-results" class="no-content" style="display:none;">{t(lang, 'search.noResults')}</p>
+    </section>
+
+    {/* Popular guides */}
+    <section class="fg-section fade-section" id="popular-section">
+      <h2>{t(lang, 'home.popularGuides')}</h2>
       <div class="guides-grid">
-        {reviews.map((review) => {
-          const slugParts = review.id.split('/');
+        {popularGuides.map((guide) => {
+          if (!guide) return null;
+          const slugParts = guide.id.split('/');
           const slug = slugParts[slugParts.length - 1].replace(/\.md$/, '');
           return (
-            <a href={`/${lang}/review/${slug}/`} class="review-card fg-card">
-              <div class="review-card-header">
-                <span class="fg-badge fg-badge-blue">{review.data.brand}</span>
-                <span class="review-rating">{review.data.rating}/5</span>
-              </div>
-              <h3 class="review-card-title">{review.data.title}</h3>
-              <p class="review-card-desc">{review.data.description}</p>
-              <span class="fg-btn fg-btn-primary review-btn">
-                {t(lang, 'review.readReview')} &rarr;
+            <GuideCard
+              title={guide.data.title}
+              description={guide.data.description}
+              category={guide.data.category}
+              steps={guide.data.steps}
+              difficulty={guide.data.difficulty}
+              platform={guide.data.platform}
+              lang={lang}
+              slug={slug}
+              heroSrc={getHeroSrc(slug)}
+            />
+          );
+        })}
+      </div>
+    </section>
+
+    {/* Latest guides - visible when NOT searching */}
+    <section class="fg-section fade-section" id="latest-section">
+      <h2>{t(lang, 'home.latestGuides')}</h2>
+      <div class="latest-list">
+        {latestGuides.map((guide) => {
+          const slugParts = guide.id.split('/');
+          const slug = slugParts[slugParts.length - 1].replace(/\.md$/, '');
+          return (
+            <a href={`/${lang}/guide/${slug}/`} class="latest-item">
+              <span class="latest-title">{guide.data.title}</span>
+              <span class="latest-meta">
+                {guide.data.steps} {stepsLabel}
               </span>
             </a>
           );
         })}
       </div>
+      {hasMore && (
+        <div class="browse-all-wrap">
+          <a href={`/${lang}/all/`} class="fg-btn fg-btn-outline browse-all-btn">
+            {t(lang, 'home.browseAll')} ({guides.length})
+          </a>
+        </div>
+      )}
     </section>
-  )}
 
-  {/* Comparisons */}
-  {comparisons.length > 0 && (
-    <section class="fg-container fg-section fade-section" id="comparisons-section">
-      <h2>{t(lang, 'home.comparisons')}</h2>
-      <div class="guides-grid">
-        {comparisons.map((comp) => {
-          const slugParts = comp.id.split('/');
-          const slug = slugParts[slugParts.length - 1].replace(/\.md$/, '');
-          return (
-            <a href={`/${lang}/compare/${slug}/`} class="review-card fg-card">
-              <div class="review-card-header">
-                <span class="fg-badge fg-badge-orange">{comp.data.productA.brand}</span>
-                <span class="compare-vs">{t(lang, 'compare.vs')}</span>
-                <span class="fg-badge fg-badge-blue">{comp.data.productB.brand}</span>
-              </div>
-              <h3 class="review-card-title">{comp.data.title}</h3>
-              <p class="review-card-desc">{comp.data.description}</p>
-              <span class="fg-btn fg-btn-primary review-btn">
-                {t(lang, 'compare.readComparison')} &rarr;
-              </span>
-            </a>
-          );
-        })}
-      </div>
-    </section>
-  )}
+    {/* Reviews and Comparisons hidden from homepage for now */}
+
+    {/* Trust block */}
+    <div class="fade-section" id="trust-section">
+      <TrustBlock lang={lang} />
+    </div>
+  </div>
 </BaseLayout>
 
 {/* Search index + logic */}
@@ -272,7 +220,7 @@ const deviceCounts = {
 (function() {
   var idx = searchIndex;
   var input, clearBtn, resultsSection, resultsGrid, resultsTitle, noResults;
-  var categoriesSection, latestSection, reviewsSection, comparisonsSection;
+  var categoriesSection, latestSection, quickhelpSection, popularSection, trustSection;
   var debounceTimer = null;
   var lastQuery = '';
 
@@ -285,22 +233,19 @@ const deviceCounts = {
     noResults = document.getElementById('search-no-results');
     categoriesSection = document.getElementById('categories-section');
     latestSection = document.getElementById('latest-section');
-    reviewsSection = document.getElementById('reviews-section');
-    comparisonsSection = document.getElementById('comparisons-section');
+    quickhelpSection = document.getElementById('quickhelp-section');
+    popularSection = document.getElementById('popular-section');
+    trustSection = document.getElementById('trust-section');
 
     if (!input) return;
 
-    // Debounced input for smooth mobile typing
     input.addEventListener('input', function() {
       if (debounceTimer) clearTimeout(debounceTimer);
       var val = input.value.trim();
-      // Show/hide clear button immediately
       clearBtn.style.display = val ? 'flex' : 'none';
-      // Debounce the actual search
       debounceTimer = setTimeout(doSearch, 120);
     });
 
-    // Clear button
     clearBtn.addEventListener('click', function() {
       input.value = '';
       clearBtn.style.display = 'none';
@@ -308,7 +253,6 @@ const deviceCounts = {
       input.focus();
     });
 
-    // Escape key clears
     input.addEventListener('keydown', function(e) {
       if (e.key === 'Escape') {
         input.value = '';
@@ -318,22 +262,11 @@ const deviceCounts = {
     });
   }
 
-  function showSection(el) {
-    if (!el) return;
-    el.style.display = '';
-    el.style.opacity = '1';
-  }
-
-  function hideSection(el) {
-    if (!el) return;
-    el.style.opacity = '0';
-    setTimeout(function() { el.style.display = 'none'; }, 100);
-  }
+  function showSection(el) { if (el) { el.style.display = ''; el.style.opacity = '1'; } }
+  function hideSection(el) { if (el) { el.style.opacity = '0'; setTimeout(function() { el.style.display = 'none'; }, 100); } }
 
   function doSearch() {
     var q = input.value.toLowerCase().trim();
-
-    // Skip if query unchanged
     if (q === lastQuery) return;
     lastQuery = q;
 
@@ -341,20 +274,20 @@ const deviceCounts = {
       hideSection(resultsSection);
       showSection(categoriesSection);
       showSection(latestSection);
-      showSection(reviewsSection);
-      showSection(comparisonsSection);
+      showSection(quickhelpSection);
+      showSection(popularSection);
+      showSection(trustSection);
       noResults.style.display = 'none';
       return;
     }
 
     hideSection(categoriesSection);
     hideSection(latestSection);
-    hideSection(reviewsSection);
-    hideSection(comparisonsSection);
+    hideSection(quickhelpSection);
+    hideSection(popularSection);
+    hideSection(trustSection);
 
-    // Split query into words for multi-word matching
     var words = q.split(/\s+/).filter(function(w) { return w.length > 0; });
-
     var matches = [];
     for (var i = 0; i < idx.length; i++) {
       var g = idx[i];
@@ -414,27 +347,48 @@ const deviceCounts = {
 
 <style>
   .hero {
-    background: var(--fg-hero-gradient);
-    padding: 3.5rem 0;
     text-align: center;
-    border-bottom: 1px solid var(--fg-border);
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 48px 16px 32px;
+    background: linear-gradient(180deg, var(--fg-bg) 0%, var(--fg-surface-soft, var(--fg-bg-warm)) 100%);
   }
-  .hero-title { font-size: 2.25rem; margin-bottom: 0.75rem; }
-  .hero-sub { font-size: 1.15rem; color: var(--fg-text-light); max-width: 600px; margin: 0 auto; }
-  .hero-hook { font-size: 0.95rem; color: var(--fg-primary); font-weight: 600; margin-top: 0.75rem; opacity: 0.85; }
+  .hero-title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--fg-text);
+    margin-bottom: 0.5rem;
+    letter-spacing: -0.03em;
+  }
+  .hero-sub {
+    font-size: 1.125rem;
+    color: var(--fg-text-muted);
+    max-width: 540px;
+    margin: 12px auto 0;
+  }
+  .trust-line {
+    font-size: 0.875rem;
+    color: var(--fg-text-muted);
+    margin-top: 8px;
+    margin-bottom: 1.5rem;
+    opacity: 0.7;
+  }
 
   /* Search */
-  .search-section { margin-top: 1.5rem; }
-  .search-bar { position: relative; }
+  .search-bar {
+    position: relative;
+    max-width: 500px;
+    margin: 0 auto;
+  }
   .search-input {
     width: 100%;
-    min-height: 56px;
-    padding: 0.75rem 3rem 0.75rem 3rem;
-    font-size: 1.1rem;
+    min-height: 48px;
+    padding: 0.625rem 3rem 0.625rem 2.75rem;
+    font-size: 1rem;
     font-family: inherit;
     color: var(--fg-text);
     background: var(--fg-bg-card);
-    border: 2px solid var(--fg-border);
+    border: 1px solid var(--fg-border);
     border-radius: var(--fg-radius);
     outline: none;
     transition: border-color 0.15s ease;
@@ -442,72 +396,103 @@ const deviceCounts = {
     appearance: none;
   }
   .search-input::placeholder { color: var(--fg-text-muted); }
-  .search-input:focus { border-color: var(--fg-primary); box-shadow: 0 0 0 3px rgba(30, 58, 95, 0.1); }
+  .search-input:focus { border-color: var(--fg-primary); box-shadow: 0 0 0 3px rgba(13,148,136,0.1); }
   .search-icon {
-    position: absolute; left: 1rem; top: 50%; transform: translateY(-50%);
-    font-size: 1.2rem; color: var(--fg-text-muted); pointer-events: none;
+    position: absolute; left: 0.875rem; top: 50%; transform: translateY(-50%);
+    color: var(--fg-text-muted); pointer-events: none; display: flex;
   }
   .search-clear {
-    position: absolute; right: 0.75rem; top: 50%; transform: translateY(-50%);
+    position: absolute; right: 0.5rem; top: 50%; transform: translateY(-50%);
     display: none; align-items: center; justify-content: center;
-    width: 36px; height: 36px; border: none; border-radius: 50%;
-    background: var(--fg-border); color: var(--fg-text); font-size: 1.3rem;
+    width: 32px; height: 32px; border: none; border-radius: 50%;
+    background: var(--fg-border); color: var(--fg-text); font-size: 1.2rem;
     cursor: pointer; line-height: 1; padding: 0;
   }
   .search-clear:hover { background: var(--fg-border-dark); }
 
-  /* Smooth transitions for section show/hide */
-  .fade-section {
-    transition: opacity 0.15s ease;
-    opacity: 1;
-  }
+  /* Smooth transitions */
+  .fade-section { transition: opacity 0.15s ease; opacity: 1; }
 
   /* Guide grid */
   .guides-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr));
-    gap: 1.25rem;
-    margin-top: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr));
+    gap: 1rem;
+    margin-top: 0.75rem;
   }
-  .browse-all-wrap { text-align: center; margin-top: 2rem; }
-  .browse-all-btn { display: inline-block; padding: 0.875rem 2rem; font-size: 1.05rem; }
-  .no-content { text-align: center; color: var(--fg-text-muted); padding: 2rem; font-size: 1.05rem; }
+
+  /* Latest list (compact) */
+  .latest-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    border: 1px solid var(--fg-border);
+    border-radius: var(--fg-radius);
+    overflow: hidden;
+    background: var(--fg-bg-card);
+  }
+  .latest-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0.875rem 1rem;
+    text-decoration: none;
+    color: var(--fg-text);
+    border-bottom: 1px solid var(--fg-border);
+    min-height: 44px;
+    transition: background-color 0.1s ease;
+  }
+  .latest-item:last-child { border-bottom: none; }
+  .latest-item:hover { background: var(--fg-bg-warm); }
+  .latest-title {
+    font-size: 0.92rem;
+    font-weight: 500;
+    line-height: 1.4;
+  }
+  .latest-item:hover .latest-title { color: var(--fg-primary); }
+  .latest-meta {
+    font-size: 0.78rem;
+    color: var(--fg-text-muted);
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  .browse-all-wrap { text-align: center; margin-top: 1.5rem; }
+  .browse-all-btn { display: inline-block; }
+  .no-content { text-align: center; color: var(--fg-text-muted); padding: 2rem; font-size: 1rem; }
 
   /* Reviews/comparisons cards */
   .review-card {
-    display: flex; flex-direction: column; gap: 0.75rem;
-    padding: 1.5rem; text-decoration: none; color: inherit;
+    display: flex; flex-direction: column; gap: 0.5rem;
+    padding: 1.25rem; text-decoration: none; color: inherit;
   }
   .review-card-header { display: flex; align-items: center; gap: 0.5rem; }
-  .review-rating { font-weight: 700; color: var(--fg-warning, #d97706); font-size: 1.1rem; }
-  .compare-vs { font-weight: 600; color: var(--fg-text-muted); font-size: 0.9rem; }
-  .review-card-title { font-size: 1.15rem; margin: 0; color: var(--fg-text); }
+  .review-rating { font-weight: 700; color: var(--fg-warning); font-size: 1rem; }
+  .compare-vs { font-weight: 600; color: var(--fg-text-muted); font-size: 0.85rem; }
+  .review-card-title { font-size: 1.05rem; margin: 0; color: var(--fg-text); }
   .review-card:hover .review-card-title { color: var(--fg-primary); }
-  .review-card-desc { font-size: 0.95rem; color: var(--fg-text-light); line-height: 1.6; margin: 0; }
-  .review-btn { margin-top: 0.5rem; align-self: flex-start; width: auto !important; }
+  .review-card-desc { font-size: 0.88rem; color: var(--fg-text-muted); line-height: 1.5; margin: 0; }
 
   /* Search result cards */
   .search-result-card {
     display: flex; flex-direction: column; gap: 0.5rem;
-    padding: 1.25rem; text-decoration: none; color: inherit;
-    transition: border-color 0.12s ease;
+    padding: 1rem; text-decoration: none; color: inherit;
   }
   .search-result-card:hover { border-color: var(--fg-primary); }
   .search-result-card:hover .src-title { color: var(--fg-primary); }
   .src-header { display: flex; align-items: center; gap: 0.5rem; }
-  .src-platform { font-size: 0.85rem; color: var(--fg-text-muted); font-weight: 500; }
-  .src-title { font-size: 1.1rem; font-weight: 600; margin: 0; color: var(--fg-text); transition: color 0.1s; }
-  .src-desc { font-size: 0.92rem; color: var(--fg-text-light); line-height: 1.55; margin: 0; }
-  .src-meta { display: flex; gap: 1rem; font-size: 0.82rem; color: var(--fg-text-muted); margin-top: 0.25rem; }
+  .src-platform { font-size: 0.8rem; color: var(--fg-text-muted); font-weight: 500; }
+  .src-title { font-size: 1rem; font-weight: 600; margin: 0; color: var(--fg-text); transition: color 0.1s; }
+  .src-desc { font-size: 0.88rem; color: var(--fg-text-muted); line-height: 1.5; margin: 0; }
+  .src-meta { display: flex; gap: 1rem; font-size: 0.78rem; color: var(--fg-text-muted); margin-top: 0.25rem; }
 
-  #search-results-title { color: var(--fg-text-muted); font-size: 1rem; font-weight: 500; }
+  #search-results-title { color: var(--fg-text-muted); font-size: 0.95rem; font-weight: 500; }
 
   @media (max-width: 768px) {
     .hero { padding: 2rem 1rem; }
     .hero-sub { font-size: 1rem; }
-    .hero-title { font-size: 1.75rem; }
+    .hero-title { font-size: 1.85rem; }
     .guides-grid { grid-template-columns: 1fr; }
-    .search-result-card { padding: 1rem; }
-    .src-desc { font-size: 0.88rem; }
   }
 </style>

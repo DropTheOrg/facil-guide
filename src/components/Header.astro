@@ -1,41 +1,59 @@
 ---
 import type { Lang } from '../i18n/translations';
 import { t } from '../i18n/translations';
+import LanguageSwitcher from './LanguageSwitcher.astro';
 
 interface Props {
   lang: Lang;
   currentPath: string;
+  alternates?: { lang: string; url: string }[];
 }
 
-const { lang, currentPath } = Astro.props;
+const { lang, currentPath, alternates } = Astro.props;
 
 const aboutSlugs: Record<string, string> = {
   fr: 'a-propos', en: 'about', es: 'acerca-de', pt: 'sobre', it: 'chi-siamo',
 };
 
 const menuLabel: Record<string, string> = {
-  fr: 'MENU', en: 'MENU', es: 'MENÚ', pt: 'MENU', it: 'MENU',
+  fr: 'Menu', en: 'Menu', es: 'Menu', pt: 'Menu', it: 'Menu',
 };
 ---
 
 <header class="header">
   <div class="fg-container-wide header-inner">
     <a href={`/${lang}/`} class="header-logo" aria-label={t(lang, 'site.title')}>
-      <svg class="logo-ghost" viewBox="0 0 512 512" width="28" height="28" aria-hidden="true"><g transform="translate(256, 280) scale(1.1)"><path d="M0,-120 C75,-120 110,-75 110,-15 C110,25 108,45 115,60 C120,70 118,65 112,75 C105,82 95,72 85,80 C75,90 70,100 55,100 C40,100 35,88 20,95 C5,102 5,102 0,102 C-5,102 -5,102 -20,95 C-35,88 -40,100 -55,100 C-70,100 -75,90 -85,80 C-95,72 -105,82 -112,75 C-118,65 -120,70 -115,60 C-108,45 -110,25 -110,-15 C-110,-75 -75,-120 0,-120 Z" fill="var(--fg-accent, #F4845F)"/><ellipse cx="-38" cy="-30" rx="24" ry="26" fill="var(--fg-bg-card, white)"/><ellipse cx="38" cy="-30" rx="24" ry="26" fill="var(--fg-bg-card, white)"/><path d="M-28,-115 C-33,-140 -45,-160 -48,-170" stroke="var(--fg-accent, #F4845F)" stroke-width="9" stroke-linecap="round" fill="none"/><circle cx="-49" cy="-178" r="13" fill="var(--fg-accent, #F4845F)"/><path d="M28,-115 C33,-140 45,-160 48,-170" stroke="var(--fg-accent, #F4845F)" stroke-width="9" stroke-linecap="round" fill="none"/><circle cx="49" cy="-178" r="13" fill="var(--fg-accent, #F4845F)"/></g></svg><span class="logo-text">facil</span><span class="logo-dot">.</span><span class="logo-guide">guide</span>
+      <span class="logo-facil">facil</span><span class="logo-dot">.</span><span class="logo-guide">guide</span>
     </a>
 
     <div class="header-right">
-      <nav class="header-nav" id="header-nav" aria-label={lang === 'fr' ? 'Navigation principale' : lang === 'it' ? 'Navigazione principale' : 'Main navigation'}>
-        <a href={`/${lang}/`} class="header-nav-link">
+      <nav class="header-nav" id="header-nav" aria-label={lang === 'fr' ? 'Navigation principale' : lang === 'pt' ? 'Navegacao principal' : lang === 'it' ? 'Navigazione principale' : 'Main navigation'}>
+        <a href={`/${lang}/`} class:list={['header-nav-link', { active: currentPath === `/${lang}/` }]}>
           {t(lang, 'nav.home')}
         </a>
-        <a href={`/${lang}/${aboutSlugs[lang]}/`} class="header-nav-link">
+        <a href={`/${lang}/all/`} class:list={['header-nav-link', { active: currentPath === `/${lang}/all/` }]}>
+          {t(lang, 'nav.guides')}
+        </a>
+        <a href={`/${lang}/${aboutSlugs[lang]}/`} class:list={['header-nav-link', { active: currentPath.includes(aboutSlugs[lang]) }]}>
           {t(lang, 'nav.about')}
         </a>
-        <a href={`/${lang}/all/`} class="header-nav-link">
-          {t(lang, 'nav.allContent')}
-        </a>
       </nav>
+
+      <LanguageSwitcher lang={lang} currentPath={currentPath} alternates={alternates} />
+
+      <button
+        class="theme-toggle"
+        id="theme-toggle"
+        aria-label={lang === 'fr' ? 'Changer le theme' : lang === 'pt' ? 'Alterar tema' : lang === 'it' ? 'Cambia tema' : 'Toggle theme'}
+        title={lang === 'fr' ? 'Changer le theme' : lang === 'pt' ? 'Alterar tema' : lang === 'it' ? 'Cambia tema' : 'Toggle theme'}
+      >
+        <span class="theme-icon-sun" aria-hidden="true">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        </span>
+        <span class="theme-icon-moon" aria-hidden="true">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </span>
+      </button>
 
       <button
         class="menu-toggle"
@@ -44,18 +62,8 @@ const menuLabel: Record<string, string> = {
         aria-expanded="false"
         aria-controls="header-nav"
       >
-        <span class="menu-label">{menuLabel[lang]}</span>
-        <span class="menu-icon" aria-hidden="true">&#9776;</span>
-      </button>
-
-      <button
-        class="theme-toggle"
-        id="theme-toggle"
-        aria-label={lang === 'fr' ? 'Changer le thème' : lang === 'it' ? 'Cambia tema' : 'Toggle theme'}
-        title={lang === 'fr' ? 'Changer le thème' : lang === 'it' ? 'Cambia tema' : 'Toggle theme'}
-      >
-        <span class="theme-icon-sun">&#9788;</span>
-        <span class="theme-icon-moon">&#9790;</span>
+        <svg class="menu-icon-open" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        <svg class="menu-icon-close" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
       </button>
     </div>
   </div>
@@ -81,12 +89,13 @@ const menuLabel: Record<string, string> = {
       menuBtn.addEventListener('click', () => {
         const open = nav.classList.toggle('nav-open');
         menuBtn.setAttribute('aria-expanded', String(open));
+        menuBtn.classList.toggle('is-open', open);
       });
-      // Close menu when clicking a link
       nav.querySelectorAll('a').forEach(a => {
         a.addEventListener('click', () => {
           nav.classList.remove('nav-open');
           menuBtn.setAttribute('aria-expanded', 'false');
+          menuBtn.classList.remove('is-open');
         });
       });
     }
@@ -103,39 +112,33 @@ const menuLabel: Record<string, string> = {
     position: sticky;
     top: 0;
     z-index: 100;
-    transition: background-color 0.2s ease;
   }
 
   .header-inner {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    min-height: 64px;
+    min-height: 60px;
   }
 
   .header-logo {
     text-decoration: none;
     display: flex;
     align-items: center;
-    font-size: 1.4rem;
+    font-size: 1.25rem;
     font-weight: 700;
     flex-shrink: 0;
+    letter-spacing: -0.01em;
   }
 
-  .logo-text { color: var(--fg-primary); }
+  .logo-facil { color: var(--fg-primary); }
   .logo-dot { color: var(--fg-accent); }
   .logo-guide { color: var(--fg-text); }
-
-  .logo-ghost {
-    margin-right: 0.35rem;
-    vertical-align: middle;
-    flex-shrink: 0;
-  }
 
   .header-right {
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: 0.375rem;
   }
 
   .header-nav {
@@ -149,13 +152,12 @@ const menuLabel: Record<string, string> = {
     align-items: center;
     min-height: 44px;
     padding: 0.4rem 0.75rem;
-    font-size: 0.95rem;
+    font-size: 0.9rem;
     font-weight: 500;
-    color: var(--fg-text-light);
+    color: var(--fg-text-muted);
     text-decoration: none;
-    display: flex;
-    align-items: center;
     border-radius: var(--fg-radius-sm);
+    transition: color 0.1s ease, background-color 0.1s ease;
   }
 
   .header-nav-link:hover {
@@ -163,22 +165,25 @@ const menuLabel: Record<string, string> = {
     background-color: var(--fg-bg-warm);
   }
 
+  .header-nav-link.active {
+    color: var(--fg-primary);
+    font-weight: 600;
+  }
+
   /* Menu toggle - hidden on desktop */
   .menu-toggle {
     display: none;
     align-items: center;
-    gap: 0.35rem;
-    padding: 0.5rem 0.85rem;
-    border: 2px solid var(--fg-border);
-    border-radius: 8px;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border: 1px solid var(--fg-border);
+    border-radius: var(--fg-radius);
     background: var(--fg-bg-card);
     color: var(--fg-text);
-    font-size: 0.85rem;
-    font-weight: 700;
-    font-family: inherit;
     cursor: pointer;
-    min-height: 44px;
-    letter-spacing: 0.05em;
+    flex-shrink: 0;
+    padding: 0;
   }
 
   .menu-toggle:hover {
@@ -186,16 +191,18 @@ const menuLabel: Record<string, string> = {
     color: var(--fg-primary);
   }
 
-  .menu-icon { font-size: 1.1rem; }
+  .menu-icon-close { display: none; }
+  .menu-toggle.is-open .menu-icon-open { display: none; }
+  .menu-toggle.is-open .menu-icon-close { display: block; }
 
   /* Theme toggle icons */
   .theme-icon-moon { display: none; }
   :global([data-theme="midnight"]) .theme-icon-sun { display: none; }
-  :global([data-theme="midnight"]) .theme-icon-moon { display: inline; }
+  :global([data-theme="midnight"]) .theme-icon-moon { display: inline-flex; }
 
   @media (max-width: 640px) {
     .header-inner { min-height: 56px; position: relative; }
-    .header-logo { font-size: 1.2rem; }
+    .header-logo { font-size: 1.15rem; }
 
     .menu-toggle { display: inline-flex; }
 
@@ -207,23 +214,19 @@ const menuLabel: Record<string, string> = {
       right: 0;
       flex-direction: column;
       background: var(--fg-bg-card);
-      border-bottom: 2px solid var(--fg-border);
+      border-bottom: 1px solid var(--fg-border);
       padding: 0.5rem 0;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.06);
       z-index: 99;
     }
 
     .header-nav.nav-open { display: flex; }
 
     .header-nav-link {
-      padding: 0.85rem 1.5rem;
-      font-size: 1.05rem;
+      padding: 0.85rem 1.25rem;
+      font-size: 1rem;
       width: 100%;
-      min-height: 52px;
-    }
-
-    .header-nav-link:hover {
-      background-color: var(--fg-bg-warm);
+      min-height: 48px;
     }
   }
 </style>

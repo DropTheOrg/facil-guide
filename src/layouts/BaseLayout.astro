@@ -28,7 +28,7 @@ const canonicalUrl = `https://facil.guide${currentPath}`;
 
 const allLangs = ['fr', 'en', 'es', 'pt', 'it'] as const;
 const ogLocales: Record<string, string> = {
-  fr: 'fr_FR', en: 'en_US', es: 'es_ES', pt: 'pt_BR', it: 'it_IT',
+  fr: 'fr_FR', en: 'en_US', es: 'es_ES', pt: 'pt_PT', it: 'it_IT',
 };
 
 // Build a set of all existing content slugs for hreflang validation
@@ -84,11 +84,15 @@ const defaultAlternates = rawAlternates.filter((alt) => alternateExists(alt.url)
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    {/* Prevent flash of wrong theme */}
+    {/* Prevent flash of wrong theme - default to light (sand) */}
     <script is:inline>
       (function() {
         var t = localStorage.getItem('facil-theme');
-        if (t) document.documentElement.setAttribute('data-theme', t);
+        if (t) {
+          document.documentElement.setAttribute('data-theme', t);
+        } else {
+          document.documentElement.setAttribute('data-theme', 'sand');
+        }
       })();
     </script>
 
@@ -153,7 +157,7 @@ const defaultAlternates = rawAlternates.filter((alt) => alternateExists(alt.url)
   </head>
   <body>
     <a class="skip-link" href="#main-content">
-      {lang === 'fr' ? 'Aller au contenu' : lang === 'es' ? 'Ir al contenido' : lang === 'pt' ? 'Ir para o conteudo' : lang === 'it' ? 'Vai al contenuto' : 'Skip to content'}
+      {lang === 'fr' ? 'Aller au contenu' : lang === 'es' ? 'Ir al contenido' : lang === 'pt' ? 'Ir para o conteudo' : lang === 'it' ? 'Vai al contenuto' : 'Skip to main content'}
     </a>
     <Header lang={lang} currentPath={currentPath} alternates={defaultAlternates} />
     <main id="main-content">

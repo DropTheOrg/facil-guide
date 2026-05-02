@@ -11,12 +11,10 @@ interface Props {
 const { lang, currentPath, alternates } = Astro.props;
 
 function getPathForLang(targetLang: Lang): string {
-  // Use explicit alternates if provided (correct for translated slugs)
   if (alternates) {
     const alt = alternates.find((a) => a.lang === targetLang);
     if (alt) return alt.url;
   }
-  // Fallback: naive replacement (works for static pages with same slug)
   const pathWithoutLang = currentPath.replace(/^\/(fr|en|es|pt|it)/, '');
   return `/${targetLang}${pathWithoutLang || '/'}`;
 }
@@ -40,42 +38,45 @@ function getPathForLang(targetLang: Lang): string {
   .lang-switcher {
     display: flex;
     align-items: center;
-    gap: 2px;
+    gap: 1px;
     flex-shrink: 0;
+    background: var(--fg-border);
+    border-radius: var(--fg-radius-sm);
+    overflow: hidden;
   }
 
   .lang-option {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    min-width: 40px;
-    min-height: 40px;
-    padding: 0.25rem;
-    font-size: 0.8rem;
+    min-width: 36px;
+    min-height: 36px;
+    padding: 0.2rem;
+    font-size: 0.75rem;
     font-weight: 600;
     color: var(--fg-text-muted);
     text-decoration: none;
-    border-radius: 6px;
-    border: 2px solid transparent;
+    background: var(--fg-bg-card);
+    border: none;
+    transition: color 0.1s ease, background-color 0.1s ease;
   }
 
   .lang-option:hover {
     color: var(--fg-primary);
-    background-color: #f0f4ff;
+    background-color: var(--fg-bg-warm);
   }
 
   .lang-option.active {
     color: var(--fg-primary);
-    border-color: var(--fg-primary);
-    background-color: #eff6ff;
+    background-color: var(--fg-bg-warm);
+    font-weight: 700;
   }
 
   @media (max-width: 640px) {
     .lang-option {
-      min-width: 36px;
-      min-height: 36px;
-      font-size: 0.75rem;
-      padding: 0.2rem;
+      min-width: 32px;
+      min-height: 32px;
+      font-size: 0.7rem;
     }
   }
 </style>

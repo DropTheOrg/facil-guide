@@ -19,20 +19,8 @@ const legalSlugs: Record<string, string> = {
   fr: 'mentions-legales', en: 'legal', es: 'aviso-legal', pt: 'aviso-legal', it: 'avviso-legale',
 };
 
-const partOfText: Record<string, string> = {
-  fr: 'Un projet',
-  en: 'A project by',
-  es: 'Un proyecto de',
-  pt: 'Um projeto de',
-  it: 'Un progetto di',
-};
-
-const langFlags: Record<string, { flag: string; name: string }> = {
-  fr: { flag: '🇫🇷', name: 'Français' },
-  en: { flag: '🇬🇧', name: 'English' },
-  es: { flag: '🇪🇸', name: 'Espanol' },
-  pt: { flag: '🇧🇷', name: 'Portugues' },
-  it: { flag: '🇮🇹', name: 'Italiano' },
+const langNames: Record<string, string> = {
+  fr: 'FR', en: 'EN', es: 'ES', pt: 'PT', it: 'IT',
 };
 
 function getPathForLang(targetLang: string): string {
@@ -40,7 +28,6 @@ function getPathForLang(targetLang: string): string {
     const alt = alternates.find((a) => a.lang === targetLang);
     if (alt) return alt.url;
   }
-  // If on a guide/review/compare page with no translation, link to lang homepage
   if (currentPath.match(/\/(guide|review|compare)\//)) {
     return `/${targetLang}/`;
   }
@@ -52,48 +39,37 @@ function getPathForLang(targetLang: string): string {
 <footer class="footer">
   <div class="fg-container footer-inner">
     <div class="footer-brand">
-      <span class="footer-logo" style="display:inline-flex;align-items:center;gap:0.3rem;">
-<svg viewBox="0 0 512 512" width="24" height="24" aria-hidden="true"><g transform="translate(256, 280) scale(1.1)"><path d="M0,-120 C75,-120 110,-75 110,-15 C110,25 108,45 115,60 C120,70 118,65 112,75 C105,82 95,72 85,80 C75,90 70,100 55,100 C40,100 35,88 20,95 C5,102 5,102 0,102 C-5,102 -5,102 -20,95 C-35,88 -40,100 -55,100 C-70,100 -75,90 -85,80 C-95,72 -105,82 -112,75 C-118,65 -120,70 -115,60 C-108,45 -110,25 -110,-15 C-110,-75 -75,-120 0,-120 Z" fill="var(--fg-accent, #F4845F)"/><ellipse cx="-38" cy="-30" rx="24" ry="26" fill="var(--fg-bg-card, white)"/><ellipse cx="38" cy="-30" rx="24" ry="26" fill="var(--fg-bg-card, white)"/><path d="M-28,-115 C-33,-140 -45,-160 -48,-170" stroke="var(--fg-accent, #F4845F)" stroke-width="9" stroke-linecap="round" fill="none"/><circle cx="-49" cy="-178" r="13" fill="var(--fg-accent, #F4845F)"/><path d="M28,-115 C33,-140 45,-160 48,-170" stroke="var(--fg-accent, #F4845F)" stroke-width="9" stroke-linecap="round" fill="none"/><circle cx="49" cy="-178" r="13" fill="var(--fg-accent, #F4845F)"/></g></svg>
-        <span class="logo-text">facil</span><span class="logo-dot">.</span><span class="logo-guide">guide</span>
+      <span class="footer-logo">
+        <span class="logo-facil">facil</span><span class="logo-dot">.</span><span class="logo-guide">guide</span>
       </span>
       <p class="footer-tagline">{t(lang, 'footer.tagline')}</p>
     </div>
 
+    <nav class="footer-nav" aria-label={lang === 'fr' ? 'Navigation du pied de page' : lang === 'pt' ? 'Navegacao do rodape' : 'Footer navigation'}>
+      <a href={`/${lang}/${aboutSlugs[lang]}/`}>{t(lang, 'nav.about')}</a>
+      <a href={`/${lang}/${legalSlugs[lang]}/`}>{t(lang, 'nav.legal')}</a>
+      <a href="#" class="footer-email" data-u="facil" data-d="dropthe.org">facil [at] dropthe.org</a>
+    </nav>
+
     <div class="footer-lang">
-      {Object.entries(langFlags).map(([code, { flag, name }]) => (
+      {Object.entries(langNames).map(([code, name]) => (
         <a
           href={getPathForLang(code)}
           class:list={['footer-lang-link', { active: code === lang }]}
-          aria-label={name}
           hreflang={code}
         >
-          <span class="footer-lang-flag">{flag}</span>
-          <span class="footer-lang-name">{name}</span>
+          {name}
         </a>
       ))}
     </div>
 
-    <nav class="footer-nav" aria-label={lang === 'fr' ? 'Navigation du pied de page' : 'Footer navigation'}>
-      <a href={`/${lang}/`}>{t(lang, 'nav.home')}</a>
-      <a href={`/${lang}/${aboutSlugs[lang]}/`}>{t(lang, 'nav.about')}</a>
-      <a href={`/${lang}/${legalSlugs[lang]}/`}>{t(lang, 'nav.legal')}</a>
-      <a href="#" class="footer-email" data-u="facil" data-d="dropthe.org" onclick="this.href='mailto:'+this.dataset.u+'@'+this.dataset.d;return true;">facil [at] dropthe.org</a>
-    </nav>
-
-    <div class="footer-disclaimer">
-      <p>{t(lang, 'footer.disclaimer')}</p>
-      <p>{t(lang, 'footer.privacy')}</p>
-    </div>
-
     <div class="footer-bottom">
+      <p class="footer-privacy">{t(lang, 'footer.privacy')}</p>
+      <p class="footer-independent">
+        {t(lang, 'footer.independent')}
+      </p>
       <p class="footer-copy">
-        &copy; {year} facil.guide &mdash; {t(lang, 'footer.rights')}
-      </p>
-      <p class="footer-dropthe">
-        {partOfText[lang]} <a href="https://dropthe.org" rel="nofollow noopener" target="_blank">DropThe</a>
-      </p>
-      <p class="footer-dropthe">
-        <a href="https://dropthe.org/directory/?v=387cec752d77" title="Featured on DropThe Directory" rel="nofollow noopener" target="_blank">Featured on DropThe Directory</a>
+        {year} facil.guide
       </p>
     </div>
   </div>
@@ -104,8 +80,7 @@ function getPathForLang(targetLang: string): string {
     background: var(--fg-bg-card);
     border-top: 1px solid var(--fg-border);
     margin-top: auto;
-    padding: 2.5rem 0;
-    transition: background-color 0.2s ease;
+    padding: 2.5rem 0 2rem;
   }
 
   .footer-inner {
@@ -116,21 +91,21 @@ function getPathForLang(targetLang: string): string {
     text-align: center;
   }
 
-  .footer-logo { font-size: 1.25rem; font-weight: 700; }
-  .logo-text { color: var(--fg-primary); }
+  .footer-logo { font-size: 1.1rem; font-weight: 700; }
+  .logo-facil { color: var(--fg-primary); }
   .logo-dot { color: var(--fg-accent); }
   .logo-guide { color: var(--fg-text); }
 
   .footer-tagline {
     color: var(--fg-text-muted);
-    font-size: 0.95rem;
+    font-size: 0.9rem;
     margin-bottom: 0;
     margin-top: 0.25rem;
   }
 
   .footer-lang {
     display: flex;
-    gap: 0.5rem;
+    gap: 0.25rem;
     flex-wrap: wrap;
     justify-content: center;
   }
@@ -138,32 +113,28 @@ function getPathForLang(targetLang: string): string {
   .footer-lang-link {
     display: inline-flex;
     align-items: center;
-    gap: 0.35rem;
-    padding: 0.5rem 0.85rem;
+    justify-content: center;
+    padding: 0.4rem 0.65rem;
     border: 1px solid var(--fg-border);
-    border-radius: 8px;
+    border-radius: var(--fg-radius-sm);
     text-decoration: none;
-    color: var(--fg-text-light);
-    font-size: 0.9rem;
-    font-weight: 500;
-    transition: all 0.15s ease;
+    color: var(--fg-text-muted);
+    font-size: 0.8rem;
+    font-weight: 600;
+    min-height: 36px;
+    transition: all 0.12s ease;
   }
 
   .footer-lang-link:hover {
     border-color: var(--fg-primary);
     color: var(--fg-primary);
-    background: var(--fg-bg-warm);
   }
 
   .footer-lang-link.active {
     border-color: var(--fg-primary);
     color: var(--fg-primary);
     background: var(--fg-bg-warm);
-    font-weight: 600;
   }
-
-  .footer-lang-flag { font-size: 1.1rem; }
-  .footer-lang-name { font-size: 0.85rem; }
 
   .footer-nav {
     display: flex;
@@ -171,58 +142,45 @@ function getPathForLang(targetLang: string): string {
   }
 
   .footer-nav a {
-    color: var(--fg-text-light);
+    color: var(--fg-text-muted);
     text-decoration: none;
     font-weight: 500;
-    min-height: 48px;
+    font-size: 0.9rem;
+    min-height: 44px;
     display: inline-flex;
     align-items: center;
   }
 
   .footer-nav a:hover { color: var(--fg-primary); }
 
-  .footer-disclaimer {
-    max-width: 600px;
-    padding: 0.75rem 1rem;
-    border: 1px solid var(--fg-border);
-    border-radius: 6px;
-    background: var(--fg-bg);
-  }
-
-  .footer-disclaimer p {
-    color: var(--fg-text-muted);
-    font-size: 0.8rem;
-    line-height: 1.5;
-    margin: 0;
-  }
-
   .footer-bottom {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 0.25rem;
+    gap: 0.125rem;
+    padding-top: 0.5rem;
+    border-top: 1px solid var(--fg-border);
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .footer-privacy {
+    color: var(--fg-text-muted);
+    font-size: 0.8rem;
+    margin-bottom: 0;
+    opacity: 0.8;
   }
 
   .footer-copy {
-    color: var(--fg-text-muted);
-    font-size: 0.85rem;
-    margin-bottom: 0;
-  }
-
-  .footer-dropthe {
     color: var(--fg-text-muted);
     font-size: 0.8rem;
     margin-bottom: 0;
   }
 
-  .footer-dropthe a {
+  .footer-independent {
     color: var(--fg-text-muted);
-    font-weight: 600;
-    text-decoration: none;
-  }
-
-  .footer-dropthe a:hover {
-    color: var(--fg-primary);
+    font-size: 0.8rem;
+    margin-bottom: 0;
   }
 </style>
 <script is:inline>

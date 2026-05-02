@@ -1,0 +1,95 @@
+---
+import type { Lang } from '../i18n/translations';
+import { t } from '../i18n/translations';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+
+const items = [
+  { key: 'home.trust.noAds', icon: 'ban' },
+  { key: 'home.trust.noCookies', icon: 'cookie' },
+  { key: 'home.trust.simpleLang', icon: 'text' },
+  { key: 'home.trust.printable', icon: 'printer' },
+  { key: 'home.trust.shareable', icon: 'share' },
+];
+---
+
+<section class="trust-block">
+  <div class="trust-grid">
+    {items.map((item) => (
+      <div class="trust-item">
+        {item.icon === 'ban' && (
+          <svg class="trust-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="4.93" y1="4.93" x2="19.07" y2="19.07"/></svg>
+        )}
+        {item.icon === 'cookie' && (
+          <svg class="trust-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a10 10 0 1 0 10 10 4 4 0 0 1-5-5 4 4 0 0 1-5-5"/><path d="M8.5 8.5v.01"/><path d="M16 15.5v.01"/><path d="M12 12v.01"/><path d="M11 17v.01"/><path d="M7 14v.01"/></svg>
+        )}
+        {item.icon === 'text' && (
+          <svg class="trust-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 7 4 4 20 4 20 7"/><line x1="9" y1="20" x2="15" y2="20"/><line x1="12" y1="4" x2="12" y2="20"/></svg>
+        )}
+        {item.icon === 'printer' && (
+          <svg class="trust-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+        )}
+        {item.icon === 'share' && (
+          <svg class="trust-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+        )}
+        <span class="trust-label">{t(lang, item.key)}</span>
+      </div>
+    ))}
+  </div>
+</section>
+
+<style>
+  .trust-block {
+    padding: 2rem 0;
+  }
+
+  .trust-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+  }
+
+  .trust-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    text-align: center;
+    padding: 1.25rem 0.75rem;
+    border: 1px solid var(--fg-border);
+    border-radius: var(--fg-radius);
+    background: var(--fg-bg-card);
+  }
+
+  .trust-icon {
+    color: var(--fg-primary);
+    flex-shrink: 0;
+  }
+
+  .trust-label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--fg-text);
+    line-height: 1.3;
+  }
+
+  @media (max-width: 768px) {
+    .trust-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  @media (max-width: 480px) {
+    .trust-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media print {
+    .trust-block { display: none; }
+  }
+</style>

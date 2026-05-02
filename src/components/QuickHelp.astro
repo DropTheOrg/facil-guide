@@ -1,0 +1,149 @@
+---
+import type { Lang } from '../i18n/translations';
+import { t } from '../i18n/translations';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+
+const items = [
+  {
+    key: 'home.quickHelp1',
+    subKey: 'home.quickHelp1Sub',
+    icon: 'alert',
+    category: 'securite',
+  },
+  {
+    key: 'home.quickHelp2',
+    subKey: 'home.quickHelp2Sub',
+    icon: 'lock',
+    category: 'securite',
+  },
+  {
+    key: 'home.quickHelp3',
+    subKey: 'home.quickHelp3Sub',
+    icon: 'cpu',
+    category: 'ia',
+  },
+  {
+    key: 'home.quickHelp4',
+    subKey: 'home.quickHelp4Sub',
+    icon: 'wifi',
+    category: 'internet',
+  },
+];
+---
+
+<section class="quick-help">
+  <h2>{t(lang, 'home.quickHelp')}</h2>
+  <div class="quick-help-grid">
+    {items.map((item) => (
+      <a href={`/${lang}/${item.category}/`} class="quick-help-card">
+        <span class="quick-help-icon" aria-hidden="true">
+          {item.icon === 'alert' && (
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+          )}
+          {item.icon === 'lock' && (
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+          )}
+          {item.icon === 'cpu' && (
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2" ry="2"/><rect x="9" y="9" width="6" height="6"/><line x1="9" y1="1" x2="9" y2="4"/><line x1="15" y1="1" x2="15" y2="4"/><line x1="9" y1="20" x2="9" y2="23"/><line x1="15" y1="20" x2="15" y2="23"/><line x1="20" y1="9" x2="23" y2="9"/><line x1="20" y1="14" x2="23" y2="14"/><line x1="1" y1="9" x2="4" y2="9"/><line x1="1" y1="14" x2="4" y2="14"/></svg>
+          )}
+          {item.icon === 'wifi' && (
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.55a11 11 0 0 1 14.08 0"/><path d="M1.42 9a16 16 0 0 1 21.16 0"/><path d="M8.53 16.11a6 6 0 0 1 6.95 0"/><line x1="12" y1="20" x2="12.01" y2="20"/></svg>
+          )}
+        </span>
+        <span class="quick-help-content">
+          <span class="quick-help-text">{t(lang, item.key)}</span>
+          <span class="quick-help-sub">{t(lang, item.subKey)}</span>
+        </span>
+        <span class="quick-help-arrow" aria-hidden="true">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+        </span>
+      </a>
+    ))}
+  </div>
+</section>
+
+<style>
+  .quick-help {
+    padding: 1rem 0;
+  }
+
+  .quick-help h2 {
+    margin-bottom: 1rem;
+    font-size: 1.15rem;
+    font-weight: 600;
+  }
+
+  .quick-help-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75rem;
+  }
+
+  .quick-help-card {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 1rem;
+    background: var(--fg-bg-card);
+    border: 1px solid var(--fg-border);
+    border-radius: var(--fg-radius);
+    text-decoration: none;
+    color: var(--fg-text);
+    transition: border-color 0.12s ease, box-shadow 0.12s ease;
+    min-height: 44px;
+  }
+
+  .quick-help-card:hover {
+    border-color: var(--fg-primary);
+    box-shadow: var(--fg-shadow);
+  }
+
+  .quick-help-icon {
+    color: var(--fg-accent);
+    flex-shrink: 0;
+    display: flex;
+    align-self: flex-start;
+    margin-top: 2px;
+  }
+
+  .quick-help-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    flex: 1;
+  }
+
+  .quick-help-text {
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 1.3;
+  }
+
+  .quick-help-sub {
+    font-size: 0.8rem;
+    color: var(--fg-text-muted);
+    line-height: 1.4;
+    font-weight: 400;
+  }
+
+  .quick-help-arrow {
+    color: var(--fg-text-muted);
+    flex-shrink: 0;
+    display: flex;
+  }
+
+  .quick-help-card:hover .quick-help-arrow {
+    color: var(--fg-primary);
+  }
+
+  @media (max-width: 640px) {
+    .quick-help-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

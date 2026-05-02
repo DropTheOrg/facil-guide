@@ -2,7 +2,6 @@
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import Breadcrumb from '../../../components/Breadcrumb.astro';
 import CategoryNav from '../../../components/CategoryNav.astro';
-import SearchBar from '../../../components/SearchBar.astro';
 import GuideCard from '../../../components/GuideCard.astro';
 import SchemaMarkup from '../../../components/SchemaMarkup.astro';
 import { getCollection } from 'astro:content';
@@ -42,11 +41,11 @@ const guides = allGuides
 const categoryName = getCategoryName(lang, category);
 
 const noGuidesText: Record<string, string> = {
-  fr: 'Aucun guide dans cette catégorie pour le moment. Bientôt disponible !',
-  en: 'No guides in this category yet. Coming soon!',
-  es: 'No hay guías en esta categoría por el momento. ¡Próximamente!',
-  pt: 'Nenhum guia nesta categoria por enquanto. Em breve!',
-  it: 'Nessuna guida in questa categoria per il momento. Presto disponibile!',
+  fr: 'Aucun guide dans cette categorie pour le moment.',
+  en: 'No guides in this category yet.',
+  es: 'No hay guias en esta categoria por el momento.',
+  pt: 'Nenhum guia nesta categoria por enquanto.',
+  it: 'Nessuna guida in questa categoria per il momento.',
 };
 ---
 
@@ -67,8 +66,13 @@ const noGuidesText: Record<string, string> = {
 
   <div class="fg-container">
     <Breadcrumb lang={lang} items={[{ label: categoryName }]} />
-    <h1>{categoryName}</h1>
-    <SearchBar lang={lang} />
+
+    <header class="category-header">
+      <h1>{categoryName}</h1>
+      <p class="category-desc">{t(lang, 'category.description').replace('{category}', categoryName.toLowerCase())}</p>
+      <span class="category-count-badge">{guides.length} {t(lang, 'guide.steps').replace('passos', 'guias').replace('steps', 'guides').replace('etapes', 'guides').replace('pasos', 'guias').replace('passaggi', 'guide')}</span>
+    </header>
+
     <CategoryNav lang={lang} activeCategory={category} guideCounts={guideCounts} />
 
     <section class="fg-section">
@@ -77,19 +81,17 @@ const noGuidesText: Record<string, string> = {
           const slugParts = guide.id.split('/');
           const slug = slugParts[slugParts.length - 1].replace(/\.md$/, '');
           return (
-            <div data-guide-card data-guide-title={guide.data.title} data-guide-desc={guide.data.description}>
-              <GuideCard
-                title={guide.data.title}
-                description={guide.data.description}
-                category={guide.data.category}
-                steps={guide.data.steps}
-                difficulty={guide.data.difficulty}
-                platform={guide.data.platform}
-                lang={lang}
-                slug={slug}
-                heroSrc={getHeroSrc(slug)}
-              />
-            </div>
+            <GuideCard
+              title={guide.data.title}
+              description={guide.data.description}
+              category={guide.data.category}
+              steps={guide.data.steps}
+              difficulty={guide.data.difficulty}
+              platform={guide.data.platform}
+              lang={lang}
+              slug={slug}
+              heroSrc={getHeroSrc(slug)}
+            />
           );
         })}
       </div>
@@ -104,9 +106,31 @@ const noGuidesText: Record<string, string> = {
 </BaseLayout>
 
 <style>
-  h1 { margin-bottom: 0.5rem; }
-  .guides-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr)); gap: 1.25rem; }
+  .category-header {
+    padding-bottom: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  .category-header h1 { margin-bottom: 0.25rem; }
+  .category-desc {
+    color: var(--fg-text-muted);
+    font-size: 0.95rem;
+    margin-bottom: 0.5rem;
+  }
+  .category-count-badge {
+    display: inline-block;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--fg-primary);
+    background: rgba(13,148,136,0.08);
+    padding: 0.2rem 0.6rem;
+    border-radius: 100px;
+  }
+  .guides-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr));
+    gap: 1rem;
+  }
   .no-guides { text-align: center; padding: 3rem 1rem; color: var(--fg-text-muted); }
-  .no-guides p { margin-bottom: 1.5rem; font-size: 1.1rem; }
+  .no-guides p { margin-bottom: 1.5rem; font-size: 1rem; }
   @media (max-width: 768px) { .guides-grid { grid-template-columns: 1fr; } }
 </style>

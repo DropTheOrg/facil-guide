@@ -6,13 +6,13 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>facil.guide — Tech, simplified</title>
+    <title>facil.guide - Tech, simplified</title>
     <meta name="description" content="Simple, clear step-by-step guides to master your phone, computer and the Internet. Designed for the whole family, available in 5 languages." />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="alternate" hreflang="pt" href="https://facil.guide/pt/" />
     <link rel="alternate" hreflang="fr" href="https://facil.guide/fr/" />
     <link rel="alternate" hreflang="en" href="https://facil.guide/en/" />
     <link rel="alternate" hreflang="es" href="https://facil.guide/es/" />
-    <link rel="alternate" hreflang="pt" href="https://facil.guide/pt/" />
     <link rel="alternate" hreflang="it" href="https://facil.guide/it/" />
     <link rel="alternate" hreflang="x-default" href="https://facil.guide/en/" />
     <link rel="canonical" href="https://facil.guide/en/" />
@@ -20,16 +20,25 @@
     <script is:inline>
       (function() {
         var lang = (navigator.language || navigator.userLanguage || 'en').toLowerCase().slice(0, 2);
-        var supported = { fr: 1, en: 1, es: 1, pt: 1, it: 1 };
+        var supported = { pt: 1, fr: 1, en: 1, es: 1, it: 1 };
         var target = supported[lang] ? lang : 'en';
         window.location.replace('/' + target + '/');
       })();
     </script>
   </head>
-  <body style="font-family: -apple-system, sans-serif; display: flex; align-items: center; justify-content: center; min-height: 100vh; margin: 0; background: #ebe5d9; color: #1a1815;">
+  <body style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; display: flex; align-items: center; justify-content: center; min-height: 100vh; margin: 0; background: #FAFAF5; color: #1A1A1A;">
     <div style="text-align: center;">
-      <p style="font-size: 1.5rem; font-weight: 700;"><span style="color: #1E3A5F;">facil</span><span style="color: #2E7D32;">.</span><span>guide</span></p>
-      <p><a href="/en/">English</a> · <a href="/fr/">Francais</a> · <a href="/es/">Espanol</a> · <a href="/pt/">Portugues</a> · <a href="/it/">Italiano</a></p>
+      <p style="font-size: 1.4rem; font-weight: 700; margin-bottom: 0.5rem;">
+        <span style="color: #0D9488;">facil</span><span style="color: #F97068;">.</span><span>guide</span>
+      </p>
+      <p style="color: #6B7280; font-size: 0.95rem; margin-bottom: 1.5rem;">Tech, simplified.</p>
+      <p style="font-size: 0.9rem;">
+        <a href="/pt/" style="color: #0D9488;">Portugues</a> ·
+        <a href="/en/" style="color: #0D9488;">English</a> ·
+        <a href="/fr/" style="color: #0D9488;">Francais</a> ·
+        <a href="/es/" style="color: #0D9488;">Espanol</a> ·
+        <a href="/it/" style="color: #0D9488;">Italiano</a>
+      </p>
     </div>
   </body>
 </html>
