@@ -79,3 +79,5 @@ Quand vous voulez parler d'un sujet different, cliquez sur **Nouveau chat** dans
 - **Comparez avec ChatGPT.** Si vous utilisez deja ChatGPT, essayez de poser les memes questions a Gemini et voyez quelles reponses vous preferez.
 - **Gemini sur votre telephone.** Vous pouvez aussi utiliser Gemini sur votre smartphone via le navigateur web ou en telechargeant l'application Gemini depuis l'App Store ou le Google Play Store.
 - **Verifiez les reponses.** Comme tous les outils d'IA, Gemini peut parfois donner des informations incorrectes. Verifiez toujours les faits importants aupres d'autres sources.
+
+*Les informations sur les modeles dans ce guide ont ete verifiees avec les donnees de [BenchGecko](https://benchgecko.ai/fr/models). Vous pouvez comparer les modeles sur [benchgecko.ai/fr/compare](https://benchgecko.ai/fr/compare).*
