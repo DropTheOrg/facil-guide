@@ -53,3 +53,5 @@ Aparecera un cuadro pidiendo la contrasena del Wi-Fi. Escriba la contrasena cuid
 - **Su telefono recuerda las redes**: Una vez que se conecte a una red Wi-Fi, su telefono la recordara y se conectara automaticamente la proxima vez que este cerca. No necesita ingresar la contrasena de nuevo.
 - **Pida la contrasena con confianza**: En un cafe o en casa de un amigo, es completamente normal preguntar "Cual es la contrasena del Wi-Fi?" Se la compartiran con gusto.
 - **Olvidar una red si es necesario**: Si tiene problemas con una red Wi-Fi, puede "olvidarla" tocando el nombre de la red, y luego tocando **Olvidar** o el icono de engranaje y despues Olvidar. Luego intente conectarse de nuevo desde el principio.
+
+*Para una solucion detallada de problemas, consulte la pagina de soporte del fabricante de su dispositivo o pruebe la velocidad de su conexion en [Speedtest de Ookla](https://www.speedtest.net).*

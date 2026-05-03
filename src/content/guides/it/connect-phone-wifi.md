@@ -53,3 +53,5 @@ Apparira una finestra che chiede la password Wi-Fi. Digita la password con atten
 - **Il tuo telefono ricorda le reti**: Una volta collegato a una rete Wi-Fi, il tuo telefono la ricordera e si colleghera automaticamente la prossima volta che sarai nelle vicinanze. Non dovrai inserire di nuovo la password.
 - **Chiedi la password con tranquillita**: In un bar o a casa di un amico, e perfettamente normale chiedere "Qual e la password del Wi-Fi?" Saranno felici di condividerla.
 - **Dimenticare una rete se necessario**: Se hai problemi con una rete Wi-Fi, puoi "dimenticarla" toccando il nome della rete, poi toccando **Dimentica** o l'icona dell'ingranaggio e poi Dimentica. Poi prova a collegarti di nuovo da zero.
+
+*Per una risoluzione dettagliata dei problemi, consulta la pagina di supporto del produttore del tuo dispositivo o testa la velocita della tua connessione su [Speedtest di Ookla](https://www.speedtest.net).*

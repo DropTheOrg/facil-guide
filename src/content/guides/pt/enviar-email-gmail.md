@@ -60,3 +60,5 @@ Quando a sua mensagem estiver pronta, clique no botao azul **"Enviar"** no canto
 - **Anexar um ficheiro**: Para enviar uma foto ou documento, clique no icone do **clip** na parte inferior da janela e selecione o ficheiro do seu computador.
 - **Guardar como rascunho**: Se nao estiver pronto para enviar, feche simplesmente a janela. O Gmail guarda automaticamente o seu email como rascunho. Encontra-o na pasta **"Rascunhos"**.
 - **Reveja a sua mensagem**: Leia o seu email uma vez antes de o enviar. Nao pode cancelar o envio depois de alguns segundos.
+
+*Passos verificados com base nas [paginas de ajuda do Gmail da Google](https://support.google.com/mail).*

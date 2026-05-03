@@ -60,3 +60,5 @@ Apri l'app **Foto**. Il tuo screenshot sara la foto piu recente. Puoi anche trov
 - **Modificare prima di salvare**: Tocca la piccola anteprima che appare dopo aver fatto lo screenshot. Puoi ritagliare, disegnare o aggiungere testo.
 - **Condividere direttamente**: Dall'anteprima, tocca l'icona di **condivisione** (un quadrato con una freccia verso l'alto) per inviare lo screenshot tramite WhatsApp, email o messaggio.
 - **Modalita silenziosa**: Se non vuoi il suono dell'otturatore, metti il tuo iPhone in silenzioso con l'interruttore sul lato sinistro del telefono.
+
+*Passaggi basati sulla [documentazione del supporto Apple](https://support.apple.com/guide/iphone/take-a-screenshot-iphc872c0f65/ios).*

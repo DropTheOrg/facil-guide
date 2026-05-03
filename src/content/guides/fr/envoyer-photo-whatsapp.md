@@ -66,3 +66,5 @@ Vous verrez deux petites coches a cote de votre photo : une coche grise signifie
 - **La qualite des photos** : WhatsApp compresse un peu les photos pour les envoyer plus vite. La qualite reste tres bonne pour un usage normal.
 - **Le Wi-Fi est preferable** : Si possible, utilisez le Wi-Fi pour envoyer des photos, cela n'utilisera pas vos donnees mobiles.
 - **Ajouter un message** : Avant d'envoyer, vous pouvez ecrire un petit message sous la photo en appuyant sur la zone de texte.
+
+*Les etapes de ce guide ont ete verifiees a partir de la [FAQ officielle de WhatsApp](https://faq.whatsapp.com).*

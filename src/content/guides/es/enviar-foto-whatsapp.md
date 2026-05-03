@@ -71,6 +71,8 @@ Vera dos pequenas marcas junto a su foto:
 - **Edite la foto**: antes de enviar, puede recortar o dibujar sobre la foto usando los iconos en la parte superior
 - **Envie como documento**: si necesita la calidad original, en el menu del paso 3 elija "Documento" en vez de "Fototeca"
 
+*Los pasos de esta guia fueron verificados con las [FAQ oficiales de WhatsApp](https://faq.whatsapp.com).*
+
 ## Si algo sale mal
 
 | Problema | Solucion |

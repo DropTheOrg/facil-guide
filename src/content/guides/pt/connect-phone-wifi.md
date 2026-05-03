@@ -53,3 +53,5 @@ Aparecera uma caixa a pedir a palavra-passe do Wi-Fi. Escreva a palavra-passe co
 - **O seu telefone lembra-se das redes**: Uma vez ligado a uma rede Wi-Fi, o seu telefone vai lembrar-se dela e ligar-se automaticamente da proxima vez que estiver por perto. Nao precisa de introduzir a palavra-passe novamente.
 - **Peca a palavra-passe com confianca**: Num cafe ou em casa de um amigo, e perfeitamente normal perguntar "Qual e a palavra-passe do Wi-Fi?" Terao todo o gosto em partilha-la.
 - **Esquecer uma rede se necessario**: Se estiver a ter problemas com uma rede Wi-Fi, pode "esquece-la" tocando no nome da rede e depois tocando em **Esquecer** ou no icone de engrenagem e depois Esquecer. Depois tente ligar-se novamente desde o inicio.
+
+*Para resolucao de problemas detalhada, consulte a pagina de suporte do fabricante do seu dispositivo ou teste a velocidade da sua ligacao em [Speedtest da Ookla](https://www.speedtest.net).*

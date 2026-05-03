@@ -66,3 +66,5 @@ Vedrai due piccole spunte accanto alla foto: una spunta grigia significa che il 
 - **La qualita delle foto**: WhatsApp comprime leggermente le foto per inviarle piu velocemente. La qualita resta ottima per un uso normale.
 - **Il Wi-Fi e preferibile**: Se possibile, usa il Wi-Fi per inviare foto, cosi non consumi i tuoi dati mobili.
 - **Aggiungi un messaggio**: Prima di inviare, puoi scrivere un breve messaggio sotto la foto toccando l'area di testo.
+
+*I passaggi di questa guida sono stati verificati con le [FAQ ufficiali di WhatsApp](https://faq.whatsapp.com).*

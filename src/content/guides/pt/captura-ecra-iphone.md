@@ -60,3 +60,5 @@ Abra a aplicacao **Fotos**. A sua captura de ecra sera a foto mais recente. Tamb
 - **Editar antes de guardar**: Toque na pequena pre-visualizacao que aparece apos fazer a captura. Pode recortar, desenhar ou adicionar texto.
 - **Partilhar diretamente**: A partir da pre-visualizacao, toque no icone de **partilha** (um quadrado com uma seta a apontar para cima) para enviar a captura por WhatsApp, email ou mensagem.
 - **Modo silencioso**: Se nao quiser o som do obturador, coloque o seu iPhone em silencio com o interruptor no lado esquerdo do telefone.
+
+*Passos baseados na [documentacao do Suporte Apple](https://support.apple.com/guide/iphone/take-a-screenshot-iphc872c0f65/ios).*

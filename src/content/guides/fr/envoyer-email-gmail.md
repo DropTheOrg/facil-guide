@@ -60,3 +60,5 @@ Quand votre message est pret, cliquez sur le bouton bleu **"Envoyer"** en bas a 
 - **Joindre un fichier** : Pour envoyer une photo ou un document, cliquez sur l'icone en forme de **trombone** en bas de la fenetre et selectionnez le fichier depuis votre ordinateur.
 - **Enregistrer comme brouillon** : Si vous n'etes pas pret a envoyer, fermez simplement la fenetre. Gmail enregistre automatiquement votre email comme brouillon. Vous le retrouverez dans le dossier **"Brouillons"**.
 - **Relisez-vous** : Lisez votre email une fois avant de l'envoyer. Vous ne pouvez pas annuler l'envoi apres quelques secondes.
+
+*Etapes verifiees a partir des [pages d'aide Gmail de Google](https://support.google.com/mail).*

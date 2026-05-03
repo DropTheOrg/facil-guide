@@ -78,3 +78,5 @@ Write your password on a piece of paper and keep it in a safe place at home (not
 - **Turn on two-factor authentication**: For your most important accounts (email, banking), enable two-factor authentication. This sends a code to your phone when someone tries to log in.
 - **Never share passwords**: No legitimate company will ever ask for your password by email or phone. If someone asks, it is a scam.
 - **Check for breaches**: If a website you use announces a security breach, change your password for that site immediately.
+
+*You can check if your email has appeared in a known data breach at [Have I Been Pwned](https://haveibeenpwned.com).*

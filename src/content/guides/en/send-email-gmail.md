@@ -60,3 +60,5 @@ When your message is ready, click the blue **"Send"** button at the bottom left 
 - **Attach a file**: To send a photo or document, click the **paperclip icon** at the bottom of the compose window and select the file from your computer.
 - **Save as draft**: If you are not ready to send yet, just close the compose window. Gmail automatically saves your email as a draft. You can find it in the **"Drafts"** folder.
 - **Check your spelling**: Read your email once before sending. You cannot unsend an email after a few seconds have passed.
+
+*Steps verified against [Google's Gmail help pages](https://support.google.com/mail).*

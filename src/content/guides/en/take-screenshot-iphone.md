@@ -60,3 +60,5 @@ Open the **Photos** app. Your screenshot will be the most recent photo. You can 
 - **Edit before saving**: Tap the small preview that appears after taking a screenshot. You can crop it, draw on it, or add text.
 - **Share directly**: From the preview, tap the **share icon** (a square with an arrow pointing up) to send the screenshot via WhatsApp, email, or message.
 - **Silent mode**: If you do not want the shutter sound, put your iPhone on silent using the switch on the left side of the phone.
+
+*Steps based on [Apple Support documentation](https://support.apple.com/guide/iphone/take-a-screenshot-iphc872c0f65/ios).*

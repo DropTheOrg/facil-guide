@@ -60,3 +60,5 @@ Cuando tu mensaje este listo, haz clic en el boton azul **"Enviar"** en la parte
 - **Adjuntar un archivo**: Para enviar una foto o documento, haz clic en el icono del **clip** en la parte inferior de la ventana y selecciona el archivo de tu ordenador.
 - **Guardar como borrador**: Si no estas listo para enviar, simplemente cierra la ventana. Gmail guarda automaticamente tu correo como borrador. Lo encontraras en la carpeta **"Borradores"**.
 - **Revisa tu mensaje**: Lee tu correo una vez antes de enviarlo. No puedes cancelar el envio despues de unos segundos.
+
+*Pasos verificados con las [paginas de ayuda de Gmail de Google](https://support.google.com/mail).*

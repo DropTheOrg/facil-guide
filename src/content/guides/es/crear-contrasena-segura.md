@@ -78,3 +78,5 @@ Escriba su contrasena en un papel y guardelo en un lugar seguro en su casa (no j
 - **Active la autenticacion de dos factores**: Para sus cuentas mas importantes (correo, banco), active la autenticacion de dos factores. Esto envia un codigo a su telefono cuando alguien intenta iniciar sesion.
 - **Nunca comparta contrasenas**: Ninguna empresa seria le pedira jamas su contrasena por correo o telefono. Si alguien lo hace, es una estafa.
 - **Verifique las filtraciones**: Si un sitio que usa anuncia una filtracion de seguridad, cambie su contrasena para ese sitio inmediatamente.
+
+*Puede comprobar si su correo ha aparecido en una filtracion de datos en [Have I Been Pwned](https://haveibeenpwned.com).*

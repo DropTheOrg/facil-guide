@@ -78,3 +78,5 @@ Scrivi la tua password su un foglio e conservalo in un posto sicuro a casa (non 
 - **Attiva l'autenticazione a due fattori**: Per i tuoi account piu importanti (email, banca), attiva l'autenticazione a due fattori. Questo invia un codice al tuo telefono quando qualcuno prova ad accedere.
 - **Non condividere mai le password**: Nessuna azienda seria ti chiedera mai la tua password via email o telefono. Se qualcuno lo fa, e una truffa.
 - **Controlla le violazioni**: Se un sito che usi annuncia una violazione di sicurezza, cambia la tua password per quel sito immediatamente.
+
+*Puoi verificare se la tua email e stata coinvolta in una violazione di dati su [Have I Been Pwned](https://haveibeenpwned.com).*

@@ -78,3 +78,5 @@ Ecrivez votre mot de passe sur un papier et gardez-le dans un endroit sur chez v
 - **Activez l'authentification a deux facteurs** : Pour vos comptes les plus importants (email, banque), activez l'authentification a deux facteurs. Cela envoie un code sur votre telephone quand quelqu'un essaie de se connecter.
 - **Ne partagez jamais vos mots de passe** : Aucune entreprise serieuse ne vous demandera jamais votre mot de passe par email ou telephone. Si quelqu'un le demande, c'est une arnaque.
 - **Verifiez les fuites de donnees** : Si un site que vous utilisez annonce une faille de securite, changez immediatement votre mot de passe pour ce site.
+
+*Vous pouvez verifier si votre email a ete compromis lors d'une fuite de donnees sur [Have I Been Pwned](https://haveibeenpwned.com).*

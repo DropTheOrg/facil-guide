@@ -53,3 +53,5 @@ Une fenetre apparaitra pour vous demander le mot de passe Wi-Fi. Tapez le mot de
 - **Votre telephone se souvient des reseaux** : Une fois connecte a un reseau Wi-Fi, votre telephone s'en souviendra et se connectera automatiquement la prochaine fois que vous serez a proximite. Vous n'aurez pas besoin de retaper le mot de passe.
 - **Demandez poliment le mot de passe** : Dans un cafe ou chez un ami, c'est tout a fait normal de demander "Quel est le mot de passe du Wi-Fi ?" On vous le donnera volontiers.
 - **Oublier un reseau si necessaire** : Si vous avez des problemes avec un reseau Wi-Fi, vous pouvez l'"oublier" en appuyant sur le nom du reseau, puis en appuyant sur **Oublier** ou sur l'icone d'engrenage puis Oublier. Essayez ensuite de vous reconnecter depuis le debut.
+
+*Pour un depannage detaille, consultez la page d'assistance du fabricant de votre appareil ou testez votre vitesse de connexion sur [Speedtest d'Ookla](https://www.speedtest.net).*

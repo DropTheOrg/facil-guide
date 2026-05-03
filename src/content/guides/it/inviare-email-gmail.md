@@ -60,3 +60,5 @@ Quando il tuo messaggio e pronto, clicca sul pulsante blu **"Invia"** in basso a
 - **Allegare un file**: Per inviare una foto o un documento, clicca sull'icona della **graffetta** nella parte inferiore della finestra e seleziona il file dal tuo computer.
 - **Salvare come bozza**: Se non sei pronto per inviare, chiudi semplicemente la finestra. Gmail salva automaticamente la tua email come bozza. La troverai nella cartella **"Bozze"**.
 - **Rileggi il messaggio**: Leggi la tua email una volta prima di inviarla. Non puoi annullare l'invio dopo qualche secondo.
+
+*Passaggi verificati con le [pagine di assistenza Gmail di Google](https://support.google.com/mail).*

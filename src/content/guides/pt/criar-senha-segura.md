@@ -78,3 +78,5 @@ Escreva a sua palavra-passe num papel e guarde-o num lugar seguro em casa (nao a
 - **Ative a autenticacao de dois fatores**: Para as suas contas mais importantes (email, banco), ative a autenticacao de dois fatores. Isto envia um codigo para o seu telemovel quando alguem tenta iniciar sessao.
 - **Nunca partilhe palavras-passe**: Nenhuma empresa seria lhe pedira a sua palavra-passe por email ou telefone. Se alguem o fizer, e uma burla.
 - **Verifique as fugas de dados**: Se um site que usa anunciar uma falha de seguranca, mude a sua palavra-passe para esse site imediatamente.
+
+*Pode verificar se o seu email apareceu numa fuga de dados conhecida em [Have I Been Pwned](https://haveibeenpwned.com).*

@@ -64,3 +64,5 @@ You will see two small checkmarks next to your photo: one grey checkmark means t
 - **Photo quality**: WhatsApp slightly compresses photos to send them faster. The quality remains very good for normal use.
 - **Wi-Fi is preferred**: If possible, use Wi-Fi to send photos. This will not use your mobile data.
 - **Add a message**: Before sending, you can write a short message under the photo by tapping on the text area.
+
+*Steps in this guide were verified against the [official WhatsApp FAQ](https://faq.whatsapp.com).*

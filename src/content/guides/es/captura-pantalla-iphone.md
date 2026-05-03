@@ -60,3 +60,5 @@ Abre la aplicacion **Fotos**. Tu captura de pantalla sera la foto mas reciente. 
 - **Editar antes de guardar**: Toca la pequena vista previa que aparece despues de hacer la captura. Puedes recortar, dibujar o anadir texto.
 - **Compartir directamente**: Desde la vista previa, toca el icono de **compartir** (un cuadrado con una flecha hacia arriba) para enviar la captura por WhatsApp, correo o mensaje.
 - **Modo silencioso**: Si no quieres el sonido del obturador, pon tu iPhone en silencio con el interruptor del lado izquierdo del telefono.
+
+*Pasos basados en la [documentacion de soporte de Apple](https://support.apple.com/guide/iphone/take-a-screenshot-iphc872c0f65/ios).*

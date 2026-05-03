@@ -53,3 +53,5 @@ A box will appear asking for the Wi-Fi password. Type the password carefully usi
 - **Your phone remembers networks**: Once you connect to a Wi-Fi network, your phone will remember it and connect automatically the next time you are nearby. You do not need to enter the password again.
 - **Ask for the password politely**: At a cafe or a friend's home, it is perfectly normal to ask "What is the Wi-Fi password?" They will be happy to share it.
 - **Forget a network if needed**: If you are having trouble with a Wi-Fi network, you can "forget" it by tapping the network name, then tapping **Forget** or the gear icon and then Forget. Then try connecting again from scratch.
+
+*For detailed troubleshooting, see your device manufacturer's support page or test your connection speed at [Speedtest by Ookla](https://www.speedtest.net).*

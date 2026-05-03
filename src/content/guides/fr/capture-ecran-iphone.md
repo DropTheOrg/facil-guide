@@ -60,3 +60,5 @@ Ouvrez l'application **Photos**. Votre capture d'ecran sera la photo la plus rec
 - **Modifier avant d'enregistrer** : Appuyez sur le petit apercu qui apparait apres la capture. Vous pouvez recadrer, dessiner ou ajouter du texte.
 - **Partager directement** : Depuis l'apercu, appuyez sur l'icone de **partage** (un carre avec une fleche vers le haut) pour envoyer la capture par WhatsApp, email ou message.
 - **Mode silencieux** : Si vous ne voulez pas le son du declencheur, mettez votre iPhone en silencieux avec l'interrupteur sur le cote gauche du telephone.
+
+*Etapes basees sur la [documentation du support Apple](https://support.apple.com/guide/iphone/take-a-screenshot-iphc872c0f65/ios).*
