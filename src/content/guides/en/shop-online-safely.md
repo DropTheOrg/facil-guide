@@ -66,6 +66,8 @@ Review everything one last time, then tap **Place Order** or **Confirm Purchase*
 - Be cautious of prices that seem too good to be true. Very cheap products on unknown websites are often scams.
 - Check the return policy before buying so you know your options if the product is not what you expected.
 
+*For more tips on avoiding online shopping scams, visit the [FTC consumer advice page](https://consumer.ftc.gov/articles/online-shopping).*
+
 ## Useful links
 
 - [Apple Pay official guide](https://support.apple.com/en-gb/HT201239)

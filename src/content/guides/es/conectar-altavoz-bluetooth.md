@@ -62,3 +62,5 @@ Prueba a reproducir musica para asegurarte de que el sonido sale por el altavoz.
 - **Reconexion automatica**: Una vez emparejado, tu iPhone se conectara automaticamente al altavoz cada vez que el Bluetooth este activado y el altavoz encendido.
 - **Cambiar salida de audio**: Si el sonido sigue saliendo de tu iPhone, desliza hacia abajo desde la esquina superior derecha para abrir el **Centro de control**, toca los **controles de audio** y selecciona tu altavoz.
 - **Bateria**: El Bluetooth consume una pequena cantidad de bateria tanto en tu telefono como en el altavoz. Manten ambos cargados para la mejor experiencia.
+
+*Para saber mas sobre la tecnologia Bluetooth y la compatibilidad, visite [bluetooth.com](https://www.bluetooth.com/learn-about-bluetooth/tech-overview/).*

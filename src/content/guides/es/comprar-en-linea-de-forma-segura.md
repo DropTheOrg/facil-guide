@@ -66,6 +66,8 @@ Revisa todo una ultima vez y luego toca **Realizar pedido** o **Confirmar compra
 - Desconfia de los precios que parecen demasiado buenos para ser verdad. Los productos muy baratos en sitios desconocidos suelen ser estafas.
 - Revisa la politica de devolucion antes de comprar para conocer tus opciones si el producto no es lo que esperabas.
 
+*Para mas consejos sobre como evitar estafas en compras online, visite el [portal del consumidor europeo](https://ec.europa.eu/consumers/odr).*
+
 ## Enlaces utiles
 
 - [Guia oficial de Apple Pay](https://support.apple.com/es-es/HT201239)

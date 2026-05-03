@@ -57,3 +57,5 @@ Vous verrez maintenant les autres personnes de la reunion sur votre ecran. Pour 
 - **Se mettre en sourdine** : Appuyez sur l'**icone du microphone** en bas de l'ecran pour vous mettre en sourdine quand vous ne parlez pas. Cela evite les bruits de fond.
 - **Vue galerie** : Si vous voulez voir tout le monde en meme temps, appuyez sur **Vue galerie** (generalement en haut a droite ou en balayant).
 - **Chat** : Appuyez sur l'icone **Chat** pour envoyer des messages texte a tout le monde dans la reunion sans interrompre la personne qui parle.
+
+*Etapes verifiees a partir du [centre d'aide Zoom](https://support.zoom.com).*

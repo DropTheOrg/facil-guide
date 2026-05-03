@@ -62,3 +62,5 @@ Toque no botao azul **"Iniciar"** na parte inferior do ecra. O Google Maps dara 
 - **Partilhar a sua localizacao**: Pode partilhar a sua localizacao em tempo real com a sua familia tocando na sua foto de perfil e selecionando **"Partilha de localizacao"**.
 - **Guardar locais favoritos**: Toque no botao **"Guardar"** em qualquer local para o adicionar aos seus favoritos.
 - **Verificar o trafego**: As linhas coloridas nas estradas indicam o estado do trafego. Verde significa livre, amarelo significa lento e vermelho significa muito trafego.
+
+*Passos verificados com base nas [paginas de ajuda do Google Maps](https://support.google.com/maps).*

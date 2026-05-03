@@ -64,6 +64,8 @@ Sur iPhone, allez dans **Reglages**, votre **nom**, **iCloud**, **Sauvegarde iCl
 - Sauvegardez votre telephone avant de voyager a l'etranger au cas ou quelque chose arriverait.
 - Si vous passez d'Android a iPhone (ou l'inverse), Apple et Google ont des outils pour transferer vos donnees.
 
+*Pour les instructions officielles de sauvegarde, consultez le [guide de sauvegarde iCloud d'Apple](https://support.apple.com/en-us/108340) ou l'[aide de sauvegarde Google](https://support.google.com/android/answer/2819582).*
+
 ## Liens utiles
 
 - [Sauvegarder votre iPhone avec iCloud - Assistance Apple](https://support.apple.com/fr-fr/108366)

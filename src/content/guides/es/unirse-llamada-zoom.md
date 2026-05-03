@@ -57,3 +57,5 @@ Ahora vera a las demas personas de la reunion en su pantalla. Para salir cuando 
 - **Silenciarse**: Toque el **icono del microfono** en la parte inferior de la pantalla para silenciarse cuando no este hablando. Esto evita el ruido de fondo.
 - **Vista galeria**: Si quiere ver a todos a la vez, toque **Vista galeria** (normalmente arriba a la derecha o deslizando).
 - **Chat**: Toque el icono de **Chat** para enviar mensajes de texto a todos en la reunion sin interrumpir al que habla.
+
+*Pasos verificados con el [centro de ayuda de Zoom](https://support.zoom.com).*

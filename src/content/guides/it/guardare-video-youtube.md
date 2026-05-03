@@ -68,6 +68,8 @@ Se un video è sfocato o si ferma per caricare, puoi cambiare la qualità. Tocca
 - Puoi condividere un video toccando il pulsante **Condividi** sotto il video e scegliendo WhatsApp, e-mail o messaggio.
 - Per tornare alla schermata iniziale, tocca la scheda **Home** nella parte inferiore dello schermo (l'icona della casa).
 
+*Passaggi verificati con le [pagine di assistenza YouTube](https://support.google.com/youtube).*
+
 ## Link esterni
 
 - [Centro assistenza YouTube](https://support.google.com/youtube/) -- assistenza ufficiale di Google per usare YouTube

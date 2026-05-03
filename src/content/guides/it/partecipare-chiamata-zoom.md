@@ -57,3 +57,5 @@ Ora vedrai le altre persone della riunione sullo schermo. Per uscire quando hai 
 - **Silenziati**: Tocca l'**icona del microfono** in basso sullo schermo per silenziarti quando non stai parlando. Questo evita il rumore di fondo.
 - **Vista galleria**: Se vuoi vedere tutti contemporaneamente, tocca **Vista galleria** (di solito in alto a destra o scorrendo).
 - **Chat**: Tocca l'icona **Chat** per inviare messaggi di testo a tutti nella riunione senza interrompere chi sta parlando.
+
+*Passaggi verificati con il [centro assistenza Zoom](https://support.zoom.com).*

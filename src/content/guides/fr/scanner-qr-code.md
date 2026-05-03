@@ -78,3 +78,5 @@ Si rien ne fonctionne, demandez de l'aide à quelqu'un. Certains téléphones pl
 ## C'est fait !
 
 Vous savez maintenant scanner n'importe quel QR code. Vous les trouverez partout -- menus de restaurants, arrêts de bus, billets d'événements, emballages de produits, et même dans des guides comme celui-ci.
+
+*Pour en savoir plus sur le fonctionnement des codes QR, consultez l'[article sur les codes QR sur Wikipedia](https://fr.wikipedia.org/wiki/Code_QR).*

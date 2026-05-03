@@ -64,6 +64,8 @@ Su iPhone, vai su **Impostazioni**, il tuo **nome**, **iCloud**, **Backup iCloud
 - Fai il backup prima di viaggiare all'estero nel caso succeda qualcosa al telefono.
 - Se passi da Android a iPhone (o viceversa), sia Apple che Google hanno strumenti per trasferire i dati.
 
+*Per le istruzioni ufficiali di backup, consulta la [guida al backup iCloud di Apple](https://support.apple.com/en-us/108340) o la [guida al backup di Google](https://support.google.com/android/answer/2819582).*
+
 ## Link utili
 
 - [Eseguire il backup dell'iPhone con iCloud - Supporto Apple](https://support.apple.com/it-it/108366)

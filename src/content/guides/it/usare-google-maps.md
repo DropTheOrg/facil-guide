@@ -62,3 +62,5 @@ Tocca il pulsante blu **"Avvia"** nella parte inferiore dello schermo. Google Ma
 - **Condividere la posizione**: Puoi condividere la tua posizione in tempo reale con la famiglia toccando la tua foto profilo e selezionando **"Condivisione della posizione"**.
 - **Salvare luoghi preferiti**: Tocca il pulsante **"Salva"** su qualsiasi luogo per aggiungerlo ai tuoi preferiti.
 - **Controllare il traffico**: Le linee colorate sulle strade indicano lo stato del traffico. Verde significa scorrevole, giallo significa rallentato e rosso significa traffico intenso.
+
+*Passaggi verificati con le [pagine di assistenza di Google Maps](https://support.google.com/maps).*

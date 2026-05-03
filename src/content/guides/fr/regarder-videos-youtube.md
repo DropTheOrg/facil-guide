@@ -68,6 +68,8 @@ Si une vidéo est floue ou s'arrête souvent pour charger, vous pouvez modifier 
 - Vous pouvez partager une vidéo en appuyant sur le bouton **Partager** sous la vidéo et en choisissant WhatsApp, e-mail ou SMS.
 - Pour revenir à l'écran d'accueil, appuyez sur l'onglet **Accueil** en bas de l'écran (l'icône de maison).
 
+*Etapes verifiees a partir des [pages d'aide YouTube](https://support.google.com/youtube).*
+
 ## Liens externes
 
 - [Centre d'aide YouTube](https://support.google.com/youtube/) -- aide officielle de Google pour utiliser YouTube

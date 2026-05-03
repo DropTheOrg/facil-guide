@@ -78,3 +78,5 @@ Si nada funciona, pide ayuda a alguien cercano. Algunos telefonos mas antiguos p
 ## Lo has conseguido!
 
 Ahora sabes escanear cualquier codigo QR. Los encontraras en todas partes -- menus de restaurantes, paradas de autobus, entradas de eventos, envases de productos, e incluso en guias como esta.
+
+*Para saber mas sobre como funcionan los codigos QR, consulte el [articulo sobre codigos QR en Wikipedia](https://es.wikipedia.org/wiki/C%C3%B3digo_QR).*

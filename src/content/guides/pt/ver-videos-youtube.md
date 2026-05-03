@@ -68,6 +68,8 @@ Se um vídeo está desfocado ou pára para carregar, pode alterar a qualidade. T
 - Pode partilhar um vídeo tocando no botão **Partilhar** abaixo do vídeo e escolhendo WhatsApp, e-mail ou mensagem de texto.
 - Para voltar ao ecrã inicial, toque no separador **Início** na parte inferior do ecrã (o ícone de casa).
 
+*Passos verificados com base nas [paginas de ajuda do YouTube](https://support.google.com/youtube).*
+
 ## Ligações externas
 
 - [Centro de Ajuda do YouTube](https://support.google.com/youtube/) -- ajuda oficial da Google para usar o YouTube

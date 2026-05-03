@@ -62,3 +62,5 @@ Experimente reproduzir musica para confirmar que o som sai pela coluna.
 - **Reconexao automatica**: Uma vez emparelhados, o iPhone liga-se automaticamente a coluna sempre que o Bluetooth estiver ligado e a coluna estiver ligada.
 - **Mudar a saida de audio**: Se o som continuar a sair do iPhone, deslize para baixo a partir do canto superior direito para abrir o **Centro de controlo**, toque nos **controlos de audio** e selecione a sua coluna.
 - **Bateria**: O Bluetooth usa uma pequena quantidade de bateria tanto no telemovel como na coluna. Mantenha ambos carregados para a melhor experiencia.
+
+*Para saber mais sobre a tecnologia Bluetooth e compatibilidade, visite [bluetooth.com](https://www.bluetooth.com/learn-about-bluetooth/tech-overview/).*

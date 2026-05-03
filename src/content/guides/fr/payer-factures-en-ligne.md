@@ -66,6 +66,8 @@ Retournez a l'ecran principal et appuyez sur **Activite** ou **Historique des pa
 - Commencez par une petite facture pour vous familiariser
 - Ne payez jamais via un lien dans un email ou SMS -- ouvrez toujours directement votre application bancaire
 
+*Pour des conseils generaux sur les paiements en ligne securises, consultez le [portail du consommateur europeen](https://ec.europa.eu/consumers/odr).*
+
 ## Liens utiles
 
 - [App Store Apple](https://www.apple.com/fr/app-store/)

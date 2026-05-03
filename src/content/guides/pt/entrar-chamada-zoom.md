@@ -57,3 +57,5 @@ Vera agora as outras pessoas da reuniao no seu ecra. Para sair quando tiver acab
 - **Silenciar-se**: Toque no **icone do microfone** na parte inferior do ecra para se silenciar quando nao estiver a falar. Isto evita ruido de fundo.
 - **Vista galeria**: Se quiser ver todos ao mesmo tempo, toque em **Vista galeria** (normalmente no canto superior direito ou deslizando).
 - **Chat**: Toque no icone de **Chat** para enviar mensagens de texto a todos na reuniao sem interromper quem esta a falar.
+
+*Passos verificados com base no [centro de ajuda do Zoom](https://support.zoom.com).*

@@ -62,3 +62,5 @@ Tap the blue **"Start"** button at the bottom of the screen. Google Maps will no
 - **Share your location**: You can share your real-time location with family by tapping your profile picture and selecting **"Location sharing"**.
 - **Save favorite places**: Tap the **"Save"** button on any place to add it to your favorites for quick access later.
 - **Check traffic**: The colored lines on roads show traffic conditions. Green means clear, yellow means slow, and red means heavy traffic.
+
+*Steps verified against [Google Maps help pages](https://support.google.com/maps).*

@@ -66,6 +66,8 @@ Volte ao ecra principal e toque em **Atividade** ou **Historico de pagamentos**.
 - Comece com uma conta pequena para se familiarizar
 - Nunca pague a partir de um link num email ou SMS -- abra sempre diretamente a app do banco
 
+*Para conselhos gerais sobre pagamentos online seguros, consulte o [portal do consumidor europeu](https://ec.europa.eu/consumers/odr).*
+
 ## Links uteis
 
 - [App Store Apple](https://www.apple.com/pt/app-store/)

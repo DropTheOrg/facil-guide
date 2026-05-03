@@ -66,6 +66,8 @@ Reveja tudo uma ultima vez e depois toque em **Fazer encomenda** ou **Confirmar 
 - Desconfie de precos que parecem bons demais para serem verdade. Produtos muito baratos em sites desconhecidos sao frequentemente burlas.
 - Verifique a politica de devolucao antes de comprar para conhecer as suas opcoes se o produto nao corresponder as suas expectativas.
 
+*Para mais dicas sobre como evitar burlas em compras online, consulte o [portal do consumidor europeu](https://ec.europa.eu/consumers/odr).*
+
 ## Links uteis
 
 - [Guia oficial do Apple Pay](https://support.apple.com/pt-pt/HT201239)

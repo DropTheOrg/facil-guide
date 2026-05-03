@@ -66,6 +66,8 @@ Vuelve a la pantalla principal y toca **Actividad** o **Historial de pagos**. De
 - Empieza con una factura pequena para familiarizarte
 - Nunca pagues desde un enlace en un email o SMS -- abre siempre directamente tu app bancaria
 
+*Para consejos generales sobre pagos online seguros, visite el [portal del consumidor europeo](https://ec.europa.eu/consumers/odr).*
+
 ## Enlaces utiles
 
 - [App Store Apple](https://www.apple.com/es/app-store/)

@@ -66,6 +66,8 @@ Verifiez tout une derniere fois, puis appuyez sur **Passer la commande** ou **Co
 - Mefie-vous des prix qui semblent trop beaux pour etre vrais. Des produits tres bon marche sur des sites inconnus sont souvent des arnaques.
 - Verifiez la politique de retour avant d'acheter pour connaitre vos options si le produit ne correspond pas a vos attentes.
 
+*Pour plus de conseils sur les arnaques en ligne, consultez le [portail du consommateur europeen](https://ec.europa.eu/consumers/odr).*
+
 ## Liens utiles
 
 - [Guide officiel Apple Pay](https://support.apple.com/fr-fr/HT201239)

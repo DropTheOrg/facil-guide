@@ -68,6 +68,8 @@ If a video is blurry or keeps stopping to load, you can change the quality. Tap 
 - You can share a video with someone by tapping the **Share** button below the video and choosing WhatsApp, email, or text message.
 - To go back to the home screen, tap the **Home** tab at the bottom of the screen (the house icon).
 
+*Steps verified against [YouTube help pages](https://support.google.com/youtube).*
+
 ## External links
 
 - [YouTube Help Centre](https://support.google.com/youtube/) -- official help from Google for using YouTube

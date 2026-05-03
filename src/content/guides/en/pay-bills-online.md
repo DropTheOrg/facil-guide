@@ -67,6 +67,8 @@ Go back to the main screen and tap **Activity**, **Transactions**, or **Payment 
 - Never pay a bill from a link in an email or text message -- always open your bank app directly
 - If your bill amount changes each month, check the new amount before paying
 
+*For general advice on safe online payments, see [consumer.gov](https://consumer.gov/section/scams).*
+
 ## Useful links
 
 - [Consumer Financial Protection Bureau: Paying bills online](https://www.consumerfinance.gov/consumer-tools/managing-your-finances/)

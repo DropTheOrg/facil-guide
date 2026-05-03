@@ -62,3 +62,5 @@ Prova a riprodurre della musica per assicurarti che il suono esca dall'altoparla
 - **Riconnessione automatica**: Una volta associati, il tuo iPhone si collegara automaticamente all'altoparlante ogni volta che il Bluetooth e attivo e l'altoparlante e acceso.
 - **Cambiare l'uscita audio**: Se il suono continua a uscire dall'iPhone, scorri verso il basso dall'angolo in alto a destra per aprire il **Centro di controllo**, tocca i **controlli audio** e seleziona il tuo altoparlante.
 - **Batteria**: Il Bluetooth usa una piccola quantita di batteria sia sul telefono che sull'altoparlante. Tieni entrambi carichi per la migliore esperienza.
+
+*Per saperne di piu sulla tecnologia Bluetooth e la compatibilita, visita [bluetooth.com](https://www.bluetooth.com/learn-about-bluetooth/tech-overview/).*

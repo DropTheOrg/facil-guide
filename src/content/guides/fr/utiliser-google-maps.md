@@ -62,3 +62,5 @@ Appuyez sur le bouton bleu **"Demarrer"** en bas de l'ecran. Google Maps vous do
 - **Partager votre position** : Vous pouvez partager votre position en temps reel avec votre famille en appuyant sur votre photo de profil et en selectionnant **"Partage de position"**.
 - **Enregistrer des lieux favoris** : Appuyez sur le bouton **"Enregistrer"** sur n'importe quel lieu pour l'ajouter a vos favoris.
 - **Verifier le trafic** : Les lignes colorees sur les routes indiquent l'etat du trafic. Vert signifie fluide, jaune signifie ralenti, et rouge signifie embouteillage.
+
+*Etapes verifiees a partir des [pages d'aide de Google Maps](https://support.google.com/maps).*

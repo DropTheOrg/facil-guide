@@ -68,6 +68,8 @@ Si un vídeo se ve borroso o se detiene para cargar, puedes cambiar la calidad. 
 - Puedes compartir un vídeo tocando el botón **Compartir** debajo del vídeo y eligiendo WhatsApp, correo electrónico o mensaje de texto.
 - Para volver a la pantalla de inicio, toca la pestaña **Inicio** en la parte inferior de la pantalla (el icono de casa).
 
+*Pasos verificados con las [paginas de ayuda de YouTube](https://support.google.com/youtube).*
+
 ## Enlaces externos
 
 - [Centro de ayuda de YouTube](https://support.google.com/youtube/) -- ayuda oficial de Google para usar YouTube

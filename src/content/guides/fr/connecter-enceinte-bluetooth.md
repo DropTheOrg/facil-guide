@@ -62,3 +62,5 @@ Essayez de lancer de la musique pour verifier que le son sort bien de l'enceinte
 - **Reconnexion automatique** : Une fois appairee, votre iPhone se connectera automatiquement a l'enceinte chaque fois que le Bluetooth est active et l'enceinte allumee.
 - **Changer la sortie audio** : Si le son sort toujours de votre iPhone, balayez vers le bas depuis le coin superieur droit pour ouvrir le **Centre de controle**, appuyez sur les **commandes audio** et selectionnez votre enceinte.
 - **Batterie** : Le Bluetooth consomme une petite quantite de batterie sur votre telephone et sur l'enceinte. Gardez les deux charges pour une meilleure experience.
+
+*Pour en savoir plus sur la technologie Bluetooth et la compatibilite, visitez [bluetooth.com](https://www.bluetooth.com/learn-about-bluetooth/tech-overview/).*

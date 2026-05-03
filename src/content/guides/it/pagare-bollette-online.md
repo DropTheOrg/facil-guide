@@ -66,6 +66,8 @@ Torna alla schermata principale e tocca **Attivita** o **Storico pagamenti**. Do
 - Inizia con una piccola bolletta per prendere confidenza
 - Non pagare mai da un link in un'email o SMS -- apri sempre direttamente l'app della banca
 
+*Per consigli generali sui pagamenti online sicuri, visita il [portale del consumatore europeo](https://ec.europa.eu/consumers/odr).*
+
 ## Link utili
 
 - [App Store Apple](https://www.apple.com/it/app-store/)

@@ -64,6 +64,8 @@ En iPhone, ve a **Ajustes**, tu **nombre**, **iCloud**, **Copia en iCloud**. Ver
 - Haz una copia de seguridad antes de viajar al extranjero por si algo le pasa a tu telefono.
 - Si cambias de Android a iPhone (o al reves), Apple y Google tienen herramientas para transferir tus datos.
 
+*Para instrucciones oficiales de copia de seguridad, consulte la [guia de backup de iCloud de Apple](https://support.apple.com/en-us/108340) o la [ayuda de backup de Google](https://support.google.com/android/answer/2819582).*
+
 ## Enlaces utiles
 
 - [Hacer copia de seguridad del iPhone con iCloud - Soporte de Apple](https://support.apple.com/es-es/108366)

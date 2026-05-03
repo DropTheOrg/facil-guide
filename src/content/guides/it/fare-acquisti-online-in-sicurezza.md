@@ -66,6 +66,8 @@ Controlla tutto un'ultima volta, poi tocca **Effettua ordine** o **Conferma acqu
 - Diffida dei prezzi che sembrano troppo belli per essere veri. Prodotti molto economici su siti sconosciuti sono spesso truffe.
 - Controlla la politica di reso prima di comprare per conoscere le tue opzioni se il prodotto non corrisponde alle tue aspettative.
 
+*Per altri consigli su come evitare truffe negli acquisti online, visita il [portale del consumatore europeo](https://ec.europa.eu/consumers/odr).*
+
 ## Link utili
 
 - [Guida ufficiale Apple Pay](https://support.apple.com/it-it/HT201239)

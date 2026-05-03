@@ -78,3 +78,5 @@ If nothing works, ask someone nearby for help. Some older phones may need a free
 ## You Did It!
 
 You now know how to scan any QR code. You will find them everywhere -- restaurant menus, bus stops, event tickets, product packaging, and even in guides like this one.
+
+*To learn more about how QR codes work, see the [QR code article on Wikipedia](https://en.wikipedia.org/wiki/QR_code).*

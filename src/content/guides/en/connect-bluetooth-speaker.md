@@ -62,3 +62,5 @@ Try playing some music to make sure the sound comes through the speaker.
 - **Automatic reconnection**: Once paired, your iPhone will automatically connect to the speaker whenever both Bluetooth is on and the speaker is turned on.
 - **Switch audio output**: If sound is still coming from your iPhone, swipe down from the top right corner to open **Control Center**, tap the **audio controls**, and select your speaker.
 - **Battery**: Bluetooth uses a small amount of battery on both your phone and the speaker. Keep both charged for the best experience.
+
+*To learn more about Bluetooth technology and compatibility, visit [bluetooth.com](https://www.bluetooth.com/learn-about-bluetooth/tech-overview/).*

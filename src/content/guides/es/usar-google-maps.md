@@ -62,3 +62,5 @@ Toca el boton azul **"Iniciar"** en la parte inferior de la pantalla. Google Map
 - **Compartir tu ubicacion**: Puedes compartir tu ubicacion en tiempo real con tu familia tocando tu foto de perfil y seleccionando **"Compartir ubicacion"**.
 - **Guardar lugares favoritos**: Toca el boton **"Guardar"** en cualquier lugar para anadirlo a tus favoritos.
 - **Consultar el trafico**: Las lineas de colores en las carreteras indican el estado del trafico. Verde significa fluido, amarillo significa lento y rojo significa mucho trafico.
+
+*Pasos verificados con las [paginas de ayuda de Google Maps](https://support.google.com/maps).*

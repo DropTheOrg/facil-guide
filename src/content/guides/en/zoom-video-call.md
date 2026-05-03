@@ -57,3 +57,5 @@ You will now see the other people in the meeting on your screen. To leave when y
 - **Mute yourself**: Tap the **microphone icon** at the bottom of the screen to mute yourself when you are not speaking. This keeps background noise out.
 - **Gallery view**: If you want to see everyone at once instead of just the speaker, tap **Gallery View** (usually in the top right or by swiping).
 - **Chat**: Tap the **Chat** icon to send text messages to everyone in the meeting without interrupting the speaker.
+
+*Steps verified against the [Zoom help center](https://support.zoom.com).*

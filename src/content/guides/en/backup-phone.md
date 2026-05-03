@@ -64,6 +64,8 @@ On iPhone, go to **Settings**, then your **name**, then **iCloud**, then **iClou
 - Back up your phone before traveling internationally, in case something happens to your phone.
 - If you switch from Android to iPhone (or the other way around), both Apple and Google have tools to help transfer your data.
 
+*For official backup instructions, see [Apple iCloud backup guide](https://support.apple.com/en-us/108340) or [Google backup help](https://support.google.com/android/answer/2819582).*
+
 ## Useful links
 
 - [Back up your iPhone with iCloud - Apple Support](https://support.apple.com/en-us/108366)
